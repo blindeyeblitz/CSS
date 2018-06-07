@@ -1,0 +1,100 @@
+/* highlight.css */
+
+/*
+** Support : Discord J4#3534
+** Github : http://github.com/Ingether/TGD-CSS/
+** Copyright(c)2018 All rights reserved by nanajam777
+** This script is designed for PC Web Platform.
+** 사용은 자유이나 출처 기재해주시면 감사드리겠습니다.
+** Ozic Woojeonging
+*/
+
+/*
+** 게시글 목록 블루색상 키프레임 애니메이션
+#article-list > #article-list-row-3109331,
+#article-list > #article-list-row-3137467,
+#article-list > #article-list-row-3181863,
+#article-list > #article-list-row-3618934
+{ Animation: infinite AnimFeed 2s; }
+*/
+
+/*
+** 인기글 색상 키프레임 애니메이션
+#article-list > #article-list-row-3245130 span.a-badge i.fa.fa-star,
+#article-list > #article-list-row-3365667 span.a-badge i.fa.fa-star {
+    animation: infinite rainbowLink 1s;
+}
+*/
+
+/* 
+** 만능짤 걸려서 뺌
+#article-list-row-3706633:hover{
+	background-image:url(https://ingether.github.io/TGD-CSS/Images/bar_01.png)!important;
+	background-position: 50% 50%!important;
+}
+*/
+
+
+/* nanajam777.css */
+
+
+/* 방장님 */
+/*
+#article-list > #article-list-row-3065840 > .item > .list-title > .list-writer > span img, 
+#article-list > #article-list-row-2820544 > .item > .list-title > .list-writer > span img,
+#article-list > #article-list-row-2391750 > .item > .list-title > .list-writer > span img,
+#article-list > #article-list-row-2221544 > .item > .list-title > .list-writer > span img,
+#article-list > #article-list-row-2162224 > .item > .list-title > .list-writer > span img,
+#article-list > #article-list-row-2085705 > .item > .list-title > .list-writer > span img 
+{ opacity: 0; }
+#article-list > #article-list-row-3065840 > .item > .list-title > .list-writer.logged,
+#article-list > #article-list-row-2820544 > .item > .list-title > .list-writer.logged,
+#article-list > #article-list-row-2391750 > .item > .list-title > .list-writer.logged,
+#article-list > #article-list-row-2221544 > .item > .list-title > .list-writer.logged,
+#article-list > #article-list-row-2162224 > .item > .list-title > .list-writer.logged,
+#article-list > #article-list-row-2085705 > .item > .list-title > .list-writer.logged
+ { 
+    background-repeat: no-repeat; 
+    display: block; 
+    height: 18px;
+    background-image: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png");
+    background-position: 30px -2px;
+}
+*/
+
+/* 3065840 영상 도네 스킵하는*/
+/* 2820544 공지 */
+/* 2391750 시그니처 */
+
+/*
+** 버튼 마우스 올리면 버튼 리사이징
+.btn-outline-success:hover {
+    animation: infinite btnSizing 0.4s;
+}
+@keyframes btnSizing {
+    0% { width: 83px; }
+    50% { width: 120px; }
+    100% { width: 83px; }
+}
+*/
+
+
+/*
+#article-list > .article-list-row > .item > .list-title > a:after {
+    content: "했써써"
+}
+*/
+#board-info #viewers-area #viewers:after {
+    animation: infinite hatsoso 4s;
+}
+@keyframes hatsoso {
+    0% {content: "명 기웃기웃 ";}
+    5% {content: "명 기웃기웃 ㅎ";}
+    10% {content: "명 기웃기웃 해";}
+    15% {content: "명 기웃기웃 해ㅆ";}
+    20% {content: "명 기웃기웃 해써";}
+    25% {content: "명 기웃기웃 해써ㅆ";}
+    30% {content: "명 기웃기웃 해써써~";}
+    60% {content: "명 기웃기웃 해써써~";}
+    100% {content: "명 기웃기웃 ";}
+}
