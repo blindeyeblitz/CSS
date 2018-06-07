@@ -17,16 +17,7 @@
 }
 */
 
-/* 
-** 만능짤 걸려서 뺌
-#article-list-row-3706633:hover{
-	background-image:url(https://ingether.github.io/TGD-CSS/Images/bar_01.png)!important;
-	background-position: 50% 50%!important;
-}
-*/
-
-
-/* nanajam777.css */
+/* maejaeng.css */
 
 
 /* 방장님 */
@@ -72,20 +63,20 @@
 
 /*
 #article-list > .article-list-row > .item > .list-title > a:after {
-    content: "했써써"
+    content: "뭉게"
 }
 */
 #board-info #viewers-area #viewers:after {
-    animation: infinite hatsoso 4s;
+    animation: infinite guleumdan 4s;
 }
-@keyframes hatsoso {
-    0% {content: "명 기웃기웃 ";}
-    5% {content: "명 기웃기웃 ㅎ";}
-    10% {content: "명 기웃기웃 해";}
-    15% {content: "명 기웃기웃 해ㅆ";}
-    20% {content: "명 기웃기웃 해써";}
-    25% {content: "명 기웃기웃 해써ㅆ";}
-    30% {content: "명 기웃기웃 해써써~";}
-    60% {content: "명 기웃기웃 해써써~";}
-    100% {content: "명 기웃기웃 ";}
+@keyframes guleumdan {
+    0% {content: "명 뭉게뭉게 ";}
+    5% {content: "명 뭉게뭉게 구";}
+    10% {content: "명 뭉게뭉게 구ㄹ";}
+    15% {content: "명 뭉게뭉게 구르";}
+    20% {content: "명 뭉게뭉게 구름";}
+    25% {content: "명 뭉게뭉게 구름ㄷ";}
+    30% {content: "명 뭉게뭉게 구름다~";}
+    60% {content: "명 뭉게뭉게 구름단~";}
+    100% {content: "명 뭉게뭉게 ";}
 }
