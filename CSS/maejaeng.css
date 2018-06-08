@@ -44,17 +44,8 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 .btn-primary { background: #0099ff; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
 
-/* 우정위키 로고 */
-#article-list > #article-list-row-2670749 > .item > .list-title > .list-writer > span img { opacity: 0; }
-#article-list > #article-list-row-2670749 > .item > .list-title > .list-writer.logged { 
-    background-repeat: no-repeat; 
-    display: block; 
-    height: 18px;
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/wiki18.png");
-    background-size: 18px 18px;
-    background-position: 14px 0px;
-}
-/* 잉게더 로고 */
+
+/* 게더 로고 */
 #article-list > #article-list-row-4056100 > .item > .list-title > .list-writer > span img { opacity: 0; }
 #article-list > #article-list-row-4056100 > .item > .list-title > .list-writer.logged { 
     background-repeat: no-repeat; 
