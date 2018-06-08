@@ -1,4 +1,4 @@
-@import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
+@import url("https://maejaengtgd.github.io/CSS/highlight.css");
 
 header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url(https://ingether.github.io/TGD-CSS/Images/logo.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
@@ -45,18 +45,6 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 }
 */
 
-/* 우정위키 */
-#article-list > #article-list-row-2670749 > .item > .list-title > .list-writer > span img { opacity: 0; }
-#article-list > #article-list-row-2670749 > .item > .list-title > .list-writer.logged { 
-    background-repeat: no-repeat; 
-    display: block; 
-    height: 18px;
-    /* 광어
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/Badge.png");
-    */
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/wiki.png");
-    background-position: 18px 0px;
-}
 
 
 #content-area, 
