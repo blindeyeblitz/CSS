@@ -29,9 +29,9 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 
 
 @keyframes maegether {
-    0% { color: #6441a5; }
+    0% { color: #ce8f71; }
     40% { color: #ff7070; }
-    100% { color: #6441a5; }
+    100% { color: #ce8f71; }
 }
 
 @keyframes AnimFeed {
