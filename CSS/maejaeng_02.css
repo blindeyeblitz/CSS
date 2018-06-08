@@ -4,13 +4,13 @@ header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: bloc
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
-header #right-search-form > #right-search-btn { color: #0099ff; background: transparent; border: none; font-size: 1.4em; }
-header #right-search-form > input[type=text] { position: relative; border: 3px solid #0099ff; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
+header #right-search-form > #right-search-btn { color: #ff7070; background: transparent; border: none; font-size: 1.4em; }
+header #right-search-form > input[type=text] { position: relative; border: 3px solid #ff7070; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
 
-header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #0099ff; background: #d4eeff; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 }
-header #header-bar #header-top-notice strong.notice-badge { background: #0099ff; padding: 4px 8px; color: #fff; font-weight: bold }
+header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ff7070; background: #d4eeff; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 }
+header #header-bar #header-top-notice strong.notice-badge { background: #ff7070; padding: 4px 8px; color: #fff; font-weight: bold }
 
-#main .menu-wrapper > .header { background: #0099ff; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
+#main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em { color: #99ccff;}
 
 .pagination > li > a:hover { animation: infinite AquaLinkBG 1.5s; }
@@ -20,23 +20,23 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 .pagination > .active > span, 
 .pagination > .active > span:focus, 
 .pagination > .active > span:hover 
-{ background-color: #0099ff; border-color: #0099ff; }
+{ background-color: #ff7070; border-color: #ff7070; }
 
-#article-content-wrapper > .header { border-top: 3px solid #0099ff; background: #d4eeff; }
-#article-content-wrapper > .footer { border-bottom: 3px solid #0099ff; background: #d4eeff; }
-#article-list > .article-list-row > .item > .list-header > span { background-color: #0099ff; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
-#article-list #article-list-category { border-top: 3px solid #0099ff; background: #99ccff; }
+#article-content-wrapper > .header { border-top: 3px solid #ff7070; background: #d4eeff; }
+#article-content-wrapper > .footer { border-bottom: 3px solid #ff7070; background: #d4eeff; }
+#article-list > .article-list-row > .item > .list-header > span { background-color: #ff7070; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
+#article-list #article-list-category { border-top: 3px solid #ff7070; background: #99ccff; }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 16px; background: #d4eeff; text-decoration: none; font-size: 12px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite AquaLinkBG 1.5s; }
 
 #article-reply-area #reply-real-area .reply > .reply-header { background: #d4eeff; }
-#article-reply-area > .header h5 { font-size: 14px; color: #0099ff; font-weight: bold; }
+#article-reply-area > .header h5 { font-size: 14px; color: #ff7070; font-weight: bold; }
 
 #board-info #viewers-area #viewers:before { content: "우애나 "; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 기웃기웃"; cursor : text; }
 #board-info #viewers-area .fa-user:before { color: rgba(10,59,84,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); }
 
-.btn-primary { background: #0099ff; border-color: #ffffff; }
+.btn-primary { background: #ff7070; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
 
 /*
