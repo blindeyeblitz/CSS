@@ -16,7 +16,7 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 
 /* 매게더 특정 글쓴이 이름 컬러 애님*/
 #article-list > #article-list-row-3942904 > .item > .list-title > .list-writer.logged > span {
-    animation: infinite ingether 1s;
+    animation: infinite maegether 1s;
 }
 
 /*
@@ -28,7 +28,7 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 
 
 
-@keyframes ingether {
+@keyframes maegether {
     0% { color: #6441a5; }
     40% { color: #ff7070; }
     100% { color: #6441a5; }
