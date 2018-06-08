@@ -34,7 +34,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 
 #board-info #viewers-area #viewers:before { content: " "; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 뭉게뭉게"; cursor : text; }
-#board-info #viewers-area .fa-user:before { color: rgba(10,59,84,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); }
+#board-info #viewers-area .fa-user:before { color: rgba(10,59,84,0); content: url("https://maejaengtgd.github.io/image/maejaeng18.png"); }
 
 .btn-primary { background: #ff7070; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
