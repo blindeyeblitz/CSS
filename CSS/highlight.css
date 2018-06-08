@@ -22,7 +22,7 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 /*
 ** 글쓴이 닉네임 컬러
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
-    color : #004e83;
+    color : #820000;
 }
 */
 
@@ -30,13 +30,13 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 
 @keyframes ingether {
     0% { color: #6441a5; }
-    40% { color: #0099ff; }
+    40% { color: #ff7070; }
     100% { color: #6441a5; }
 }
 
 @keyframes AnimFeed {
     0% { background-color: #ffffff; }
-    40% { background-color: #d4eeff; }
+    40% { background-color: #ffb5b5; }
     100% { background-color: #ffffff; }
 }
 
@@ -56,13 +56,13 @@ footer
 {	
     border-color: #ddd !important; 
     color: #ddd !important; 
-    background-color: #1f6fe6 !important;
+    background-color: #e61f1f !important;
 }
 .pagination>.active>span,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover
 {	
     background-color: #1f6fe6 !important;
-    border-color: #1f6fe6 !important; 
+    border-color: #e61f1f !important; 
 }
 */
