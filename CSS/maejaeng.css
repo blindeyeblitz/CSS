@@ -1,4 +1,4 @@
-@import url("https://ingether.github.io/TGD-CSS/CSS/highlight.css");
+@import url("https://maejaengtgd.github.io/highlight.css");
 
 header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url(https://ingether.github.io/TGD-CSS/Images/logo.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
