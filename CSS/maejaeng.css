@@ -34,8 +34,8 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
 #article-reply-area > .header h5 { font-size: 14px; color: #0099ff; font-weight: bold; }
 
 /* 현재 접속 인원 수 */
-#board-info #viewers-area #viewers:before { content: "잉게더 망령 "; cursor: text; }
-#board-info #viewers-area #viewers:after { content:"명 기웃기웃"; cursor : text; }
+#board-info #viewers-area #viewers:before { content: "구름단 "; cursor: text; }
+#board-info #viewers-area #viewers:after { content:"명 뭉게뭉게"; cursor : text; }
 /*
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png"); }
 */ 
@@ -60,7 +60,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #0099ff;
     background-repeat: no-repeat; 
     display: block; 
     height: 18px;
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/Ing18.png");
+    background-image: url("https://raw.githubusercontent.com/maejaengtgd/TGD/master/image/MaeJaeng_TGD_LOGO.png");
     background-size: 18px 18px;
     background-position: 24px 0px;
 }
