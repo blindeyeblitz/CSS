@@ -1,11 +1,10 @@
-# TGD-MaeJaeng # : https://tgd.kr/maejaeng
+# 매쟁 트게더 # : https://tgd.kr/maejaeng
+
 # : BlindEye_Blitz Comment : #
-I have not applied to Tgether yet and I am going to fix it afterwards. Apply the code below and I can easily edit the toggle through the github.
+트게더 게시판이 없어 적용해보진 못했습니다.
 
-Please use chrome automatic translator
-(Korean is recognized as a strange word and can not be properly displayed on the page, so it is written in English)
-
-Ahh ... please help me please.
+# 사용하는법 #
+(트게더 -> 게시판 -> 설정 -> 아래 코드 복사해서 붙여넣기) ~ [ PC 웹과 모바일 버전이 따로이니 참고하시면 됩니다. ]
 
 # How to Apply #
 (Tgether -> notice board -> Setting -> Copy and paste the code below) ~ [ PC Web and mobile versions are available separately. ]
