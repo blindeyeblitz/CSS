@@ -6,7 +6,8 @@
 
 # How to Apply #
 
-(트게더 -> 게시판 -> 설정 -> 아래 코드 복사 붙여넣기) ~ [ PC 웹과 모바일 버전이 따로이니 참고하시면 됩니다. ]
+(Togther -> notice board -> Setting -> Copy and paste the code below) ~ [ 
+PC Web and mobile versions are available separately. ]
 
 # PC Apply Code #
 
