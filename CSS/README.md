@@ -1,8 +1,8 @@
-# 매쟁 트게더 : https://tgd.kr/maejaeng #
-# BlindEye_Blitz (눈먼_블리츠_) Comment ↓ #
+# TGD-MaeJaeng : https://tgd.kr/maejaeng #
+# BlindEye_Blitz Comment ↓ #
 
-아직 트게더에 적용해본 적이 없어 적용 후에 차차 수정해갈 예정입니다.
-아래 코드를 적용하시면 제가 깃허브를 통해 쉽게 트게더를 편집할 수 있습니다.
+I have not applied to Troyder yet and I am going to fix it afterwards.
+Apply the code below and I can easily edit the toggle through the github.
 
 # How to Apply #
 
