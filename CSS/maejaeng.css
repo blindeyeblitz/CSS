@@ -34,8 +34,8 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 #article-reply-area > .header h5 { font-size: 14px; color: #ff7070; font-weight: bold; }
 
 /* 현재 접속 인원 수 */
-#board-info #viewers-area #viewers:before { content: "매게더 구름단 "; cursor: text; }
-#board-info #viewers-area #viewers:after { content:"명 뭉게뭉게"; cursor : text; }
+#board-info #viewers-area #viewers:before { content: "매게더"; cursor: text; }
+#board-info #viewers-area #viewers:after { content:"명 망령화"; cursor : text; }
 /*
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://maejaengtgd.github.io/image/maejaeng18.png"); }
 */ 
