@@ -1,7 +1,7 @@
 # TGD-MaeJaeng : https://tgd.kr/maejaeng #
 # BlindEye_Blitz Comment ↓ #
 
-I have not applied to Troyder yet and I am going to fix it afterwards.
+I have not applied to Togther yet and I am going to fix it afterwards.
 Apply the code below and I can easily edit the toggle through the github.
 
 # How to Apply #
