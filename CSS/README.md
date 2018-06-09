@@ -1,5 +1,5 @@
 # TGD-MaeJaeng : https://tgd.kr/maejaeng #
-# BlindEye_Blitz Comment ↓ #
+# BlindEye_Blitz Comment #
 
 I have not applied to Together yet and I am going to fix it afterwards.
 Apply the code below and I can easily edit the toggle through the github.
