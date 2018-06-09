@@ -12,6 +12,6 @@
 
 @import url("https://maejaengtgd.github.io/CSS/maejaeng.css");
 
-# Mobile 적용  #
+# Mobile 적용 코드 #
 
 @import url("https://maejaengtgd.github.io/CSS/m_maejaeng.css");
