@@ -10,3 +10,8 @@ PC Apply Code
 
 Mobile Apply Code
 @import url("https://maejaengtgd.github.io/CSS/m_maejaeng.css");
+
+Ahh ... please help me please.
+
+Use chrome automatic translator
+
