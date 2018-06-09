@@ -15,3 +15,4 @@ Ahh ... please help me please.
 
 Use chrome automatic translator
 
+Korean is recognized as a strange word and can not be properly displayed on the page, so it is written in English
