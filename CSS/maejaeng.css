@@ -37,7 +37,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 #board-info #viewers-area #viewers:before { content: "매게더"; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 망령화"; cursor : text; }
 /*
-#board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://maejaengtgd.github.io/image/maejaeng18.png"); }
+#board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://maejaengtgd.github.io/image/ghost18.png"); }
 */ 
 
 /* 글쓰기 버튼 오버레이시 무지개 키프레임 애니메이션 */
