@@ -35,7 +35,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 
 /* 현재 접속 인원 수 */
 #board-info #viewers-area #viewers:before { content: "망령"; cursor: text; }
-#board-info #viewers-area #viewers:after { content:"명 "; cursor : text; }
+#board-info #viewers-area #viewers:after { content:"명 모여있음"; cursor : text; }
 /*
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://maejaengtgd.github.io/image/ghost18.png"); }
 */ 
