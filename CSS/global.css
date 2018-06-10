@@ -1,0 +1,7 @@
+:root {
+    --main-color: ;
+    --sub-color: rgb(98, 200, 234);
+    --light-sub-color: rgb(165, 223, 243);
+    --sub-badge-url: url("../images/subBadge.png");
+    --logo-url: url("../images/logo.gif");
+}
