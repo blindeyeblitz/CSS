@@ -67,9 +67,9 @@
 }
 */
 #board-info #viewers-area #viewers:after {
-    animation: infinite manglyeonghwa 4s;
+    animation: infinite goyu 4s;
 }
-@keyframes manglyeonghwa {
+@keyframes goyu {
     0% {content: "명 고";}
     5% {content: "명 고여";}
     10% {content: "명 고여있";}
