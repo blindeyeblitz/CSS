@@ -53,7 +53,7 @@ footer
 { background: #ecf7ff !important; }
 
 
-/* 방장님 */
+/* 매쟁 */
 /*
 #article-list > #article-list-row-3065840 > .item > .list-title > .list-writer > span img, 
 #article-list > #article-list-row-2820544 > .item > .list-title > .list-writer > span img,
@@ -72,14 +72,14 @@ footer
     background-repeat: no-repeat; 
     display: block; 
     height: 18px;
-    background-image: url("https://ingether.github.io/TGD-CSS/Images/6Badge18.png");
+    background-image: url("https://ingether.github.io/TGD-CSS/Images/maejaeng18.png");
     background-position: 30px -2px;
 }
 */
 
-/* 3065840 영상 도네 스킵하는*/
-/* 2820544 공지 */
-/* 2391750 시그니처 */
+/* 3105761 매쟁이 컴퓨터사양*/
+/* 3105775 트게더룰 */
+/* 3054503 공지 */
 
 
 @keyframes rainbowLink {
