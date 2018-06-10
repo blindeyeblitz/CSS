@@ -33,7 +33,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 #article-reply-area > .header h5 { font-size: 14px; color: #ff7070; font-weight: bold; }
 
 #board-info #viewers-area #viewers:before { content: "망령"; cursor: text; }
-#board-info #viewers-area #viewers:after { content:"명 "; cursor : text; }
+#board-info #viewers-area #viewers:after { content:"명 모여있음"; cursor : text; }
 #board-info #viewers-area .fa-user:before { color: rgba(10,59,84,0); content: url("https://maejaengtgd.github.io/image/ghost18.png"); }
 
 .btn-primary { background: #ff7070; border-color: #ffffff; }
