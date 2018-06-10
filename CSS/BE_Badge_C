@@ -1,3 +1,4 @@
+/* 트게더 배지 */
 #board-info #viewers-area .fa-user:before {
     color: rgba(10, 59, 84, 0);
     content: var(--star-badge-url);
