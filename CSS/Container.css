@@ -63,20 +63,20 @@
 
 /*
 #article-list > .article-list-row > .item > .list-title > a:after {
-    content: ""
+    content: "고여있는중"
 }
 */
 #board-info #viewers-area #viewers:after {
     animation: infinite manglyeonghwa 4s;
 }
 @keyframes manglyeonghwa {
-    0% {content: "명 망령화 ";}
-    5% {content: "명 망령화 진";}
-    10% {content: "명 망령화 짆";}
-    15% {content: "명 망령화 진해";}
-    20% {content: "명 망령화 진행";}
-    25% {content: "명 망령화 진행ㅈ";}
-    30% {content: "명 망령화 진행주";}
-    60% {content: "명 망령화 진행중";}
-    100% {content: "명 망령화 ";}
+    0% {content: "명 고";}
+    5% {content: "명 고여";}
+    10% {content: "명 고여있";}
+    15% {content: "명 고여있는";}
+    20% {content: "명 고여있는중";}
+    25% {content: "명 고여있었음ㅈ";}
+    30% {content: "명 고여있었";}
+    60% {content: "명 고이는중";}
+    100% {content: "명  ";}
 }
