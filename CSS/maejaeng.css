@@ -1,6 +1,6 @@
 @import url("https://maejaengtgd.github.io/CSS/highlight.css");
 
-header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url(https://maejaengtgd.github.io/image/MaeJaeng_TGD_LOGO.png); }
+header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url(maejaengtgd.github.io/image/MaeJaeng_TGD_LOGO_2.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
@@ -51,7 +51,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
     background-repeat: no-repeat; 
     display: block; 
     height: 18px;
-    background-image: url("https://maejaengtgd.github.io/image/MaeJaeng_TGD_LOGO.png");
+    background-image: url("maejaengtgd.github.io/image/MaeJaeng_TGD_LOGO_2.png");
     background-size: 18px 18px;
     background-position: 24px 0px;
 }
