@@ -1,4 +1,6 @@
 @import url("https://maejaengtgd.github.io/CSS/highlight.css");
+@import url("https://maejaengtgd.github.io/CSS/maejaengsbadge.css");
+
 
 #main-content, body, footer { background: #ffd3d3 !important; }
 span.a-badge i.fa.fa-info-circle { color: red !important; }
