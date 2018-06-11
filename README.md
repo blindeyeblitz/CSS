@@ -11,3 +11,5 @@
 
 # Mobile 적용 코드 ↓ #
 @import url("https://maejaengtgd.github.io/CSS/m_maejaeng.css");
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
