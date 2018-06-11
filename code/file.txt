@@ -1,0 +1,5 @@
+# PC Apply Code ↓ #
+@import url("https://maejaengtgd.github.io/CSS/maejaeng.css");
+
+# Mobile Apply Code ↓ #
+@import url("https://maejaengtgd.github.io/CSS/m_maejaeng.css");
