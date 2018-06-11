@@ -13,24 +13,3 @@
 @import url("https://maejaengtgd.github.io/CSS/m_maejaeng.css");
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-@@ -23,6 +23,7 @@
- import play.db.ebean.Model;
- import play.db.ebean.Transactional;
- import playRepository.*;
-+import utils.FileUtil;
- import utils.JodaDateUtil;
- import validation.ExConstraints;
- 
-@@ -386,8 +387,9 @@ public Duration lastPushedDateAgo(){
-      */
-     public String readme() {
-         try {
--            return new String(RepositoryService.getRepository(this).getRawFile
--                    ("HEAD", getReadmeFileName()), "UTF-8");
-+            byte[] bytes = RepositoryService.getRepository(this)
-+                    .getRawFile("HEAD", getReadmeFileName());
-+            return new String(bytes, FileUtil.detectCharset(bytes));
-         } catch (Exception e) {
-             return null;
-         }
