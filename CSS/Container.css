@@ -67,16 +67,16 @@
 }
 */
 #board-info #viewers-area #viewers:after {
-    animation: infinite moyeoisseum 4s;
+    animation: infinite iss-eum 4s;
 }
-@keyframes moyeoisseum {
-    0% {content: "명 모여있음";}
-    5% {content: "명 모여있음";}
-    10% {content: "명 모여있음";}
-    15% {content: "명 모여있음";}
-    20% {content: "명 모여있음";}
-    25% {content: "명 모여있음";}
-    30% {content: "명 모여있음";}
-    60% {content: "명 모여있음";}
-    100% {content: "명 모여있음";}
+@keyframes iss-eum {
+    0% {content: "명 있음";}
+    5% {content: "명 있음";}
+    10% {content: "명 있음";}
+    15% {content: "명 있음";}
+    20% {content: "명 있음";}
+    25% {content: "명 있음";}
+    30% {content: "명 있음";}
+    60% {content: "명 있음";}
+    100% {content: "명 있음";}
 }
