@@ -18,6 +18,6 @@
 #board-info h1>a.badge.badge-live:after {
     visibility: visible;
     font-size: 12px;
-    content: " 생방송 보러가기"!important;
+    content: " 실시간 매쟁이 보러가기"!important;
     color: red;
 }
