@@ -70,13 +70,13 @@
     animation: infinite iss-eum 4s;
 }
 @keyframes iss-eum {
-    0% {content: "명 있음";}
-    5% {content: "명 있음";}
-    10% {content: "명 있음";}
-    15% {content: "명 있음";}
-    20% {content: "명 있음";}
-    25% {content: "명 있음";}
-    30% {content: "명 있음";}
-    60% {content: "명 있음";}
-    100% {content: "명 있음";}
+    0% {content: "명 떠도는중...";}
+    5% {content: "명 떠도는중...";}
+    10% {content: "명 떠도는중...";}
+    15% {content: "명 떠도는중...";}
+    20% {content: "명 떠도는중...";}
+    25% {content: "명 떠도는중...";}
+    30% {content: "명 떠도는중...";}
+    60% {content: "명 떠도는중...";}
+    100% {content: "명 떠도는중...";}
 }
