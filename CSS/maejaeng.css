@@ -35,8 +35,8 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 #article-reply-area > .header h5 { font-size: 14px; color: #ff7070; font-weight: bold; }
 
 /* 현재 접속 인원 수 */
-#board-info #viewers-area #viewers:before { content: "망령"; cursor: text; }
-#board-info #viewers-area #viewers:after { content:"명 있음"; cursor : text; }
+#board-info #viewers-area #viewers:before { content: "망자"; cursor: text; }
+#board-info #viewers-area #viewers:after { content:"명 떠도는중..."; cursor : text; }
 
 /* 접속 인원 표시 그림 */
 #board-info #viewers-area .fa-user:before {
