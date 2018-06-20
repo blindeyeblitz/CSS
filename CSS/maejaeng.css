@@ -88,7 +88,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
     100% { background-color: #ffd3d3; }
 }
 
-
+/* 매쟁이  */
 #board-info h1>a.badge.badge-live {
     float: left;
     display: block !important;
