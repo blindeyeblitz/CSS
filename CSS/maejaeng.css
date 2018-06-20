@@ -87,3 +87,28 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
     40% { background-color: #ff9999; }
     100% { background-color: #ffd3d3; }
 }
+
+
+#board-info h1>a.badge.badge-live {
+    float: left;
+    display: block !important;
+    visibility: hidden;
+    font-size:0;
+    border: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+#board-info h1>a.badge.badge-live:before {
+    visibility: visible;
+    font-size: 12px;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f03d ";
+    color: red;
+}
+
+#board-info h1>a.badge.badge-live:after {
+    visibility: visible;
+    font-size: 12px;
+    content: " 실시간 매쟁이 보러가기"!important;
+    color: red;
+}
