@@ -98,31 +98,3 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
     100% { background-color: #ffd3d3; }
 }
 
-/* 게시글 리스트 블록 레이아웃 */
-#article-list > .article-list-row has-category notice > .item > .list-header > strong { width: 0px; }
-#article-list > .article-list-row.notice { background: #ffd3d3 !important; }
-#article-list > .article-list-row.notice > .item > a.list-title { vertical-align: middle; }
-#article-list > .article-list-row.notice > .item > a.list-title > .title-value { padding-left: 6px; }
-#article-list > .article-list-row.notice > .item > a.list-title > .list-writer { height: 0px !important; opacity: 0; padding: 0px; }
-#article-list > .article-list-row.notice > .item > .list-header { width:12px; }
-#article-list > .article-list-row > .item > span.a-badge { width: 40px; }
-#article-list > .article-list-row > .item > a.list-title > .title-value { max-width: 240px; }
-#article-list > .article-list-row > .item > a.list-title > .list-writer.logged > span { color: #ff7070; }
-#article-list > .article-list-row > .item > .list-header > span { background-color: #ff7070 !important; }
-#article-list > .article-list-row > .item > .list-header > strong { font-size: 0px; padding: 0px; }
-
-/* 일반 게시글 리스트 블록 */
-#article-list #article-list-category { background: #ffd3d3; }
-#article-list #article-list-category > a { display: inline-block; padding: 46px 46px; background: #ffffff; text-decoration: none; font-size: 12px; font-weight: bold; }
-#article-list #article-list-category > a:focus { background: #ff9999; }
-
-#board-info { border-top: 4px solid #ff7070; background: #ff9999; max-height: 46px; max-block-size: 46px: }
-#board-info > a.board-right-menu { max-height: 40px; border: 0px; vertical-align: middle; color: #cc0000; }
-
-.btn-primary { border: 0px; animation: infinite rainbowLinkBG 3s; }
-
-.pagination > .active > a, .pagination > .active > a:focus, 
-.pagination > .active > a:hover, .pagination > .active > span, 
-.pagination > .active > span:focus, .pagination > .active > span:hover { background-color: #ff7070; border-color: #ff7070; }
-.pagination > li > a, .pagination > li > span:hover { color: #ff7070; }
-
