@@ -116,7 +116,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 #article-list #article-list-category > a { display: inline-block; padding: 11px 16px; background: #ffffff; text-decoration: none; font-size: 12px; font-weight: bold; }
 #article-list #article-list-category > a:focus { background: #ff9999; }
 
-#board-info { border-top: 4px solid #ff7070; background: #ff9999; max-height: 46px; max-block-size: 46px; }
+#board-info { border-top: 4px solid #ff7070; background: #ff9999; max-height: 46px; max-block-size: 60px: }
 #board-info > a.board-right-menu { max-height: 40px; border: 0px; vertical-align: middle; color: #cc0000; }
 
 .btn-primary { border: 0px; animation: infinite rainbowLinkBG 3s; }
