@@ -5,52 +5,46 @@ header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: bloc
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
-header #right-search-form > #right-search-btn { color: #ff7070; background: transparent; border: none; font-size: 1.4em; }
-header #right-search-form > input[type=text] { position: relative; border: 3px solid #ff7070; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
+header #right-search-form > #right-search-btn { color: #ff6060; background: transparent; border: none; font-size: 1.4em; }
+header #right-search-form > input[type=text] { position: relative; border: 3px solid #ff6060; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
 
-header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ff7070; background: #ffd3d3; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 }
-header #header-bar #header-top-notice strong.notice-badge { background: #ff7070; padding: 4px 8px; color: #fff; font-weight: bold }
+header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ff6060; background: #ffd3d3; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 }
+header #header-bar #header-top-notice strong.notice-badge { background: #ff6060; padding: 4px 8px; color: #fff; font-weight: bold }
 
-#main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
+#main .menu-wrapper > .header { background: #ff6060; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em { color: #ff9999;}
 
 
-.pagination > li > a:hover { animation: infinite ScarletLinkBG 1.5s; }
+.pagination > li > a:hover { animation: infinite PinkLinkBG 1.5s; }
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
 .pagination > .active > span, 
 .pagination > .active > span:focus, 
 .pagination > .active > span:hover 
-{ background-color: #ff7070; border-color: #ff7070; }
+{ background-color: #ff6060; border-color: #ff6060; }
 
-
-
-#article-content-wrapper > .header { border-top: 3px solid #ff7070; background: #ffd3d3; }
-#article-content-wrapper > .footer { border-bottom: 3px solid #ff7070; background: #ffd3d3; }
-#article-list > .article-list-row > .item > .list-header > span { background-color: #ff7070; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
-#article-list #article-list-category { border-top: 3px solid #ff7070; background: #ff9999; }
+#article-content-wrapper > .header { border-top: 3px solid #ff6060; background: #ffd3d3; }
+#article-content-wrapper > .footer { border-bottom: 3px solid #ff6060; background: #ffd3d3; }
+#article-list > .article-list-row > .item > .list-header > span { background-color: #ff6060; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
+#article-list #article-list-category { border-top: 3px solid #ff6060; background: #ff9999; }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 16px; background: #ffd3d3; text-decoration: none; font-size: 12px; font-weight: bold }
-#article-list #article-list-category > a:hover { animation: infinite ScarletLinkBG 1.5s; }
+#article-list #article-list-category > a:hover { animation: infinite PinkLinkBG 1.5s; }
 
 #article-reply-area #reply-real-area .reply > .reply-header { background: #ffd3d3; }
-#article-reply-area > .header h5 { font-size: 14px; color: #ff7070; font-weight: bold; }
+#article-reply-area > .header h5 { font-size: 14px; color: #ff6060; font-weight: bold; }
 
 /* 현재 접속 인원 수 */
 #board-info #viewers-area #viewers:before { content: "망자"; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 떠도는중..."; cursor : text; }
 
-/* 접속 인원 표시 그림 */
-#board-info #viewers-area .fa-user:before {
-    color: rgba(10,59,84,0);
-    content: url(https://maejaengtgd.github.io/image/ghost18.png)
-}
 
-/* 특정 뱃지 */
-#board-info #viewers-area .fa-user:before { color: rgba(10, 59, 84, 0); content: var(--star-badge-url); }
+/*
+#board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url("https://maejaengtgd.github.io/image/ghost18.png"); }
+*/ 
 
 /* 글쓰기 버튼 오버레이시 무지개 키프레임 애니메이션 */
-.btn-primary { background: #ff7070; border-color: #ffffff; }
+.btn-primary { background: #ff6060; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
 
 
@@ -63,9 +57,6 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
     background-image: url("https://maejaengtgd.github.io/image/MaeJaeng_TGD_LOGO_2.png");
     background-size: 18px 18px;
     background-position: 24px 0px;
-    
-#board-info { padding-top: 0; }
-#board-info h1 { padding: 0; width: 780px; height: 100%; }
 }
 
 
@@ -92,9 +83,8 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
     100% { background-color: #e82aff; }
 }
 
-@keyframes ScarletLinkBG {
+@keyframes PinkLinkBG {
     0% { background-color: #ffd3d3; }
     40% { background-color: #ff9999; }
     100% { background-color: #ffd3d3; }
 }
-
