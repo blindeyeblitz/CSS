@@ -22,16 +22,16 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 /*
 ** 글쓴이 닉네임 컬러
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
-    color : #820000;
+    color : #9a3335;
 }
 */
 
 
 
 @keyframes maegether {
-    0% { color: #ce8f71; }
-    40% { color: #ff7070; }
-    100% { color: #ce8f71; }
+    0% { color: #ce7171; }
+    40% { color: #ff6060; }
+    100% { color: #ce7171; }
 }
 
 @keyframes AnimFeed {
