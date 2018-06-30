@@ -38,7 +38,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 /* 현재 접속 인원 수 */
 #board-info #viewers-area #viewers:before { content: "망자"; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 떠도는중..."; cursor : text; }
-#board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); background-image: url(https://maejaengtgd.github.io/image/ghost18.png); }
+#board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url(https://maejaengtgd.github.io/image/ghost18.png); }
 */ 
 
 /* 글쓰기 버튼 오버레이시 무지개 키프레임 애니메이션 */
