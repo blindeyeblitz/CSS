@@ -13,8 +13,7 @@ header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-to
 header #header-bar #header-top-notice strong.notice-badge { background: #ff6060; padding: 4px 8px; color: #fff; font-weight: bold }
 
 #main .menu-wrapper > .header { background: #ff6060; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
-#main .menu-wrapper > a > em { color: #ff9999; !important; }
--#main .menu-wrapper > a > em, #main .menu-wrapper > a > i.fa.fa-square
+#main .menu-wrapper > a > em, #main .menu-wrapper > a > i.fa.fa-square { color: #ff9999; !important; }
 
 
 .pagination > li > a:hover { animation: infinite PinkLinkBG 1.5s; }
