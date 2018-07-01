@@ -14,7 +14,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 
 #main .menu-wrapper > .header { background: #ff6060; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em { color: #ff9999; !important; }
--#main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square
+-#main .menu-wrapper > a > em, #main .menu-wrapper > a > i.fa.fa-square
 
 
 .pagination > li > a:hover { animation: infinite PinkLinkBG 1.5s; }
