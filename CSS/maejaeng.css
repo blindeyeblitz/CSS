@@ -1,6 +1,6 @@
 @import url("https://maejaengtgd.github.io/CSS/highlight.css");
 @import url("https://maejaengtgd.github.io/CSS/maejaengsbadge.css");
-header .row > div:nth-child(0) > a {  background-color: #ff6060; margin-bottom: 50px; padding: 0.4em 0; }
+
 header .row > div:nth-child(1) > a {  background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url(https://maejaengtgd.github.io/image/MaeJaeng_TGD_LOGO_2.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 header .row > div:nth-child(2) > a {  background-color: #fff; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
