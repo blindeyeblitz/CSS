@@ -1,18 +1,18 @@
 @import url("https://maejaengtgd.github.io/CSS/highlight.css");
 @import url("https://maejaengtgd.github.io/CSS/maejaengsbadge.css");
-header .row > div:nth-child(0) > a {  background-color: #ff6060; margin-bottom: 50px; padding: 0.4em 0; }
+header .row > div:nth-child(0) > a {  background-color: #ff6060; margin-bottom: 50px; padding: 0.4em 0; !important }
 header .row > div:nth-child(1) > a {  background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url(https://maejaengtgd.github.io/image/MaeJaeng_TGD_LOGO_2.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 header .row > div:nth-child(2) > a {  background-color: #fff; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
 
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
-header #right-search-form > #right-search-btn { color: #ff6060; background: transparent; border: none; font-size: 1.4em; }
-header #right-search-form > input[type=text] { position: relative; border: 3px solid #ff6060; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
+header #right-search-form > #right-search-btn { color: #ff6060; background: transparent; border: none; font-size: 1.4em; !important }
+header #right-search-form > input[type=text] { position: relative; border: 3px solid #ff6060; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; !important }
 
-header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ff6060; background: #ffd3d3; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 }
-header #header-bar #header-top-notice strong.notice-badge { background: #ff6060; padding: 4px 8px; color: #fff; font-weight: bold }
+header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ff6060; background: #ffd3d3; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 !important }
+header #header-bar #header-top-notice strong.notice-badge { background: #ff6060; padding: 4px 8px; color: #fff; font-weight: bold !important }
 
-#main .menu-wrapper > .header { background: #ff6060; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
+#main .menu-wrapper > .header { background: #ff6060; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold !important }
 #main .menu-wrapper > a > em, #main .menu-wrapper > a > i.fa.fa-square { color: #ff9999; !important }
 
 
@@ -23,17 +23,17 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 .pagination > .active > span, 
 .pagination > .active > span:focus, 
 .pagination > .active > span:hover 
-{ background-color: #ff6060; border-color: #ff6060; }
+{ background-color: #ff6060; border-color: #ff6060; !important }
 
-#article-content-wrapper > .header { border-top: 3px solid #ff6060; background: #ffd3d3; }
-#article-content-wrapper > .footer { border-bottom: 3px solid #ff6060; background: #ffd3d3; }
-#article-list > .article-list-row > .item > .list-header > span { background-color: #ff6060; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
+#article-content-wrapper > .header { border-top: 3px solid #ff6060; background: #ffd3d3; !important }
+#article-content-wrapper > .footer { border-bottom: 3px solid #ff6060; background: #ffd3d3; !important }
+#article-list > .article-list-row > .item > .list-header > span { background-color: #ff6060; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px; !important }
 #article-list #article-list-category { border-top: 3px solid #ff6060; background: #ff9999; !important }
-#article-list #article-list-category > a { display: inline-block; padding: 11px 16px; background: #ffd3d3; text-decoration: none; font-size: 12px; font-weight: bold }
+#article-list #article-list-category > a { display: inline-block; padding: 11px 16px; background: #ffd3d3; text-decoration: none; font-size: 12px; font-weight: bold !important }
 #article-list #article-list-category > a:hover { animation: infinite PinkLinkBG 1.5s; }
 
-#article-reply-area #reply-real-area .reply > .reply-header { background: #ffd3d3; }
-#article-reply-area > .header h5 { font-size: 14px; color: #ff6060; font-weight: bold; }
+#article-reply-area #reply-real-area .reply > .reply-header { background: #ffd3d3; !important }
+#article-reply-area > .header h5 { font-size: 14px; color: #ff6060; font-weight: bold; !important }
 
 /* 현재 접속 인원 수 */
 #board-info #viewers-area #viewers:before { content: "망자"; cursor: text; }
@@ -42,7 +42,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 */ 
 
 /* 글쓰기 버튼 오버레이시 무지개 키프레임 애니메이션 */
-.btn-primary { background: #ff6060; border-color: #ffffff; }
+.btn-primary { background: #ff6060; border-color: #ffffff; !important }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
 
 
