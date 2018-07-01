@@ -17,19 +17,17 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 
 /* 스트리머 이름 표시 */
 #board-info > h1 > a, { display:none; }
+.pagination > li > a:hover { animation: infinite PinkLinkBG 1.5s; } { display:none; }
+.pagination > .active > a, { display:none; }
+.pagination > .active > a:focus, { display:none; }
+.pagination > .active > a:hover, { display:none; }
 
 /* 순위권 밖 표시 */
 #board-info > h1 > span.badge.badge-default, { display:none; }
-
-
-.pagination > li > a:hover { animation: infinite PinkLinkBG 1.5s; } { display:none; }
-.pagination > .active > a, 
-.pagination > .active > a:focus, 
-.pagination > .active > a:hover, 
-.pagination > .active > span, 
-.pagination > .active > span:focus, 
-.pagination > .active > span:hover 
-{ background-color: #ff6060; border-color: #ff6060; }
+.pagination > .active > span, { display:none; }
+.pagination > .active > span:focus, { display:none; }
+.pagination > .active > span:hover { display:none; }
+{ background-color: #ff6060; border-color: #ff6060; display:none; }
 
 #article-content-wrapper > .header { border-top: 3px solid #ff6060; background: #ffd3d3; }
 #article-content-wrapper > .footer { border-bottom: 3px solid #ff6060; background: #ffd3d3; }
