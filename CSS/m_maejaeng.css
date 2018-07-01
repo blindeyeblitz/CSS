@@ -38,10 +38,10 @@ header > #header-area > #header-bar-link { color: #ff7070; }
 
 .btn-primary { border: 0px; animation: infinite rainbowLinkBG 3s; }
 
-.pagination > .active > a, .pagination > .active > a:focus, 
-.pagination > .active > a:hover, .pagination > .active > span, 
-.pagination > .active > span:focus, .pagination > .active > span:hover { background-color: #ff7070; border-color: #ff7070; }
-.pagination > li > a, .pagination > li > span:hover { color: #ff7070; }
+.pagination > .active > a, .pagination > .active > a:focus, { display:none; }
+.pagination > .active > a:hover, .pagination > .active > span, { display:none; }
+.pagination > .active > span:focus, .pagination > .active > span:hover { background-color: #ff7070; border-color: #ff7070; display:none; }
+.pagination > li > a, .pagination > li > span:hover { color: #ff7070; display:none; }
 
 /* 댓글 작성 블록 */
 #article-reply-area > .header h5 { color: #ff7070; }
