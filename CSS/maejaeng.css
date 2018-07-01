@@ -20,9 +20,6 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
-.pagination > .active > span, 
-.pagination > .active > span:focus, 
-.pagination > .active > span:hover 
 { background-color: #ff6060; border-color: #ff6060; }
 
 #article-content-wrapper > .header { border-top: 3px solid #ff6060; background: #ffd3d3; }
