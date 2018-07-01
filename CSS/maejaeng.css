@@ -60,25 +60,25 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 
 /* 애니메이션 키프레임들 */
 @keyframes rainbowLink {
-    0% { color: #ff2a2a; }
-    15% { color: #ff7a2a; }
-    30% { color: #ffc52a; }
-    45% { color: #43ff2a; }
-    60% { color: #2a89ff; }
-    75% { color: #202082; }
-    90% { color: #6b2aff; }
-    100% { color: #e82aff; }
+    0% { color: #ff6060; }
+    15% { color: #ff9999; }
+    30% { color: #ff6060; }
+    45% { color: #ff9999; }
+    60% { color: #ff6060; }
+    75% { color: #ff9999; }
+    90% { color: #ff6060; }
+    100% { color: #ff9999; }
 }
 
 @keyframes rainbowLinkBG {
-    0% { background-color: #ff2a2a; }
-    15% { background-color: #ff7a2a; }
-    30% { background-color: #ffc52a; }
-    45% { background-color: #43ff2a; }
-    60% { background-color: #2a89ff; }
-    75% { background-color: #202082; }
-    90% { background-color: #6b2aff; }
-    100% { background-color: #e82aff; }
+    0% { background-color: #ff6060; }
+    15% { background-color: #ff9999; }
+    30% { background-color: #ff6060; }
+    45% { background-color: #ff9999; }
+    60% { background-color: #ff6060; }
+    75% { background-color: #ff9999; }
+    90% { background-color: #ff6060; }
+    100% { background-color: #ff9999; }
 }
 
 @keyframes PinkLinkBG {
