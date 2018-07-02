@@ -49,7 +49,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 
 /* 글쓰기 버튼 오버레이시 무지개 키프레임 애니메이션 */
 .btn-primary { background: #ff6060; border-color: #ffffff; }
-.btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
+.btn-primary:hover { animation: infinite AnimationLinkBG 3s; }
 
 
 /* 매게더 로고 */
@@ -65,7 +65,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 
 
 /* 애니메이션 키프레임들 */
-@keyframes rainbowLink {
+@keyframes AnimationLink {
     0% { color: #ff6060; }
     15% { color: #ff9999; }
     30% { color: #ff6060; }
@@ -76,7 +76,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
     100% { color: #ff9999; }
 }
 
-@keyframes rainbowLinkBG {
+@keyframes AnimationLinkBG {
     0% { background-color: #ff6060; }
     15% { background-color: #ff9999; }
     30% { background-color: #ff6060; }
