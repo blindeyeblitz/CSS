@@ -36,7 +36,7 @@ header > #header-area > #header-bar-link { color: #ff7070; }
 #board-info { border-top: 4px solid #ff7070; background: #ff9999; max-height: 46px; max-block-size: 46px; }
 #board-info > a.board-right-menu { max-height: 40px; border: 0px; vertical-align: middle; color: #cc0000; }
 
-.btn-primary { border: 0px; animation: infinite rainbowLinkBG 3s; }
+.btn-primary { border: 0px; animation: infinite AnimationLinkBG 3s; }
 
 .pagination > .active > a, .pagination > .active > a:focus, { display:none; }
 .pagination > .active > a:hover, .pagination > .active > span, { display:none; }
@@ -54,7 +54,7 @@ header > #header-search-bar #header-search-input { border: 2px solid
 header > #header-search-bar #header-search-btn { color: #ff7070; }
 
 /* 사용한 키프레임 */
-@keyframes rainbowLinkBG {
+@keyframes AnimationLinkBG {
     0% { background-color: #ff2a2a; }
     15% { background-color: #ff7a2a; }
     30% { background-color: #ffc52a; }
