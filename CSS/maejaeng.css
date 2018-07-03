@@ -182,8 +182,8 @@ body > header { background-color: #ff7070; !important; }
 #article-list-menu > ul > li:nth-child(11) > a { color: #ff7070; !important; }
 #article-list-menu > ul > li:nth-child(12) > a { color: #ff7070; !important; }
 
-#header-menu-right > div:nth-child(1) > a { color: #ff7070; !important; }
-#latestDropdown { color: #ff7070; !important; }
-#favoriteDropdown { color: #ff7070; !important; }
-#playgroundDropdown { color: #ff7070; !important; }
-#header-top-notice > a { color: #ff7070; !important; }
+#header-menu-right > div:nth-child(1) > a { color: #ffffff; !important; }
+#latestDropdown { color: #ffffff; !important; }
+#favoriteDropdown { color: #ffffff; !important; }
+#playgroundDropdown { color: #ffffff; !important; }
+#header-top-notice > a { color: #ffffff; !important; }
