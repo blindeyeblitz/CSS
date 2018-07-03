@@ -45,7 +45,7 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 #content-area, 
 body, 
 footer 
-{ background: #ffd3d3 !important; }
+{ background: #fff !important; }
 #main .menu-wrapper>.header, 
 #main .menu-wrapper>.header>a		
 {	color: #eee !important; }
