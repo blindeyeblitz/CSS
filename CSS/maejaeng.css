@@ -38,21 +38,29 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 #article-list-row-3105775 > div > div.list-time { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3105775 > div > div.list-title { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3105775 > div > div.list-title > a { color : #fff; !important; }
+#article-list-row-3105775 > div > div.list-title > div > span { color : #fff; !important; }
+#article-list-row-3105775 > div > div.list-header.v2 > strong
 
 #article-list-row-3105761 > div > div.list-header.v0 { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3105761 > div > div.list-time { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3105761 > div > div.list-title { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3105761 > div > div.list-title > a { color : #fff; !important; }
+#article-list-row-3105761 > div > div.list-title > div > span { color : #fff; !important; }
+#article-list-row-3105761 > div > div.list-header.v0 > strong { color : #fff; !important; }
 
 #article-list-row-3054503 > div > div.list-header.v0 { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3054503 > div > div.list-time { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3054503 > div > div.list-title { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3054503 > div > div.list-title > a { color : #fff; !important; }
+#article-list-row-3054503 > div > div.list-title > div > span { color : #fff; !important; }
+#article-list-row-3054503 > div > div.list-header.v0 > strong { color : #fff; !important; }
 
 #article-list-row-3048548 > div > div.list-header.v0 { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3048548 > div > div.list-time { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3048548 > div > div.list-title { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3048548 > div > div.list-title > a { color : #fff; !important; }
+#article-list-row-3048548 > div > div.list-title > div > span { color : #fff; !important; }
+#article-list-row-3048548 > div > div.list-header.v0 > strong { color : #fff; !important; }
 
 /* 게시글 / 카테고리 */
 
