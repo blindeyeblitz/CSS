@@ -159,6 +159,12 @@ footer
 #article-list-row-3048548 > div > div.list-title > a { color : #fff; !important; }
 #article-list-row-3048548 > div > div.list-title > div > span { color : #fff; !important; }
 
+#article-list-row-6553479 > div > div.list-header.v0 { background-color: #60a3fc; color : #fff; !important; }
+#article-list-row-6553479 > div > div.list-time { background-color: #60a3fc; color : #fff; !important; }
+#article-list-row-6553479 > div > div.list-title { background-color: #abcff9; color : #fff; !important; }
+#article-list-row-6553479 > div > div.list-title > a { color : #fff; !important; }
+#article-list-row-6553479 > div > div.list-title > div > span { color : #fff; !important; }
+
 #article-list-row-6438277 > div > div.list-title > small { color: #ff7070; !important; }
 
 #article-list-row-5992770 > div > div.list-title > div > span { color: #ff7070; !important; }
