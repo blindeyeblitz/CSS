@@ -127,4 +127,10 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 
 body > header { color: #ff6060; !important; }
 
-body > footer { background-color: #ffd3d3; !important; }
+body > footer { background-color: #ff6060; !important; }
+
+body > footer > div > span:nth-child(1) { color: #ffffff; !important; }
+
+body > footer > div > span:nth-child(1) > a { color: #ffffff; !important; }
+
+body > footer > div > span:nth-child(4) { color: #ffffff; !important; }
