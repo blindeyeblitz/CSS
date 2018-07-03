@@ -15,7 +15,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 
 /* 스트리머 이름 표시 */
 #board-info > h1 > a, { display:none; }
-.pagination > li > a:hover { animation: infinite PinkLinkBG 1.5s; } { display:none; }
+.pagination > li > a:hover { animation: infinite PinkLinkBG 1.5s; display:none; }
 .pagination > .active > a, { display:none; }
 .pagination > .active > a:focus, { display:none; }
 .pagination > .active > a:hover, { display:none; }
