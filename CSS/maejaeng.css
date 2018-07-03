@@ -14,7 +14,10 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 #header-top-notice { background-color: #ffffff; font-weight: bold; padding: 1px 7px; font-size: 17px; border-radius: 100px }
 #header-top-notice > a { color: #000000; }
 #header-top-notice > strong { color: #000000; }
-#header-menu-left { color: #ff7070; }
+#header-menu-left > { color: #ff7070; }
+#latestDropdown > { color: #ff7070; }
+#favoriteDropdown > { color: #ff7070; }
+#playgroundDropdown > { color: #ff7070; }
 
 #main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ff9999; !important; }
