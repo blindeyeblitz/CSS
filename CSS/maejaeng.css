@@ -54,8 +54,9 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 #article-list-row-3048548 > div > div.list-title { background-color: #ffd3d3; color : #fff; !important; }
 #article-list-row-3048548 > div > div.list-title > a { color : #fff; !important; }
 
-/* 게시글 목록 */
+/* 게시글 / 카테고리 */
 
+#article-list { background-color: #ff6060; color : #fff; !important; }
 #article-list #article-list-category { border-top: 3px solid #ff6060; !important; background: #ff9999; !important }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 16px; background: #ffd3d3; !important; text-decoration: none; font-size: 12px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite PinkLinkBG 1.5s; }
