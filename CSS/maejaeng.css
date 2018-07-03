@@ -179,7 +179,7 @@ body > header { background-color: #ff7070; !important; }
 #header-menu-left > div:nth-child(3) { color: #ffffff; !important; }
 #header-top-notice > a { color: #ffffff; !important; }
 
-body > footer { color: #ff7070; !important; }
+body > footer { background-color: #ff7070; !important; }
 body > footer > div > span:nth-child(1) { color: #fff; !important; }
 body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #fff; !important; }
 body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #fff; !important; }
