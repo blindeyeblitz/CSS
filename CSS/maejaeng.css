@@ -176,3 +176,5 @@ body > footer > div > span:nth-child(4) { color: #ffffff; !important; }
 #article-list-row > div > div.list-header.v0 { background-color: #61b4fc; color : #fff; !important; }
 #article-list-row > div > div.list-title { background-color: #c4e2fc; color : #fff; !important; }
 #article-list-row > div > div.list-time { background-color: #61b4fc; color : #fff; !important; }
+
+#article-list-menu > ul > li:nth-child(3) > a { color: #ff7070; !important; }
