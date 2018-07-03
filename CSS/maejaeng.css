@@ -14,6 +14,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 #header-top-notice { background-color: #ffffff; font-weight: bold; padding: 1px 5px; font-size: 16px; border-radius: 100px }
 #header-top-notice > a { color: #000000; }
 #header-top-notice > strong { color: #000000; }
+#header-menu-left { color: #ff7070; }
 
 #main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ff9999; !important; }
@@ -40,13 +41,13 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 
 #article-content-wrapper > .header { border-top: 3px solid #ff7070; background: #ffd3d3; }
 #article-content-wrapper > .footer { border-bottom: 3px solid #ff7070; background: #ffd3d3; }
-#article-list > .article-list-row > .item > .list-header > span { background-color: #ff7070; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 16px; border-radius: 100px }
+#article-list > .article-list-row > .item > .list-header > span { background-color: #ff7070; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 15px; border-radius: 100px }
 #article-list #article-list-category { border-top: 3px solid #ff7070; background: #ff9999; !important; }
-#article-list #article-list-category > a { display: inline-block; padding: 11px 16px; background: ##ffd3d3; text-decoration: none; font-size: 16px; font-weight: bold }
+#article-list #article-list-category > a { display: inline-block; padding: 11px 15px; background: ##ffd3d3; text-decoration: none; font-size: 15px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite ScarletLinkBG 1.5s; }
 
 #article-reply-area #reply-real-area .reply > .reply-header { background: #ffd3d3; }
-#article-reply-area > .header h5 { font-size: 16px; color: #ff7070; font-weight: bold; }
+#article-reply-area > .header h5 { font-size: 15px; color: #ff7070; font-weight: bold; }
 
 #board-info #viewers-area #viewers:before { content: ""; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 트게더 활동중!"; cursor : text; }
@@ -166,7 +167,7 @@ footer
 
 body > header { background-color: #ff7070; !important; }
 
-#header-bar > div { background-color: #ff7070; !important; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 16px; border-radius: 100px }
+#header-bar > div { background-color: #ff7070; !important; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 15px; border-radius: 100px }
 
 #article-list-row > div > div.list-header.v0 { background-color: #61b4fc; color : #fff; !important; }
 #article-list-row > div > div.list-title { background-color: #c4e2fc; color : #fff; !important; }
