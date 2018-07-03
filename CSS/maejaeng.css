@@ -127,4 +127,6 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 
 #article-list-row-6528578 > div > div.list-title > div.list-category > span { color: #ff6060; !important; }
 
-#header-menu-right > div:nth-child(1) > a { content: url(https://maejaengtgd.github.io/image/star18.png); }
+#header-menu-right > div:nth-child(1) > a { color: #ff6060; !important; }
+
+body > header { color: #ff6060; !important; }
