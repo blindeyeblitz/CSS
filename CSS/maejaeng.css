@@ -165,7 +165,7 @@ footer
 
 body > header { background-color: #ff7070; !important; }
 
-#header-bar > div { background-color: #ff7070; !important; }
+#header-bar > div { background-color: #ff7070; !important; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
 
 #article-list-row > div > div.list-header.v0 { background-color: #61b4fc; color : #fff; !important; }
 #article-list-row > div > div.list-title { background-color: #c4e2fc; color : #fff; !important; }
