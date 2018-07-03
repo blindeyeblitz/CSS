@@ -13,7 +13,7 @@ header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-to
 header #header-bar #header-top-notice strong.notice-badge { background: #ff7070; padding: 4px 8px; color: #fff; font-weight: bold }
 
 #main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
-#main .menu-wrapper > a > em { color: #ff9999; !important; }
+#main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ff9999; !important; }
 
 .pagination > li > a:hover { animation: infinite ScarletLinkBG 1.5s; }
 .pagination > .active > a, 
@@ -84,24 +84,24 @@ footer
 
 /* 애니메이션 키프레임들 */
 @keyframes rainbowLink {
-    0% { color: #ff6060; }
+    0% { color: #ff7070; }
     15% { color: #ff9999; }
-    30% { color: #ff6060; }
+    30% { color: #ff7070; }
     45% { color: #ff9999; }
-    60% { color: #ff6060; }
+    60% { color: #ff7070; }
     75% { color: #ff9999; }
-    90% { color: #ff6060; }
+    90% { color: #ff7070; }
     100% { color: #ff9999; }
 }
 
 @keyframes rainbowLinkBG {
-    0% { background-color: #ff6060; }
+    0% { background-color: #ff7070; }
     15% { background-color: #ff9999; }
-    30% { background-color: #ff6060; }
+    30% { background-color: #ff7070; }
     45% { background-color: #ff9999; }
-    60% { background-color: #ff6060; }
+    60% { background-color: #ff7070; }
     75% { background-color: #ff9999; }
-    90% { background-color: #ff6060; }
+    90% { background-color: #ff7070; }
     100% { background-color: #ff9999; }
 }
 
@@ -159,5 +159,3 @@ body > footer > div > span:nth-child(1) { color: #ffffff; !important; }
 body > footer > div > span:nth-child(1) > a { color: #ffffff; !important; }
 
 body > footer > div > span:nth-child(4) { color: #ffffff; !important; }
-
-display:none;
