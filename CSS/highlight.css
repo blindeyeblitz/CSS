@@ -55,13 +55,13 @@ footer
 {	
     border-color: #ddd !important; 
     color: #ddd !important; 
-    background-color: #e61f1f !important;
+    background-color: #ffd3d3 !important;
 }
 .pagination>.active>span, { display:none; }
 .pagination>.active>span:focus, { display:none; }
 .pagination>.active>span:hover { display:none; }
 {	
-    background-color: #e61f1f !important;
-    border-color: #e61f1f !important; 
+    background-color: #ffd3d3 !important;
+    border-color: #ffd3d3 !important; 
 }
 */
