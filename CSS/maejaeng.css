@@ -15,7 +15,7 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 #main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ff9999; !important; }
 
-.pagination > li > a:hover { animation: infinite ScarletLinkBG 1.5s; }
+.pagination > li > a:hover { background-color: #ff7070; }
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
@@ -23,6 +23,17 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 .pagination > .active > span:focus, 
 .pagination > .active > span:hover 
 { background-color: #ff7070; border-color: #ff7070; }
+
+//페이지 갯수 설정부분
+.pagination>li>a,.pagination>li>span {
+    color: #ff7070
+}
+
+// 페이지 넘버 활성, 포커싱, 오버 설정
+.pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
+    background-color: #7070;
+    border-color: #000
+}
 
 #article-content-wrapper > .header { border-top: 3px solid #ff7070; background: #ffd3d3; }
 #article-content-wrapper > .footer { border-bottom: 3px solid #ff7070; background: #ffd3d3; }
