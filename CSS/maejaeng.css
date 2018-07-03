@@ -11,7 +11,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ffd3d3; background: #ffd3d3; border-bottom: 2px solid #ffd3d3; border-right: 2px solid #ffd3d3 }
 header #header-bar #header-top-notice strong.notice-badge { background: #ff7070; padding: 4px 8px; color: #fff; font-weight: bold }
-#header-top-notice { background-color: #ffffff; font-weight: bold; padding: 1px 5px; font-size: 16px; border-radius: 100px }
+#header-top-notice { background-color: #ffffff; font-weight: bold; padding: 1px 5px; font-size: 17px; border-radius: 100px }
 #header-top-notice > a { color: #000000; }
 #header-top-notice > strong { color: #000000; }
 #header-menu-left { color: #ff7070; }
