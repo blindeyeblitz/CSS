@@ -116,3 +116,5 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
     40% { background-color: #ff9999; }
     100% { background-color: #ffd3d3; }
 }
+
+#article-list-row { background-color: #ff6060; !important; }
