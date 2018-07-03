@@ -159,3 +159,5 @@ body > footer > div > span:nth-child(1) { color: #ffffff; !important; }
 body > footer > div > span:nth-child(1) > a { color: #ffffff; !important; }
 
 body > footer > div > span:nth-child(4) { color: #ffffff; !important; }
+
+#header-bar > div { color: #ff7070; !important; }
