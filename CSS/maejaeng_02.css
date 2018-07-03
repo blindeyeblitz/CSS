@@ -161,3 +161,5 @@ body > footer > div > span:nth-child(1) { color: #ffffff; !important; }
 body > footer > div > span:nth-child(1) > a { color: #ffffff; !important; }
 
 body > footer > div > span:nth-child(4) { color: #ffffff; !important; }
+
+display:none;
