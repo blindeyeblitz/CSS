@@ -184,3 +184,5 @@ body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #fff; !importa
 body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #fff; !important; }
 body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #switch-platform-link { color: #fff; !important; }
+
+#header-top-notice > a { color: #fff; !important; }
