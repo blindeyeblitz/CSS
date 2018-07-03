@@ -42,27 +42,26 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 
 @keyframes rot360 { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
 
-/*
 #content-area, 
 body, 
-footer	
-{ background: #d4eeff !important; }
+footer 
+{ background: #ffd3d3 !important; }
 #main .menu-wrapper>.header, 
 #main .menu-wrapper>.header>a		
 {	color: #eee !important; }
-.pagination>.active>a,
-.pagination>.active>a:focus,
-.pagination>.active>a:hover
+.pagination>.active>a, { display:none; }
+.pagination>.active>a:focus, { display:none; }
+.pagination>.active>a:hover { display:none; }
 {	
     border-color: #ddd !important; 
     color: #ddd !important; 
     background-color: #e61f1f !important;
 }
-.pagination>.active>span,
-.pagination>.active>span:focus,
-.pagination>.active>span:hover
+.pagination>.active>span, { display:none; }
+.pagination>.active>span:focus, { display:none; }
+.pagination>.active>span:hover { display:none; }
 {	
-    background-color: #1f6fe6 !important;
+    background-color: #e61f1f !important;
     border-color: #e61f1f !important; 
 }
 */
