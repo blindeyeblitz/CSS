@@ -67,8 +67,8 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 #board-info-profile-img { display:none; }
 
 /* 현재 접속 인원 수 */
-#board-info #viewers-area #viewers:before { content: "망자"; cursor: text; }
-#board-info #viewers-area #viewers:after { content:"명 떠도는중..."; cursor : text; }
+#board-info #viewers-area #viewers:before { content: ""; cursor: text; }
+#board-info #viewers-area #viewers:after { content:"명 트게더 활동중!"; cursor : text; }
 #board-info #viewers-area .fa-user:before { color: rgba(95,02,22,0); content: url(https://maejaengtgd.github.io/image/ghost18.png); }
 */ 
 
