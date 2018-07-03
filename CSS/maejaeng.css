@@ -190,4 +190,4 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #header-bar #header-top-notice strong.notice-badge { background: #ff7070; padding: 4px 8px; color: #fff; font-weight: bold }
 #header-bar > div { background-color: #ffffff; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
 #header-bar { background-color: #ff7070; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
-#header-top-notice > strong { background-color: #ff7070; !important; }
+#header-top-notice > strong.notice-badge { background-color: #ff7070; !important; }
