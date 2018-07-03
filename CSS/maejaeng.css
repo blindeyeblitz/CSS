@@ -186,8 +186,8 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 헤더
 #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 100px; padding-left: 100px; }
-#header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ff7070; background: #ff7070; border-bottom: 2px solid #ff7070; border-right: 2px solid #ff7070 }
 #header-bar #header-top-notice strong.notice-badge { background: #ff7070; padding: 4px 8px; color: #fff; font-weight: bold }
 #header-bar > div { background-color: #ffffff; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
 #header-bar { background-color: #ff7070; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
 header #header-bar #header-top-notice strong.notice-badge { background: #ff7070; !important; padding: 4px 8px; color: #fff; font-weight: bold }
+header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ffffff; background: #ffffff; border-bottom: 2px solid #ffffff; border-right: 2px solid #ffffff }
