@@ -5,12 +5,9 @@
 header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url(https://maejaengtgd.github.io/image/MAEGD_LOGO_3.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
-header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 100px; padding-left: 100px; }
 header #right-search-form > #right-search-btn { color: #ffd3d3; background: transparent; border: none; font-size: 1.4em; }
 header #right-search-form > input[type=text] { position: relative; border: 3px solid #ffd3d3; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
 
-header #header-bar > .row { padding-top: 0em; padding-bottom: 0em; border-top: 4px solid #ffd3d3; background: #ffd3d3; border-bottom: 2px solid #ffd3d3; border-right: 2px solid #ffd3d3 }
-header #header-bar #header-top-notice strong.notice-badge { background: #ff7070; padding: 4px 8px; color: #fff; font-weight: bold }
 #header-top-notice { background-color: #ffffff; font-weight: bold; padding: 1px 7px; font-size: 17px; border-radius: 100px }
 #header-top-notice > a { color: #000000; }
 #header-top-notice > strong { color: #000000; }
@@ -170,8 +167,7 @@ footer
 
 body > header { background-color: #ff7070; !important; }
 
-#header-bar > div { background-color: #ffd3d3; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
-#header-bar { background-color: #ffd3d3; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
+
 #article-list-row > div > div.list-header.v0 { background-color: #61b4fc; color : #fff; !important; }
 #article-list-row > div > div.list-title { background-color: #c4e2fc; color : #fff; !important; }
 #article-list-row > div > div.list-time { background-color: #61b4fc; color : #fff; !important; }
@@ -187,3 +183,5 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #switch-platform-link { color: #fff; !important; }
 
 #header-top-notice > a { color: #fff; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
+
+헤더
