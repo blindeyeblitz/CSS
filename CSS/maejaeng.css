@@ -11,7 +11,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ffd3d3; background: #ffd3d3; border-bottom: 2px solid #ffd3d3; border-right: 2px solid #ffd3d3 }
 header #header-bar #header-top-notice strong.notice-badge { background: #ff7070; padding: 4px 8px; color: #fff; font-weight: bold }
-#header-top-notice { background-color: #ff7070; }
+#header-top-notice { background-color: #ff7070; color: #fff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 100px }
 #header-top-notice > a { color: #ffffff; }
 
 #main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
@@ -196,3 +196,4 @@ body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #fff; !importa
 body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #fff; !important; }
 body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #fff; !important; }
 body > footer > div > span:nth-child(4) { color: #fff; !important; }
+#switch-platform-link { color: #fff; !important; }
