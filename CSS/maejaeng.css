@@ -185,5 +185,4 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #header-top-notice > a { color: #fff; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
 
 헤더
-#header-bar > div { color: #fff; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
-#header-bar { background-color: #ffd3d3; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
+#header-bar > div { background-color: #ffd3d3; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
