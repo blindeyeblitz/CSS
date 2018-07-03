@@ -161,7 +161,7 @@ footer
 
 #article-list-row-6528578 > div > div.list-title > div.list-category > span { color: #ff7070; !important; }
 
-body > header { color: #ff7070; !important; }
+body > header { background-color: #ff7070; !important; }
 
 body > footer { background-color: #ff7070; !important; }
 
@@ -171,7 +171,7 @@ body > footer > div > span:nth-child(1) > a { color: #ffffff; !important; }
 
 body > footer > div > span:nth-child(4) { color: #ffffff; !important; }
 
-#header-bar > div { color: #ff7070; !important; }
+#header-bar > div { background-color: #ff7070; !important; }
 
 #article-list-row > div > div.list-header.v0 { background-color: #61b4fc; color : #fff; !important; }
 #article-list-row > div > div.list-title { background-color: #c4e2fc; color : #fff; !important; }
