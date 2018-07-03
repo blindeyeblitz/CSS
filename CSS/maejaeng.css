@@ -129,4 +129,4 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff6060;
 
 body > header { color: #ff6060; !important; }
 
-body > footer { color: #ffd3d3; !important; }
+body > footer { background-color: #ffd3d3; !important; }
