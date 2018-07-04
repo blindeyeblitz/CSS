@@ -52,7 +52,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 #board-info #viewers-area #viewers:before { content: ""; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 트게더 활동중!"; cursor : text; }
-#board-info #viewers-area .fa-user:before { color: rgba(10,59,84,0); content: url("https://maejaengtgd.github.io/image/ghost18.png"); }
+#board-info #viewers-area .fa-user:before { color: ; content: url("maejaengtgd.github.io/image/maejaengs.png"); }
 
 .btn-primary { background: #ff7070; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
@@ -175,7 +175,7 @@ body > header { background-color: #ff7070; !important; }
 
 #header-menu-right > div:nth-child(1) > a { color: #ff7070; !important; }
 
-body > footer { background-color: #ff7070; !important; }
+body > footer { background: #ff7070; !important; }
 body > footer > div > span:nth-child(1) { color: #fff; !important; }
 body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #fff; !important; }
 body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #fff; !important; }
