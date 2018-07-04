@@ -29,6 +29,10 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 .pagination > .active > span:hover 
 { background-color: #ff7070; border-color: #ff7070; }
 
+
+#board-info > h1 > a {display:none;}
+#board-info-profile-img {display:none;}
+
 //페이지 갯수 설정부분
 .pagination>li>a,.pagination>li>span {
     color: #ff7070
