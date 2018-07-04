@@ -160,18 +160,12 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ffffff; background: #ffffff; border-bottom: 2px solid #ffffff; border-right: 2px solid #ffffff }
 header #header-bar #header-top-notice { background : #ffffff !important; }
 
-/* 여름휴가 */
+/* 여름휴가 
 #article-list-row-6576683:hover{
 	background-image:url(https://maejaengtgd.github.io/image/summer.png)!important;
 	background-position: 50% 50%!important;
 }
-
-#article-list-row-6576683 > div > div.list-title > div > span {display:none;}
-#article-list-row-6576683 > div > div.list-time {display:none;}
-#article-list-row-6576683 > div > div.list-title > a {display:none;}
-#article-list-row-6576683 > div > div.list-title > span > i {display:none;}
-#article-list-row-6576683 > div > div.list-header.v0 > strong {display:none;}
-#board-info-bottom
+*/
 
 #board-info > h1 > a {display:none;}
 #board-info-profile-img {display:none;}
