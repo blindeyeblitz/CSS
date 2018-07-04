@@ -165,3 +165,9 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 	background-image:url(https://maejaengtgd.github.io/image/summer.png)!important;
 	background-position: 50% 50%!important;
 }
+
+#article-list-row-6576683 > div > div.list-title > div > span {display:none;}
+#article-list-row-6576683 > div > div.list-time {display:none;}
+#article-list-row-6576683 > div > div.list-title > a {display:none;}
+#article-list-row-6576683 > div > div.list-title > span > i {display:none;}
+#article-list-row-6576683 > div > div.list-header.v0 > strong {display:none;}
