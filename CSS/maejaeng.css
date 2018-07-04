@@ -52,7 +52,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 #board-info #viewers-area #viewers:before { content: ""; cursor: text; }
 #board-info #viewers-area #viewers:after { content:"명 트게더 활동중!"; cursor : text; }
-#board-info #viewers-area .fa-user:before { color: ; content: url("maejaengtgd.github.io/image/maejaengs.png"); }
+#board-info #viewers-area .fa-user:before { color: ; content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
 
 .btn-primary { background: #ff7070; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
@@ -175,7 +175,7 @@ body > header { background-color: #ff7070; !important; }
 
 #header-menu-right > div:nth-child(1) > a { color: #ff7070; !important; }
 
-body > footer { background: #ff7070; !important; }
+body > footer { background-color: #ff7070; !important; }
 body > footer > div > span:nth-child(1) { color: #fff; !important; }
 body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #fff; !important; }
 body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #fff; !important; }
@@ -184,9 +184,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #switch-platform-link { color: #fff; !important; }
 
 #header-top-notice > a { color: #fff; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
-
-#article-list-row-maejaeng > div > div.list-title > div > span { color: #ff7070; }
-#article-list-row-maejaeng > div > div.list-title > small.comment-count { color: #ff7070; }
 
 헤더
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 100px; padding-left: 100px; }
