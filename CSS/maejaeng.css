@@ -136,29 +136,39 @@ footer
 
 /* 게시글 레인보우 */
 
-#article-list-row-3105775 > div > div.list-header.v2 { background-color: #fc6262; color : #fff; !important; }
-#article-list-row-3105775 > div > div.list-time { background-color: #fc6262; color : #fff; !important; }
-#article-list-row-3105775 > div > div.list-title { background-color: #f9c1ab; color : #fff; !important; }
+#article-list-row-6576683 > div > div.list-header.v2 { background-color: #fc6262; color : #fff; !important; }
+#article-list-row-6576683 > div > div.list-time { background-color: #fc6262; color : #fff; !important; }
+#article-list-row-6576683 > div > div.list-title { background-color: #f9c1ab; color : #fff; !important; }
+#article-list-row-6576683 > div > div.list-title > a { color : #fff; !important; }
+#article-list-row-6576683 > div > div.list-title > div > span { color : #fff; !important; }
+
+#article-list-row-3105775 > div > div.list-header.v2 { background-color: #fc9f61; color : #fff; !important; }
+#article-list-row-3105775 > div > div.list-time { background-color: #fc9f61; color : #fff; !important; }
+#article-list-row-3105775 > div > div.list-title { background-color: #f9d8ab; color : #fff; !important; }
 #article-list-row-3105775 > div > div.list-title > a { color : #fff; !important; }
 #article-list-row-3105775 > div > div.list-title > div > span { color : #fff; !important; }
 
-#article-list-row-3105761 > div > div.list-header.v0 { background-color: #fc9f61; color : #fff; !important; }
-#article-list-row-3105761 > div > div.list-time { background-color: #fc9f61; color : #fff; !important; }
-#article-list-row-3105761 > div > div.list-title { background-color: #f9d8ab; color : #fff; !important; }
+#article-list-row-3105761 > div > div.list-header.v0 { background-color: #fcdf60; color : #fff; !important; }
+#article-list-row-3105761 > div > div.list-time { background-color: #fcdf60; color : #fff; !important; }
+#article-list-row-3105761 > div > div.list-title { background-color: #f9eaab; color : #fff; !important; }
 #article-list-row-3105761 > div > div.list-title > a { color : #fff; !important; }
 #article-list-row-3105761 > div > div.list-title > div > span { color : #fff; !important; }
 
-#article-list-row-3054503 > div > div.list-header.v0 { background-color: #fcdf60; color : #fff; !important; }
-#article-list-row-3054503 > div > div.list-time { background-color: #fcdf60; color : #fff; !important; }
-#article-list-row-3054503 > div > div.list-title { background-color: #f9eaab; color : #fff; !important; }
+#article-list-row-3054503 > div > div.list-header.v0 { background-color: #c5fc60; color : #fff; !important; }
+#article-list-row-3054503 > div > div.list-time { background-color: #c5fc60; color : #fff; !important; }
+#article-list-row-3054503 > div > div.list-title { background-color: #def9ac; color : #fff; !important; }
 #article-list-row-3054503 > div > div.list-title > a { color : #fff; !important; }
 #article-list-row-3054503 > div > div.list-title > div > span { color : #fff; !important; }
 
-#article-list-row-3048548 > div > div.list-header.v0 { background-color: #c5fc60; color : #fff; !important; }
-#article-list-row-3048548 > div > div.list-time { background-color: #c5fc60; color : #fff; !important; }
-#article-list-row-3048548 > div > div.list-title { background-color: #def9ac; color : #fff; !important; }
+#article-list-row-3048548 > div > div.list-header.v0 { background-color: #779ce5; color : #fff; !important; }
+#article-list-row-3048548 > div > div.list-time { background-color: #779ce5; color : #fff; !important; }
+#article-list-row-3048548 > div > div.list-title { background-color: #abc5f9 color : #fff; !important; }
 #article-list-row-3048548 > div > div.list-title > a { color : #fff; !important; }
 #article-list-row-3048548 > div > div.list-title > div > span { color : #fff; !important; }
+
+
+
+
 
 #article-list-row-6438277 > div > div.list-title > small { color: #ff7070; !important; }
 
