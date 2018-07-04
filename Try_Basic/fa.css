@@ -1,0 +1,17 @@
+span.a-badge i.fa.fa-star { 
+    opacity: 100; color:rgba(0,0,0,0); 
+    vertical-align: 2px !important;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background:url(https://wlswnwlswnbot.github.io/tgd/images/fa.png);
+    animation: infinite rotation 1.5s;
+}
+
+span.a-badge {
+    width:18px;
+}
+
+
+@keyframes rotation { from { transform: rotate(-30deg);} to { transform: rotate(30deg);} }
