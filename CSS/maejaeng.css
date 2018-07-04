@@ -79,8 +79,8 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #article-reply-area > .header h5 { font-size: 14px; color: #ff7070; font-weight: bold; }
 
 #viewers { color: #000000; !important; }
-#board-info #viewers-area #viewers:before { color: #000000; content: ""; cursor: text; background-color: #ff7070; padding: 1px 7px; font-size: 14px; border-radius: 100px }
-#board-info #viewers-area #viewers:after { color: #000000; content:"명 트게더 활동중!"; cursor : text; background-color: #ff7070; padding: 1px 7px; font-size: 14px; border-radius: 100px }
+#board-info #viewers-area #viewers:before { color: #000000; content: ""; cursor: text; }
+#board-info #viewers-area #viewers:after { color: #000000; content:"명 트게더 활동중!"; cursor : text; }
 #board-info #viewers-area .fa-user:before { content: url("https://maejaengtgd.github.io/image/ghost18.png"); }
 
 .btn-primary { background: #ff7070; border-color: #ffffff; }
