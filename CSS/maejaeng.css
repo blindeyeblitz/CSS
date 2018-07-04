@@ -185,7 +185,8 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 #header-top-notice > a { color: #fff; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
 
-
+#article-list-row-maejaeng > div > div.list-title > div > span { color: #ff7070; }
+#article-list-row-maejaeng > div > div.list-title > small.comment-count { color: #ff7070; }
 
 헤더
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 100px; padding-left: 100px; }
