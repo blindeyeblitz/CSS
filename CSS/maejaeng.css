@@ -54,8 +54,8 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #article-reply-area #reply-real-area .reply > .reply-header { background: #ffd3d3; }
 #article-reply-area > .header h5 { font-size: 14px; color: #ff7070; font-weight: bold; }
 
-#board-info #viewers-area #viewers:before { content: ""; cursor: text; }
-#board-info #viewers-area #viewers:after { content:"명 트게더 활동중!"; cursor : text; }
+#board-info #viewers-area #viewers:before { color: #000000; content: ""; cursor: text; }
+#board-info #viewers-area #viewers:after { color: #000000; content:"명 트게더 활동중!"; cursor : text; }
 #board-info #viewers-area .fa-user:before { color: ; content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
 
 .btn-primary { background: #ff7070; border-color: #ffffff; }
