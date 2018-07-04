@@ -63,14 +63,6 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 }
 */
 
-
-
-#content-area, 
-body, 
-footer	
-{ background: #ff7070; !important; }
-
-
 /* 매쟁 */
 
 #article-list > #article-list-row-3105775 > .item > .list-title > .list-writer > span img, 
