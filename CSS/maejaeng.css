@@ -130,32 +130,6 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
     100% { width: 83px; }
 }
 
-/* 게시글 레인보우 */
-
-#article-list-row-3105775 > div > div.list-header.v2 { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3105775 > div > div.list-time { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3105775 > div > div.list-title { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3105775 > div > div.list-title > a { color : #ffffff; !important; }
-#article-list-row-3105775 > div > div.list-title > div > span { color : #ffffff; !important; }
-
-#article-list-row-3105761 > div > div.list-header.v0 { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3105761 > div > div.list-time { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3105761 > div > div.list-title { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3105761 > div > div.list-title > a { color : #ffffff; !important; }
-#article-list-row-3105761 > div > div.list-title > div > span { color : #ffffff; !important; }
-
-#article-list-row-3054503 > div > div.list-header.v0 { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3054503 > div > div.list-time { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3054503 > div > div.list-title { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3054503 > div > div.list-title > a { color : #ffffff; !important; }
-#article-list-row-3054503 > div > div.list-title > div > span { color : #ffffff; !important; }
-
-#article-list-row-3048548 > div > div.list-header.v0 { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3048548 > div > div.list-time { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3048548 > div > div.list-title { background-color: #ff5050; color : #fff; !important; }
-#article-list-row-3048548 > div > div.list-title > a { color : #ffffff; !important; }
-#article-list-row-3048548 > div > div.list-title > div > span { color : #ffffff; !important; }
-
 body > header { background-color: #ff7070; !important; }
 
 
@@ -163,7 +137,7 @@ body > header { background-color: #ff7070; !important; }
 #article-list-row > div > div.list-title { background-color: #c4e2fc; color : #fff; !important; }
 #article-list-row > div > div.list-time { background-color: #61b4fc; color : #fff; !important; }
 
-#header-menu-right > div:nth-child(1) > a { color: #ff7070; !important; }
+#header-menu-right > div:nth-child(1) > a { color: #000000; !important; }
 
 body > footer { background-color: #ff7070; !important; }
 body > footer > div > span:nth-child(1) { color: #fff; !important; }
@@ -185,3 +159,9 @@ header #header-bar { background-color: #ff7070; !important; color: #fff; font-we
 header #header-bar #header-top-notice strong.notice-badge { background: #ff7070; !important; padding: 4px 8px; color: #fff; font-weight: bold }
 header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ffffff; background: #ffffff; border-bottom: 2px solid #ffffff; border-right: 2px solid #ffffff }
 header #header-bar #header-top-notice { background : #ffffff !important; }
+
+/* 여름휴가 */
+#article-list-row-6576683:hover{
+	background-image:url(https://maejaengtgd.github.io/image/summer.png)!important;
+	background-position: 50% 50%!important;
+}
