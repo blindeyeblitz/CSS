@@ -191,9 +191,8 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
     animation: infinite StarLink 1s;
 }
 
-#article-list > #article-list-row > div > div.list-header.v0 > strong { background-color: #ffffff; color: #fff; !important; }
-#article-list > #article-list-row > div > div.list-title > a { background-color: #ffffff; color: #fff; !important; }
-
+#article-list > .article-list-row > .item > .list-title > strong { background-color: #ffffff; color: #fff; !important; }
+#article-list > .article-list-row > .item > .list-title > a { background-color: #ffffff; color: #fff; !important; }
 
 #article-list-row-3105775 > div > div.list-header.v2 { background-color: #ff7f98 !important; }
 #article-list-row-3105775 > div > div.list-time { background-color: #ff7f98 !important; }
