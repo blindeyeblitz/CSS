@@ -47,11 +47,11 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ff9999; !important; }
 
 .pagination > li > a:hover { background-color: #ff7070; color: #fff }
-.pagination > .active > a, { background-color: #ff7070; color: #fff }
-.pagination > .active > a:focus, { background-color: #ff7070; color: #fff }
-.pagination > .active > a:hover, { background-color: #ff7070; color: #fff }
-.pagination > .active > span, { background-color: #ff7070; color: #fff }
-.pagination > .active > span:focus, { background-color: #ff7070; color: #fff }
+.pagination > .active > a { background-color: #ff7070; color: #fff }
+.pagination > .active > a:focus { background-color: #ff7070; color: #fff }
+.pagination > .active > a:hover { background-color: #ff7070; color: #fff }
+.pagination > .active > span { background-color: #ff7070; color: #fff }
+.pagination > .active > span:focus { background-color: #ff7070; color: #fff }
 .pagination > .active > span:hover { background-color: #ff7070; color: #fff }
 
 //페이지 갯수 설정부분
