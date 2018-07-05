@@ -196,6 +196,10 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #board-info > h1 > a {display:none;}
 #board-info-profile-img {display:none;}
 
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
+    color : #ff7070;
+}
+
 #board-info h1>a.badge.badge-live {
     float: left;
     display: block !important;
@@ -205,31 +209,17 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
     padding: 0;
     padding-left: 5px;
 }
-
-#board-info h1>a.badge.badge-live:after {
+#board-info h1>a.badge.badge-live:before {
     visibility: visible;
-    font-weight: bold;
-    padding: 1px 7px;
-    font-size: 14px;
-    background-color: #ffffff; !important;
-    border-radius: 100px;
     font-size: 12px;
-    content: " 현재 생방송 중"
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f03d ";
     color: red;
 }
 
-#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
-    color : #ff7070;
-}
-
-#article-list > .article-list-row > div > div.list-title > small {
-    color : #ff7070;
-}
-
-#article-list-menu > ul > li:nth-child > a {
-    color : #ff7070;
-}
-
-#article-list > .article-list-row > div > div.list-title > a {
-    color : #ff7070;
+#board-info h1>a.badge.badge-live:after {
+    visibility: visible;
+    font-size: 12px;
+    content: " 생방송 보러가기"!important;
+    color: red;
 }
