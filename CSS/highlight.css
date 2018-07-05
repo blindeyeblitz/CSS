@@ -19,8 +19,13 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     color : #ff7070;
 }
 
+#article-list > .article-list-row > div > div.list-title > small {
+    color : #ff7070;
+}
 
-
+#article-list-menu > ul > li:nth-child > a {
+    color : #ff7070;
+}
 
 @keyframes maegether {
     0% { color: #ce7171; }
