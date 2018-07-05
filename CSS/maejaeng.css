@@ -60,10 +60,16 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
     color: #ff7070
 }
 
+//페이지 부분 마우스 오버시 설정 값
+.pagination>li>a:hover {
+    background-color: #FF7070;
+    color: #fff
+}
+
 // 페이지 넘버 활성, 포커싱, 오버 설정
 .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
-    background-color: #7070;
-    border-color: #000
+    background-color: #FF7070;
+    border-color: #FFF
 }
 
 #board-info > h1 > span.badge.badge-default {display:none;}
@@ -197,3 +203,4 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #article-list > #article-list-row-6576683 span.a-badge i.fa.fa-star {
     animation: infinite StarLink 1s;
 }
+
