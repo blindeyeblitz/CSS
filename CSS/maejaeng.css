@@ -195,3 +195,25 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 
 #board-info > h1 > a {display:none;}
 #board-info-profile-img {display:none;}
+
+#board-info h1>a.badge.badge-live {
+    float: left;
+    display: block !important;
+    visibility: hidden;
+    font-size:0;
+    border: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+
+#board-info h1>a.badge.badge-live:after {
+    visibility: visible;
+    font-weight: bold;
+    padding: 1px 7px;
+    font-size: 14px;
+    background-color: #ffffff; !important;
+    border-radius: 100px;
+    font-size: 12px;
+    content: " 현재 생방송 중"
+    color: red;
+}
