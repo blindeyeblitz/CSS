@@ -199,27 +199,3 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
     color : #ff7070;
 }
-
-#board-info h1>a.badge.badge-live {
-    float: left;
-    display: block !important;
-    visibility: hidden;
-    font-size:0;
-    border: 0;
-    padding: 0;
-    padding-left: 5px;
-}
-#board-info h1>a.badge.badge-live:before {
-    visibility: visible;
-    font-size: 12px;
-    font: normal normal normal 14px/1 FontAwesome;
-    content: "\f03d ";
-    color: red;
-}
-
-#board-info h1>a.badge.badge-live:after {
-    visibility: visible;
-    font-size: 12px;
-    content: " 생방송 보러가기"!important;
-    color: red;
-}
