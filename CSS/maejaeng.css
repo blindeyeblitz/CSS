@@ -178,7 +178,6 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ffffff; background: #ffffff; border-bottom: 2px solid #ffffff; border-right: 2px solid #ffffff }
 header #header-bar #header-top-notice { background : #ffffff !important; }
 
-#board-info > h1 > a {display:none;}
 #board-info-profile-img {display:none;}
 
 
