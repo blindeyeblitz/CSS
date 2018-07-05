@@ -182,17 +182,15 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #board-info > h1 > a {display:none;}
 #board-info-profile-img {display:none;}
 
-#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
-    color : #ff7070;
-}
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { background-color: #ffffff; color: #ff7070; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px; !important; }
 
 /* 여름휴가 */
 #article-list > #article-list-row-6576683 span.a-badge i.fa.fa-star {
     animation: infinite StarLink 1s;
 }
 
-#article-list > .article-list-row > .item > .list-header > strong { background-color: #ffffff; color: #000000; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px; !important; }
-#article-list > .article-list-row > .item > .list-title > a { background-color: #ffffff; color: #000000; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px; !important; }
+#article-list > .article-list-row > .item > .list-header > strong { background-color: #ffffff; color: #ff7070; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px; !important; }
+#article-list > .article-list-row > .item > .list-title > a { background-color: #ffffff; color: #ff7070; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px; !important; }
 
 #article-list-row-3105775 > div > div.list-header.v2 { background-color: #ff7f98 !important; }
 #article-list-row-3105775 > div > div.list-time { background-color: #ff7f98 !important; }
