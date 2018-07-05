@@ -120,7 +120,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 
 /* 애니메이션 키프레임들 */
-@keyframes rainbowLink {
+@keyframes StarLink {
     0% { color: #ff7070; }
     15% { color: #ff9999; }
     30% { color: #ff7070; }
@@ -186,16 +186,14 @@ header #header-bar #header-top-notice strong.notice-badge { background: #ff7070;
 header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ffffff; background: #ffffff; border-bottom: 2px solid #ffffff; border-right: 2px solid #ffffff }
 header #header-bar #header-top-notice { background : #ffffff !important; }
 
-/* 여름휴가 
-#article-list-row-6576683:hover{
-	background-image:url(https://maejaengtgd.github.io/image/summer.png)!important;
-	background-position: 50% 50%!important;
-}
-*/
-
 #board-info > h1 > a {display:none;}
 #board-info-profile-img {display:none;}
 
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
     color : #ff7070;
+}
+
+/* 여름휴가 */
+#article-list > #article-list-row-6576683 span.a-badge i.fa.fa-star {
+    animation: infinite StarLink 1s;
 }
