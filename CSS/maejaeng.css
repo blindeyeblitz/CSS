@@ -187,7 +187,7 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #article-list > #article-list-row-6576683 span.a-badge i.fa.fa-star {
     animation: infinite StarLink 1s;
 }
-#article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #ff7079; font-weight: bold; padding: 1px 7px; font-size: 17px; border-radius: 100px !important; }
+#article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #ff7070; font-weight: bold; padding: 1px 7px; font-size: 17px; border-radius: 100px !important; }
 
 #article-list > .article-list-category > .item > .nav-link.active > i { color: #ffffff; !important; }
 
