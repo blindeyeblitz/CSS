@@ -224,3 +224,6 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #article-list-row-3048548 > div > div.list-title { background-color: #bfdaff !important; }
 
 #article-info { background-color: #BBBBFF; !important; }
+
+/* 프로핑 제거 */
+#board-info-bottom > a:nth-child(3) {display:none;}
