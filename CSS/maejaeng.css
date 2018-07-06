@@ -185,13 +185,9 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #article-list > #article-list-row-6576683 span.a-badge i.fa.fa-star {
     animation: infinite StarLink 1s;
 }
-#article-list > .article-list-row > .item > .list-header > span { background-color: #ffffff; color: #000; !important; }
-#article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #ffffff; color: #000; !important; }
 
-/*
 #article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #ffffff; color: #000; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
 #article-list > .article-list-row > .item > .list-header > span { background-color: #ffffff; color: #000; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
-*/
 
 #article-list > .article-list-category > .item > .nav-link.active > i { color: #ffffff; !important; }
 
