@@ -61,8 +61,8 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 #board-info > h1 > span.badge.badge-default {display:none;}
 
-#article-content-wrapper > .header { border-top: 3px solid #BBBBFF; background: #ffd3d3; }
-#article-content-wrapper > .footer { border-bottom: 3px solid #BBBBFF; background: #ffd3d3; }
+#article-content-wrapper > .header { border-top: 3px solid #BBBBFF; background: #BBBBFF; }
+#article-content-wrapper > .footer { border-bottom: 3px solid #BBBBFF; background: #BBBBFF; }
 #article-list #article-list-category { border-top: 3px solid #BBBBFF; background: #BBBBFF; !important; }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #ffd3d3; text-decoration: none; font-size: 14px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite ScarletLinkBG 1.5s; }
@@ -137,9 +137,9 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 
 @keyframes ScarletLinkBG {
-    0% { background-color: #ffd3d3; }
-    40% { background-color: #ff9999; }
-    100% { background-color: #ffd3d3; }
+    0% { background-color: #BBBBFF; }
+    40% { background-color: #7f7fff; }
+    100% { background-color: #BBBBFF; }
 }
 
 @keyframes btnSizing {
