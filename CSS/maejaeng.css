@@ -188,8 +188,7 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
     animation: infinite StarLink 1s;
 }
 
-#article-list-category > a.nav-link.active > i { color: #ffffff; !important; }
-
+#article-list > .article-list-category > .item > .nav-link.active > i { color: #ffffff; !important; }
 
 #article-list > .article-list-row > .item > .list-header > strong { color: #000000; !important; }
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #ff7070; !important; }
