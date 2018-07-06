@@ -193,6 +193,9 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #article-list > .article-list-row > .item > .list-header > strong { color: #000000; !important; }
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #ff7070; !important; }
 #article-list > .article-list-row > .item > .list-time { color: #000000; !important; }
+
+#comment > .reply-header > .item > .reply-writer.logged { color: #337ab7; !important; }
+
 /*
 #article-list > .article-list-row > .item > .list-title > a { background-color: #ffffff; color: #ff7070; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px; !important; }
 #article-list > .article-list-row > .item > .list-header.v0 { background-color: #ff7070; color: #ffffff; !important; }
