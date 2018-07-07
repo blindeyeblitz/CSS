@@ -226,3 +226,5 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #article-list-row-3048548 > div > div.list-title { background-color: #bfdaff !important; }
 
 #article-info { background-color: #BBBBFF; !important; }
+
+#article-list > .article-list-row > .item > .list-title > div > span > img { content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
