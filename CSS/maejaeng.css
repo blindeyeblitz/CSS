@@ -32,8 +32,8 @@ font-family:'GoyangIlsan',sans-serif;
 font-size:15px;
 }
 
-header #right-search-form > #right-search-btn { color: #BBBBFF; background: transparent; border: none; font-size: 1.4em; }
-header #right-search-form > input[type=text] { position: relative; border: 3px solid #BBBBFF; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
+header #right-search-form > #right-search-btn { color: #ffffff; background: transparent; border: none; font-size: 1.4em; }
+header #right-search-form > input[type=text] { position: relative; border: 3px solid #ffffff; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
 
 #header-top-notice { background-color: #ffffff; font-weight: bold; padding: 1px 7px; font-size: 17px; border-radius: 100px }
 #header-top-notice > a { color: #000000; }
