@@ -232,3 +232,5 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #board-info-bottom > a:nth-child(2) > i { content: url("https://maejaengtgd.github.io/image/maint.png"); }
 */
 #player_uid > .ytp-cued-thumbnail-overlay > button { background-color: #ff7070; !important; }
+
+#content-area > div:nth-child(1) > div > div > div { background-color: #ffbbbbff; !important; }
