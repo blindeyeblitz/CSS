@@ -233,4 +233,4 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 */
  #article-info-writer > img { content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
 
-#comment > .reply-header > .reply-writer.logged > img { content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
+#board-info-bottom > a:nth-child(3) { content:"Admin!"; cursor : text; }
