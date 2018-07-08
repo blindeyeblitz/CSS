@@ -233,5 +233,5 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 */
  #article-info-writer > img { content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
 
-#board-info > h1 > a #viewers-area #viewers:before { color: #3b9acb; content: "매쟁"; cursor: text; }
-#board-info > h1 > a #viewers-area #viewers:after { color: #3b9acb; content:"게시판 홈"; cursor : text; }
+#board-info > h1 > a #viewers-area #viewers:before { color: #337ab7; content: "매쟁"; cursor: text; }
+#board-info > h1 > a #viewers-area #viewers:after { color: #337ab7; content:"게시판 홈"; cursor : text; }
