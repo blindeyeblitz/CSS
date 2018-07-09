@@ -233,6 +233,7 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 */
  #article-info-writer > img { content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
 
+#board-info > h1 > a { color: #337ab7; content:""; cursor : text; }
 #board-info > h1 > a:after { color: #337ab7; content:"게시판 홈"; cursor : text; }
 
 #board-info > h1 > a.badge.badge-live
