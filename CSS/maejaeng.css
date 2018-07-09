@@ -60,7 +60,6 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 }
 
 #board-info > h1 > span.badge.badge-default {display:none;}
-#board-info > h1 > a {display:none;}
 
 #article-list #article-list-category { border-top: 3px solid #BBBBFF; background: #BBBBFF; !important; }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #BBBBFF; text-decoration: none; font-size: 14px; font-weight: bold }
@@ -234,7 +233,6 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 */
  #article-info-writer > img { content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
 
-#board-info > h1 > a:before { color: #337ab7; content: "Maejaeng"; cursor: text; }
 #board-info > h1 > a:after { color: #337ab7; content:"게시판 홈"; cursor : text; }
 
 #board-info > h1 > a.badge.badge-live
@@ -242,5 +240,5 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #article-list > .article-list-row > .item > .list-title > small { background-color: #ff7070; color: #ff7070; !important; }
 
 #article-list > .article-list-row > .item > .list-title > a:after {
-    content: "테스트 중"
+    content: "매쟁 충성충성 ^^7"
 }
