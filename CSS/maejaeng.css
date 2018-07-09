@@ -240,6 +240,7 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 
 #article-list > .article-list-row > .item > .list-title > small { background-color: #ff7070; color: #ff7070; !important; }
 
+/*
 #article-list > .article-list-row > .item > .list-title > a:after {
-    content: "확인!"
+    content: "매쟁!"
 }
