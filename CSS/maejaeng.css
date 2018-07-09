@@ -60,6 +60,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 }
 
 #board-info > h1 > span.badge.badge-default {display:none;}
+#board-info > h1 > a {display:none;}
 
 #article-list #article-list-category { border-top: 3px solid #BBBBFF; background: #BBBBFF; !important; }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #BBBBFF; text-decoration: none; font-size: 14px; font-weight: bold }
