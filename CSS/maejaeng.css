@@ -233,8 +233,15 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 */
  #article-info-writer > img { content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
 
-#board-info > h1 > a { color: #337ab7; content:""; cursor : text; }
-#board-info > h1 > a:after { color: #337ab7; content:"게시판 홈"; cursor : text; }
+#board-info > h1 > a { color: #ff7070; content:""; cursor : text; }
+#board-info > h1 > a:after { color: #ff7070; content:"게시판 홈"; cursor : text; }
+
+#addFavoriteBtn { color: #ff7070; content:"즐겨찾기"; cursor : text; }
+#board-info-bottom > a:nth-child(2) { color: #ff7070; content:"Maeint"; cursor : text; }
+#board-info-bottom > a:nth-child(3) { color: #ff7070; content:"프로필"; cursor : text; }
+#board-info-bottom > a:nth-child(4) { color: #ff7070; content:"매쟁이 "; cursor : text; }
+#goClipBtn { color: #ff7070; content:"클립"; cursor : text; }
+#board-info-bottom > a { color: #ff7070; content:""; cursor : text; }
 
 #board-info > h1 > a.badge.badge-live
 
