@@ -241,7 +241,7 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #board-info-bottom > a:nth-child(3) { color: #ff7070; content:"프로필"; cursor : text; }
 #board-info-bottom > a:nth-child(4) { color: #ff7070; content:"매쟁이 "; cursor : text; }
 #goClipBtn { color: #ff7070; content:"클립"; cursor : text; }
-#board-info-bottom > a { color: #ff7070; content:""; cursor : text; }
+#board-info-bottom > a { color: #ff7070; }
 
 #board-info > h1 > a.badge.badge-live
 
