@@ -234,7 +234,6 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
  #article-info-writer > img { content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
 
 
-
 #board-info > h1 > a { color: #ff7070; content:""; cursor : text; }
 #board-info > h1 > a:after { color: #ff7070; content:"게시판 홈"; cursor : text; }
 
@@ -245,4 +244,6 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 
 #article-list > .article-list-row > .item > .list-title > small { background-color: #ff7070; color: #ff7070; !important; }
 
-#article-list > .article-list-row-6889464 > .item > .list-title > a:after { content: url("https://maejaengtgd.github.io/image/star.png"); }
+#article-list > .article-list-row-6889464 > .item > .list-title > a:after {
+    content: url("https://maejaengtgd.github.io/image/star.png")
+}
