@@ -243,7 +243,4 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 
 #article-list > .article-list-row > .item > .list-title > small { background-color: #ff7070; color: #ff7070; !important; }
 
-/*
-#article-list > .article-list-row > .item > .list-title > a:after {
-    content: "매쟁!"
-}
+#article-list > .article-list-row-6889464 > .item > .list-title > a:before { "content: url("https://maejaengtgd.github.io/image/star.png");" }
