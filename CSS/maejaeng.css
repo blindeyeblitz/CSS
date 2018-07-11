@@ -244,6 +244,17 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 
 #article-list > .article-list-row > .item > .list-title > small { background-color: #ff7070; color: #ff7070; !important; }
 
-#article-list > .article-list-row-6889464 > .item > .list-title > a:after {
-    content: url("https://blindeyeblitz.github.io/image/star.png")
+#article-list > .article-list-row > .item > .list-title > a:after {
+    color: #ff7070;
+    content: "매쟁";
 }
+
+#board-info-bottom { color: #ff7070; }
+
+#main-content > div > div.frame > h4 { color: #ff7070; }
+
+#main-content > div > div.frame > div > div.col-xs-8 > h4:nth-child(1) { color: #ff7070; }
+
+#main-content > div > div.frame > div > div.col-xs-8 > h4:nth-child(7) { color: #ff7070; }
+
+#main-content > div > div.frame > div > div.col-xs-4 > h4 { color: #ff7070; }
