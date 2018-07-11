@@ -1,12 +1,12 @@
-@import url("https://maejaengtgd.github.io/CSS/highlight.css");
-@import url("https://maejaengtgd.github.io/CSS/maejaengsbadge.css");
+@import url("https://blindeyeblitz.github.io/CSS/highlight.css");
+@import url("https://blindeyeblitz.github.io/CSS/maejaengsbadge.css");
 
 
 #main-content, body, footer { background: #ffd3d3 !important; }
 span.a-badge i.fa.fa-info-circle { color: red !important; }
 
 header { border-bottom-color: #ff7070 !important; background: #ffd3d3 !important; }
-header > #header-area > a > h1 { background: url(https://maejaengtgd.github.io/image/MAEGD_LOGO_3.png) no-repeat; background-size: 90px 32px; }
+header > #header-area > a > h1 { background: url(https://blindeyeblitz.github.io/image/MAEGD_LOGO_3.png) no-repeat; background-size: 90px 32px; }
 header > #header-area > #header-bar-link { color: #ff7070; }
 
 #header-top-notice a { font-weight: bold; color: #ff7070 !important; }
