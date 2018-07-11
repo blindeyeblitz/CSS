@@ -33,26 +33,26 @@ font-size:15px;
 }
 
 header #right-search-form > #right-search-btn { color: #ffffff; background: transparent; border: none; font-size: 1.4em; }
-header #right-search-form > input[type=text] { position: relative; border: 3px solid #ffd3d3; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
+header #right-search-form > input[type=text] { position: relative; border: 3px solid #ffeed3; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
 
 #header-top-notice { background-color: #ffffff; font-weight: bold; padding: 1px 7px; font-size: 17px; border-radius: 100px }
 #header-top-notice > a { color: #000000; }
 #header-top-notice > strong { color: #000000; }
-#header-menu-left > { color: #ff7070; }
-#latestDropdown > { color: #ff7070; }
-#favoriteDropdown > { color: #ff7070; }
-#playgroundDropdown > { color: #ff7070; }
+#header-menu-left > { color: #ffcc7a; }
+#latestDropdown > { color: #ffcc7a; }
+#favoriteDropdown > { color: #ffcc7a; }
+#playgroundDropdown > { color: #ffcc7a; }
 
-#main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
-#main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ff9999; !important; }
+#main .menu-wrapper > .header { background: #ffcc7a; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
+#main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ffcd99; !important; }
 
-.pagination > li > a:hover { background-color: #ff7070; color: #fff }
-.pagination > .active > a { background-color: #ff7070; color: #fff }
-.pagination > .active > a:focus { background-color: #ff7070; color: #fff }
-.pagination > .active > a:hover { background-color: #ff7070; color: #fff }
-.pagination > .active > span { background-color: #ff7070; color: #fff }
-.pagination > .active > span:focus { background-color: #ff7070; color: #fff }
-.pagination > .active > span:hover { background-color: #ff7070; color: #fff }
+.pagination > li > a:hover { background-color: #ffcc7a; color: #fff }
+.pagination > .active > a { background-color: #ffcc7a; color: #fff }
+.pagination > .active > a:focus { background-color: #ffcc7a; color: #fff }
+.pagination > .active > a:hover { background-color: #ffcc7a; color: #fff }
+.pagination > .active > span { background-color: #ffcc7a; color: #fff }
+.pagination > .active > span:focus { background-color: #ffcc7a; color: #fff }
+.pagination > .active > span:hover { background-color: #ffcc7a; color: #fff }
 
 //페이지 갯수 설정부분
 .pagination>li>a,.pagination>li>span {
@@ -76,7 +76,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #board-info #viewers-area #viewers:after { color: #000000; content:"명 트게더 활동중!"; cursor : text; }
 #board-info #viewers-area .fa-user:before { content: url("https://maejaengtgd.github.io/image/ghost18.png"); }
 
-.btn-primary { background: #ff7070; border-color: #ffffff; }
+.btn-primary { background: #ffcc7a; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite rainbowLinkBG 3s; }
 
 /*
@@ -114,25 +114,25 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 /* 애니메이션 키프레임들 */
 @keyframes StarLink {
-    0% { color: #ff7070; }
-    15% { color: #ff9999; }
-    30% { color: #ff7070; }
-    45% { color: #ff9999; }
-    60% { color: #ff7070; }
-    75% { color: #ff9999; }
-    90% { color: #ff7070; }
-    100% { color: #ff9999; }
+    0% { color: #ffcc7a; }
+    15% { color: #ffcd99; }
+    30% { color: #ffcc7a; }
+    45% { color: #ffcd99; }
+    60% { color: #ffcc7a; }
+    75% { color: #ffcd99; }
+    90% { color: #ffcc7a; }
+    100% { color: #ffcd99; }
 }
 
 @keyframes rainbowLinkBG {
-    0% { background-color: #ff7070; }
-    15% { background-color: #ff9999; }
-    30% { background-color: #ff7070; }
-    45% { background-color: #ff9999; }
-    60% { background-color: #ff7070; }
-    75% { background-color: #ff9999; }
-    90% { background-color: #ff7070; }
-    100% { background-color: #ff9999; }
+    0% { background-color: #ffcc7a; }
+    15% { background-color: #ffcd99; }
+    30% { background-color: #ffcc7a; }
+    45% { background-color: #ffcd99; }
+    60% { background-color: #ffcc7a; }
+    75% { background-color: #ffcd99; }
+    90% { background-color: #ffcc7a; }
+    100% { background-color: #ffcd99; }
 }
 
 
@@ -148,17 +148,17 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
     100% { width: 83px; }
 }
 
-#article-list-row-6438277 > div > div.list-title > small { color: #ff7070; !important; }
+#article-list-row-6438277 > div > div.list-title > small { color: #ffcc7a; !important; }
 
-#article-list-row-5992770 > div > div.list-title > div > span { color: #ff7070; !important; }
+#article-list-row-5992770 > div > div.list-title > div > span { color: #ffcc7a; !important; }
 
-#article-list-row-6528578 > div > div.list-title > div.list-category > span { color: #ff7070; !important; }
+#article-list-row-6528578 > div > div.list-title > div.list-category > span { color: #ffcc7a; !important; }
 
-body > header { background-color: #ff7070; !important; }
+body > header { background-color: #ffcc7a; !important; }
 
-#header-menu-right > div:nth-child(1) > a { color: #ff7070; !important; }
+#header-menu-right > div:nth-child(1) > a { color: #ffcc7a; !important; }
 
-body > footer { background-color: #ff7070; !important; }
+body > footer { background-color: #ffcc7a; !important; }
 body > footer > div > span:nth-child(1) { color: #fff; !important; }
 body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #fff; !important; }
 body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #fff; !important; }
@@ -172,10 +172,10 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 헤더
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 100px; padding-left: 100px; }
-header #header-bar #header-top-notice strong.notice-badge { background: #ff7070; padding: 4px 8px; color: #fff; font-weight: bold }
+header #header-bar #header-top-notice strong.notice-badge { background: #ffcc7a; padding: 4px 8px; color: #fff; font-weight: bold }
 header #header-bar > div { background-color: #ffffff; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
-header #header-bar { background-color: #ff7070; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
-header #header-bar #header-top-notice strong.notice-badge { background: #ff7070; !important; padding: 4px 8px; color: #fff; font-weight: bold }
+header #header-bar { background-color: #ffcc7a; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
+header #header-bar #header-top-notice strong.notice-badge { background: #ffcc7a; !important; padding: 4px 8px; color: #fff; font-weight: bold }
 header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ffffff; background: #ffffff; border-bottom: 2px solid #ffffff; border-right: 2px solid #ffffff }
 header #header-bar #header-top-notice { background : #ffffff !important; }
 
@@ -194,19 +194,19 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #article-list > .article-list-category > .item > .nav-link.active > i { color: #ffffff; !important; }
 
 #article-list > .article-list-row > .item > .list-header > strong { color: #000000; !important; }
-#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #ff7070; !important; }
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #ffcc7a; !important; }
 #article-list > .article-list-row > .item > .list-time { color: #000000; !important; }
 
 #comment > .reply-header > .item > .reply-writer.logged { color: #337ab7; !important; }
 
 /*
-#article-list > .article-list-row > .item > .list-title > a { background-color: #ffffff; color: #ff7070; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px; !important; }
-#article-list > .article-list-row > .item > .list-header.v0 { background-color: #ff7070; color: #ffffff; !important; }
-#article-list > .article-list-row > .item > .list-title { background-color: #ffd3d3; color: #ffffff; !important; }
+#article-list > .article-list-row > .item > .list-title > a { background-color: #ffffff; color: #ffcc7a; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px; !important; }
+#article-list > .article-list-row > .item > .list-header.v0 { background-color: #ffcc7a; color: #ffffff; !important; }
+#article-list > .article-list-row > .item > .list-title { background-color: #ffeed3; color: #ffffff; !important; }
 */
 
-#article-list-row-6576683 > div > div.list-header.v0 { background-color: #ff7070 !important; }
-#article-list-row-6576683 > div > div.list-time { background-color: #ff7070 !important; }
+#article-list-row-6576683 > div > div.list-header.v0 { background-color: #ffcc7a !important; }
+#article-list-row-6576683 > div > div.list-time { background-color: #ffcc7a !important; }
 #article-list-row-6576683 > div > div.list-title { background-color: #ffb3a4 !important; }
 
 #article-list-row-3105775 > div > div.list-header.v2 { background-color: #ffa670 !important; }
@@ -234,15 +234,15 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
  #article-info-writer > img { content: url("https://maejaengtgd.github.io/image/maejaengs.png"); }
 
 
-#board-info > h1 > a { color: #ff7070; content:""; cursor : text; }
-#board-info > h1 > a:after { color: #ff7070; content:"게시판 홈"; cursor : text; }
+#board-info > h1 > a { color: #ffcc7a; content:""; cursor : text; }
+#board-info > h1 > a:after { color: #ffcc7a; content:"게시판 홈"; cursor : text; }
 
-#board-info-bottom > a:after { color: #ff7070; }
-#board-info-bottom > a:before { color: #ff7070; }
+#board-info-bottom > a:after { color: #ffcc7a; }
+#board-info-bottom > a:before { color: #ffcc7a; }
 
 #board-info > h1 > a.badge.badge-live
 
-#article-list > .article-list-row > .item > .list-title > small { background-color: #ff7070; color: #ff7070; !important; }
+#article-list > .article-list-row > .item > .list-title > small { background-color: #ffcc7a; color: #ffcc7a; !important; }
 
 #article-list > .article-list-row-6889464 > .item > .list-title > a:after {
     content: url("https://maejaengtgd.github.io/image/star.png")
