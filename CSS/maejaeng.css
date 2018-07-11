@@ -249,7 +249,7 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
     content: "매쟁";
 }
 
-#board-info-bottom { color: #ff7070; }
+#board-info-bottom > a { color: #ff7070; }
 
 #main-content > div > div.frame > h4 { color: #ff7070; }
 
