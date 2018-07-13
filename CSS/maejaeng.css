@@ -222,12 +222,12 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 
 #board-info > h1 > a.badge.badge-live
 
-#article-list > .article-list-row > .item > .list-title > small { background-color: #ff7070; color: #ff7070; !important; }
-
 #article-list > .article-list-row > .item > .list-title > a:after {
     color: #ff7070;
     content: "♥";
 }
+
+#article-list > .article-list-row > .item > .list-title > small { color: #ff7070 !important; }
 
 #board-info-bottom > a { color: #ff7070; }
 
