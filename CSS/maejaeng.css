@@ -235,7 +235,7 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
     content: "♥";
 }
 
-#article-list > .article-list-row > .item > .list-title > small { color: #ff7070 !important; }
+#article-list > .article-list-row > .item > .list-title > small { color: #ff7070 !important; background-position: 0px 0px; }
 
 #board-info-bottom > a { color: #ff7070; }
 
