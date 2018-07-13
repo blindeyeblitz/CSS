@@ -223,10 +223,12 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #board-info-bottom > a:after { color: #ff7070; }
 #board-info-bottom > a:before { color: #ff7070; }
 
+/*
 #article-list > .article-list-row > .item > .list-title > a:before {
     color: #ff7070;
     content: "♥";
 }
+*/
 
 #article-list > .article-list-row > .item > .list-title > a:after {
     color: #ff7070;
