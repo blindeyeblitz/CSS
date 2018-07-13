@@ -46,10 +46,12 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ff9999; !important; }
 
+a.badge.badge-live
 .pagination > li > a:hover { background-color: #ff7070; color: #fff }
 .pagination > .active > a { background-color: #ff7070; color: #fff }
 .pagination > .active > a:focus { background-color: #ff7070; color: #fff }
 .pagination > .active > a:hover { background-color: #ff7070; color: #fff }
+.pagination > .active > a:live { background-color: #ff7070; color: #fff }
 .pagination > .active > span { background-color: #ff7070; color: #fff }
 .pagination > .active > span:focus { background-color: #ff7070; color: #fff }
 .pagination > .active > span:hover { background-color: #ff7070; color: #fff }
@@ -220,14 +222,17 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #board-info-bottom > a:after { color: #ff7070; }
 #board-info-bottom > a:before { color: #ff7070; }
 
-#board-info > h1 > a.badge.badge-live
+#article-list > .article-list-row > .item > .list-title > a:before {
+    color: #ff7070;
+    content: "♥";
+}
 
 #article-list > .article-list-row > .item > .list-title > a:after {
     color: #ff7070;
     content: "♥";
 }
 
-#article-list-row > .item > .list-title > small { color: #ff7070 !important; }
+#article-list > .article-list-row > .item > .list-title > small { color: #ff7070 !important; }
 
 #board-info-bottom > a { color: #ff7070; }
 
