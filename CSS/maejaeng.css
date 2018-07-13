@@ -246,7 +246,7 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 
 #article-list > .article-list-row > .item > .list-title > a:after {
     color: #ff7070;
-    content: "[매쟁]";
+    content: "♥";
 }
 
 #board-info-bottom > a { color: #ff7070; }
