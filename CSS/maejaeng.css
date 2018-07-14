@@ -46,12 +46,18 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ff9999; !important; }
 
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li > a:hover,
+.pagination > .active > a, 
+.pagination > .active > a:focus, 
+.pagination > .active > a:hover, 
+.pagination > .active > span, 
+.pagination > .active > span:focus, 
+.pagination > .active > span:hover 
+{ background-color: #ff7070; border-color: #ff7070; color: #ffffff !important; }
 
-//페이지 갯수 설정부분
-.pagination>li>a,.pagination>li>span,.pagination>li>a:hover,.pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
-    background-color: #ff7070;
-    color: #ffffff
-}
+#article-list-menu > ul > li:nth-child(3) > a
 
 #board-info > h1 > span.badge.badge-default {display:none;}
 
