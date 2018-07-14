@@ -48,7 +48,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 .pagination > li > a,
 .pagination > li > span,
-.pagination > li > a:hover,
+.pagination > li > a:hover { animation: infinite pageColor 1.5s; }
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
@@ -135,6 +135,11 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
     100% { background-color: #ff9999; }
 }
 
+@keyframes pageColor {
+    0% { background-color: #ff7079; }
+    40% { background-color: #ffffff; }
+    100% { background-color: #ff7070; }
+}
 
 @keyframes BlueFLinkBG {
     0% { background-color: #BBBBFF; }
