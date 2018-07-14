@@ -46,7 +46,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ff9999; !important; }
 
-.pagination > li > a { color: #ffffff !important; }
+.pagination > li > a { color: #ff7070 !important; }
 .pagination > li > span,
 .pagination > li > a:hover,
 .pagination > .active > a, 
