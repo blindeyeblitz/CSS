@@ -248,3 +248,5 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #main-content > div > div.frame > div > div.col-xs-4 > h4 { color: #ff7070; }
 
 #main-content > div > h3 > a:after { color: #ff7070; content:"♥"; cursor : text; }
+
+#main-content > div > div.frame > h3 { color: #ff7070; }
