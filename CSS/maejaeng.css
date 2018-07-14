@@ -46,18 +46,16 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #main .menu-wrapper > .header { background: #ff7070; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
 #main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ff9999; !important; }
 
-.pagination > li > a,
+.pagination > li > a { color: #ffffff !important; }
 .pagination > li > span,
-.pagination > li > a:hover { animation: infinite pageColor 1.5s; }
+.pagination > li > a:hover,
 .pagination > .active > a, 
 .pagination > .active > a:focus, 
 .pagination > .active > a:hover, 
 .pagination > .active > span, 
 .pagination > .active > span:focus, 
 .pagination > .active > span:hover 
-{ background-color: #ff7070; border-color: #ff7070; color: #ffffff !important; }
-
-#article-list-menu > ul > li:nth-child(3) > a
+{ background-color: #ff7070; border-color: #ffffff; color: #ffffff !important; }
 
 #board-info > h1 > span.badge.badge-default {display:none;}
 
