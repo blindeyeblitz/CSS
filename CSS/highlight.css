@@ -89,3 +89,5 @@ footer
     background-image: url("https://blindeyeblitz.github.io/image/blindeyeblitz.png");
     background-position: 15px 0px;
 }
+
+#board-info-bottom > a:nth-child(2) > i { background-image: url("https://blindeyeblitz.github.io/image/maeint.png");
