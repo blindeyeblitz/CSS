@@ -91,7 +91,11 @@ footer
 }
 
 #board-info-bottom > a:nth-child(2) > i.fa.fa-money { 
+    /*
     opacity: 0; 
+    */
+    background-repeat: no-repeat; 
+    display: block; 
     background-image: url("https://blindeyeblitz.github.io/image/maeint.png");
 }
 
