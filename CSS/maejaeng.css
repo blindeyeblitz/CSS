@@ -62,7 +62,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #article-list #article-list-category { border-top: 3px solid #131d27; background: #131d27; !important; }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #131d27; text-decoration: none; font-size: 14px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite BlueFLinkBG 1.5s; }
-#article-list #article-list-category > a.nav-link.active { border-top: 3px solid #ac89ff; background: #131d27; !important; }
+#article-list #article-list-category > a.nav-link.active { border-top: 3px solid #131d27; background: #131d27; !important; }
 
 #article > #article-content-wrapper > .item > .header > { background-color: #ffffff; !important; }
 
