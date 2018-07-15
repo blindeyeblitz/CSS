@@ -222,7 +222,7 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
     content: "♥";
 }
 
-#article-list > .article-list-row > .item > .list-title > small { color: #131d27; !important; }
+#article-list > .article-list-row > .item > .list-title > small { color: #131d27 !important }
 
 #board-info-bottom > a { color: #131d27; }
 
