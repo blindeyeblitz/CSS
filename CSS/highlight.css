@@ -99,4 +99,5 @@ footer
 #article-reply-area > #comment > .reply-header > .reply-menu > a.re-reply-btn { color: #131d27 !important }
 #article-reply-area > #comment > .reply-header > .reply-menu > a.comment-vote-btn > span { color: #131d27 !important }
 
-#article-content {display:none;}
+#article-info-writer { color: #ffffff !important }
+#article-info > h2 { color: #ffffff !important }
