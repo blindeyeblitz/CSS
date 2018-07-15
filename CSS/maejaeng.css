@@ -59,14 +59,14 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 #board-info > h1 > span.badge.badge-default {display:none;}
 
-#article-list #article-list-category { border-top: 3px solid #ac89ff; background: #ac89ff; !important; }
-#article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #ac89ff; text-decoration: none; font-size: 14px; font-weight: bold }
+#article-list #article-list-category { border-top: 3px solid #131d27; background: #131d27; !important; }
+#article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #131d27; text-decoration: none; font-size: 14px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite BlueFLinkBG 1.5s; }
-#article-list #article-list-category > a.nav-link.active { border-top: 3px solid #ac89ff; background: #ac89ff; !important; }
+#article-list #article-list-category > a.nav-link.active { border-top: 3px solid #ac89ff; background: #131d27; !important; }
 
 #article > #article-content-wrapper > .item > .header > { background-color: #ffffff; !important; }
 
-#article-reply-area #reply-real-area .reply > .reply-header { background: #ac89ff; }
+#article-reply-area #reply-real-area .reply > .reply-header { background: #131d27; }
 #article-reply-area > .header h5 { font-size: 14px; color: #ac89ff; font-weight: bold; }
 
 #viewers { color: #000000; !important; }
@@ -134,9 +134,9 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 }
 
 @keyframes BlueFLinkBG {
-    0% { background-color: #ac89ff; }
+    0% { background-color: #131d27; }
     40% { background-color: #131d27; }
-    100% { background-color: #ac89ff; }
+    100% { background-color: #131d27; }
 }
 
 @keyframes btnSizing {
