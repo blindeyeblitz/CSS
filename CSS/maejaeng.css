@@ -59,15 +59,15 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 #board-info > h1 > span.badge.badge-default {display:none;}
 
-#article-list #article-list-category { border-top: 3px solid #BBBBFF; background: #BBBBFF; !important; }
-#article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #BBBBFF; text-decoration: none; font-size: 14px; font-weight: bold }
+#article-list #article-list-category { border-top: 3px solid #ac89ff; background: #ac89ff; !important; }
+#article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #ac89ff; text-decoration: none; font-size: 14px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite BlueFLinkBG 1.5s; }
-#article-list #article-list-category > a.nav-link.active { border-top: 3px solid #BBBBFF; background: #BBBBFF; !important; }
+#article-list #article-list-category > a.nav-link.active { border-top: 3px solid #ac89ff; background: #ac89ff; !important; }
 
 #article > #article-content-wrapper > .item > .header > { background-color: #ffffff; !important; }
 
-#article-reply-area #reply-real-area .reply > .reply-header { background: #BBBBFF; }
-#article-reply-area > .header h5 { font-size: 14px; color: #BBBBFF; font-weight: bold; }
+#article-reply-area #reply-real-area .reply > .reply-header { background: #ac89ff; }
+#article-reply-area > .header h5 { font-size: 14px; color: #ac89ff; font-weight: bold; }
 
 #viewers { color: #000000; !important; }
 #board-info #viewers-area #viewers:before { color: #000000; content: ""; cursor: text; }
@@ -133,16 +133,10 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
     100% { background-color: #ac89ff; }
 }
 
-@keyframes pageColor {
-    0% { background-color: #ff7079; }
-    40% { background-color: #ffffff; }
-    100% { background-color: #c0a5ff;; }
-}
-
 @keyframes BlueFLinkBG {
-    0% { background-color: #BBBBFF; }
-    40% { background-color: #aaaaff; }
-    100% { background-color: #BBBBFF; }
+    0% { background-color: #ac89ff; }
+    40% { background-color: #c0a5ff; }
+    100% { background-color: #ac89ff; }
 }
 
 @keyframes btnSizing {
