@@ -16,11 +16,11 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 
 ** 글쓴이 닉네임 컬러
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
-    color : #ff7070;
+    color : #131d27;
 }
 
-#article-list > .article-list-row > div > div.list-title > small {
-    color : #ff7070;
+#article-list > .article-list-row > .item > .list-title > small {
+    color : #131d27;
 }
 
 #article-list-menu > ul > li:nth-child > a {
