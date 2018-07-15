@@ -92,5 +92,9 @@ footer
 
 #article-content-wrapper > div.vote-area > button.btn.btn-outline-primary.vote-btn {display:none;}
 
-#article-reply-area > #reply-real-area > .reply > .reply-menu > span.time { color: #ffffff !important }
-#article-reply-area > #reply-real-area > .reply > .reply-writer.logged { color: #ffffff !important }
+#article-reply-area > #reply-real-area > .reply-header > .reply-menu > span.time { color: #131d27 !important }
+#article-reply-area > #reply-real-area > .reply-header > .reply-writer.logged { color: #131d27 !important }
+#article-reply-area > #reply-real-area > .reply-header > .reply-menu > a:nth-child(1) { color: #131d27 !important }
+#article-reply-area > #reply-real-area > .reply-header > .reply-menu > a:nth-child(3) { color: #131d27 !important }
+#article-reply-area > #reply-real-area > .reply-header > .reply-menu > a.re-reply-btn { color: #131d27 !important }
+#article-reply-area > #reply-real-area > .reply-header > .reply-menu > a.comment-vote-btn > span { color: #131d27 !important }
