@@ -102,3 +102,5 @@ footer
 #article-info-writer { color: #ffffff !important }
 #article-info > h2 { color: #ffffff !important }
 #article-content-wrapper { background-color: #ffffff !important }
+
+#board-info-bottom > a:nth-child(3) {display:none;}
