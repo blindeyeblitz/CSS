@@ -237,3 +237,5 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 #main-content > div > h3 > a:after { color: #ff7070; content:"♥"; cursor : text; }
 
 #main-content > div > div.frame > h3 { color: #131d27; }
+
+#article-list { margin: 0 }
