@@ -44,7 +44,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #playgroundDropdown > { color: #131d27;; }
 
 #main .menu-wrapper > .header { background: #131d27;; color: #fff; padding: 0.45em 1.4em 0.45em 1em; font-weight: bold }
-#main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #ac89ff; !important; }
+#main .menu-wrapper > a > em, #main .menu-wrapper>a>i.fa.fa-square { color: #131d27; !important; }
 
 .pagination > li > a { color: #131d27; !important; }
 .pagination > li > span,
@@ -67,7 +67,7 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 #article > #article-content-wrapper > .item > .header > { background-color: #ffffff; !important; }
 
 #article-reply-area #reply-real-area .reply > .reply-header { background: #131d27; }
-#article-reply-area > .header h5 { font-size: 14px; color: #ac89ff; font-weight: bold; }
+#article-reply-area > .header h5 { font-size: 14px; color: #131d27; font-weight: bold; }
 
 #viewers { color: #000000; !important; }
 #board-info #viewers-area #viewers:before { color: #000000; content: ""; cursor: text; }
@@ -113,24 +113,24 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 /* 애니메이션 키프레임들 */
 @keyframes StarLink {
     0% { color: #131d27;; }
-    15% { color: #ac89ff; }
+    15% { color: #131d27; }
     30% { color: #131d27;; }
-    45% { color: #ac89ff; }
+    45% { color: #131d27; }
     60% { color: #131d27;; }
-    75% { color: #ac89ff; }
+    75% { color: #131d27; }
     90% { color: #131d27;; }
-    100% { color: #ac89ff; }
+    100% { color: #131d27; }
 }
 
 @keyframes rainbowLinkBG {
     0% { background-color: #131d27;; }
-    15% { background-color: #ac89ff; }
+    15% { background-color: #131d27; }
     30% { background-color: #131d27;; }
-    45% { background-color: #ac89ff; }
+    45% { background-color: #131d27; }
     60% { background-color: #131d27;; }
-    75% { background-color: #ac89ff; }
+    75% { background-color: #131d27; }
     90% { background-color: #131d27;; }
-    100% { background-color: #ac89ff; }
+    100% { background-color: #131d27; }
 }
 
 @keyframes BlueFLinkBG {
