@@ -66,7 +66,6 @@ header #right-search-form > input[type=text] { position: relative; border: 3px s
 
 #article > #article-content-wrapper > .item > .header > { background-color: #ffffff; !important; }
 
-#article-reply-area #reply-real-area .reply > .reply-header { background: #131d27; }
 #article-reply-area > .header h5 { font-size: 14px; color: #131d27; font-weight: bold; }
 
 #viewers { color: #000000; !important; }
