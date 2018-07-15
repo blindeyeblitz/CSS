@@ -101,3 +101,5 @@ footer
 
 #article-info-writer { color: #ffffff !important }
 #article-info > h2 { color: #ffffff !important }
+
+#article-content-wrapper {display:none;}
