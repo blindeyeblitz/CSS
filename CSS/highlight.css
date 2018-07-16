@@ -75,13 +75,17 @@ footer
 #article-list > #article-list-row-6833168 > .item > .list-title > .list-writer > span img,
 #article-list > #article-list-row-6745281 > .item > .list-title > .list-writer > span img,
 #article-list > #article-list-row-6824947 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7049465 > .item > .list-title > .list-writer > span img 
+#article-list > #article-list-row-7049465 > .item > .list-title > .list-writer > span img,
+#article-list > #article-list-row-7142279 > .item > .list-title > .list-writer > span img,
+#article-list > #article-list-row-7145346 > .item > .list-title > .list-writer > span img 
 { opacity: 0; }
 #article-list > #article-list-row-6683471 > .item > .list-title > .list-writer.logged,
 #article-list > #article-list-row-6833168 > .item > .list-title > .list-writer.logged,
 #article-list > #article-list-row-6745281 > .item > .list-title > .list-writer.logged,
 #article-list > #article-list-row-6824947 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7049465 > .item > .list-title > .list-writer.logged
+#article-list > #article-list-row-7049465 > .item > .list-title > .list-writer.logged,
+#article-list > #article-list-row-7142279 > .item > .list-title > .list-writer.logged,
+#article-list > #article-list-row-7145346 > .item > .list-title > .list-writer.logged
  { 
     background-repeat: no-repeat; 
     display: block; 
