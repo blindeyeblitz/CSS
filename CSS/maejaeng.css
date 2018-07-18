@@ -52,6 +52,10 @@ header #header-bar #header-top-notice { background : #ffffff !important; }
 body > header { background-color: #131d27; !important; }
 #header-menu-right > div:nth-child(1) > a { color: #131d27; !important; }
 
+/* 매쟁게시판 홈 */
+#board-info > h1 > a { color: #131d27; content:""; cursor : text; }
+#board-info > h1 > a:after { color: #131d27; content:"게시판 홈"; cursor : text; }
+
 /* 페이지 부분 */
 .pagination > li > a { color: #131d27; !important; }
 .pagination > li > span,
@@ -349,17 +353,15 @@ html {
 body {
     background: none;
 }
-
-/* 매쟁 게시판홈 */
-#board-info h1, #board-info h1>a {
-    float: left;
-    font-size: 12px;
-    border: 0;
+/* 인원수 */
+#board-info #viewers-area {
+    line-height: 16px;
     color: #3b9acb;
-    padding-right: 5px;
+    font-size: 12px;
+    position: absolute;
+    right: 8px;
+    opacity: 0;
+    animation: boodrerum .5s;
+    animation-delay: .2s;
+    animation-fill-mode: both;
 }
-#board-info h1>a {
-    padding: 2px;
-}
-#board-info h1>a {
-    text-decoration: none;
