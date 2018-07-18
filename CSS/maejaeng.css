@@ -148,8 +148,8 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 }
 
 /* 게시글 리스트 */
-#article-list > .article-list-row > .item > .list-header.v0 > span:before { color: #131d27; content:"★"; cursor : text; }
-#article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #ffffff; color: #131d27; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
+#article-list > .article-list-row > .item > .list-header.v0 > span:before { color: #ffffff; content:"★"; cursor : text; }
+#article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #ffffff; color: #ffffff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
 #article-list > .article-list-row > .item > .list-header.v1 > span:before { color: #131d27; content:"★"; cursor : text; }
 #article-list > .article-list-row > .item > .list-header.v1 > span { background-color: #ffffff; color: #131d27; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
 #article-list > .article-list-row > .item > .list-header.v2 > span:before { color: #131d27; content:"★"; cursor : text; }
@@ -174,7 +174,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list > .article-list-row > .item > .list-header > strong { color: #000000; !important; }
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #131d27; !important; }
 #article-list > .article-list-row > .item > .list-time { color: #000000; !important; }
-#article-info { background-color: #131d27; !important; }
+#article-info { background-color: #ff7070; !important; }
 #article-list > .article-list-row > .item > .list-title > div > span > img { content: url("https://blindeyeblitz.github.io/image/maejaengs.png"); }
 #article-info-writer > img { content: url("https://blindeyeblitz.github.io/image/maejaengs.png"); }
 
