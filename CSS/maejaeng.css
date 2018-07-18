@@ -80,7 +80,7 @@ body > header { background-color: #131d27; !important; }
 
 /* 버튼 부분 */
 .btn-primary { background: #131d27; border-color: #ffffff; }
-.btn-primary:hover { animation: infinite DarkBlueLinkBG 3s; }
+.btn-primary:hover { animation: infinite DBLinkBG 3s; }
 
 /* 3105761 매쟁이 컴퓨터사양*/
 /* 3105775 트게더룰 */
@@ -99,7 +99,7 @@ body > header { background-color: #131d27; !important; }
     100% { color: #131d27; }
 }
 
-@keyframes DarkblueLinkBG {
+@keyframes DBLinkBG {
     0% { background-color: #131d27; }
     15% { background-color: #131d27; }
     30% { background-color: #131d27; }
@@ -148,8 +148,10 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 }
 
 /* 게시글 리스트 */
-#article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #ffffff; color: #000; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
-#article-list > .article-list-row > .item > .list-header > span { background-color: #ffffff; color: #000; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
+#article-list > .article-list-row > .item > .list-header.v0 > span:before { color: #131d27; content:"★"; cursor : text; }
+#article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #ffffff; color: #131d27; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
+#article-list > .article-list-row > .item > .list-header > span:before { color: #131d27; content:"★"; cursor : text; }
+#article-list > .article-list-row > .item > .list-header > span { background-color: #ffffff; color: #131d27; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
 #article-list > .article-list-category > .item > .nav-link.active > i { color: #ffffff; !important; }
 #article-list > .article-list-row > .item > .list-header > strong { color: #000000; !important; }
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #131d27; !important; }
