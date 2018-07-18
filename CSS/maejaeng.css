@@ -347,3 +347,8 @@ html {
 body {
     background: none;
 }
+
+/* 공지 색상 */
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: #ccc !important;
+}
