@@ -338,3 +338,12 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     padding-right: 0px;
     margin-bottom: 3px;
 }
+
+/* 배경 색상 */
+html {
+    background-color: #c5dce8;
+}
+
+body {
+    background: none;
+}
