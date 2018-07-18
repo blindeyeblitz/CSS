@@ -331,3 +331,10 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     padding-left: 0px;
     padding-right: 0px;
 }
+#board-info {
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 3px;
+}
