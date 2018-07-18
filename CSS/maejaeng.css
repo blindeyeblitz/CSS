@@ -394,7 +394,3 @@ body {
 body > footer {
     margin-top: 15px;
 }
-
-#board-info h1>a:first-child:before {
-    content: "f015";
-}
