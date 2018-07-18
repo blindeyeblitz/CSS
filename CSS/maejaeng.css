@@ -320,5 +320,9 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 #article-list-row-7190272 > div > div.list-header.v1 > strong { color: #ffffff !important; }
 #article-list-row-7190272 > div > div.list-header.v2 > strong { color: #ffffff !important; }
 
-/* 상단 테두리 테스트 */
-#article-content-wrapper > div.header { background-color: #ffffff !important; }
+/* 마진보더패딩 */
+#article-content-wrapper {     
+    padding-left: 0px;
+    padding-right: 0px; 
+    border-top-width: 0px; 
+}
