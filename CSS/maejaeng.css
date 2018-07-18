@@ -330,6 +330,7 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     padding-bottom: 0px;
     padding-left: 4px;
     padding-right: 0px;
+    margin-top: 15px;
     margin-bottom: 3px;
     height: 26px;
 }
