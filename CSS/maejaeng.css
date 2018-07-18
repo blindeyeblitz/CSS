@@ -174,7 +174,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list > .article-list-row > .item > .list-header > strong { color: #000000; !important; }
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #131d27; !important; }
 #article-list > .article-list-row > .item > .list-time { color: #000000; !important; }
-#article-info { background-color: #ff7070; !important; }
+#article-info { background-color: #131d27; !important; }
 #article-list > .article-list-row > .item > .list-title > div > span > img { content: url("https://blindeyeblitz.github.io/image/maejaengs.png"); }
 #article-info-writer > img { content: url("https://blindeyeblitz.github.io/image/maejaengs.png"); }
 
@@ -317,3 +317,6 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 #article-list-row-7190272 > div > div.list-header.v0 > strong { color: #ffffff !important; }
 #article-list-row-7190272 > div > div.list-header.v1 > strong { color: #ffffff !important; }
 #article-list-row-7190272 > div > div.list-header.v2 > strong { color: #ffffff !important; }
+
+/* 상단 테두리 테스트 */
+#article-content-wrapper > div.header { background-color: #ffffff !important; }
