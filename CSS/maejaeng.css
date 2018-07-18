@@ -178,12 +178,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list > .article-list-row > .item > .list-title > div > span > img { content: url("https://blindeyeblitz.github.io/image/maejaengs.png"); }
 #article-info-writer > img { content: url("https://blindeyeblitz.github.io/image/maejaengs.png"); }
 
-/* 매쟁게시판 홈 */
-#board-info > h1 > a { color: #131d27; content:""; cursor : text; }
-#board-info > h1 > a:after { color: #131d27; content:"게시판 홈"; cursor : text; }
-
-#board-info-bottom > { color: #131d27; }
-
 /* 게시글 제목 뒤 하트 */
 #article-list > .article-list-row > .item > .list-title > a:after {
     color: #ff7070;
@@ -332,23 +326,40 @@ span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
     padding-right: 0px;
 }
 #board-info {
+    border-top: 3px solid #131d27;
+    overflow: inherit;
     padding-top: 15px;
     padding-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 4px;
     padding-right: 0px;
     margin-bottom: 3px;
+}
+#viewers-area {
+    padding-left: 610px;
+}
+#main-menu > div:nth-child(1) > div.header {
+    margin-top: 15px;
 }
 
 /* 배경 색상 */
 html {
-    background-color: #c5dce8;
+    background-color: #e1e7f2;
 }
 
 body {
     background: none;
 }
 
-/* 공지 색상 */
-#article-list>.article-list-row>.item>.list-title>a:visited {
-    color: #ccc !important;
+/* 매쟁 게시판홈 */
+#board-info h1, #board-info h1>a {
+    float: left;
+    font-size: 12px;
+    border: 0;
+    color: #3b9acb;
+    padding-right: 5px;
 }
+#board-info h1>a {
+    padding: 2px;
+}
+#board-info h1>a {
+    text-decoration: none;
