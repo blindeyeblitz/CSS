@@ -63,10 +63,10 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
   
         # The command was not recognized  
         else:  
-            c.privmsg(self.channel, "Did not understand command: " \+ cmd)
+            c.privmsg(self.channel, "Did not understand command: " + cmd)
 
-
-                          def main():  
+          
+def main():  
     username = "maebung_i_bot" # 별 의미 없습니다. 봇 계정의 이름은 twitch 사이트에서 조정해주면 됩니다.  
     client_id = "k1tu1gf5eopwz1fxm1u8ai28ljus7o" # Client ID  
     token = "oauth:hlx6ca4ony16wpzh5l5vtf4p95aqi6" # oauth: 는 빼고 뒷부분만 적어주시면 됩니다.  
