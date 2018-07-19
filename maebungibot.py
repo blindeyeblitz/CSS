@@ -34,11 +34,11 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
     def on_pubmsg(self, c, e):  
         # If a chat message starts with an exclamation point, try to run it as a command  
         if e.arguments[0][:1] == '!':  
-        cmd = e.arguments[0\].split(' ')[0][1:]  
-        print('Received command: ' + cmd)  
-        self.do_command(e, cmd)  
-        return  
-  
+            cmd = e.arguments[0].split(' ')[0][1:]
+            print 'Received command: ' + cmd
+            self.do_command(e, cmd)
+        return
+
     def do_command(self, e, cmd):  
         c = self.connection  
   
