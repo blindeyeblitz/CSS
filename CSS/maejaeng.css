@@ -467,3 +467,8 @@ body > footer {
 #board-info > #board-info-bottom > a:nth-child(3) {
     display: none;
 }
+
+/* 머니아이콘 */
+.fa-money:before {
+    content: "\f136";
+}
