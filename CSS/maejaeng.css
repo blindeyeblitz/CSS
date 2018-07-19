@@ -454,8 +454,8 @@ body > footer {
 }
 
 /* 공지 아이콘 위치선정 */
-#article-list-row-6576683 > div > div.list-title,
-#article-list-row-3105775 > div > div.list-title,
-#article-list-row-3105761 > div > div.list-title,
-#article-list-row-3054503 > div > div.list-title 
+#article-list-row-6576683 > div > div.list-title > span,
+#article-list-row-3105775 > div > div.list-title > span,
+#article-list-row-3105761 > div > div.list-title > span,
+#article-list-row-3054503 > div > div.list-title > span 
 { padding-left: 5px; }
