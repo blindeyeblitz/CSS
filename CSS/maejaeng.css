@@ -459,3 +459,8 @@ body > footer {
 #article-list-row-3105761 > div > div.list-title > span,
 #article-list-row-3054503 > div > div.list-title > span 
 { padding-left: 3px; }
+
+/* 프로필 삭제 */
+#board-info > #board-info-bottom > a:nth-child(3) {
+    display: none;
+}
