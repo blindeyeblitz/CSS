@@ -484,7 +484,8 @@ body > footer {
 #article-list-row-6576683 > div > div.list-title > span,
 #article-list-row-3105775 > div > div.list-title > span,
 #article-list-row-3105761 > div > div.list-title > span,
-#article-list-row-3054503 > div > div.list-title > span 
+#article-list-row-3054503 > div > div.list-title > span,
+#article-list-row-7339975 > div > div.list-title > span
 { padding-left: 3px; }
 
 /* 프로필 삭제 */
@@ -495,4 +496,8 @@ body > footer {
 /* 머니아이콘 */
 .fa-money:before {
     content: "\f136";
+}
+
+span.a-badge i.fa.fa-info-circle {
+    color: #131d27;
 }
