@@ -499,3 +499,8 @@ body > footer {
 span.a-badge i.fa.fa-info-circle {
     color: #131d27;
 }
+
+/* 게시글 확인 */
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: #131d27 !important;
+}
