@@ -53,6 +53,10 @@ body > header { background-color: #131d27; !important; }
 #header-menu-right > div:nth-child(1) > a { color: #131d27; !important; }
 
 /* 매쟁게시판 홈 */
+#board-info h1>a:before {
+    content: ' ';
+    font-family: FontAwesome;
+}
 #board-info > h1 > a:after { color: #131d27; content:"게시판 홈"; cursor : text; }
 
 /* 페이지 부분 */
