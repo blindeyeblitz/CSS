@@ -578,7 +578,6 @@ span.a-badge i.fa.fa-info-circle {
 
 /* 카테고리 삭제 */
 #article-list>.article-list-row>.item>.list-title>.list-category>span {display:none;}
-#article-list>.article-list-row>.item>.list-title>.list-category {display:none;}
 
 /* 카테고리 아트 아이콘 */
 .fa-photo:before, .fa-image:before, .fa-picture-o:before {
