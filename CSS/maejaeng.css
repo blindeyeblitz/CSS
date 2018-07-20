@@ -508,3 +508,14 @@ span.a-badge i.fa.fa-info-circle {
 #article-list>.article-list-row>.item>.list-title>a:visited {
     color: #131d27 !important;
 }
+
+.alert-danger {
+    color: #ffffff;
+    background-color: #131d27;
+    border-color: #131d27;
+}
+#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(3) {
+    background: #131d27;
+    color: #ffffff;
+    text-align: center;
+}
