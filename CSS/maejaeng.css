@@ -536,55 +536,6 @@ span.a-badge i.fa.fa-info-circle {
     text-align: center;
 }
 
-
-/* 잡담 아이콘 */
-#article-list-category > a:nth-child(2):before {
-    color: #cccccc;
-    padding: 0px 3px;
-    content: "\f27a";
-    font-family: FontAwesome;
-}
-
-/* 공지 아이콘 */
-#article-list-category > a:nth-child(3):before {
-    color: #4ac1ff;
-    padding: 0px 3px;
-    content: "\f05a";
-    font-family: FontAwesome;
-}
-
-/* 게임추천 아이콘 */
-#article-list-category > a:nth-child(4):before {
-    color: #ffc849;
-    padding: 0px 3px;
-    content: "\f07a";
-    font-family: FontAwesome;
-}
-
-/* 게임플레이 TIP 아이콘 */
-#article-list-category > a:nth-child(5):before {
-    color: #ffc849;
-    padding: 0px 3px;
-    content: "\f11b";
-    font-family: FontAwesome;
-}
-
-/* Q&A 아이콘 */
-#article-list-category > a:nth-child(8):before {
-    color: #4ac179;
-    padding: 0px 3px;
-    content: "\f059";
-    font-family: FontAwesome;
-}
-
-/* 건의사항 아이콘 */
-#article-list-category > a:nth-child(9):before {
-    color: #4ac179;
-    padding: 0px 3px;
-    content: "\f046";
-    font-family: FontAwesome;
-}
-
 /* 뱃지 제거 */
 span.a-badge i.fa.fa-commenting-o {display:none;}
 span.a-badge i.fa.fa-picture-o {display:none;}
