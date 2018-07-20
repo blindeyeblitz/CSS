@@ -601,6 +601,7 @@ span.a-badge i.fa.fa-info-circle {
 
 /* 카테고리 아트 아이콘 */
 .fa-photo:before, .fa-image:before, .fa-picture-o:before {
+    color: #cccccc;
     content: "\f27b";
 }
 
