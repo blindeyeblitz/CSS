@@ -531,22 +531,25 @@ span.a-badge i.fa.fa-info-circle {
     text-align: center;
 }
 
-/* 공지사항 아이콘 */
-#article-list-category > a:nth-child(2):before {
-    padding: 0px 3px;
-    content: "\f05a";
-    font-family: FontAwesome;
-}
-
 /* 잡담 아이콘 */
 #article-list-category > a:nth-child(3):before {
+    color: #cccccc;
     padding: 0px 3px;
     content: "\f27a";
     font-family: FontAwesome;
 }
 
+/* 공지사항 아이콘 */
+#article-list-category > a:nth-child(2):before {
+    color: #cccccc;
+    padding: 0px 3px;
+    content: "\f05a";
+    font-family: FontAwesome;
+}
+
 /* 게임추천 아이콘 */
 #article-list-category > a:nth-child(4):before {
+    color: #ffd749;
     padding: 0px 3px;
     content: "\f07a";
     font-family: FontAwesome;
@@ -554,6 +557,7 @@ span.a-badge i.fa.fa-info-circle {
 
 /* 게임플레이 TIP 아이콘 */
 #article-list-category > a:nth-child(5):before {
+    color: #ffd749;
     padding: 0px 3px;
     content: "\f11b";
     font-family: FontAwesome;
@@ -561,6 +565,7 @@ span.a-badge i.fa.fa-info-circle {
 
 /* 아트 아이콘 */
 #article-list-category > a:nth-child(6):before {
+    color: #4ac179;
     padding: 0px 3px;
     content: "\f044";
     font-family: FontAwesome;
@@ -568,6 +573,7 @@ span.a-badge i.fa.fa-info-circle {
 
 /* 영상 아이콘 */
 #article-list-category > a:nth-child(7):before {
+    color: #4ac179;
     padding: 0px 3px;
     content: "\f03d";
     font-family: FontAwesome;
@@ -575,6 +581,7 @@ span.a-badge i.fa.fa-info-circle {
 
 /* Q&A 아이콘 */
 #article-list-category > a:nth-child(8):before {
+    color: #d1ff49;
     padding: 0px 3px;
     content: "\f059";
     font-family: FontAwesome;
@@ -582,6 +589,7 @@ span.a-badge i.fa.fa-info-circle {
 
 /* 건의사항 아이콘 */
 #article-list-category > a:nth-child(9):before {
+    color: #d1ff49;
     padding: 0px 3px;
     content: "\f046";
     font-family: FontAwesome;
