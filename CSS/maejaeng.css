@@ -536,7 +536,7 @@ span.a-badge i.fa.fa-info-circle {
 #article-list-category > a:nth-child(2):before {
     color: #cccccc;
     padding: 0px 3px;
-    content: "\f27a""\f05a";
+    content: "\f27a";
     font-family: FontAwesome;
 }
 
