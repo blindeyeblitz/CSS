@@ -580,10 +580,21 @@ span.a-badge i.fa.fa-info-circle {
     font-family: FontAwesome;
 }
 
-/* 카테고리 삭제 */
-#article-list>.article-list-row>.item>.list-title>.list-category>span {display:none;}
+/* 카테고리 관련 */
+#article-list>.article-list-row>.item>.list-title>.list-category>span {
+    display: block;
+    letter-spacing: 0;
+    text-overflow: clip;
+    font-size: 90%;
+    max-width: 85px;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: nowrap;
+    height: 17px;
+    line-height: 1.42857;
+}
 
-/* 카테고리 아이콘 */
+/* 카테고리 아이콘 
 .fa-photo:before, .fa-image:before, .fa-picture-o:before {
     color: #cccccc;
     content: "\f27a";
@@ -592,6 +603,7 @@ span.a-badge i.fa.fa-info-circle {
     color: #cccccc;
     content: "\f27a";
 }
+*/
 
 /* Live 글자 위치 */
 #main .menu-wrapper>a.schedule-link>span.live {
