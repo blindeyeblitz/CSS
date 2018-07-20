@@ -531,19 +531,20 @@ span.a-badge i.fa.fa-info-circle {
     text-align: center;
 }
 
+
 /* 잡담 아이콘 */
-#article-list-category > a:nth-child(3):before {
+#article-list-category > a:nth-child(2):before {
     color: #cccccc;
     padding: 0px 3px;
-    content: "\f27a";
+    content: "\f05a";
     font-family: FontAwesome;
 }
 
-/* 공지사항 아이콘 */
-#article-list-category > a:nth-child(2):before {
+/* 공지 아이콘 */
+#article-list-category > a:nth-child(3):before {
     color: #4ac1ff;
     padding: 0px 3px;
-    content: "\f05a";
+    content: "\f27a";
     font-family: FontAwesome;
 }
 
