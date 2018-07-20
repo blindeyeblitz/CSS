@@ -576,9 +576,10 @@ span.a-badge i.fa.fa-info-circle {
     font-family: FontAwesome;
 }
 
-/* 포획이 아이콘 */
-#article-list-category > a:nth-child(10):before {
-    padding: 0px 3px;
-    content: "\f271";
-    font-family: FontAwesome;
+/* 카테고리 삭제 */
+#article-list>.article-list-row>.item>.list-title>.list-category>span {display:none;}
+
+/* 카테고리 아트 아이콘 */
+.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+    content: "\f044";
 }
