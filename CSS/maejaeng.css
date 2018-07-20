@@ -562,3 +562,14 @@ span.a-badge i.fa.fa-picture-o {display:none;}
 #main .menu-wrapper>a.schedule-link>span.live {
     padding-top: 5px;
 }
+
+/* 아이콘 변경 */
+.fa-twitch:before {
+    content: "";
+    font-family: FontAwesome;
+}
+
+.fa-commenting:before {
+    content: "";
+    font-family: FontAwesome;
+}
