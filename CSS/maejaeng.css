@@ -565,11 +565,9 @@ span.a-badge i.fa.fa-picture-o {display:none;}
 
 /* 아이콘 변경 */
 .fa-twitch:before {
-    content: "";
-    font-family: FontAwesome;
+    content: "\f519";
 }
 
 .fa-commenting:before {
-    content: "";
-    font-family: FontAwesome;
+    content: "\f086";
 }
