@@ -68,7 +68,7 @@ body > header { background-color: #131d27; !important; }
 { background-color: #131d27; border-color: #ffffff; color: #ffffff !important; }
 
 /* 왼쪽 카테고리 부분 */
-#article-list #article-list-category { width: 873px; border-top: 3px solid #131d27; background: #131d27; !important; }
+#article-list #article-list-category { border-top-width: 0px; width: 873px; border-top: 3px solid #131d27; background: #131d27; !important; }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #131d27; text-decoration: none; font-size: 14px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite BlueFLinkBG 1.5s; }
 #article-list #article-list-category > a.nav-link.active { border-top: 3px solid #131d27; background: #131d27; !important; }
@@ -564,22 +564,6 @@ span.a-badge i.fa.fa-info-circle {
     font-family: FontAwesome;
 }
 
-/* 아트 아이콘 */
-#article-list-category > a:nth-child(6):before {
-    color: #4ac179;
-    padding: 0px 3px;
-    content: "\f044";
-    font-family: FontAwesome;
-}
-
-/* 영상 아이콘 */
-#article-list-category > a:nth-child(7):before {
-    color: #4ac179;
-    padding: 0px 3px;
-    content: "\f03d";
-    font-family: FontAwesome;
-}
-
 /* Q&A 아이콘 */
 #article-list-category > a:nth-child(8):before {
     color: #4ac179;
@@ -599,10 +583,14 @@ span.a-badge i.fa.fa-info-circle {
 /* 카테고리 삭제 */
 #article-list>.article-list-row>.item>.list-title>.list-category>span {display:none;}
 
-/* 카테고리 아트 아이콘 */
+/* 카테고리 아이콘 */
 .fa-photo:before, .fa-image:before, .fa-picture-o:before {
     color: #cccccc;
-    content: "\f27b";
+    content: "\f27a";
+}
+.fa-commenting-o:before {
+    color: #cccccc;
+    content: "\f27a";
 }
 
 /* Live 글자 위치 */
