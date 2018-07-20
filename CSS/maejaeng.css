@@ -594,3 +594,8 @@ span.a-badge i.fa.fa-info-circle {
 .fa-photo:before, .fa-image:before, .fa-picture-o:before {
     content: "\f044";
 }
+
+/* Live 글자 위치 */
+#main .menu-wrapper>a.schedule-link>span.live {
+    padding-top: 5px;
+}
