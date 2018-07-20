@@ -563,11 +563,7 @@ span.a-badge i.fa.fa-picture-o {display:none;}
     padding-top: 5px;
 }
 
-/* 아이콘 변경 */
-.fa-twitch:before {
-    content: "\f519";
-}
-
+/* 리플 아이콘 변경 */
 .fa-commenting:before {
     content: "\f086";
 }
