@@ -562,20 +562,29 @@ span.a-badge i.fa.fa-picture-o {display:none;}
     content: "\f086";
 }
 
+/* 순위 */
 #main-content > div > div.frame > table > thead > tr > th:nth-child(1) {
     background: #131d27;
     color: #ffffff;
     text-align: center;
 }
 
+/* 닉네임 */
 #main-content > div > div.frame > table > thead > tr > th:nth-child(2) {
     background: #131d27;
     color: #ffffff;
     text-align: center;
 }
 
+/* 보유포인트 */
 #main-content > div > div.frame > table > thead > tr > th:nth-child(3) {
     background: #131d27;
     color: #ffffff;
+    text-align: center;
+}
+
+/* 모든 순위/닉네임/보유포인트 가운데 정렬 */
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #ddd;
     text-align: center;
 }
