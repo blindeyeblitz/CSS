@@ -605,7 +605,30 @@ span.a-badge i.fa.fa-picture-o {display:none;}
     background: #131d27;
     color: #ffffff;
     border-top: 3px solid #131d27;
-    height: 35px;
-    font-size: 14px;
+    height: 45px;
+    font-size: 20px;
     padding: 9px 15px;
+}
+
+.frame>.frame>p {
+    margin: 10px;
+}
+
+.frame>.pull-right>.btn-primary {
+    color: #ffffff;
+    background-color: #131d27;
+    border: 0;
+    letter-spacing: .5px;
+    font-family: "GoyangIlsan";
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
