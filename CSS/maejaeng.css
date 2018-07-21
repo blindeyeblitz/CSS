@@ -231,7 +231,8 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #main-content > div > h3 > a:after { color: #ff7070; content:"♥"; cursor : text; }
 
 /* 인기게시글 별 투명도 0, 백그라운드 이미지 호출, 트랜스폼 애님 */
-span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
+
+i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
     vertical-align: 2px !important;
     width: 15px;
     height: 15px;
@@ -497,14 +498,6 @@ body > footer {
     border-top: 2px solid #131d27;
 }
 
-/* 공지 아이콘 위치선정 */
-#article-list-row-6576683 > div > div.list-title > span,
-#article-list-row-3105775 > div > div.list-title > span,
-#article-list-row-3105761 > div > div.list-title > span,
-#article-list-row-3054503 > div > div.list-title > span,
-#article-list-row-7339975 > div > div.list-title > span
-{ padding-left: 3px; }
-
 /* 프로필 삭제 */
 #board-info > #board-info-bottom > a:nth-child(3) {
     display: none;
@@ -517,6 +510,8 @@ body > footer {
 
 span.a-badge i.fa.fa-info-circle {
     color: #131d27;
+    vertical-align: -2px !important;
+    padding-left: 4px;
 }
 
 /* 게시글 확인 */
