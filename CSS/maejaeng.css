@@ -619,12 +619,13 @@ span.a-badge i.fa.fa-picture-o {display:none;}
     background-color: #131d27;
     border: 0;
     letter-spacing: .5px;
+    height: 44px;
     font-family: "GoyangIlsan";
 }
 
 .btn-group-lg>.btn, .btn-lg {
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.3333333;
     border-radius: 6px;
 }
