@@ -566,21 +566,18 @@ span.a-badge i.fa.fa-picture-o {display:none;}
 #main-content > div > div.frame > table > thead > tr > th:nth-child(1) {
     background: #131d27;
     color: #ffffff;
-    text-align: center;
 }
 
 /* 닉네임 */
 #main-content > div > div.frame > table > thead > tr > th:nth-child(2) {
     background: #131d27;
     color: #ffffff;
-    text-align: center;
 }
 
 /* 보유포인트 */
 #main-content > div > div.frame > table > thead > tr > th:nth-child(3) {
     background: #131d27;
     color: #ffffff;
-    text-align: center;
 }
 
 /* 모든 순위/닉네임/보유포인트 가운데 정렬 */
