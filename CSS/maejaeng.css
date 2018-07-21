@@ -232,7 +232,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 /* 인기게시글 별 투명도 0, 백그라운드 이미지 호출, 트랜스폼 애님 */
 
-i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
+span.i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
     vertical-align: 2px !important;
     width: 15px;
     height: 15px;
