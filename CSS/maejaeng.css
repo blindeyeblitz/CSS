@@ -534,12 +534,6 @@ span.a-badge i.fa.fa-info-circle {
     color: #131d27 !important;
 }
 
-.alert-danger {
-    color: #ffffff;
-    background-color: #131d27;
-    border-color: #131d27;
-}
-
 /* 뱃지 제거 */
 span.a-badge i.fa.fa-commenting-o {display:none;}
 span.a-badge i.fa.fa-picture-o {display:none;}
