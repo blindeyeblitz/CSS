@@ -652,3 +652,7 @@ h1, h2, h3, h4, h5, h6 {
     animation: shakeLoop 0.5s; 
     animation-iteration-count: infinite; 
 }
+
+.fa-user:before {
+    content: "\f0c0";
+}
