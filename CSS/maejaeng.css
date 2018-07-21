@@ -635,7 +635,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 게시글 이미지 흔들기 나중에 */
-.fr-view img.fr-dib.fr-fil {
+#article-content-wrapper #article-content img, #article-content-wrapper #article-content iframe, #article-content-wrapper #article-content embed, #article-content-wrapper #article-content object {
     animation: shakeLoop 0.5s; 
     animation-iteration-count: infinite; 
 }
