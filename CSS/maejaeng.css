@@ -122,6 +122,17 @@ body > header { background-color: #131d27; !important; }
     100% { background-color: #131d27; }
 }
 
+@keyframes RaLinkBG {
+    0% { background-color: #ff7c7c; }
+    15% { background-color: #ffb97c; }
+    30% { background-color: #ffdc7c; }
+    45% { background-color: #d9ff7c; }
+    60% { background-color: #9eff7c; }
+    75% { background-color: #7cd3ff; }
+    90% { background-color: #7c86ff; }
+    100% { background-color: #b47cff; }
+}
+
 @keyframes BlueFLinkBG {
     0% { background-color: #131d27; }
     40% { background-color: #131d27; }
