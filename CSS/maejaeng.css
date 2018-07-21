@@ -662,3 +662,13 @@ h1, h2, h3, h4, h5, h6 {
     animation: shakeLoop 0.5s; 
     animation-iteration-count: infinite; 
 }
+
+.fr-view .fr-video.fr-dvb {
+    animation: shakeLoop 0.5s; 
+    animation-iteration-count: infinite; 
+}
+
+audio, canvas, progress, video {
+    animation: shakeLoop 0.5s; 
+    animation-iteration-count: infinite; 
+}
