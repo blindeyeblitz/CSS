@@ -598,6 +598,6 @@ span.a-badge i.fa.fa-picture-o {display:none;}
 }
 
 /* 프레임 패딩 */
-#main-content > div > div.frame {
-    padding: 0em;   
+.frame>.frame {
+    padding: 20px 0em!important;
 }
