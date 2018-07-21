@@ -633,6 +633,12 @@ h1, h2, h3, h4, h5, h6 {
     content: "\f0c0";
 }
 
+/* 이것은 삭게 체크박스 */
+#article-list>.article-list-row>.item>.list-checkbox {
+    width: 40px;
+    background: #ff3f3f;
+}
+
 /* 게시글 이미지 흔들기 나중에 */
 .fr-view img.fr-dib.fr-fil {
     animation: shakeLoop 0.5s; 
