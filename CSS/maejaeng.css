@@ -649,3 +649,8 @@ audio, canvas, progress, video {
     animation: shakeLoop 0.5s; 
     animation-iteration-count: infinite; 
 }
+
+#article-reply-area #reply-real-area .reply > .reply-content img, #article-reply-area #reply-best-area .reply > .reply-content img, #article-reply-area #reply-real-area .reply > .reply-content iframe, #article-reply-area #reply-best-area .reply > .reply-content iframe, #article-reply-area #reply-real-area .reply > .reply-content embed, #article-reply-area #reply-best-area .reply > .reply-content embed, #article-reply-area #reply-real-area .reply > .reply-content object, #article-reply-area #reply-best-area .reply > .reply-content object {
+    animation: shakeLoop 0.5s; 
+    animation-iteration-count: infinite; 
+}
