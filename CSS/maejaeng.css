@@ -566,3 +566,21 @@ span.a-badge i.fa.fa-picture-o {display:none;}
 .fa-commenting:before {
     content: "\f086";
 }
+
+#main-content > div > div.frame > table > tbody > tr:nth-child(1) > th:nth-child(1) {
+    background: #131d27;
+    color: #ffffff;
+    text-align: center;
+}
+
+#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(2) {
+    background: #131d27;
+    color: #ffffff;
+    text-align: center;
+}
+
+#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(3) {
+    background: #131d27;
+    color: #ffffff;
+    text-align: center;
+}
