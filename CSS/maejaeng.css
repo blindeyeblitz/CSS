@@ -529,11 +529,6 @@ span.a-badge i.fa.fa-info-circle {
     background-color: #131d27;
     border-color: #131d27;
 }
-#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(3) {
-    background: #131d27;
-    color: #ffffff;
-    text-align: center;
-}
 
 /* 뱃지 제거 */
 span.a-badge i.fa.fa-commenting-o {display:none;}
@@ -567,19 +562,19 @@ span.a-badge i.fa.fa-picture-o {display:none;}
     content: "\f086";
 }
 
-#main-content > div > div.frame > table > tbody > tr:nth-child(1) > th:nth-child(1) {
+#main-content > div > div.frame > table > thead > tr > th:nth-child(1) {
     background: #131d27;
     color: #ffffff;
     text-align: center;
 }
 
-#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(2) {
+#main-content > div > div.frame > table > thead > tr > th:nth-child(2) {
     background: #131d27;
     color: #ffffff;
     text-align: center;
 }
 
-#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(3) {
+#main-content > div > div.frame > table > thead > tr > th:nth-child(3) {
     background: #131d27;
     color: #ffffff;
     text-align: center;
