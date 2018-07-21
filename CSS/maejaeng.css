@@ -592,7 +592,7 @@ span.a-badge i.fa.fa-picture-o {display:none;}
 
 /* 프레임 */
 .frame>.frame {
-    padding: 20px 0em!important;
+    padding: 0px 0em!important;
 }
 
 .frame>h3 {
