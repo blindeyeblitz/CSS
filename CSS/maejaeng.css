@@ -596,7 +596,16 @@ span.a-badge i.fa.fa-picture-o {display:none;}
     text-align: center;
 }
 
-/* 프레임 패딩 */
+/* 프레임 */
 .frame>.frame {
     padding: 20px 0em!important;
+}
+
+.frame>h3 {
+    background: rgba(0,0,0,.7);
+    color: #ffffff;
+    border-top: 3px solid #131d27;
+    height: 35px;
+    font-size: 14px;
+    padding: 9px 15px;
 }
