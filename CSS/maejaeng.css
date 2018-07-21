@@ -215,7 +215,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #main-content > div > div.frame > div > div.col-xs-8 > h4:nth-child(7) { color: #131d27; }
 #main-content > div > div.frame > div > div.col-xs-4 > h4 { color: #131d27; }
 #main-content > div > h3 > a:after { color: #ff7070; content:"♥"; cursor : text; }
-#main-content > div > div.frame > h3 { color: #131d27; }
 
 /* 인기게시글 별 투명도 0, 백그라운드 이미지 호출, 트랜스폼 애님 */
 span.a-badge i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0); 
