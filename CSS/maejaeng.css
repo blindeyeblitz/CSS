@@ -657,7 +657,7 @@ h1, h2, h3, h4, h5, h6 {
     content: "\f0c0";
 }
 
-#article-content-wrapper #article-content img, #article-content-wrapper #article-content iframe, #article-content-wrapper #article-content embed, #article-content-wrapper #article-content object {
+#article-content-wrapper #article-content img, #article-content-wrapper #article-content iframe, #article-content-wrapper #article-content embed, #article-content-wrapper #article-content object:hover {
     animation: shakeLoop 0.5s; 
     animation-iteration-count: infinite; 
 }
