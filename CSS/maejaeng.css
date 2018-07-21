@@ -602,7 +602,7 @@ span.a-badge i.fa.fa-picture-o {display:none;}
 }
 
 .frame>h3 {
-    background: rgba(0,0,0,.7);
+    background: #131d27;
     color: #ffffff;
     border-top: 3px solid #131d27;
     height: 35px;
