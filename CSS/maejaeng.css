@@ -1,16 +1,7 @@
 /* 생방송 중 표시 부분 */
 .badge-default,.badge-success{ display:none }
-#board-info h1>a.badge.badge-live {
-    font-size: 0px;
-    padding: 2px 20px;
-}
-#board-info h1>a.badge.badge-live {
-    background: #c00;
-    color: #fff;
-    text-decoration: none;
-}
 
-/*  */
+/*  폰트 */
 #article-info>h2 {
     font-family: "FontAwesome";
 }
