@@ -454,7 +454,7 @@ body {
     position: absolute;
     right: 8px;
     opacity: 0;
-    animation: boodrerum .5s;
+    animation: shakeLoop .5s;
     animation-delay: .2s;
     animation-fill-mode: both;
 }
