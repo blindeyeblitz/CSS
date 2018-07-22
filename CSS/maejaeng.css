@@ -254,7 +254,7 @@ span.i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 #article-list > .article-list-row > .item > .list-title > small {
     color : #131d27;
 }
- 
+
 /* 게시글 눈먼 블리츠 부분 */
 #article-list > #article-list-row-6683471 > .item > .list-title > .list-writer > span img, 
 #article-list > #article-list-row-7291423 > .item > .list-title > .list-writer > span img, 
@@ -271,6 +271,8 @@ span.i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 #article-list > #article-list-row-7440165 > .item > .list-title > .list-writer > span img, 
 #article-list > #article-list-row-7472094 > .item > .list-title > .list-writer > span img, 
 #article-list > #article-list-row-7368427 > .item > .list-title > .list-writer > span img, 
+#article-list > #article-list-row-7498686 > .item > .list-title > .list-writer > span img, 
+#article-list > #article-list-row-7498861 > .item > .list-title > .list-writer > span img, 
 #article-list > #article-list-row-7194711 > .item > .list-title > .list-writer > span img 
 { opacity: 0; }
 #article-list > #article-list-row-6683471 > .item > .list-title > .list-writer.logged,
@@ -288,6 +290,8 @@ span.i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 #article-list > #article-list-row-7368427 > .item > .list-title > .list-writer.logged,
 #article-list > #article-list-row-7440165 > .item > .list-title > .list-writer.logged,
 #article-list > #article-list-row-7472094 > .item > .list-title > .list-writer.logged,
+#article-list > #article-list-row-7498686 > .item > .list-title > .list-writer.logged,
+#article-list > #article-list-row-7498861 > .item > .list-title > .list-writer.logged,
 #article-list > #article-list-row-7194711 > .item > .list-title > .list-writer.logged
  { 
     background-repeat: no-repeat; 
