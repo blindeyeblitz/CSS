@@ -603,14 +603,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 인원수 부분 */
-#board-info #viewers-area #viewers:after { color: #131d27;; content:"명 트게더 활동중!"; cursor : text; }
+#board-info #viewers-area #viewers:after { 
+    color: #131d27;; 
+    content:"명 트게더 활동중!"; 
+    cursor : text; 
+    animation: opacity .5s;
+    animation-delay: .2s;
+    animation-fill-mode: both;
+}
+
 #board-info #viewers-area {
     line-height: 16px;
     color: #131d27;
     font-size: 12px;
     position: absolute;
     right: 8px;
-    opacity: 0;
     animation: opacity .5s;
     animation-delay: .2s;
     animation-fill-mode: both;
