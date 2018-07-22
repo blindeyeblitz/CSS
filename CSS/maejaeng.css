@@ -445,20 +445,6 @@ body {
     display: inline-block;
 }
 
-/* 인원수 부분 */
-#board-info #viewers-area #viewers:after { color: #131d27;; content:"명 트게더 활동중!"; cursor : text; }
-#board-info #viewers-area {
-    line-height: 16px;
-    color: #131d27;
-    font-size: 12px;
-    position: absolute;
-    right: 8px;
-    opacity: 0;
-    animation: shakeLoop .5s;
-    animation-delay: .2s;
-    animation-fill-mode: both;
-}
-
 /* 바닥부분 마진 */
 body > footer {
     margin-top: 15px;
@@ -609,4 +595,18 @@ h1, h2, h3, h4, h5, h6 {
 #article-reply-area #reply-real-area .reply > .reply-content img, #article-reply-area #reply-best-area .reply > .reply-content img, #article-reply-area #reply-real-area .reply > .reply-content iframe, #article-reply-area #reply-best-area .reply > .reply-content iframe, #article-reply-area #reply-real-area .reply > .reply-content embed, #article-reply-area #reply-best-area .reply > .reply-content embed, #article-reply-area #reply-real-area .reply > .reply-content object, #article-reply-area #reply-best-area .reply > .reply-content object {
     animation: shakeLoop 0.5s; 
     animation-iteration-count: infinite; 
+}
+
+/* 인원수 부분 */
+#board-info #viewers-area #viewers:after { color: #131d27;; content:"명 트게더 활동중!"; cursor : text; }
+#board-info #viewers-area {
+    line-height: 16px;
+    color: #131d27;
+    font-size: 12px;
+    position: absolute;
+    right: 8px;
+    opacity: 100;
+    animation: shakeLoop .5s;
+    animation-iteration-count: infinite; 
+    animation-fill-mode: both;
 }
