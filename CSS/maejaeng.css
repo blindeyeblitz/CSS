@@ -606,7 +606,4 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     right: 8px;
     opacity: 100;
-    animation: shakeLoop .5s;
-    animation-iteration-count: infinite; 
-    animation-fill-mode: both;
 }
