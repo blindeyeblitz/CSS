@@ -2,8 +2,7 @@
 .badge-default {display:none}
 .badge-success {display:none}
 
-
-/* 생방송 
+/* 생방송 */
 #board-info h1>a.badge.badge-live {
     font-size: 0px;
     padding: 2px 20px;
@@ -18,8 +17,6 @@ button, a {
     font-size: 12px;
     content: '현재 생방송 중';
 }
-*/
-
 
 /*  폰트 */
 #article-info>h2 {
