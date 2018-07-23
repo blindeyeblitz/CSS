@@ -4,6 +4,8 @@
 
 /* 생방송 */
 #board-info h1>a.badge.badge-live {
+    font-size: 0px;
+    padding: 2px 20px;
     background: #c00;
     color: #fff;
     text-decoration: none;
@@ -411,10 +413,7 @@ body {
 #board-info h1, #board-info h1>a {
     padding: 1.5px;
     float: left;
-    font-size: 12px;
     border: 0;
-    color: #131d27;
-    padding-right: 5px;
     
 }
 #board-info #board-info-bottom {
