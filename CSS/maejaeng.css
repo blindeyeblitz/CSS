@@ -256,6 +256,7 @@ span.i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 }
 
 /* 게시글 눈먼 블리츠 부분 */
+#article-list > #article-list-row-7535397 > .item > .list-title > .list-writer > span img, 
 #article-list > #article-list-row-6683471 > .item > .list-title > .list-writer > span img, 
 #article-list > #article-list-row-7291423 > .item > .list-title > .list-writer > span img, 
 #article-list > #article-list-row-6833168 > .item > .list-title > .list-writer > span img,
@@ -275,6 +276,7 @@ span.i.fa.fa-star { opacity: 100; color:rgba(0,0,0,0);
 #article-list > #article-list-row-7498861 > .item > .list-title > .list-writer > span img, 
 #article-list > #article-list-row-7194711 > .item > .list-title > .list-writer > span img 
 { opacity: 0; }
+#article-list > #article-list-row-7535397 > .item > .list-title > .list-writer.logged,
 #article-list > #article-list-row-6683471 > .item > .list-title > .list-writer.logged,
 #article-list > #article-list-row-7291423 > .item > .list-title > .list-writer.logged,
 #article-list > #article-list-row-6833168 > .item > .list-title > .list-writer.logged,
