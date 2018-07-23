@@ -43,13 +43,13 @@ font-size:15px;
 }
 
 /* 헤더 부분 */
+header #header-bar #header-top-notice strong.notice-badge { background: #131d27; padding: 4px 8px; color: #fff; font-weight: bold }
+header #header-bar #header-top-notice strong.notice-badge { background: #131d27; !important; padding: 4px 8px; color: #fff; font-weight: bold }
 header #right-search-form > #right-search-btn { color: #ffffff; background: transparent; border: none; font-size: 1.4em; }
 header #right-search-form > input[type=text] { position: relative; border: 3px solid #b5babf; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 100px; padding-left: 100px; }
-header #header-bar #header-top-notice strong.notice-badge { background: #131d27; padding: 4px 8px; color: #fff; font-weight: bold }
 header #header-bar > div { background-color: #ffffff; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
 header #header-bar { background-color: #131d27; !important; color: #fff; font-weight: bold; padding: 1px 7px; font-size: 14px; border-radius: 100px }
-header #header-bar #header-top-notice strong.notice-badge { background: #131d27; !important; padding: 4px 8px; color: #fff; font-weight: bold }
 header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid #ffffff; background: #ffffff; border-bottom: 2px solid #ffffff; border-right: 2px solid #ffffff }
 header #header-bar #header-top-notice { background : #ffffff !important; }
 #header-top-notice { background-color: #ffffff; font-weight: bold; padding: 1px 7px; font-size: 17px; border-radius: 100px }
