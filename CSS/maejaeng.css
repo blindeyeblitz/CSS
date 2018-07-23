@@ -2,7 +2,8 @@
 .badge-default {display:none}
 .badge-success {display:none}
 
-/* 생방송 */
+
+/* 생방송 
 #board-info h1>a.badge.badge-live {
     font-size: 0px;
     padding: 2px 20px;
@@ -17,6 +18,7 @@ button, a {
     font-size: 12px;
     content: '현재 생방송 중';
 }
+*/
 
 
 /*  폰트 */
@@ -43,8 +45,6 @@ font-size:15px;
 }
 
 /* 헤더 부분 */
-header #header-bar #header-top-notice strong.notice-badge { background: #131d27; padding: 4px 8px; color: #fff; font-weight: bold }
-header #header-bar #header-top-notice strong.notice-badge { background: #131d27; !important; padding: 4px 8px; color: #fff; font-weight: bold }
 header #right-search-form > #right-search-btn { color: #ffffff; background: transparent; border: none; font-size: 1.4em; }
 header #right-search-form > input[type=text] { position: relative; border: 3px solid #b5babf; background: #fff; font-size: 1.1em; padding: 0.3em 0.5em; }
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 100px; padding-left: 100px; }
