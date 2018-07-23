@@ -10,6 +10,14 @@
     color: #fff;
     text-decoration: none;
 }
+button, a {
+    cursor: pointer;
+}
+#board-info h1>a.badge.badge-live:after {
+    font-size: 12px;
+    content: '현재 생방송 중';
+}
+
 
 /*  폰트 */
 #article-info>h2 {
