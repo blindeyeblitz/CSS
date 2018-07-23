@@ -150,7 +150,7 @@ body > header { background-color: #131d27; !important; }
     100% { background-color: #ffffff; }
 }
 
-@keyframes rot360 { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
+@keyframes bingbing { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
 
 @keyframes shakeLoop {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -602,7 +602,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #ff3f3f;
 }
 
-/* 댓글 흔들기 나중에 */
+/* 이모티콘 흔들기 */
 #article-reply-area #reply-real-area .reply > .reply-content img, #article-reply-area #reply-best-area .reply > .reply-content img, #article-reply-area #reply-real-area .reply > .reply-content iframe, #article-reply-area #reply-best-area .reply > .reply-content iframe, #article-reply-area #reply-real-area .reply > .reply-content embed, #article-reply-area #reply-best-area .reply > .reply-content embed, #article-reply-area #reply-real-area .reply > .reply-content object, #article-reply-area #reply-best-area .reply > .reply-content object {
     animation: shakeLoop 0.5s; 
     animation-iteration-count: infinite; 
@@ -629,3 +629,9 @@ h1, h2, h3, h4, h5, h6 {
     animation-fill-mode: both;
 }
 
+/* 리플 빙글빙글 */
+.reply-writer>.label-danger:before {
+    content: "\f005";
+    font: normal normal normal 12px/1 FontAwesome;
+    animation: bingbing 2s infinite;
+    display: inline-block;
