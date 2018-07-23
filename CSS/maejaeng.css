@@ -411,7 +411,7 @@ body {
 
 /* 보드인포 */
 #board-info h1, #board-info h1>a {
-    padding: 1.5px;
+    padding: 2px;
     float: left;
     font-size: 12px;
     border: 0;
