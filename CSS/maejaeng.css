@@ -619,6 +619,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #board-info #viewers-area {
+    bottom: 1935px;
     line-height: 16px;
     color: #131d27;
     font-size: 12px;
