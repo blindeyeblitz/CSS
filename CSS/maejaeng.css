@@ -415,10 +415,12 @@ body {
     border: 0;
     color: #131d27;
     padding-right: 5px;
+    
 }
-#board-info #board-info-bottom #addFavoriteBtn {
-    padding-left: 7px!important;
+#board-info #board-info-bottom {
+    padding-top: 2px; !important;
 }
+
 #board-info #board-info-bottom #addFavoriteBtn {
     text-decoration: none;
     border-left: none !important;
