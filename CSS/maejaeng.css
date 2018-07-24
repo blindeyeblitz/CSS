@@ -637,7 +637,10 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
 }
 
-/* 테스트 공지 이미지 추가 */
+/* 임시 치킨 공지 이미지 추가 */
 #article-list-row-6824947 > div > div.list-title {
+    background-image: url("https://blindeyeblitz.github.io/image/TGD_Main_Image.png");
+}
+#article-list-row-6576683 > div > div.list-title {
     background-image: url("https://blindeyeblitz.github.io/image/TGD_Main_Image.png");
 }
