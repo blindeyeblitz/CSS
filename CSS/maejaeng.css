@@ -190,13 +190,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #switch-platform-link { color: #fff; !important; }
 #board-info-profile-img {display:none;}
 
-
-
-/* 인기글 */
-#article-list > #article-list-row-6576683 span.a-badge i.fa.fa-star {
-    animation: infinite StarLink 1s;
-}
-
 /* 게시글 리스트 */
 #article-list > .article-list-row > .item > .list-header.v0 > span:before { color: #ffffff; content:"★"; cursor : text; }
 #article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #ffffff; color: #ffffff; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
@@ -222,7 +215,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list > .article-list-row > .item > .list-header > span { background-color: #ffffff; color: #131d27; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
 #article-list > .article-list-category > .item > .nav-link.active > i { color: #ffffff; !important; }
 #article-list > .article-list-row > .item > .list-header > strong { color: #000000; !important; }
-#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #131d27; !important; }
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { background-color: 2d4053; color: #ffffff; !important; }
 #article-list > .article-list-row > .item > .list-time { color: #000000; !important; }
 #article-info { background-color: #131d27; !important; }
 
@@ -241,10 +234,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #main-content > div > div.frame > div > div.col-xs-4 > h4 { color: #131d27; }
 #main-content > div > h3 > a:after { color: #ff7070; content:"♥"; cursor : text; }
 
-/* 글쓴이 닉네임 컬러 */
-#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {
-    color : #131d27;
-}
 /* 게시글 댓글 컬러 */
 #article-list > .article-list-row > .item > .list-title > small {
     color : #131d27;
@@ -270,7 +259,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list-row-7587130 > div > div.list-header.v9 { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-time { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-title { background-color: #2d4053 !important; }
-#article-list-row-7587130 > div > div.list-title > a { color: #131d27 !important; }
+#article-list-row-7587130 > div > div.list-title > a { color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v0 > strong { color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v1 > strong { color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v2 > strong { color: #ffffff !important; }
