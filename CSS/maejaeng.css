@@ -225,8 +225,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #131d27; !important; }
 #article-list > .article-list-row > .item > .list-time { color: #000000; !important; }
 #article-info { background-color: #131d27; !important; }
-#article-list > .article-list-row > .item > .list-title > div > span > img {display:none;}
-#article-info-writer > img {display:none;}
 
 /* 게시글 제목 뒤 하트 */
 #article-list > .article-list-row > .item > .list-title > a:after {
@@ -605,3 +603,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged > img {display:none;}
+
+#article-list > .article-list-row > .item > .list-title > div > span > img {display:none;}
+#article-info-writer > img {display:none;}
