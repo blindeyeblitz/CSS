@@ -596,3 +596,12 @@ h1, h2, h3, h4, h5, h6 {
 #article-list-row-6576683 > div > div.list-title {
     background-image: url("https://blindeyeblitz.github.io/image/TGD_Main_Image.png");
 }
+
+/* 댓글 닉네임 부분 */
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    font-weight: bold;
+    color: #131d27;
+    cursor: pointer;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged > img {display:none;}
