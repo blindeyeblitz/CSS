@@ -602,7 +602,5 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header> img {display:none;}
-
 #article-list > .article-list-row > .item > .list-title > div > span > img {display:none;}
 #article-info-writer > img {display:none;}
