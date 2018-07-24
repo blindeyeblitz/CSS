@@ -226,7 +226,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #main-content > div > div.frame > div > div.col-xs-8 > h4:nth-child(1) { color: #131d27; }
 #main-content > div > div.frame > div > div.col-xs-8 > h4:nth-child(7) { color: #131d27; }
 #main-content > div > div.frame > div > div.col-xs-4 > h4 { color: #131d27; }
-#main-content > div > h3 > a:after { color: #ff7070; content:"♥"; cursor : text; }
 
 /* 게시글 비추천 비활성화 */
 #article-content-wrapper > div.vote-area > button.btn.btn-outline-primary.vote-btn {display:none;}
