@@ -215,7 +215,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list > .article-list-row > .item > .list-header > span { background-color: #ffffff; color: #131d27; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
 #article-list > .article-list-category > .item > .nav-link.active > i { color: #ffffff; !important; }
 #article-list > .article-list-row > .item > .list-header > strong { color: #000000; !important; }
-#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { background-color: 2d4053; color: #ffffff; !important; }
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #131d27; !important; }
 #article-list > .article-list-row > .item > .list-time { color: #000000; !important; }
 #article-info { background-color: #131d27; !important; }
 
@@ -236,7 +236,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 /* 게시글 댓글 컬러 */
 #article-list > .article-list-row > .item > .list-title > small {
-    color : #131d27;
+    color : #49bffc;
 }
 
 /* 게시글 비추천 비활성화 */
@@ -257,7 +257,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list-row-7587130 > div > div.list-header.v7 { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v8 { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v9 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7587130 > div > div.list-time { color: #cccccc !important; }
+#article-list-row-7587130 > div > div.list-time { background-color: #131d27 color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-title { background-color: #2d4053 !important; }
 #article-list-row-7587130 > div > div.list-title > a { color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v0 > strong { color: #ffffff !important; }
@@ -270,6 +270,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list-row-7587130 > div > div.list-header.v7 > strong { color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v8 > strong { color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v9 > strong { color: #ffffff !important; }
+#article-list-row-7587130 > div > div.list-title > div > span { color: ##49bffc !important; }
 
 #article-list-row-6576683 > div > div.list-header.v0 { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-header.v1 { background-color: #131d27; color: #ffffff !important; }
@@ -281,9 +282,9 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list-row-6576683 > div > div.list-header.v7 { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-header.v8 { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-header.v9 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-time { color: #cccccc !important; }
+#article-list-row-6576683 > div > div.list-time { background-color: #131d27 color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-title { background-color: #2d4053 !important; }
-#article-list-row-6576683 > div > div.list-title > a { color: #131d27 !important; }
+#article-list-row-6576683 > div > div.list-title > a { color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-header.v0 > strong { color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-header.v1 > strong { color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-header.v2 > strong { color: #ffffff !important; }
@@ -294,6 +295,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list-row-6576683 > div > div.list-header.v7 > strong { color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-header.v8 > strong { color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-header.v9 > strong { color: #ffffff !important; }
+#article-list-row-6576683 > div > div.list-title > div > span { color: ##49bffc !important; }
 
 /* 마진보더패딩 */
 #article-content-wrapper {     
@@ -391,7 +393,7 @@ body > footer {
 }
 
 span.a-badge i.fa.fa-info-circle {
-    color: #131d27;
+    color: #49bffc;
     vertical-align: -2px !important;
     padding-left: 4px;
 }
