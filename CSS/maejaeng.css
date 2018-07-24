@@ -257,7 +257,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list-row-7587130 > div > div.list-header.v7 { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v8 { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v9 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7587130 > div > div.list-time { background-color: #131d27; color: #ffffff !important; }
+#article-list-row-7587130 > div > div.list-time { color: #cccccc !important; }
 #article-list-row-7587130 > div > div.list-title { background-color: #2d4053 !important; }
 #article-list-row-7587130 > div > div.list-title > a { color: #ffffff !important; }
 #article-list-row-7587130 > div > div.list-header.v0 > strong { color: #ffffff !important; }
@@ -281,7 +281,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list-row-6576683 > div > div.list-header.v7 { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-header.v8 { background-color: #131d27; color: #ffffff !important; }
 #article-list-row-6576683 > div > div.list-header.v9 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-time { background-color: #131d27; color: #ffffff !important; }
+#article-list-row-6576683 > div > div.list-time { color: #cccccc !important; }
 #article-list-row-6576683 > div > div.list-title { background-color: #2d4053 !important; }
 #article-list-row-6576683 > div > div.list-title > a { color: #131d27 !important; }
 #article-list-row-6576683 > div > div.list-header.v0 > strong { color: #ffffff !important; }
@@ -398,7 +398,7 @@ span.a-badge i.fa.fa-info-circle {
 
 /* 게시글 확인 */
 #article-list>.article-list-row>.item>.list-title>a:visited {
-    color: #131d27 !important;
+    color: #cccccc !important;
 }
 
 /* 뱃지 제거 */
