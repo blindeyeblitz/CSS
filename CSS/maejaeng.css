@@ -225,8 +225,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list > .article-list-row > .item > .list-title > .list-writer.logged > span { color: #131d27; !important; }
 #article-list > .article-list-row > .item > .list-time { color: #000000; !important; }
 #article-info { background-color: #131d27; !important; }
-#article-list > .article-list-row > .item > .list-title > div > span > img { content: url("https://blindeyeblitz.github.io/image/maejaengs.png"); }
-#article-info-writer > img { content: url("https://blindeyeblitz.github.io/image/maejaengs.png"); }
 
 /* 게시글 제목 뒤 하트 */
 #article-list > .article-list-row > .item > .list-title > a:after {
@@ -250,54 +248,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 /* 게시글 댓글 컬러 */
 #article-list > .article-list-row > .item > .list-title > small {
     color : #131d27;
-}
-
-/* 게시글 눈먼 블리츠 부분 */
-#article-list > #article-list-row-7535397 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-6683471 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7291423 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-6833168 > .item > .list-title > .list-writer > span img,
-#article-list > #article-list-row-6745281 > .item > .list-title > .list-writer > span img,
-#article-list > #article-list-row-6824947 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7049465 > .item > .list-title > .list-writer > span img,
-#article-list > #article-list-row-7142279 > .item > .list-title > .list-writer > span img,
-#article-list > #article-list-row-7145346 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7277524 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7277574 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7339975 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7370630 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7440165 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7472094 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7368427 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7498686 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7498861 > .item > .list-title > .list-writer > span img, 
-#article-list > #article-list-row-7194711 > .item > .list-title > .list-writer > span img 
-{ opacity: 0; }
-#article-list > #article-list-row-7535397 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-6683471 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7291423 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-6833168 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-6745281 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-6824947 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7049465 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7142279 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7145346 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7277524 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7277574 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7339975 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7370630 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7368427 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7440165 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7472094 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7498686 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7498861 > .item > .list-title > .list-writer.logged,
-#article-list > #article-list-row-7194711 > .item > .list-title > .list-writer.logged
- { 
-    background-repeat: no-repeat; 
-    display: block; 
-    height: 18px;
-    background-image: url("https://blindeyeblitz.github.io/image/blindeyeblitz.png");
-    background-position: 15px 0px;
 }
 
 /* 게시글 비추천 비활성화 */
