@@ -604,4 +604,4 @@ h1, h2, h3, h4, h5, h6 {
 
 #article-list > .article-list-row > .item > .list-title > div > span > img {display:none;}
 #article-info-writer > img {display:none;}
-
+#main-content > div > div.frame > table > tbody > tr:nth-child(2) > td:nth-child(2) > img {display:none;}
