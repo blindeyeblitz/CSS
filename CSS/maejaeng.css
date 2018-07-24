@@ -635,3 +635,10 @@ h1, h2, h3, h4, h5, h6 {
     font: normal normal normal 12px/1 FontAwesome;
     animation: bingbing 2s infinite;
     display: inline-block;
+}
+
+/* 키프트 아이콘 변경 */
+.fa-gift:before {
+    content: "";
+    font-family: FontAwesome;
+}
