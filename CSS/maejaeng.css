@@ -339,7 +339,8 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 /* 배경 색상 */
 html {
-    background-color: #e1e7f2;
+    /* background-color: #e1e7f2; */
+    background-image: url("https://blindeyeblitz.github.io/image/rainbowsixsiegeVSdeadbydaylight.png")
 }
 
 body {
