@@ -81,7 +81,7 @@ body > header { background-color: #131d27; !important; }
 { background-color: #131d27; border-color: #ffffff; color: #ffffff !important; }
 
 /* 왼쪽 카테고리 부분 */
-#article-list #article-list-category { font-family: "FontAwesome"; width: 876.6px; border-top: 3px; border-top-width: 0px; height: 40px; solid #131d27; background: #131d27; !important; }
+#article-list #article-list-category { font-family: "FontAwesome"; width: 875.5px; border-top: 3px; border-top-width: 0px; height: 40px; solid #131d27; background: #131d27; !important; }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #131d27; text-decoration: none; font-size: 14px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite BlueFLinkBG 1.5s; }
 #article-list #article-list-category > a.nav-link.active { border-top: 3px solid #131d27; background: #131d27; !important; }
@@ -339,8 +339,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 /* 배경 색상 */
 html {
-    /* background-color: #ccdeff; */
-    background-image: url("https://blindeyeblitz.github.io/image/MM1920x2160.png");
+    background-color: #ccdeff;
 }
 
 body {
