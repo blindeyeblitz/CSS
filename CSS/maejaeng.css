@@ -339,7 +339,8 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 /* 배경 색상 */
 html {
-    background-color: #ccdeff;
+    /* background-color: #ccdeff; */
+    background-image: url("https://blindeyeblitz.github.io/image/MM1920x2160.png");
 }
 
 body {
