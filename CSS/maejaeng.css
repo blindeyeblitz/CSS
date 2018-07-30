@@ -515,12 +515,12 @@ h1, h2, h3, h4, h5, h6 {
 .pull-right {
     float: right!important;
 }
-
+/* 이벤트 버튼 */
 .frame>.pull-right>.btn-primary:hover {
     animation: shakeLoop 0.5s; 
     animation-iteration-count: infinite; 
 }
-
+/* 인원수 유저 아이콘변경 */
 .fa-user:before {
     content: "\f0c0";
 }
@@ -546,7 +546,7 @@ h1, h2, h3, h4, h5, h6 {
     animation-delay: .2s;
     animation-fill-mode: both;
 }
-
+/* 인원수 위치조정 */
 #board-info #viewers-area {
     bottom: 1935px;
     line-height: 16px;
@@ -583,26 +583,30 @@ h1, h2, h3, h4, h5, h6 {
     color: #131d27;
     cursor: pointer;
 }
-
+/* 아이콘 제거 */
 #article-list > .article-list-row > .item > .list-title > div > span > img {display:none;}
 #article-info-writer > img {display:none;}
-
+/* 카테고리 선택부분 아이콘 */
 .form-control {
     font-family: FontAwesome;   
 }
-
+/* 메인프레임 보더조정 */
 #main #main-content>div.frame {
     border-right-width: 0px;
 }
-
+/* 게시글 리스트 보더조정 */
 #article-list>.article-list-row>.item>.list-header {
     border-left-width: 0px;
 }
-
+/* 글쓰기버튼 마진조정 */
 #article-list #article-list-menu>.btn.write {
     margin-right: 1em;
 }
-
+/* 인기글버튼 마진조정 */
 #article-list #article-list-menu>.btn.best {
     margin-left: 1em;
+}
+/* 삭제버튼 마진조정 */
+#article-list #article-list-menu>.btn.del {
+    margin-left: -0.7em;
 }
