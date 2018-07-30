@@ -555,3 +555,11 @@ h1, h2, h3, h4, h5, h6 {
 #article-list #article-list-menu>.btn.del {
     margin-left: -0.8em;
 }
+/* 알림조정 */
+header #header-bar #header-menu-right #userDropdown #notification-badge {
+    border-radius: 5px;
+    padding: 3px 5px;
+    background: #131d27;
+    padding-bottom: 0px;
+    margin-bottom: 0.2em;
+}
