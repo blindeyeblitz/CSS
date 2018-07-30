@@ -594,3 +594,15 @@ h1, h2, h3, h4, h5, h6 {
 #main #main-content>div.frame {
     border-right-width: 0px;
 }
+
+#article-list>.article-list-row>.item>.list-header {
+    border-left-width: 0px;
+}
+
+#article-list #article-list-menu>.btn.write {
+    margin-right: 1em;
+}
+
+#article-list #article-list-menu>.btn.best {
+    margin-left: 1em;
+}
