@@ -553,5 +553,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* 삭제버튼 마진조정 */
 #article-list #article-list-menu>.btn.del {
-    margin-left: -0.7em;
+    margin-left: -0.8em;
 }
