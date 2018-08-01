@@ -442,6 +442,7 @@ span.a-badge i.fa.fa-picture-o {display:none;}
     height: 35px;
     font-size: 14px;
     padding: 9px 15px;
+    margin-left: 0.07em;
 }
 
 .frame>.frame>p {
