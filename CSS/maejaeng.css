@@ -443,6 +443,7 @@ span.a-badge i.fa.fa-picture-o {display:none;}
     font-size: 14px;
     padding: 9px 15px;
     margin-left: 0.07em;
+    margin-right: 0.07em;
 }
 
 .frame>.frame>p {
@@ -571,4 +572,8 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
     background: #131d27;
     padding-bottom: 0px;
     margin-bottom: 0.2em;
+}
+
+#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(2) {
+    animation: RaLinkBG 1s infinite;
 }
