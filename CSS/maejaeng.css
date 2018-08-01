@@ -222,7 +222,14 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list > .article-list-row > .item > .list-title > small { color: #49bffc !important }
 
 /* 메인 콘텐츠 포인트 부분 */
-#main-content > div > div.frame > h4 { color: #131d27; }
+#main-content > div > div.frame > h4 {
+    background: #131d27;
+    color: #ffffff;
+    border-top: 3px solid #131d27;
+    height: 35px;
+    font-size: 20px;
+    padding: 4px 15px;
+}
 #main-content > div > div.frame > div > div.col-xs-8 > h4:nth-child(1) { color: #131d27; }
 #main-content > div > div.frame > div > div.col-xs-8 > h4:nth-child(7) { color: #131d27; }
 #main-content > div > div.frame > div > div.col-xs-4 > h4 { color: #131d27; }
