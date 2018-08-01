@@ -574,6 +574,6 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
     margin-bottom: 0.2em;
 }
 
-#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(2) {
+#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(2),#main-content > div > div.frame > table > tbody > tr:nth-child(1) > th,#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(3) {
     animation: RaLinkBG 1s infinite;
 }
