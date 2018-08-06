@@ -344,7 +344,7 @@ body {
 #board-info #board-info-bottom #addFavoriteBtn {
     text-decoration: none;
     border-left: none !important;
-    padding-left: 0 !important;
+    padding-left: 8 !important;
 }
 #board-info #board-info-bottom a {
     color: #131d27;
