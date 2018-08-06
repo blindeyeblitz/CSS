@@ -334,6 +334,10 @@ body {
     background: none;
 }
 
+/* 즐겨찾기  */
+#board-info #board-info-bottom #addFavoriteBtn {
+    display:none;
+}
 /* 보드인포 */
 #board-info h1, #board-info h1>a {
     padding: 1.4px;
@@ -341,7 +345,7 @@ body {
     font-size: 12px;
     border: 0;
     color: #131d27;
-    margin-right: 1em;
+    margin-right: -4px;
     padding-right: 0px;
 }
 
