@@ -539,8 +539,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* 인원수 위치조정 */
 #board-info #viewers-area {
-    bottom: 1935px;
-    line-height: 16px;
+    line-height: 20px;
     color: #131d27;
     font-size: 12px;
     position: absolute;
