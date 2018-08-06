@@ -1,0 +1,6 @@
+header { border-bottom: 3px solid #49bffc; background: #131d27;}
+header>#header-area>#header-search-link { color: #49bffc; }
+header>#header-area>a>h1 { background: url(https://blindeyeblitz.github.io/image/logo_TGD.png) no-repeat; background-size: contain; }
+#board-info>a.board-right-menu { color: #ffffff; border: 0; }
+#article-list #article-list-category, #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover { background: #131d27; font: normal normal normal 13px/1 FontAwesome; }
+#board-info #viewers-area { animation: boodrerum .5s; color: #ffffff; background-color: #2d4053; padding: 0; margin: 3px 0 0 6px; border-radius: 10px; padding: 1.5px 6px 0px 6px; font-size: .8em; font-family: 'Roboto',sans-serif; font-weight: 400; float: right;}
