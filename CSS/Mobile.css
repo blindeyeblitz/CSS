@@ -9,7 +9,7 @@ header>#header-area>a>h1 { background: url(https://blindeyeblitz.github.io/image
 #board-info #viewers-area:after { animation: opacity .5s; color: #ffffff; background-color: #2d4053; padding: 0; margin: 3px 0 0 6px; border-radius: 10px; padding: 1.5px 6px 0px 6px; font-size: .8em; font-family: 'Roboto',sans-serif; font-weight: 400; float: right;}
 #header-top-notice { display: none; }
 
-nav#nav { animation: slide .5s cubic-bezier(.28,1.54,.55,.9); }
+nav#nav { animation: slidein .5s cubic-bezier(.28,1.54,.55,.9); }
 nav#nav>.nav-header { background: #2d4053; border-top: 3px solid #49bffc; }
 
 @keyframes opacity {
@@ -17,11 +17,13 @@ nav#nav>.nav-header { background: #2d4053; border-top: 3px solid #49bffc; }
   100% { background-color: #2d4053; color: #fff;  }
 }
 
-@keyframes slide {
-    100% { left: 0; }
+
+@keyframes slidein {
+  0% { margin-left: 100%; width: 300% }
+  100% { margin-left: 0%; width: 100%; }
 }
 
-.fa-user:before {
+a-user:before {
     content: "\f0c0";
 }
 
