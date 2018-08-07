@@ -13,8 +13,8 @@ nav#nav { animation: slide .5s cubic-bezier(.28,1.54,.55,.9); }
 nav#nav>.nav-header { background: #2d4053; border-top: 3px solid #49bffc; }
 
 @keyframes opacity {
-  0% { background-color: #ffffff; color: #ffffff; }
-  100% { background-color: #ffffff; color: #131d27;  }
+  0% { background-color: #49bffc; color: #49bffc; }
+  100% { background-color: #2d4053; color: #fff;  }
 }
 
 @keyframes slide {
