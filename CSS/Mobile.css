@@ -37,5 +37,3 @@ nav#nav>.nav-header { background: #2d4053; border-top: 3px solid #49bffc; }
     background: #4abefb;
     border: 0;
 }
-
-#article-list #article-list-category > a.nav-link.active { border-top: 3px solid #131d27; background: #131d27; !important; }
