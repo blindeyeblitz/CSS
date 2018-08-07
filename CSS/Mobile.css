@@ -28,7 +28,7 @@ a-user:before {
 }
 
 #board-info #viewers-area #viewers:after { 
-    content:"명 트게더 활동중!"; 
+    content:"명 ONLINE"; 
 }
 
 .form-control {
