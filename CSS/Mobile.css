@@ -25,11 +25,10 @@ nav#nav>.nav-header { background: #2d4053; border-top: 3px solid #49bffc; }
 }
 
 #board-info #viewers-area #viewers:after { 
-    color: #131d27;; 
+    color: #fff;; 
     content:"명 트게더 활동중!"; 
     cursor : text; 
     animation: opacity .5s;
-    animation-delay: .2s;
     animation-fill-mode: both;
 }
 
