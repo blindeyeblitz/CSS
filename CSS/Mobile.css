@@ -19,3 +19,25 @@ nav#nav>.nav-header { background: #2d4053; border-top: 3px solid #49bffc; }
 @keyframes slide {
     100% { left: 0; }
 }
+
+.fa-user:before {
+    content: "\f0c0";
+}
+
+#board-info #viewers-area #viewers:after { 
+    color: #131d27;; 
+    content:"명 트게더 활동중!"; 
+    cursor : text; 
+    animation: opacity .5s;
+    animation-delay: .2s;
+    animation-fill-mode: both;
+}
+
+.form-control {
+    font-family: FontAwesome;   
+}
+
+#board-info {
+    background: #4abefb;
+    border: 0;
+}
