@@ -6,6 +6,7 @@ header>#header-area>a>h1 { background: url(https://blindeyeblitz.github.io/image
 #board-info>a.board-right-menu { color: #ffffff; border: 0; }
 #article-list #article-list-category, #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover { background: #131d27; font: normal normal normal 13px/1 FontAwesome; }
 #board-info #viewers-area { animation: opacity .5s; color: #ffffff; background-color: #2d4053; padding: 0; margin: 3px 0 0 6px; border-radius: 10px; padding: 1.5px 6px 0px 6px; font-size: .8em; font-family: 'Roboto',sans-serif; font-weight: 400; float: right;}
+#board-info #viewers-area:after { animation: opacity .5s; color: #ffffff; background-color: #2d4053; padding: 0; margin: 3px 0 0 6px; border-radius: 10px; padding: 1.5px 6px 0px 6px; font-size: .8em; font-family: 'Roboto',sans-serif; font-weight: 400; float: right;}
 #header-top-notice { display: none; }
 
 nav#nav { animation: slide .5s cubic-bezier(.28,1.54,.55,.9); }
@@ -25,11 +26,7 @@ nav#nav>.nav-header { background: #2d4053; border-top: 3px solid #49bffc; }
 }
 
 #board-info #viewers-area #viewers:after { 
-    color: #fff;; 
     content:"명 트게더 활동중!"; 
-    cursor : text; 
-    animation: opacity .5s;
-    animation-fill-mode: both;
 }
 
 .form-control {
