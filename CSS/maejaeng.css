@@ -603,3 +603,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
    background: #ffffff;
 }
+
+body {
+  cursor: url('path-to-image.png'), auto;	
+}
