@@ -5,10 +5,6 @@
 button, a {
     cursor: pointer;
 }
-#board-info h1>a.badge.badge-live:after {
-    font-size: 12px;
-    content: '현재 생방송 중';
-}
 
 /*  폰트 */
 #article-info>h2 {
@@ -604,6 +600,6 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
    background: #ffffff;
 }
 
-body {
+html {
   cursor: url('https://blindeyeblitz.github.io/image/mouse.png'), auto;	
 }
