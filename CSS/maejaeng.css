@@ -306,10 +306,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
     height: 26px;
 }
 
-#main-menu > div:nth-child(1) > div.header {
-    margin-top: 15px;
-}
-
 /* 배경 색상 */
 html {
     background-color: #ccdeff;
