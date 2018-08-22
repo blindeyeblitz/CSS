@@ -604,3 +604,12 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #article-list>.article-list-row>.item>.list-title>.list-writer {
     border-left: 0;
 }
+
+/* 익명 */
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {display:none;}
+#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {display:none;}
+b, strong {display:none;}
+#article-info #article-info-writer {display:none;}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {display:none;}
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer-image, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {display:none;}
+
