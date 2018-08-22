@@ -6,6 +6,14 @@ button, a {
     cursor: pointer;
 }
 
+/* 헤더 */
+header { padding: 0.4em 0; background: #131d27;}
+header #header-bar>.row { border-top-width: 0px; border-bottom-width: 0px; border-right-width: 0px; }
+header #header-bar #header-top-notice strong.notice-badge {display:none;}
+header #header-bar a.dropdown-toggle { color: #fff; }
+header #header-bar #header-top-notice a { color: #fff; }
+header #header-bar a.dropdown-toggle { color: #fff; }
+
 /*  폰트 */
 #article-info>h2 {
     font-family: "FontAwesome";
