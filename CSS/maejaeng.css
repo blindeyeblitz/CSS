@@ -607,6 +607,5 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer {
-    padding: 0 16px;
     border-left: 0;
 }
