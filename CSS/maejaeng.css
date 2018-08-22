@@ -600,6 +600,13 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
    background: #ffffff;
 }
 
-html {
-  cursor: url('https://blindeyeblitz.github.io/image/mouse.png'), auto;	
+#article-list>.article-list-row>.item>.list-title>.list-category {
+    width: 24px;
+    padding: 0px 0px 0px 10px;
+    border-right: 0;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer {
+    padding: 0 16px;
+    border-left: 0;
 }
