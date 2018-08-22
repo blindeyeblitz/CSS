@@ -13,7 +13,7 @@ header #header-bar #header-top-notice strong.notice-badge {display:none;}
 header #header-bar a.dropdown-toggle { color: #fff; }
 header #header-bar #header-top-notice a { color: #fff; }
 header #header-bar a.dropdown-toggle { color: #fff; }
-header #header-bar>.row { background-color: rgba(0,0,0,0); padding-top: 0em; padding-bottom: 0em; border-top: 2px solid #131d27; }
+header #header-bar>.row { background-color: rgba(0,0,0,0); padding-top: 0em; padding-bottom: 0em; border-top: 2px solid #2d4053; }
 header #header-bar { margin-top: 3px; margin-bottom: -6px; }
 header #header-bar #header-menu-left { border-right-width: 0px; }
 header #header-bar #header-menu-right { border-left-width: 0px; }
