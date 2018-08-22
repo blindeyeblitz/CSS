@@ -9,11 +9,15 @@ button, a {
 /* 헤더 */
 header { margin-bottom: 15px; min-width: 1100px; background: #131d27;}
 header #header-bar>.row { border-top-width: 0px; border-bottom-width: 0px; border-right-width: 0px; }
+header #right-search-form { padding: 0.5em 0; }
+header .row>div:nth-child(1)>a { background-repeat: no-repeat; display: block; height: 60px; }
 header #header-bar #header-top-notice strong.notice-badge {display:none;}
 header #header-bar a.dropdown-toggle { color: #fff; }
 header #header-bar #header-top-notice a { color: #fff; }
 header #header-bar a.dropdown-toggle { color: #fff; }
+header #right-search-form>input[type=text] { border-color: #2d4053; }
 header #header-bar>.row { background-color: rgba(0,0,0,0); padding-top: 0em; padding-bottom: 0em; border-top: 2px solid #2d4053; }
+header #right-search-form>#right-search-btn { color: #2d4053; }
 header #header-bar { margin-top: 3px; margin-bottom: -6px; }
 header #header-bar #header-menu-left { border-right-width: 0px; }
 header #header-bar #header-menu-right { border-left-width: 0px; }
