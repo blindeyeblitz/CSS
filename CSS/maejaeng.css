@@ -18,6 +18,8 @@ header #header-bar { margin-top: 3px; margin-bottom: -6px; }
 header #header-bar #header-menu-left { border-right-width: 0px; }
 header #header-bar #header-menu-right { border-left-width: 0px; }
 .row { margin-right: -15px; margin-left: -15px; }
+#main .menu-wrapper>.header { background: #131d27; }
+#main .menu-wrapper>a>em { color: #131d27; }
 
 /*  폰트 */
 #article-info>h2 {
