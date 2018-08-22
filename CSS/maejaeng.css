@@ -612,4 +612,4 @@ b, strong {display:none;}
 #article-info #article-info-writer {display:none;}
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {display:none;}
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer-image, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {display:none;}
-
+#article-info .article-profile-img {display:none;}
