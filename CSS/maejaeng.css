@@ -108,7 +108,14 @@ font-size:15px;
 #article-reply-area > .header h5 { font-size: 14px; color: #776A6F; font-weight: bold; }
 
 /* 버튼 부분 */
-.btn-primary { background: #776A6F; border-color: #ffffff; }
+.btn-primary {
+    background: #776A6F;
+    border-color: #ffffff;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
 .btn-primary:hover { animation: infinite DBLinkBG 3s; }
 
 /* 키프레임 */
