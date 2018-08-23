@@ -176,7 +176,6 @@ body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #fff; !importa
 body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #fff; !important; }
 body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #switch-platform-link { color: #fff; !important; }
-#board-info-profile-img {display:none;}
 
 /* 게시글 리스트 */
 #article-list > .article-list-row > .item > .list-header.v0 > span:before { color: #ffffff; content:"★"; cursor : text; }
