@@ -511,3 +511,5 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #article-list>.article-list-row>.item>.list-title>.list-writer {
     border-left: 0;
 }
+
+#board-info #board-info-profile-img {}
