@@ -1,6 +1,9 @@
 
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #776A6F; !important;
+}
 
-/* 생방송 중 표시 부분 */
+/* 뱃지 표시 부분 */
 .badge-default {display:none}
 .badge-success {display:none}
 
