@@ -177,24 +177,6 @@ font-size:15px;
   100% { background-color: #ffffff; color: #776A6F;  }
 }
 
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-4px, 0, 0);
-  }
-  
-  20%, 80% {
-    transform: translate3d(8px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-16px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(16px, 0, 0);
-  }
-}
-
 /* 바닥 부분 */
 body > footer { background-color: #776A6F; !important; }
 body > footer > div > span:nth-child(1) { color: #fff; !important; }
@@ -584,14 +566,14 @@ html, body {
     float: left;
     position: absolute;
     background: url(https://i.imgur.com/euOgkiy.png) no-repeat;
-    background-size: 40px 40px;
+    background-size: 30px 30px;
     width: 43px;
     height: 47px;
     left: 0;
     top: 0;
-    margin: -42px 0 0 -558px;
+    margin: -42px 0 0 -83px;
     text-indent: -9999px;
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    animation: shakeLoop 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     animation-iteration-count: infinite; 
