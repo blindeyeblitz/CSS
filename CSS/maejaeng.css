@@ -1,6 +1,11 @@
 span.a-badge i.fa.fa-picture-o {display:none;}
 span.a-badge i.fa.fa-commenting-o {display:none;}
 
+.btn-outline-success {
+    border-color: #776A6F;
+    color: #776A6F;
+}
+
 #article-list>.article-list-row>.item>.list-title,#article-list>.article-list-row>.item>.list-title>.list-writer,#article-list > .article-list-row > .item > .list-time,#article-list>.article-list-row>.item>.list-title>.list-category,#article-list>.article-list-row>.item>.list-header {
     border-bottom-width: 0px;
     border-left-width: 0px;
