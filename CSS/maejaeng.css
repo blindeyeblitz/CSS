@@ -1,4 +1,4 @@
-#article-list>.article-list-row>.item>.list-title,#article-list>.article-list-row>.item>.list-title>.list-writer,#article-list > .article-list-row > .item > .list-time,#article-list>.article-list-row>.item>.list-title>.list-category,#article-list>.article-list-row>.item>.list-header, {
+#article-list>.article-list-row>.item>.list-title,#article-list>.article-list-row>.item>.list-title>.list-writer,#article-list > .article-list-row > .item > .list-time,#article-list>.article-list-row>.item>.list-title>.list-category,#article-list>.article-list-row>.item>.list-header {
     border-bottom-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
