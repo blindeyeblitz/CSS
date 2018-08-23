@@ -537,7 +537,6 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #main #main-content>div.frame {
     border: 0;
     border-radius: 15px;
-    padding-bottom: 20px;
 }
 
 html, body {
