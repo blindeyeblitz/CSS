@@ -1,5 +1,6 @@
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
     color: #776A6F; !important
+    margin-top: 2px;
 }
 
 /* 뱃지 표시 부분 */
