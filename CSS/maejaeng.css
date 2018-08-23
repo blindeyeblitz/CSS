@@ -31,6 +31,11 @@ header #header-bar #header-menu-right { border-left-width: 0px; }
 /*  폰트 */
 #article-info>h2 {
     font-family: "FontAwesome";
+    color: #dddbc7; !important;
+}
+
+#article-info #article-info-writer {
+    color: #dddbc7; !important;
 }
 
 /* 헤더 로고 부분 */
