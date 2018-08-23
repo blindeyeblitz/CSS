@@ -564,19 +564,29 @@ body {
     display:none;
 }
 
-#board-info #viewers-area .fa-user {
+#viewers-area .fa-user {
     float: left;
     position: absolute;
+    width: 166px;
+    height: 212px;
+    margin: -105px 0 0 253px;
     background: url(https://i.imgur.com/VE1ScEm.png) no-repeat;
-    background-size: 42px 60px;
-    width: 1442px;
-    height: 1840px;
-    left: 0;
-    top: 0;
-    margin: 30px 0 0 -50px;
+    background-size: 166px auto;
     text-indent: -9999px;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 
+    
+    
 span.a-badge {display:none;}
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
