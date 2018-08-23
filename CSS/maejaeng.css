@@ -555,5 +555,9 @@ html, body {
 }
 
 #main .menu-wrapper .spacer {
-    background: #f7f2ed;
+    display:none;
+}
+
+#article-list>.article-list-row>.item>.list-title>a {
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
 }
