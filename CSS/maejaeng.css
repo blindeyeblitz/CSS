@@ -175,8 +175,6 @@ font-size:15px;
     100% { background-color: #ffffff; }
 }
 
-@keyframes bingbing { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
-
 @keyframes shakeLoop {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -453,41 +451,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 인원수 부분 */
-#board-info #viewers-area #viewers:before { 
-    color: #776A6F;; 
-    content:"♥"; 
-    cursor : text; 
-    animation: opacity .5s;
-    animation-delay: .2s;
-    animation-fill-mode: both;
-}
 #board-info #viewers-area #viewers:after { 
-    color: #776A6F;; 
+    color: #131d27;; 
     content:"명 트게더 활동중!"; 
     cursor : text; 
     animation: opacity .5s;
     animation-delay: .2s;
     animation-fill-mode: both;
 }
-
 /* 인원수 위치조정 */
 #board-info #viewers-area {
     line-height: 20px;
-    color: #776A6F;
+    color: #131d27;
     font-size: 12px;
     position: absolute;
     right: 8px;
     animation: opacity .5s;
     animation-delay: .2s;
     animation-fill-mode: both;
-}
-
-/* 리플 빙글빙글 */
-.reply-writer>.label-danger:before {
-    content: "\f005";
-    font: normal normal normal 12px/1 FontAwesome;
-    animation: bingbing 2s infinite;
-    display: inline-block;
 }
 
 /* 댓글 닉네임 부분 */
