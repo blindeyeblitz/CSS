@@ -480,10 +480,7 @@ h1, h2, h3, h4, h5, h6 {
 .form-control {
     font-family: FontAwesome;   
 }
-/* 메인프레임 보더조정 */
-#main #main-content>div.frame {
-    border-right-width: 0px;
-}
+
 /* 게시글 리스트 보더조정 */
 #article-list>.article-list-row>.item>.list-header {
     border-left-width: 0px;
@@ -535,4 +532,10 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
     margin: -112px 0 0 -289px;
     border-radius: 50%;
     border: 5px solid #fff;
+}
+
+#main #main-content>div.frame {
+    border: 0;
+    border-radius: 15px;
+    padding-bottom: 20px;
 }
