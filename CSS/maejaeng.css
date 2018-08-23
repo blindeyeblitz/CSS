@@ -15,6 +15,7 @@ header #right-search-form { padding: 0.5em 0; }
 header .row>div:nth-child(1)>a { background-repeat: no-repeat; display: block; height: 60px; }
 header #header-bar #header-top-notice strong.notice-badge {display:none;}
 header #header-bar a.dropdown-toggle { color: #fff; }
+header #header-bar #header-top-notice { color: #fff; !important }
 header #header-bar #header-top-notice a { color: #fff; !important }
 header #header-bar a.dropdown-toggle { color: #fff; }
 header #right-search-form>input[type=text] { border-color: #dddbc7; }
