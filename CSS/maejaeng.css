@@ -490,6 +490,13 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
 }
 
+/* 댓글 닉네임 부분 */
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    font-weight: bold;
+    color: #776A6F;
+    cursor: pointer;
+}
+
 /* 카테고리 선택부분 아이콘 */
 .form-control {
     font-family: FontAwesome;   
@@ -590,14 +597,6 @@ body {
 
 span.a-badge {display:none;}
 
-#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
-    background: #00ff0000; !important
-}
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply { border-top-width: 0px; border-right-width: 0px; border-left-width: 0px; border-bottom-width: 0px; }
 
-#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
-    background: #00ff0000; !important
-}
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header { background: #00ff0000; background-color: #00ff0000; !important }
