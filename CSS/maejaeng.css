@@ -595,8 +595,6 @@ body {
     100% { transform: translateY(-10px); }
 }
 
-    
-    
 span.a-badge {display:none;}
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
@@ -604,8 +602,9 @@ span.a-badge {display:none;}
     border-right-width: 0px;
     border-left-width: 0px;
     border-bottom-width: 0px;
+    background: #00ff0000; !important
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
-    background: #00ff0000;
+    background: #00ff0000; !important
 }
