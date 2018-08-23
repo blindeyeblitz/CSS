@@ -3,7 +3,7 @@
     margin-top: 2px;
     padding-left: 0px;
 }
-
+#e2d298
 /* 뱃지 표시 부분 */
 .badge-default {display:none}
 .badge-success {display:none}
@@ -82,7 +82,7 @@ font-size:15px;
 
 /* 왼쪽 카테고리 부분 */
 #article-list #article-list-category { font-family: "FontAwesome"; width: 875.5px; border-top: 3px; border-top-width: 0px; height: 40px; solid #776A6F; background: #776A6F; !important; }
-#article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #776A6F; color: #e8e6e4; !important; text-decoration: none; font-size: 14px; font-weight: bold }
+#article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #776A6F; color: #e2d298; !important; text-decoration: none; font-size: 14px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite BlueFLinkBG 1.5s; }
 #article-list #article-list-category > a.nav-link.active { border-top: 3px solid #776A6F; background: #776A6F; !important; }
 #article-list>.article-list-row>.item>.list-title>.list-category {
