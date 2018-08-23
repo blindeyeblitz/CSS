@@ -543,3 +543,8 @@ html, body {
     background-color: #f7f2ed;
     height: auto;
 }
+
+#main .menu-wrapper a:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
