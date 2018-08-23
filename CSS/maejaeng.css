@@ -558,12 +558,12 @@ html, body {
     float: left;
     position: absolute;
     background: url(https://i.imgur.com/VE1ScEm.png) no-repeat;
-    background-size: 30px 30px;
-    width: 43px;
-    height: 47px;
+    background-size: 2000px 2550px;
+    width: 2000px;
+    height: 2550px;
     left: 0;
     top: 0;
-    margin: -42px 0 0 -83px;
+    margin: 91px 0 0 -686px;
     text-indent: -9999px;
 }
 
