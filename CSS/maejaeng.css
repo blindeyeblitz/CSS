@@ -1,3 +1,6 @@
+#article-list>.article-list-row>.item>.list-title>.list-category>span{
+    color: #776A6F; !important;
+}
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
     color: #776A6F; !important;
