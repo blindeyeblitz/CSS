@@ -296,21 +296,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
     border: 0px;
 }
 
-/* 뷰어에리어 */
-#board-info #viewers-area {
-    line-height: 16px;
-    color: #776A6F;
-    font-size: 12px;
-    position: absolute;
-    right: 8px;
-    opacity: 100;
-}
-#board-info #viewers-area {
-    font-weight: normal;
-    vertical-align: middle;
-    display: inline-block;
-}
-
 /* 바닥부분 마진 */
 body > footer {
     margin-top: 15px;
