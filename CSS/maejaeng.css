@@ -190,8 +190,8 @@ font-size:15px;
 }
 
 @keyframes opacity {
-  0% { background-color: #ffffff; color: #ffffff; }
-  100% { background-color: #ffffff; color: #776A6F;  }
+  0% { background-color: #00ff0000; color: #00ff0000; }
+  100% { background-color: #00ff0000; color: #776A6F;  }
 }
 
 /* 바닥 부분 */
@@ -444,19 +444,26 @@ h1, h2, h3, h4, h5, h6 {
     animation-delay: .2s;
     animation-fill-mode: both;
 }
-/*
-/* 인원수 위치조정 */
+
+#board-info #viewers-area #viewers:before {
+    content: "NOW ";
+}
+#board-info #viewers-area #viewers:after {
+    content: "ONLINE";
+}
+
 #board-info #viewers-area {
-    line-height: 20px;
+    line-height: 16px;
     color: #776A6F;
     font-size: 12px;
     position: absolute;
     right: 8px;
+    opacity: 0;
     animation: opacity .5s;
     animation-delay: .2s;
     animation-fill-mode: both;
 }
-*/
+
 
 /* 댓글 닉네임 부분 */
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
