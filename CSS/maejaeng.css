@@ -438,14 +438,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 인원수 부분 */
-#board-info #viewers-area #viewers:after { 
+#board-info #viewers-area #viewers:before { 
     color: #776A6F;; 
-    content:"명 트게더 활동중!"; 
+    content:"붕어"; 
     cursor : text; 
     animation: opacity .5s;
     animation-delay: .2s;
     animation-fill-mode: both;
 }
+#board-info #viewers-area #viewers:after { 
+    color: #776A6F;; 
+    content:"마리 트게더 활동중!"; 
+    cursor : text; 
+    animation: opacity .5s;
+    animation-delay: .2s;
+    animation-fill-mode: both;
+}
+
 /* 인원수 위치조정 */
 #board-info #viewers-area {
     line-height: 20px;
