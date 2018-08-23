@@ -553,3 +553,7 @@ html, body {
 #main .menu-wrapper> a {
     color: #776A6F;
 }
+
+#main .menu-wrapper .spacer {
+    background: #f7f2ed;
+}
