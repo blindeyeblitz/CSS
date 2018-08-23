@@ -522,7 +522,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #main #main-content>div.frame {
     background: #00ff0000;
 }
-#article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-title>.list-writer, #article-list > .article-list-row > .item > .list-time, #article-list>.article-list-row>.item>.list-title>.list-category, #article-list>.article-list-row>.item>.list-header {
+#article-content-wrapper>.footer {
     background: #00ff0000;
 }
 
@@ -577,7 +577,7 @@ html, body {
     height: 1840px;
     left: 0;
     top: 0;
-    margin: 98px 0 0 -686px;
+    margin: 323px 0 0 -686px;
     text-indent: -9999px;
 }
 
