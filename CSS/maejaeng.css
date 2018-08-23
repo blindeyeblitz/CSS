@@ -509,7 +509,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 
 /* 게시글리스트 커서댐 색상 설정 비활성화 */
 #article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
-   background: #ffffff;
+   background: #00ff0000;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-category {
