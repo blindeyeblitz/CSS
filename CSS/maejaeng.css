@@ -542,7 +542,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
     position: absolute;
     width: 85px;
     height: 85px;
-    margin: -112px 0 0 -472px;
+    margin: -112px 0 0 -475px;
     border-radius: 50%;
     border: 5px solid #fff;
 }
