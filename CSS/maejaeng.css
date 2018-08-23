@@ -90,11 +90,6 @@ font-size:15px;
 .btn-primary { background: #131d27; border-color: #ffffff; }
 .btn-primary:hover { animation: infinite DBLinkBG 3s; }
 
-/* 3105761 매쟁이 컴퓨터사양*/
-/* 3105775 트게더룰 */
-/* 3054503 공지 */
-
-
 /* 키프레임 */
 @keyframes StarLink {
     0% { color: #131d27; }
@@ -229,69 +224,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 /* 게시글 비추천 비활성화 */
 #article-content-wrapper > div.vote-area > button.btn.btn-outline-primary.vote-btn {display:none;}
-
-/* 게시글 인포 부분 */
-#article-info-writer { color: #ffffff !important }
-#article-info > h2 { color: #ffffff !important }
-
-/* 공지 게시글 색상 */
-#article-list-row-6576683 > div > div.list-header.v0 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v1 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v2 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v3 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v4 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v5 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v6 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v7 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v8 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v9 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-time { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-title { background-color: #2d4053 !important; }
-#article-list-row-6576683 > div > div.list-title > a { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v0 > strong { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v1 > strong { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v2 > strong { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v3 > strong { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v4 > strong { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v5 > strong { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v6 > strong { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v7 > strong { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v8 > strong { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-header.v9 > strong { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-title > div > span { color: #ffffff !important; }
-#article-list-row-6576683 > div > div.list-title {
-    background-image: url("https://blindeyeblitz.github.io/image/TGD_ChickenEvent_Image.png");
-}
-
-#article-list-row-7995209 > div > div.list-header.v0 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v1 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v2 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v3 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v4 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v5 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v6 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v7 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v8 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v9 { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-time { background-color: #131d27; color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-title { background-color: #2d4053 !important; }
-#article-list-row-7995209 > div > div.list-title > a { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v0 > strong { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v1 > strong { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v2 > strong { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v3 > strong { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v4 > strong { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v5 > strong { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v6 > strong { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v7 > strong { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v8 > strong { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-header.v9 > strong { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-title > div > span { color: #ffffff !important; }
-#article-list-row-7995209 > div > div.list-title {
-    background-image: url("https://blindeyeblitz.github.io/image/TGD_Ban_Image.png");
-}
-
-/* 마진보더패딩 */
 #article-content-wrapper {     
     padding-left: 0px;
     padding-right: 0px; 
@@ -311,15 +243,6 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
     padding-right: 0px;
     margin-bottom: 3px;
     height: 26px;
-}
-
-/* 배경 색상 */
-html {
-    background-color: #ccdeff;
-}
-
-body {
-    background: none;
 }
 
 /* 보드인포 */
@@ -371,11 +294,6 @@ body > footer {
     border-top: 2px solid #131d27;
 }
 
-/* 프로필 삭제 */
-#board-info > #board-info-bottom > a:nth-child(3) {
-    display: none;
-}
-
 /* 머니아이콘 */
 .fa-money:before {
     content: "\f136";
@@ -391,10 +309,6 @@ span.a-badge i.fa.fa-info-circle {
 #article-list>.article-list-row>.item>.list-title>a:visited {
     color: #cccccc !important;
 }
-
-/* 뱃지 제거 */
-span.a-badge i.fa.fa-commenting-o {display:none;}
-span.a-badge i.fa.fa-picture-o {display:none;}
 
 /* 카테고리 관련 */
 #article-list>.article-list-row>.item>.list-title>.list-category>span {
@@ -413,10 +327,6 @@ span.a-badge i.fa.fa-picture-o {display:none;}
 
 #article-list>.article-list-row>.item>.list-title>.list-category {
     font: normal normal normal 14px/1 FontAwesome;
-}
-/* Live 글자 위치 */
-#main .menu-wrapper>a.schedule-link>span.live {
-    padding-top: 5px;
 }
 
 /* 리플 아이콘 변경 */
@@ -493,7 +403,7 @@ h1, h2, h3, h4, h5, h6 {
 .pull-right {
     float: right!important;
 }
-/* 이벤트 버튼 */
+/* 응모 버튼 */
 .frame>.pull-right>.btn-primary:hover {
     animation: shakeLoop 0.5s; 
     animation-iteration-count: infinite; 
@@ -550,9 +460,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #131d27;
     cursor: pointer;
 }
-/* 아이콘 제거 */
-#article-list > .article-list-row > .item > .list-title > div > span > img {display:none;}
-#article-info-writer > img {display:none;}
+
 /* 카테고리 선택부분 아이콘 */
 .form-control {
     font-family: FontAwesome;   
@@ -604,12 +512,3 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #article-list>.article-list-row>.item>.list-title>.list-writer {
     border-left: 0;
 }
-
-/* 익명 */
-#article-list>.article-list-row>.item>.list-title>.list-writer>span {display:none;}
-#article-list > .article-list-row > .item > .list-title > .list-writer.logged > span {display:none;}
-b, strong {display:none;}
-#article-info #article-info-writer {display:none;}
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {display:none;}
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer-image, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {display:none;}
-#article-info .article-profile-img {display:none;}
