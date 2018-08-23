@@ -45,7 +45,7 @@ header #header-bar #header-top-notice { color: #fff; !important }
 header #header-bar #header-top-notice a { color: #fff; !important }
 header #header-bar a.dropdown-toggle { color: #fff; }
 header #right-search-form>input[type=text] { border-color: #e8e6e4; }
-header #header-bar>.row { background-color: rgba(0,0,0,0); padding-top: 0em; padding-bottom: 0em; border-top: 2px solid #e8e6e4; }
+header #header-bar>.row { background-color: rgba(0,0,0,0); padding-top: 0em; padding-bottom: 0em; border-top: 2px solid #e8e6e4; border-left: 2px solid #e8e6e4; border-right: 2px solid #e8e6e4;}
 header #right-search-form>#right-search-btn { color: #e8e6e4; }
 header #header-bar { margin-top: 3px; margin-bottom: -6px; }
 header #header-bar #header-menu-left { border-right-width: 0px; }
