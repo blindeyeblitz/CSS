@@ -522,7 +522,10 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #main #main-content>div.frame {
     background: #00ff0000;
 }
-    
+#article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-title>.list-writer, #article-list > .article-list-row > .item > .list-time, #article-list>.article-list-row>.item>.list-title>.list-category, #article-list>.article-list-row>.item>.list-header {
+    background: #00ff0000;
+}
+
 #article-list>.article-list-row>.item>.list-title>.list-category {
     width: 24px;
     padding: 0px 0px 0px 10px;
