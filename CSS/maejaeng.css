@@ -298,6 +298,7 @@ body > footer {
 /* 게시글 보더 탑 */
 #article-content-wrapper>.header {
     border-top: 2px solid #776A6F;
+    color: #776A6F; !important;
 }
 
 /* 머니아이콘 */
