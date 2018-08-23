@@ -539,3 +539,8 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
     border-radius: 15px;
     padding-bottom: 20px;
 }
+
+html, body {
+    background-color: #f7f2ed;
+    height: auto;
+}
