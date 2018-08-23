@@ -177,9 +177,22 @@ font-size:15px;
   100% { background-color: #ffffff; color: #776A6F;  }
 }
 
-@keyframes slidein {
-  0% { margin-left: 100%; width: 300% }
-  100% { margin-left: 0%; width: 100%; }
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(8px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-16px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(16px, 0, 0);
+  }
 }
 
 /* 바닥 부분 */
@@ -571,10 +584,15 @@ html, body {
     float: left;
     position: absolute;
     background: url(https://i.imgur.com/xV4tGlt.png) no-repeat;
-    background-size: 43px 47px;
+    background-size: 40px 40px;
     width: 43px;
     height: 47px;
     left: 0;
     top: 0;
-    margin: -119px 0 0 -132px;
+    margin: -42px 0 0 -558px;
     text-indent: -9999px;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
