@@ -250,6 +250,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 }
 #board-info {
     border-top: 3px solid #776A6F;
+    background: #fff;
     overflow: inherit;
     padding-top: 3px;
     padding-bottom: 0px;
@@ -547,4 +548,8 @@ html, body {
 #main .menu-wrapper a:last-child {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+#main .menu-wrapper> a {
+    color: #776A6F;
 }
