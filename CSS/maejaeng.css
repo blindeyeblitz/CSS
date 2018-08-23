@@ -579,20 +579,4 @@ body {
     display:none;
 }
 
-#viewers-area .fa-user {
-    float: left;
-    position: absolute;
-    width: 166px;
-    height: 212px;
-    margin: -105px 0 0 253px;
-    background: url(https://i.imgur.com/VE1ScEm.png) no-repeat;
-    background-size: 166px auto;
-    text-indent: -9999px;
-    animation: mover 1s infinite  alternate;
-}
-@keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
-}
-
 span.a-badge {display:none;}
