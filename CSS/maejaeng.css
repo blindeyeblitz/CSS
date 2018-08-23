@@ -444,6 +444,7 @@ h1, h2, h3, h4, h5, h6 {
     animation-delay: .2s;
     animation-fill-mode: both;
 }
+/*
 /* 인원수 위치조정 */
 #board-info #viewers-area {
     line-height: 20px;
@@ -455,6 +456,7 @@ h1, h2, h3, h4, h5, h6 {
     animation-delay: .2s;
     animation-fill-mode: both;
 }
+*/
 
 /* 댓글 닉네임 부분 */
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
