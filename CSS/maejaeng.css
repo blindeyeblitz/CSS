@@ -46,7 +46,7 @@ header #header-bar #header-menu-right { border-left-width: 0px; }
 }
 
 /* 헤더 로고 부분 */
-header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url("https://blindeyeblitz.github.io/image/logo_TGD.png"); }
+header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url("https://i.imgur.com/1QFlQrZ.png"); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
 /* 폰트부분 */
