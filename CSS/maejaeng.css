@@ -517,9 +517,12 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 
 /* 게시글리스트 커서댐 색상 설정 비활성화 */
 #article-list>.article-list-row.notice:hover,#article-list>.article-list-row:hover {
-   background: #00ff0000;
+    background: #00ff0000;
 }
-
+#main #main-content>div.frame {
+    background: #00ff0000;
+}
+    
 #article-list>.article-list-row>.item>.list-title>.list-category {
     width: 24px;
     padding: 0px 0px 0px 10px;
@@ -571,7 +574,7 @@ html, body {
     height: 1840px;
     left: 0;
     top: 0;
-    margin: 91px 0 0 -686px;
+    margin: 98px 0 0 -686px;
     text-indent: -9999px;
 }
 
