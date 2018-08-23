@@ -1,5 +1,6 @@
 #article-list>.article-list-row>.item>.list-title>.list-category>span{
     color: #776A6F; !important
+    text-shadow: 2px 2px;
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
@@ -559,7 +560,7 @@ html, body {
 }
 
 #article-list>.article-list-row>.item>.list-title>a {
-    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px;
 }
 
 #board-info #viewers-area .fa-user {
