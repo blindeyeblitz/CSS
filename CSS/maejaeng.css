@@ -467,6 +467,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 인원수 부분 */
+#board-info #viewers-area { 
+    color: #776A6F; !important
+    line-height: 20px;
+    padding-left: 9px;
+    cursor : text; 
+}
+
 #board-info #viewers-area #viewers:after { 
     color: #776A6F; 
     cursor : text; 
