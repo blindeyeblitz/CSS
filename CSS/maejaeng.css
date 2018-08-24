@@ -467,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
     animation-iteration-count: infinite; 
 }
 
-/*  부분 */
+/* 추가 부분 */
 #board-info #board-info-bottom #goClipBtn:after {
     content: "보러가기 ";
     color: #776A6F;
