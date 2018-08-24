@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #board-info #viewers-area #viewers { 
     font-size: 15px;
-    line-height: 21px; !important
+    line-height: 20px; !important
     color: #776A6F; 
     cursor : text; 
 }
