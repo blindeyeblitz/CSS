@@ -55,7 +55,7 @@ span.a-badge i.fa.fa-commenting-o {display:none;}
     overflow: inherit;
     padding-top: 3px;
     padding-bottom: 0px;
-    padding-left: 190px;
+    padding-left: 152px;
     padding-right: 0px;
     margin-bottom: 1px;
     height: 26px;
@@ -305,9 +305,9 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 /* 보드인포 */
 #board-info h1, #board-info h1>a {
-    padding: 1.4px;
+    padding: 0.4px;
     float: left;
-    font-size: 12px;
+    font-size: 15px;
     border: 0;
     color: #776A6F;
     padding-right: 4px;
@@ -466,10 +466,16 @@ h1, h2, h3, h4, h5, h6 {
     animation-iteration-count: infinite; 
 }
 
-/* 인원수 부분 */
+/*  부분 */
+#board-info #board-info-bottom #goClipBtn:after {
+    content: "보러가기 ";
+    color: #776A6F;
+}
+
 #board-info #viewers-area { 
     color: #776A6F; !important
-    line-height: 20px;
+    font-size: 15px; !important
+    line-height: 21px; !important
     padding-left: 9px;
     cursor : text; 
 }
