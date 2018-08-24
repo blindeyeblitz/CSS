@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #board-info #viewers-area { 
     color: #776A6F; !important
-    padding-left: 9px;
+    padding-left: 8px; !important
     cursor : text; 
 }
 
