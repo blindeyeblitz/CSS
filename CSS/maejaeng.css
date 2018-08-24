@@ -1,21 +1,5 @@
 #article-reply-area #reply-real-area .reply > .reply-header > small.code, #article-reply-area #reply-best-area .reply>.reply-header>small.code {color: #776A6F; !important}
 
-#board-info {
-    border-top: 3px solid #776A6F;
-    border-left: 3px solid #776A6F;
-    border-right: 3px solid #776A6F;
-    background: #fff;
-    overflow: inherit;
-    padding-top: 3px;
-    padding-bottom: 0px;
-    padding-left: 190px;
-    padding-right: 0px;
-    margin-bottom: 1px;
-    height: 26px;
-}
-
-.badge {background-color: #776A6F; !important}
-
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {background-color: #00ff0000; border-bottom: 0px}
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {border-top-width: 0px; border-bottom-width: 0px;}
@@ -41,8 +25,24 @@ span.a-badge i.fa.fa-commenting-o {display:none;}
     margin-top: 2px;
     padding-left: 0px;
 }
-#e2d298
+
 /* 뱃지 표시 부분 */
+#board-info {
+    border-top: 3px solid #776A6F;
+    border-left: 3px solid #776A6F;
+    border-right: 3px solid #776A6F;
+    background: #fff;
+    overflow: inherit;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    padding-left: 190px;
+    padding-right: 0px;
+    margin-bottom: 1px;
+    height: 26px;
+}
+
+.badge {background-color: #776A6F; !important}
+
 .badge-default {display:none}
 .badge-success {display:none}
 
