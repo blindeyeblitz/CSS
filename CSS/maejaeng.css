@@ -55,7 +55,7 @@ span.a-badge i.fa.fa-commenting-o {display:none;}
     overflow: inherit;
     padding-top: 3px;
     padding-bottom: 0px;
-    padding-left: 152px;
+    padding-left: 115px;
     padding-right: 0px;
     margin-bottom: 1px;
     height: 26px;
@@ -305,7 +305,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 
 /* 보드인포 */
 #board-info h1, #board-info h1>a {
-    padding: 0.4px;
+    padding: 0.3px;
     float: left;
     font-size: 15px;
     border: 0;
@@ -314,7 +314,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 }
 
 #board-info #board-info-bottom {
-    padding-top: 2px; !important;
+    padding-top: 1px; !important;
 }
 
 #board-info #board-info-bottom #addFavoriteBtn {
@@ -560,7 +560,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
     position: absolute;
     width: 85px;
     height: 85px;
-    margin: -112px 0 0 -475px;
+    margin: -116px 0 0 -400px;
     border-radius: 50%;
     border: 5px solid #776A6F;
 }
