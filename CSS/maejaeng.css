@@ -1,5 +1,7 @@
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {background-color: #00FF0000; !important}
 
+#article-list>.article-list-row.notice {background-color: #00FF0000; !important}
+
 #article-list>.article-list-row.active {background-color: #00FF0000; !important}
 
 #article-reply-area #reply-real-area .reply > .reply-header > small.code, #article-reply-area #reply-best-area .reply>.reply-header>small.code {color: #776A6F; !important}
