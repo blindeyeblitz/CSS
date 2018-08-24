@@ -313,7 +313,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
     font-size: 15px;
     border: 0;
     color: #776A6F;
-    padding-right: 4px;
+    padding-right: 12px;
 }
 
 #board-info #board-info-bottom {
@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #board-info #viewers-area { 
     color: #776A6F; !important
-    padding-left: 8px; !important
+    padding-left: 8px;
     cursor : text; 
 }
 
