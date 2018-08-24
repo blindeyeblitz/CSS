@@ -69,7 +69,7 @@ span.a-badge i.fa.fa-commenting-o {display:none;}
 button, a {
     cursor: pointer;
 }
-f7f2ed
+
 /* 헤더 */
 header .row > div:nth-child(1) > a { background-image: url(https://upload.tgd.kr/20180825/bf7e3348f61c9dc83d528d3f539b3203.png); }
 header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; height: 60px; }
