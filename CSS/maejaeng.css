@@ -323,6 +323,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
     padding-left: 8px !important;
 }
 #board-info #board-info-bottom a {
+    font-size: 15px;
     color: #776A6F;
     border: 0px;
 }
@@ -474,13 +475,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #board-info #viewers-area { 
     color: #776A6F; !important
-    font-size: 15px; !important
-    line-height: 21px; !important
     padding-left: 9px;
     cursor : text; 
 }
 
-#board-info #viewers-area #viewers:after { 
+#board-info #viewers-area #viewers { 
+    font-size: 15px;
+    line-height: 21px; !important
     color: #776A6F; 
     cursor : text; 
 }
