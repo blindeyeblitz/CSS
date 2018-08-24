@@ -1,3 +1,5 @@
+#article-reply-area #reply-real-area .reply > .reply-header > small.code, #article-reply-area #reply-best-area .reply>.reply-header>small.code {color: #776A6F; !important}
+
 #board-info {
     border-top: 3px solid #776A6F;
     border-left: 3px solid #776A6F;
