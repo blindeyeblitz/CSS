@@ -1,3 +1,7 @@
+#article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {background-color: #00FF0000; !important}
+
+#article-list>.article-list-row.active {background-color: #00FF0000; !important}
+
 #article-reply-area #reply-real-area .reply > .reply-header > small.code, #article-reply-area #reply-best-area .reply>.reply-header>small.code {color: #776A6F; !important}
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {background-color: #00ff0000; border-bottom: 0px}
