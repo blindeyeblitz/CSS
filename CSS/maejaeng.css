@@ -21,6 +21,21 @@ span.a-badge i.fa.fa-commenting-o {display:none;}
     border-right-width: 0px;
 }
 
+#viewers-area .fa-user {
+    float: left;
+    position: absolute;
+    background: url(https://i.imgur.com/kMfxbXb.gifv) no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 54px;
+    left: 0;
+    top: 0;
+    margin: -102px 0 0 -264px;
+    text-indent: -9999px;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
     color: #776A6F; !important
     margin-top: 2px;
@@ -467,20 +482,7 @@ h1, h2, h3, h4, h5, h6 {
 #board-info #viewers-area #viewers:after {
     content: "ONLINE";
 }
-
-#board-info #viewers-area {
-    line-height: 16px;
-    color: #776A6F;
-    font-size: 12px;
-    position: absolute;
-    right: 8px;
-    opacity: 0;
-    animation: opacity .5s;
-    animation-delay: .2s;
-    animation-fill-mode: both;
-}
-
-
+    
 /* 댓글 닉네임 부분 */
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
     font-weight: bold;
