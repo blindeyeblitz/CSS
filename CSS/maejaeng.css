@@ -71,7 +71,7 @@ button, a {
 }
 f7f2ed
 /* 헤더 */
-header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url("https://i.imgur.com/j9XOtaA.png"); }
+header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; height: 60px; background-image: url(https://i.imgur.com/j9XOtaA.png); }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 header { margin-bottom: 15px; min-width: 1100px; background: #776A6F;}
 header #header-bar>.row { border-top-width: 0px; border-bottom-width: 0px; border-right-width: 0px; }
