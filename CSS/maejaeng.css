@@ -323,7 +323,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #board-info #board-info-bottom #addFavoriteBtn {
     text-decoration: none;
     border-left: none !important;
-    padding-left: 8px !important;
+    padding-left: 2px !important;
 }
 
 #board-info #board-info-bottom a {
