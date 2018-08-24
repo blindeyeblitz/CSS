@@ -592,7 +592,7 @@ body {
 }
 
 #main .menu-wrapper .spacer {
-    display:none;
+    display:none; !important
 }
 
 #viewers-area .fa-user {
