@@ -19,6 +19,10 @@
     color: #ffffff;
 }
 
+#article-list>#article-list-row-9081991>.item>.list-time {
+    color: #eeeeee; !important
+}
+
 #article-list>#article-list-row-9081991>.item>.list-header>strong {
     color: #eeeeee; !important
 }
