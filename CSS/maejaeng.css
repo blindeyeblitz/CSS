@@ -1,9 +1,15 @@
-#article-list>#article-list-row-9012118>.item>.list-title>span.a-badge i.fa.fa-info-circle:after {
+/* 방송확률 */
+#article-list-row-9081991, #article-list-row-9081991:hover {
+    background-color: #b34f4f!important;
+}
+
+#article-list>#article-list-row-9081991>.item>.list-title>span.a-badge i.fa.fa-info-circle:after {
     content: " 오늘의 방송확률 : ";
 }
 
 #article-list>.article-list-row.notice {
     text-shadow: #2d4053 0px 0px 5px,#2d4053 0px 0px 5px,#2d4053 0px 0px 5px!important;
+    color: #fff; !important
 }
 
 .dropdown-menu {
