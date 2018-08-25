@@ -6,6 +6,18 @@
     background-color: #776a6f; !important 
 }
 
+#favoriteDropdownMenu>li>a>span.name {
+    color: #776a6f; !important 
+}
+
+.dropdown-menu>li>a {
+    color: #776a6f; !important 
+}
+
+#latestDropdownMenu>li>a>span.name {
+    color: #776a6f; !important 
+}
+
 .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th { background: #00FF0000; Color: #776A6F; !important }
 
 .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
