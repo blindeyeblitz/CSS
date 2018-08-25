@@ -1,8 +1,8 @@
-.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th { background: #00FF0000; Color: #776A6F; }
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th { background: #00FF0000; Color: #776A6F; !important }
 
-.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th { border: 1px solid #00ff0000; }
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th { border: 1px solid #00ff0000; !important }
 
-#main-content > div > div.frame > table > tbody > tr:nth-child(1) > td:nth-child(3) { background: #00FF0000; }
+#main-content > div > div.frame > table > tbody > tr:nth-child > td:nth-child { background: #00FF0000; !important }
 
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {background-color: #00FF0000; !important}
 
