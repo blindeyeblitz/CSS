@@ -1,3 +1,11 @@
+#article-list>#article-list-row-9012118>.item>.list-title>span.a-badge i.fa.fa-info-circle:after {
+    content: " 오늘의 방송확률 : ";
+}
+
+#article-list>.article-list-row.notice {
+    text-shadow: #2d4053 0px 0px 5px,#2d4053 0px 0px 5px,#2d4053 0px 0px 5px!important;
+}
+
 .dropdown-menu {
     padding-bottom: 0px;
 }
