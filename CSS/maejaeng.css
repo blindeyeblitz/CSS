@@ -23,11 +23,12 @@
 #article-list>#article-list-row-9081991>.item>.list-title>span.a-badge {
     width: 120px!important;
 }
-#article-list>#article-list-row-9081991>.item>.list-title>a:visited
 
-#article-list > #article-list-row-9081991 > .item > .list-title > span.a-badge i.fa.fa-info-circle:after {
+#article-list>#article-list-row-9081991>.item>.list-title>span.a-badge i.fa.fa-info-circle:after {
     content: " TODAY STREAM : ";
 }
+
+#article-list>#article-list-row-9081991>.item>.list-title>a:visited
 
 #article-list>.article-list-row.notice {
     text-shadow: #2d4053 0px 0px 5px,#2d4053 0px 0px 5px,#2d4053 0px 0px 5px!important;
@@ -636,7 +637,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-category {
-    width: 24px;
+    width: 25px;
     padding: 0px 0px 0px 10px;
     border-right: 0;
 }
