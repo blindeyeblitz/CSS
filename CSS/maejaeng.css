@@ -100,6 +100,8 @@ header #header-bar #header-menu-right { border-left-width: 0px; }
 #main .menu-wrapper>.header { background: #776A6F; }
 #main .menu-wrapper>a>em { color: #776A6F; }
 #main .menu-wrapper>a>i.fa.fa-square { color: #776A6F; }
+#main .menu-wrapper>a { color: #776A6F; !important }
+
 
 /*  폰트  */
 #article-info>h2 {
