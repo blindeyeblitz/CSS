@@ -155,6 +155,7 @@ font-size:15px;
     float: left;
     border-left: 1px solid #e2e2e2;
     border-right: 1px solid #e2e2e2;
+    border-left-width: 0px;
     text-align: center;
     min-height: 16px;
     line-height: 16px;
