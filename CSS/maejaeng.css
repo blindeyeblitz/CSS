@@ -17,7 +17,7 @@
 }
 
 #article-list>.article-list-row>.item>.list-header>strong {
-    color: #eeeeee;
+    color: #eeeeee; !important
 }
 
 #article-list>#article-list-row-9081991>.item>.list-title>span.a-badge {
