@@ -1,4 +1,4 @@
-/* 방송확률 */
+/* 방송정보 */
 #article-list-row-9081991, #article-list-row-9081991:hover {
     background-color: #b34f4f!important;
 }
@@ -7,6 +7,7 @@
     color: #ffbfbf;
     text-shadow: none!important;
 }
+
 
 #article-list>#article-list-row-9081991>.item>.list-title>a i.fa.fa-lock {
     display:none; !important;
@@ -21,10 +22,12 @@
 }
 #article-list>#article-list-row-9081991>.notice>.item>.list-time, #article-list>.notice>.item>.list-title>.list-writer.logged>span {
     color: #ffffff;
+    display:none;
 }
 
 #article-list>#article-list-row-9081991>.item>.list-time {
     color: #eeeeee; !important
+    display:none;
 }
 
 #article-list>#article-list-row-9081991>.item>.list-header>strong {
