@@ -13,7 +13,7 @@
 }
 
 #article-list>.notice>.item>.list-time, #article-list>.notice>.item>.list-title>.list-writer.logged>span {
-    color: #ffffff;
+    color: #ffffff; !important
 }
 
 #article-list>.article-list-row>.item>.list-header>strong {
@@ -35,6 +35,12 @@
 }
 
 -------------------
+
+#article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
+    border-bottom: 1px solid #e2e2e2;
+    display: table-cell;
+    vertical-align: middle;
+}
 
 .dropdown-menu {
     padding-bottom: 0px;
