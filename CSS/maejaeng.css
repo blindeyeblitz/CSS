@@ -1,3 +1,41 @@
+/* 방송확률 */
+#article-list-row-9081991, #article-list-row-9081991:hover {
+    background-color: #b34f4f!important;
+}
+
+#article-list>#article-list-row-9081991>.item>.list-title>span.a-badge i.fa.fa-info-circle {
+    color: #ffbfbf;
+    text-shadow: none!important;
+}
+
+#article-list>.notice>.item>.list-checkbox, #article-list>.notice>.item>.list-header, #article-list>.notice>.item>.list-category, #article-list>.notice>.item>.list-title, #article-list>.notice>.item>.list-blocked, #article-list>.notice>.item>.list-time {
+    border-bottom: 0;
+}
+
+#article-list>.notice>.item>.list-time, #article-list>.notice>.item>.list-title>.list-writer.logged>span {
+    color: #ffffff;
+}
+
+#article-list>.article-list-row>.item>.list-header>strong {
+    color: #eeeeee;
+}
+
+#article-list>#article-list-row-9081991>.item>.list-title>span.a-badge {
+    width: 120px!important;
+}
+#article-list>#article-list-row-9081991>.item>.list-title>a:visited
+
+#article-list > #article-list-row-9081991 > .item > .list-title > span.a-badge i.fa.fa-info-circle:after {
+    content: " TODAY STREAM : ";
+}
+
+#article-list>.article-list-row.notice {
+    text-shadow: #2d4053 0px 0px 5px,#2d4053 0px 0px 5px,#2d4053 0px 0px 5px!important;
+    color: #fff; !important
+}
+
+-------------------
+
 .dropdown-menu {
     padding-bottom: 0px;
 }
@@ -391,6 +429,10 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 /* 카테고리 관련 */
+#article-list>.article-list-row>.item>.list-title>.list-category>span {
+    text-overflow: clip;
+}
+
 #article-list>.article-list-row>.item>.list-title>.list-category>span {
     display: block;
     letter-spacing: 0;
