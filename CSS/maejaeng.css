@@ -1,3 +1,7 @@
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th { background: #00FF0000; Color: #776A6F; }
+
+
+
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {background-color: #00FF0000; !important}
 
 #article-list>.article-list-row.notice {background-color: #00FF0000; !important}
