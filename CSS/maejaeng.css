@@ -13,7 +13,7 @@
 }
 
 #article-list>.notice>.item>.list-time, #article-list>.notice>.item>.list-title>.list-writer.logged>span {
-    color: #ffffff; !important
+    color: #ffffff;
 }
 
 #article-list>.article-list-row>.item>.list-header>strong {
@@ -32,10 +32,14 @@
 
 #article-list>.article-list-row.notice {
     text-shadow: #2d4053 0px 0px 5px,#2d4053 0px 0px 5px,#2d4053 0px 0px 5px!important;
-    color: #fff; !important
 }
 
 -------------------
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count, #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span, #article-reply-area > .header h5, #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged {
+    color: #776a6f;
+    font-weight: normal;
+}
 
 #article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
     border-bottom: 1px solid #e2e2e2;
