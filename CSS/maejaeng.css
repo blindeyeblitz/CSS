@@ -8,6 +8,10 @@
     text-shadow: none!important;
 }
 
+#article-list>#article-list-row-9081991>.item>.list-title>span.a-badge i.fa.fa-lock {
+    display:none; !important;
+}
+
 #article-list>.notice>.item>.list-checkbox, #article-list>.notice>.item>.list-header, #article-list>.notice>.item>.list-category, #article-list>.notice>.item>.list-title, #article-list>.notice>.item>.list-blocked, #article-list>.notice>.item>.list-time {
     border-bottom: 0;
 }
