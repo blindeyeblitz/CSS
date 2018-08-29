@@ -629,18 +629,22 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 #viewers-area .fa-user {
     float: left;
     position: absolute;
-    width: 166px;
-    height: 212px;
-    margin: -105px 0 0 253px;
-    background: url(https://i.imgur.com/VE1ScEm.png) no-repeat;
-    background-size: 166px auto;
+    width: 165px;
+    height: 85px;
+    margin: -187px 0 0 253px;
+    background: url(https://upload.tgd.kr/20180829/1f3728bf9c9bc162b13c7601df210686.png) no-repeat;
+    background-size: 165px auto;
     text-indent: -9999px;
-    animation: mover 1s infinite  alternate;
 }
 
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
+}
+
+#article-content-wrapper #article-content {
+    border-right-width: 0px;
+    border-left-width: 0px;
 }
 
 span.a-badge {display:none;}
