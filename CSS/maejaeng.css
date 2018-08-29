@@ -65,21 +65,6 @@ span.a-badge i.fa.fa-commenting-o {display:none;}
     border-left-width: 0px;
 }
 
-#viewers-area .fa-user {
-    float: left;
-    position: absolute;
-    background: url(https://i.imgur.com/kMfxbXb.gifv) no-repeat;
-    background-size: cover;
-    width: 120px;
-    height: 54px;
-    left: 0;
-    top: 0;
-    margin: -102px 0 0 -264px;
-    text-indent: -9999px;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
     color: #776A6F; !important
     margin-top: 2px;
@@ -652,6 +637,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
     text-indent: -9999px;
     animation: mover 1s infinite  alternate;
 }
+
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
