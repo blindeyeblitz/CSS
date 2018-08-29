@@ -632,11 +632,6 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
     border-radius: 15px;
 }
 
-body {
-    background-image: url(https://i.imgur.com/P7qCA7P.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-
 #main .menu-wrapper> a {
     color: #776A6F;
 }
