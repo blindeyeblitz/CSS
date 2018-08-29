@@ -1,4 +1,3 @@
-
 body {
     background-image: url(https://i.imgur.com/PpxReGJ.png);
     background-repeat: no-repeat;
@@ -102,7 +101,7 @@ button, a {
 }
 
 /* 헤더 */
-header .row > div:nth-child(1) > a { background-image: url(https://upload.tgd.kr/20180829/8bc7aa2f1ccd17053359593dbbbc312e.png); animation: pulse 1s; }
+header .row > div:nth-child(1) > a { background-image: url(https://upload.tgd.kr/20180829/8bc7aa2f1ccd17053359593dbbbc312e.png); }
 header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; height: 60px; }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 header { margin-bottom: 15px; min-width: 1100px; }
@@ -202,18 +201,6 @@ font-size:15px;
 .btn-primary:hover { animation: infinite DBLinkBG 3s; }
 
 /* 키프레임 */
-
-@keyframes pulse {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-
 @keyframes StarLink {
     0% { color: #776A6F; }
     15% { color: #776A6F; }
