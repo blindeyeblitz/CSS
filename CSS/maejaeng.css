@@ -404,10 +404,6 @@ span.a-badge i.fa.fa-info-circle {
     color: #776a6f; !important;
 }
 
-#article-list>.article-list-row>.item>.list-title>a:visited {
-    color: #776a6f; !important;
-}
-
 /* 카테고리 관련 */
 #article-list>.article-list-row>.item>.list-title>.list-category>span {
     text-overflow: clip;
