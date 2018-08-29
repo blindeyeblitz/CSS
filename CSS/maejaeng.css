@@ -282,9 +282,10 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #switch-platform-link { color: #fff; !important; }
 
 /* 게시글 리스트 */
+
 #article-list > .article-list-row > .item > .list-header.v0 > span:before { color: #00ff0000; content:"★"; cursor : text; }
-#article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #00ff0000; color: #00ff0000; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
-#article-list > .article-list-row > .item > .list-header.v0 > span: { background-color: #00ff0000; color: #00ff0000; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
+#article-list > .article-list-row > .item > .list-header.v0 > span { background-color: #00ff0000; !important color: #00ff0000; !important font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
+#article-list > .article-list-row > .item > .list-header.v0 > span:hover { background-color: #00ff0000; !important color: #00ff0000; !important font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
 #article-list > .article-list-row > .item > .list-header.v1 > span:before { color: #776A6F; content:"★"; cursor : text; }
 #article-list > .article-list-row > .item > .list-header.v1 > span { background-color: #00ff0000; color: #776A6F; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
 #article-list > .article-list-row > .item > .list-header.v2 > span:before { color: #776A6F; content:"★"; cursor : text; }
