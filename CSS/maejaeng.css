@@ -95,6 +95,7 @@ span.a-badge i.fa.fa-commenting-o {display:none;}
     border-top: 3px solid #776A6F;
     border-left: 3px solid #776A6F;
     border-right: 3px solid #776A6F;
+    border-bottom: 3px solid #776A6F;
     background: #00ff0000;
     overflow: inherit;
     padding-top: 3px;
@@ -102,7 +103,7 @@ span.a-badge i.fa.fa-commenting-o {display:none;}
     padding-left: 115px;
     padding-right: 0px;
     margin-bottom: 1px;
-    height: 26px;
+    height: 29px;
 }
 
 .badge {background-color: #776A6F; !important}
@@ -184,7 +185,7 @@ font-size:15px;
 { background-color: #776A6F; border-color: #ffffff; color: #ffffff !important; }
 
 /* 왼쪽 카테고리 부분 */
-#article-list #article-list-category { font-family: "FontAwesome"; width: 876.5px; border-top: 3px; border-top-width: 0px; height: 40px; solid #776A6F; background: #776A6F; !important; }
+#article-list #article-list-category { font-family: "FontAwesome"; width: 876.5px; border-top: 3px; border-top-width: 0px; height: 40px; solid #776A6F; background: #776A6F; margin-top: -3px; !important; }
 #article-list #article-list-category > a { display: inline-block; padding: 11px 14px; background: #776A6F; color: #e2d298; !important; text-decoration: none; font-size: 14px; font-weight: bold }
 #article-list #article-list-category > a:hover { animation: infinite BlueFLinkBG 1.5s; }
 #article-list #article-list-category > a.nav-link.active { border-top: 3px solid #776A6F; background: #776A6F; !important; }
