@@ -456,8 +456,8 @@ span.a-badge i.fa.fa-info-circle {
     height: 35px;
     font-size: 14px;
     padding: 9px 15px;
-    margin-left: 0.07em;
-    margin-right: 0.07em;
+    margin-left: -0px;
+    margin-right: -0px;
 }
 
 .frame>.frame>p {
