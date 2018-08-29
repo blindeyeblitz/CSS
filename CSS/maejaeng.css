@@ -1,58 +1,8 @@
-/* 방송정보 */
-#article-list-row-9081991, #article-list-row-9081991:hover {
-    background-color: #b34f4f!important;
+body {
+    background-image: url(http://www.fromout.com/tgd/green/green_back_small.png);
+    background-repeat: no-repeat;
+    background-position: center -20px;
 }
-
-#article-list>#article-list-row-9081991>.item>.list-title>span.a-badge i.fa.fa-info-circle {
-    color: #ffbfbf;
-    text-shadow: none!important;
-}
-
-
-#article-list>#article-list-row-9081991>.item>.list-title>a i.fa.fa-lock {
-    display:none; !important;
-}
-
-#article-list>.notice>.item>.list-checkbox, #article-list>.notice>.item>.list-header, #article-list>.notice>.item>.list-category, #article-list>.notice>.item>.list-title, #article-list>.notice>.item>.list-blocked, #article-list>.notice>.item>.list-time {
-    border-bottom: 0;
-}
-
-#article-list>#article-list-row-9081991>.item>.list-title>small.comment-count, #article-list>#article-list-row-9081991>.item>.list-title>.list-writer.logged>span, #article-reply-area > .header h5, #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged {
-    color: #eeeeee; !important
-}
-#article-list>#article-list-row-9081991>.notice>.item>.list-time, #article-list>.notice>.item>.list-title>.list-writer.logged>span {
-    color: #ffffff;
-    display:none;
-}
-
-#article-list>#article-list-row-9081991>.item>.list-time {
-    color: #eeeeee; !important
-    display:none;
-}
-
-#article-list>#article-list-row-9081991>.item>.list-header>strong {
-    color: #eeeeee; !important
-}
-
-#article-list>.article-list-row>.item>.list-header>strong {
-    color: #776a6f; !important
-}
-
-#article-list>#article-list-row-9081991>.item>.list-title>span.a-badge {
-    width: 120px!important;
-}
-
-#article-list>#article-list-row-9081991>.item>.list-title>span.a-badge i.fa.fa-info-circle:after {
-    content: " TODAY STREAM : ";
-}
-
-#article-list>#article-list-row-9081991>.item>.list-title>a:visited
-
-#article-list>.article-list-row.notice {
-    text-shadow: #2d4053 0px 0px 5px,#2d4053 0px 0px 5px,#2d4053 0px 0px 5px!important;
-}
-
--------------------
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count, #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span, #article-reply-area > .header h5, #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged {
     color: #776a6f;
@@ -178,7 +128,7 @@ header #header-bar #header-top-notice { color: #fff; !important }
 header #header-bar #header-top-notice a { color: #fff; !important }
 header #header-bar a.dropdown-toggle { color: #fff; }
 header #right-search-form>input[type=text] { border-color: #e8e6e4; }
-header #header-bar>.row { background-color: rgba(0,0,0,0); padding-top: 0em; padding-bottom: 0em; border-top: 2px solid #f7f2ed; border-left: 2px solid #f7f2ed; border-right: 2px solid #f7f2ed;}
+header #header-bar>.row { background-color: rgba(0,0,0,0); padding-top: 0em; padding-bottom: 0em;}
 header #right-search-form>#right-search-btn { color: #e8e6e4; }
 header #header-bar { margin-top: 3px; margin-bottom: -6px; }
 header #header-bar #header-menu-left { border-right-width: 0px; }
