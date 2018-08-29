@@ -306,7 +306,7 @@ body > footer > div > span:nth-child(4) { color: #fff; !important; }
 #article-list > .article-list-row > .item > .list-header > span:before { color: #776A6F; content:"★"; cursor : text; }
 #article-list > .article-list-row > .item > .list-header > span { background-color: #00ff0000; color: #776A6F; font-weight: bold; padding: 1px 5px; font-size: 11px; border-radius: 0px }
 #article-list > .article-list-category > .item > .nav-link.active > i { color: #ffffff; !important; }
-#article-info { background-color: #776A6F; !important; }
+#article-info { background-color: #776A6F; margin-top: -1px; !important; }
 
 #article-list > .article-list-row > .item > .list-title > small { color: #776A6F; !important }
 
