@@ -124,12 +124,7 @@ header #right-search-form { padding: 0.5em 0; }
 header .row>div:nth-child(1)>a { background-repeat: no-repeat; display: block; height: 60px; }
 header #header-bar #header-top-notice strong.notice-badge {display:none;}
 header #header-bar a.dropdown-toggle { color: #776a6f; !important }
-header #header-bar #header-top-notice {
-   margin-top: -20px; 
-   -webkit-text-stroke: 1px black;
-   color: white;
-   text-shadow: 3px 3px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
-}
+header #header-bar #header-top-notice { margin-top: -20px; -webkit-text-stroke: 1px white; }
 header #header-bar #header-top-notice a { color: #776a6f; !important }
 header #header-bar a.dropdown-toggle { color: #776a6f; !important }
 header #right-search-form>input[type=text] { border-color: #776a6f; !important }
