@@ -4,6 +4,10 @@ body {
     background-position: center -20px;
 }
 
+html, body {
+    background: #ffffff;
+}
+
 #article-list>.article-list-row>.item>.list-title>small.comment-count, #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span, #article-reply-area > .header h5, #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged {
     color: #776a6f;
     font-weight: normal;
