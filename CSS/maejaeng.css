@@ -73,7 +73,6 @@ span.a-badge i.fa.fa-commenting-o {display:none;}
 html, body {
     height: auto !important;
     background: url("https://blindeyeblitz.github.io/blindeyeblitz/image/background_MJ.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
