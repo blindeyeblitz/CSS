@@ -37,7 +37,7 @@
 
 #article-reply-area #reply-real-area .reply.active, #article-reply-area #reply-best-area .reply.active {background-color: #00FF0000; !important}
 
-#article-list>.article-list-row.notice {background-color: #00FF0000; !important}
+#article-list>.article-list-row.notice {background-color: #00FF0000; border-right-width: 0px; !important}
 
 #article-list>.article-list-row.active {background-color: #00FF0000; !important}
 
@@ -657,3 +657,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 }
 
 span.a-badge {display:none;}
+
+#article-list>.article-list-row {
+    border-right-width: 0px;
+}
