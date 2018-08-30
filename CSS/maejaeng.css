@@ -625,6 +625,10 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
     color: #776A6F;
 }
 
+#main .menu-wrapper {
+    border-right-width: 0px;
+}
+
 #main .menu-wrapper .spacer {
     background: #f7f2ed; !important
 }
