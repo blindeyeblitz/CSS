@@ -1,8 +1,3 @@
-body {
-    background: url(https://i.imgur.com/rlfHV0h.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-}
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count, #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span, #article-reply-area > .header h5, #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged {
     color: #776a6f;
@@ -145,9 +140,12 @@ header #header-bar #header-menu-right { border-left-width: 0px; padding-right: 0
 }
 
 body{
-height:auto !important;
-font-family:'GoyangIlsan',sans-serif; FontAwesome;
-font-size:15px;
+    background: url(https://i.imgur.com/rlfHV0h.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height:auto !important;
+    font-family:'GoyangIlsan',sans-serif; FontAwesome;
+    font-size:15px;
 }
 
 /* 매쟁게시판 홈 */
