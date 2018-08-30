@@ -636,7 +636,8 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
     width: 165px;
     height: 85px;
     margin: -137px 0 0 510px;
-    background: url(https://i.imgur.com/N8LefsO.png) no-repeat;
+    background: url(https://i.imgur.com/N8LefsO.png);
+    background-repeat: no-repeat;
     background-size: 165px auto;
     text-indent: -9999px;
 }
