@@ -71,7 +71,7 @@ span.a-badge i.fa.fa-commenting-o {display:none;}
 }
 
 html, body {
-    background: url(../images/BG_MJ.png);
+    background: url("../images/BG_MJ.png");
     background-repeat: no-repeat;
     background-position: center top;
 }
