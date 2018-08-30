@@ -1,11 +1,7 @@
 body {
-    background-image: url(https://blindeyeblitz.github.io/image/14-min.png);
-    background-repeat: no-repeat;
-    background-position: center -20px;
-}
-
-html, body {
-    background: #ffffff;
+    background-image: url(https://blindeyeblitz.github.io/image/14-min.png); !important
+    background-repeat: no-repeat; !important
+    background-position: center -20px; !important
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count, #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span, #article-reply-area > .header h5, #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged {
@@ -150,6 +146,7 @@ header #header-bar #header-menu-right { border-left-width: 0px; padding-right: 0
 
 body,html{
 height:auto !important;
+background: #ffffff;
 font-family:'GoyangIlsan',sans-serif; FontAwesome;
 font-size:15px;
 }
