@@ -502,7 +502,8 @@ h1, h2, h3, h4, h5, h6 {
 /* 이것은 삭게 체크박스 */
 #article-list>.article-list-row>.item>.list-checkbox {
     width: 40px;
-    background: #ff3f3f;
+    background: #00ff0000;
+    border-bottom-width: 0px;
 }
 
 /* 이모티콘 흔들기 */
