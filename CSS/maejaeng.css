@@ -1,3 +1,8 @@
+#article-content-wrapper>.vote-area {
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
 .table-bordered>tbody>tr>td {
     border-top-width: 0px;
     border-right-width: 0px;
@@ -52,7 +57,7 @@
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {background-color: #00ff0000; border-bottom: 0px}
 
-#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {border-top-width: 0px; border-bottom-width: 0px;}
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {color: #776A6F; !important}
 
