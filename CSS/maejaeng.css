@@ -1,3 +1,7 @@
+a:focus, a:hover {
+    color: #776a6f; !important 
+}
+
 #article-content-wrapper>.vote-area {
     border-left-width: 0px;
     border-right-width: 0px;
