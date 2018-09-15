@@ -142,3 +142,13 @@ header #header-bar>.row {
     background-color: #6242ad;
     border-color: #6242ad;
 }
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    background: #6441a5;
+    border-radius: 15px;
+    color: #fff;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+    font-size: 100%;
+}
