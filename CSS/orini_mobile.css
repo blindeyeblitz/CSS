@@ -1,0 +1,138 @@
+html, body {
+    background: #D8CEF6;
+}
+
+header>#header-area>a>h1 { background-image: url(https://upload.tgd.kr/20180916/f778e062cd3c0c63c61e0aa4d24c90dc.png); }
+header>#header-area>a>h1 { background-repeat: no-repeat; height: 32px; }
+header>#header-area>a>h1 img { opacity: 0; }
+
+.badge {
+    background-color: #6441a5;
+}
+
+header {
+    background: #D8CEF6;
+}
+
+.btn-outline-primary{
+    display: none;
+}
+
+#header-top-notice {
+    background: #D8CEF6;
+}
+
+header>#header-area>#header-bar-link {
+    color: #6441a5;
+}
+
+#board-info {
+    background: #D8CEF6;
+}
+
+#board-info>h1>a {
+    color: #6441a5;
+}
+
+#board-info>a.board-right-menu {
+    color: #6441a5;
+}
+
+#board-info {
+    border-top: 1px solid #6441a5;
+    border-bottom: 1px solid #6441a5;
+}
+
+#board-info>a.board-right-menu {
+    border-left: 1px solid #6441a5;
+}
+
+#article-list #article-list-category>a {
+    background: #6441a5;
+}
+
+#article-list #article-list-category {
+    background: #6441a5;
+}
+
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
+    background: #6441a5;
+}
+
+#article-info {
+    background: #6441a5;
+}
+
+#article-content-wrapper>.header {
+    color: #6441a5;
+}
+
+footer {
+    background: #6441a5;
+    border-top-width: 4px;
+    border-top: 4px solid #D8CEF6;
+    color: #D8CEF6;
+}
+
+a:focus, a:hover {
+    color: #D8CEF6;
+}
+
+.btn-primary {
+    background: #6441a5;
+}
+
+.btn-primary:hover {
+    background-color: #6441a5;
+    border-color: #6441a5;
+}
+
+#board-info #viewers-area {
+    color: #6441a5;
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "현재 ";
+    color: #6441a5;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명의 티끌단 활동중";
+}
+
+#article-info>h2 {
+    color: #fff;
+}
+
+#viewers-area .fa-user {
+    float: left;
+    position: absolute;
+    background: url(https://upload.tgd.kr/20180915/01b69b85d0d4b8c2c79b1fc1bad2092d.png) no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    left: 0;
+    top: 0;
+    margin: 90px 0 0 1624px;
+    text-indent: -9999px;
+    -webkit-animation: bounce 4s;
+    animation: bounce 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
+    color: #6441a5;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
+    color: #6441a5;
+}
