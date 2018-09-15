@@ -137,3 +137,8 @@ header #header-bar>.row {
     50%  { transform: translateY(-5px); }
     100% { transform: translateY(0); }
 }
+
+.btn-primary:hover {
+    background-color: #6242ad;
+    border-color: #6242ad;
+}
