@@ -65,7 +65,7 @@ header #header-bar>.row {
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명의 티끌단 접속중";
+    content: "명의 티끌단 중";
 }
 
 #article-content-wrapper>.header {
