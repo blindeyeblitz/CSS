@@ -199,6 +199,7 @@ span.a-badge i.fa.fa-star {
     background: #fff;
     border-radius: 15px;
     padding: 0;
+    height: 434px;
 }
 
 #article-list #article-list-menu>.btn.best {
@@ -207,4 +208,8 @@ span.a-badge i.fa.fa-star {
 
 #article-list #article-list-menu>.btn.write {
     margin-right: 10px;
+}
+
+span.a-badge i.fa.fa-info-circle {
+    color: #6441a5;
 }
