@@ -42,14 +42,7 @@ header #header-bar>.row {
     color: #6441a5;
 }
 
-#board-info #board-info-profile-img {
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-    margin: -31px 0 0 794px;
-    border: 5px solid #6441a5;
-}
+#board-info #board-info-profile-img { display: none; }
 
 header #header-bar>.row {
     border-radius: 22px;
@@ -102,6 +95,7 @@ header #header-bar>.row {
 
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
     background: #6242ad;
+    border-top-left-radius: 15px;
 }
 
 #article-info>h2>span.category#article-list #article-list-category>a {
@@ -160,3 +154,49 @@ span.a-badge i.fa.fa-star {
     100%{transform:rotate(360deg);}
 }
 
+#board-info h1 {
+    float: left;
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    line-height: 72px;
+    margin-top: -26px;
+    padding: 0;
+    border: 0;
+}
+
+#board-info {
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    height: 52px;
+    border: 2px solid #6242ad;
+}
+
+#main #main-content>div.frame {
+    background: rgba(255,255,255,0);
+    border: 0;
+}
+
+#article-list #article-list-category {
+    border: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#main #main-content {
+    padding-right: 0;
+}
+
+#board-info #board-info-bottom {
+    flex: auto;
+    padding-top: 2px;
+    text-align: right;
+}
+
+#article-list {
+    background: #fff;
+    border-radius: 15px;
+    padding: 0;
+}
