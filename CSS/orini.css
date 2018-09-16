@@ -227,3 +227,12 @@ span.a-badge i.fa.fa-star {
 span.a-badge i.fa.fa-info-circle {
     color: #6441a5;
 }
+
+#article-content-wrapper>.header {
+    padding: 0.6em 0.8em;
+}
+
+#main .menu-wrapper>.header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
