@@ -61,12 +61,27 @@ header #header-bar>.row {
     content: "명의 티끌단 활동중";
 }
 
+#article-content-wrapper {
+    background: #fff;
+    padding: 0;
+}
+
+#article-reply-area {
+    background: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
 #article-content-wrapper>.header {
     border-top: 0px;
+    padding: 0;
 }
 
 #article-info {
     background: #6441a5;
+    margin-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #article-info>h2 {
@@ -199,7 +214,6 @@ span.a-badge i.fa.fa-star {
     background: #fff;
     border-radius: 15px;
     padding: 0;
-    height: 1902px;
 }
 
 #article-list #article-list-menu>.btn.best {
