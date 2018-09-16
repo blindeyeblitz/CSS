@@ -200,3 +200,11 @@ span.a-badge i.fa.fa-star {
     border-radius: 15px;
     padding: 0;
 }
+
+#article-list #article-list-menu>.btn.best {
+    margin-left: 10px;
+}
+
+#article-list #article-list-menu>.btn.write {
+    margin-right: 10px;
+}
