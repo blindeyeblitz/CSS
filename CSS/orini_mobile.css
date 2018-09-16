@@ -104,31 +104,6 @@ a:focus, a:hover {
     color: #fff;
 }
 
-#viewers-area .fa-user {
-    float: left;
-    position: absolute;
-    background: url(https://upload.tgd.kr/20180915/01b69b85d0d4b8c2c79b1fc1bad2092d.png) no-repeat;
-    background-size: cover;
-    width: 32px;
-    height: 32px;
-    left: 0;
-    top: 0;
-    margin: 90px 0 0 1624px;
-    text-indent: -9999px;
-    -webkit-animation: bounce 4s;
-    animation: bounce 4s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes bounce {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-5px); }
-    100% { transform: translateY(0); }
-}
-
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
     color: #6441a5;
 }
