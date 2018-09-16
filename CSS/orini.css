@@ -45,7 +45,7 @@ header #header-bar>.row {
 #board-info #board-info-profile-img { display: none; }
 
 header #header-bar>.row {
-    border-radius: 22px;
+    border-radius: 15px;
 }
 
 .btn-primary {
