@@ -11,6 +11,10 @@ html, body {
     border-bottom: 0px;
 }
 
+#article-list #boardSearchForm {
+    margin: 1em auto 20px;
+}
+
 #main #main-content>div.frame {
     background: #fff;
     border-right: 0px;
