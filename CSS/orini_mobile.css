@@ -141,6 +141,10 @@ nav#nav {
     background: #D8CEF6;
 }
 
+nav#nav>#nav-upper>#header-close-bar-link {
+    color: #6441a5;
+}
+
 span.a-badge i.fa.fa-star {
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
@@ -156,4 +160,19 @@ span.a-badge i.fa.fa-star {
 @keyframes ROT360{
     0%{transform:rotate(0deg);}
     100%{transform:rotate(360deg);}
+}
+
+nav#nav {
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
 }
