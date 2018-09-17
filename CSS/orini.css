@@ -22,6 +22,7 @@ html, body {
 }
 
 header #header-bar>.row {
+    border-top: 5px solid #6441a5;
     border-bottom: 0px;
     border-right: 0px;
 }
@@ -173,6 +174,10 @@ span.a-badge i.fa.fa-star {
     100%{transform:rotate(360deg);}
 }
 
+header #right-search-form>input[type=text] {
+    border: 3px solid #6441a5;
+}
+
 #board-info h1 {
     float: left;
     position: absolute;
@@ -229,6 +234,10 @@ span.a-badge i.fa.fa-star {
     margin-right: 10px;
 }
 
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #8164b4;
+}
+
 span.a-badge i.fa.fa-info-circle {
     color: #6441a5;
 }
@@ -237,7 +246,16 @@ span.a-badge i.fa.fa-info-circle {
     padding: 0.6em 0.8em;
 }
 
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #6242ad;    
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: #6441a5;
+}
+
 #main .menu-wrapper>.header {
+    background: #6441a5;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
