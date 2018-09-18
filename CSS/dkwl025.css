@@ -1,0 +1,261 @@
+header .row > div:nth-child(1) > a { background-image: url(https://upload.tgd.kr/20180915/6d82a538fe9e5470ee28f3338c1c93a9.png); }
+header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; height: 60px; }
+header .row > div:nth-child(1) > a img { opacity: 0; }
+
+html, body {
+    background-color: #D8CEF6;
+}
+
+#main .menu-wrapper {
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+#article-list #boardSearchForm {
+    margin: 1em auto 20px;
+}
+
+#main #main-content>div.frame {
+    background: #fff;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+header #header-bar>.row {
+    border-top: 5px solid #6441a5;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+#main #main-content>div.frame {
+    border-radius: 15px;
+}
+
+.badge {
+    background-color: #6441a5;
+}
+
+#board-info #board-info-bottom a {
+    color: #6441a5;
+}
+
+#board-info #viewers-area {
+    color: #6441a5;
+}
+
+#board-info h1>a {
+    color: #6441a5;
+}
+
+#board-info #board-info-profile-img { display: none; }
+
+header #header-bar>.row {
+    border-radius: 15px;
+}
+
+.btn-primary {
+    background-color: #6441a5;
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "현재 ";
+    color: #6441a5;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명의 티끌단 활동중";
+}
+
+#article-content-wrapper {
+    background: #fff;
+    padding: 0;
+}
+
+#article-reply-area {
+    background: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#article-content-wrapper>.header {
+    border-top: 0px;
+    padding: 0;
+}
+
+#article-info {
+    background: #6441a5;
+    margin-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#article-info>h2 {
+    color: #fff;
+}
+
+#article-info #article-info-writer {
+    color: #fff;
+}
+
+#article-content-wrapper>.header {
+    color: #6441a5;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
+    color: #6441a5;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
+    color: #6441a5;
+}
+
+#article-list #article-list-category {
+    background: #6242ad;
+}
+
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
+    background: #6242ad;
+    border-top-left-radius: 15px;
+}
+
+#article-info>h2>span.category#article-list #article-list-category>a {
+    color: #D8CEF6;
+}
+
+#article-list #article-list-category>a {
+    color: #D8CEF6;
+    background: #6242ad;
+}
+
+#viewers-area .fa-user {
+    float: left;
+    position: absolute;
+    background: url(https://upload.tgd.kr/20180915/01b69b85d0d4b8c2c79b1fc1bad2092d.png) no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    left: 0;
+    top: 0;
+    margin: -135px 0 0 -275px;
+    text-indent: -9999px;
+    -webkit-animation: bounce 2s;
+    animation: bounce 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+.btn-primary:hover {
+    background-color: #6242ad;
+    border-color: #6242ad;
+}
+
+span.a-badge i.fa.fa-star {
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-animation: ROT360 2s ease-in-out infinite;
+            animation: ROT360 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes ROT360{
+    0%{-webkit-transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(360deg);}
+}
+
+@keyframes ROT360{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+
+header #right-search-form>input[type=text] {
+    border: 3px solid #6441a5;
+}
+
+#board-info h1 {
+    float: left;
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    line-height: 72px;
+    margin-top: -26px;
+    padding: 0;
+    border: 0;
+}
+
+#board-info {
+    display: flex;
+    background: #fff;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    height: 52px;
+    border: 2px solid #6242ad;
+}
+
+#main #main-content>div.frame {
+    background: rgba(255,255,255,0);
+    border: 0;
+}
+
+#article-list #article-list-category {
+    border: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#main #main-content {
+    padding-right: 0;
+}
+
+#board-info #board-info-bottom {
+    flex: auto;
+    padding-top: 2px;
+    text-align: right;
+}
+
+#article-list {
+    background: #fff;
+    border-radius: 15px;
+    height: 1905px;
+    padding: 0;
+}
+
+#article-list #article-list-menu>.btn.best {
+    margin-left: 10px;
+}
+
+#article-list #article-list-menu>.btn.write {
+    margin-right: 10px;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #8164b4;
+}
+
+span.a-badge i.fa.fa-info-circle {
+    color: #6441a5;
+}
+
+#article-content-wrapper>.header {
+    padding: 0.6em 0.8em;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #6242ad;    
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: #6441a5;
+}
+
+#main .menu-wrapper>.header {
+    background: #6441a5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
