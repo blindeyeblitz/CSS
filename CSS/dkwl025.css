@@ -153,20 +153,8 @@ header #right-search-form>#right-search-btn {
     height: 75px;
     left: 0;
     top: 0;
-    margin: -135px 0 0 -275px;
+    margin: -75px 0 0 574px;
     text-indent: -9999px;
-    -webkit-animation: bounce 2s;
-    animation: bounce 2s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes bounce {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-5px); }
-    100% { transform: translateY(0); }
 }
 
 .btn-primary:hover {
