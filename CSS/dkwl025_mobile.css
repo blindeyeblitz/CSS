@@ -3,7 +3,7 @@ html, body {
 }
 
 header>#header-area>a>h1 { background-image: url(https://upload.tgd.kr/20180918/b8a4aefaa692335ba818ab4232361f7d.png); }
-header>#header-area>a>h1 { background-repeat: no-repeat; width: 89px; height: 32px; }
+header>#header-area>a>h1 { background-repeat: no-repeat; background-size: contain; }
 header>#header-area>a>h1 img { opacity: 0; }
 
 .badge {
@@ -166,6 +166,18 @@ header {
 
 span.a-badge i.fa.fa-info-circle {
     color: #887667;
+}
+
+#article-reply-area > .header h5 {
+    color: #887667;
+}
+
+#lastc {
+    color: #887667;
+}
+
+span.a-badge i.fa.fa-home {
+    color: #e5ddd0;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
