@@ -39,12 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .h3, h3 {
-    color: #fff;
-    background: #887667;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    color: #887667;
 }
 
 .btn-default {
