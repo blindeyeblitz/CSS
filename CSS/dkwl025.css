@@ -312,3 +312,7 @@ span.a-badge i.fa.fa-info-circle {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
+#comment-write-form-area {
+    height: 246px;
+}
