@@ -1,5 +1,5 @@
 html, body {
-    background: #D8CEF6;
+    background: #a89a8c;
 }
 
 header>#header-area>a>h1 { background-image: url(https://upload.tgd.kr/20180916/f778e062cd3c0c63c61e0aa4d24c90dc.png); }
@@ -7,11 +7,11 @@ header>#header-area>a>h1 { background-repeat: no-repeat; height: 32px; }
 header>#header-area>a>h1 img { opacity: 0; }
 
 .badge {
-    background-color: #6441a5;
+    background-color: #887667;
 }
 
 header {
-    background: #D8CEF6;
+    background: #a89a8c;
 }
 
 .btn-outline-primary{
@@ -19,85 +19,85 @@ header {
 }
 
 #header-top-notice {
-    background: #D8CEF6;
+    background: #a89a8c;
 }
 
 header>#header-area>#header-bar-link {
-    color: #6441a5;
+    color: #887667;
 }
 
 #board-info {
-    background: #D8CEF6;
+    background: #a89a8c;
 }
 
 #board-info>h1>a {
-    color: #6441a5;
+    color: #887667;
 }
 
 #board-info>a.board-right-menu {
-    color: #6441a5;
+    color: #887667;
 }
 
 #board-info {
-    border-top: 1px solid #6441a5;
-    border-bottom: 1px solid #6441a5;
+    border-top: 1px solid #887667;
+    border-bottom: 1px solid #887667;;
 }
 
 #board-info>a.board-right-menu {
-    border-left: 1px solid #6441a5;
+    border-left: 1px solid #887667;
 }
 
 #article-list #article-list-category>a {
-    background: #6441a5;
+    background: #887667;
 }
 
 #article-list #article-list-category {
-    background: #6441a5;
+    background: #887667;
 }
 
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
-    background: #6441a5;
+    background: #887667;
 }
 
 #article-info {
-    background: #6441a5;
+    background: #887667;
 }
 
 #article-content-wrapper>.header {
-    color: #6441a5;
+    color: #887667;
 }
 
 footer {
-    background: #6441a5;
+    background: #887667;
     border-top-width: 4px;
-    border-top: 4px solid #D8CEF6;
-    color: #D8CEF6;
+    border-top: 4px solid #a89a8c;
+    color: #a89a8c;
 }
 
 a:focus, a:hover {
-    color: #D8CEF6;
+    color: #a89a8c;
 }
 
 .btn-primary {
-    background: #6441a5;
+    background: #887667;
 }
 
 .btn-primary:hover {
-    background-color: #6441a5;
-    border-color: #6441a5;
+    background-color: #887667;
+    border-color: #887667;
 }
 
 #board-info #viewers-area {
-    color: #6441a5;
+    color: #887667;
 }
 
 #board-info #viewers-area #viewers:before {
     content: "현재 ";
-    color: #6441a5;
+    color: #887667;
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명의 티끌단 활동중";
+    content: "강아지 활동중";
 }
 
 #article-info>h2 {
@@ -105,19 +105,19 @@ a:focus, a:hover {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
-    color: #6441a5;
+    color: #887667;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
-    color: #6441a5;
+    color: #887667;
 }
 
 nav#nav {
-    background: #D8CEF6;
+    background: #a89a8c;
 }
 
 nav#nav>#nav-upper>#header-close-bar-link {
-    color: #6441a5;
+    color: #887667;
 }
 
 span.a-badge i.fa.fa-star {
