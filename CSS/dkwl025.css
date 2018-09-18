@@ -60,7 +60,14 @@ header #header-bar>.row {
     color: #887667;
 }
 
-#board-info #board-info-profile-img { display: none; }
+#board-info #board-info-profile-img {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    margin: -34px 0 0 362px;
+    border-radius: 50%;
+    border: 6px solid #887667;
+}
 
 header #header-bar>.row {
     border-radius: 15px;
@@ -76,7 +83,7 @@ header #header-bar>.row {
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명의 티끌단 활동중";
+    content: "명의 아지단 활동중";
 }
 
 #article-content-wrapper {
