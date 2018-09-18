@@ -180,6 +180,10 @@ span.a-badge i.fa.fa-home {
     color: #e5ddd0;
 }
 
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    color: #887667;
+}
+
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #887667;
 }
