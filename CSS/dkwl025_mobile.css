@@ -92,12 +92,12 @@ a:focus, a:hover {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "현재 ";
+    content: "강아지";
     color: #887667;
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "마리의 강아지가 활동중";
+    content: "마리 활동중";
 }
 
 #article-info>h2 {
