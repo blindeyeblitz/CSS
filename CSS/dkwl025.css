@@ -193,7 +193,7 @@ header #right-search-form>#right-search-btn {
 #viewers-area .fa-user {
     float: left;
     position: absolute;
-    background: url(https://upload.tgd.kr/20180918/1ac370d9c20a5e4c78971f76e70365e6.png) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     width: 75px;
     height: 75px;
