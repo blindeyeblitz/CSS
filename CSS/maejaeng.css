@@ -173,16 +173,14 @@ body{
 #board-info > h1 > a:after { color: #776A6F; content:"게시판 홈"; cursor : text; }
 
 /* 페이지 부분 */
-.pagination > li > a { color: #776A6F; !important; }
-.pagination > li > span,
-.pagination > li > a:hover,
-.pagination > .active > a, 
-.pagination > .active > a:focus, 
-.pagination > .active > a:hover, 
-.pagination > .active > span, 
-.pagination > .active > span:focus, 
-.pagination > .active > span:hover 
-{ background-color: #776A6F; border-color: #ffffff; color: #ffffff !important; }
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #776A6F;
+    border-color: #776A6F;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #776A6F;
+}
 
 /* 왼쪽 카테고리 부분 */
 #article-list #article-list-category { font-family: "FontAwesome"; width: 876.5px; border-top: 3px; border-top-width: 0px; height: 40px; solid #776A6F; background: #776A6F; margin-top: -3px; !important; }
