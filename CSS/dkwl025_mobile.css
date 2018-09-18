@@ -195,3 +195,8 @@ span.a-badge i.fa.fa-home {
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
     color: #887667;
 }
+
+#article-list #article-list-category>a {
+    color: #e5ddd0;
+    background: #887667;
+}
