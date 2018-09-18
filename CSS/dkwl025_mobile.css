@@ -200,3 +200,7 @@ span.a-badge i.fa.fa-home {
     color: #e5ddd0;
     background: #887667;
 }
+
+nav#nav>.nav-header {
+    background: #887667;
+}
