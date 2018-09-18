@@ -10,6 +10,10 @@ header>#header-area>a>h1 img { opacity: 0; }
     background-color: #6441a5;
 }
 
+#lastc {
+    color: #6441a5;
+}
+
 header {
     background: #D8CEF6;
 }
