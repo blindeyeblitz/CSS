@@ -316,14 +316,3 @@ span.a-badge i.fa.fa-info-circle {
 #comment-write-form-area {
     height: 246px;
 }
-
-.pagination > li > a { color: #887667; !important; }
-.pagination > li > span,
-.pagination > li > a:hover,
-.pagination > .active > a, 
-.pagination > .active > a:focus, 
-.pagination > .active > a:hover, 
-.pagination > .active > span, 
-.pagination > .active > span:focus, 
-{ background-color: #887667; border-color: #887667; color: #ffffff !important; }
-
