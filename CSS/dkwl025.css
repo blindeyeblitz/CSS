@@ -192,11 +192,6 @@ header #right-search-form>#right-search-btn {
     text-indent: -9999px;
 }
 
-.btn-primary:hover {
-    background-color: #887667;
-    border-color: #887667;
-}
-
 span.a-badge i.fa.fa-star {
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
@@ -319,4 +314,11 @@ span.a-badge i.fa.fa-info-circle {
 
 .pagination>li>a, .pagination>li>span {
     color: #887667;
+}
+
+.btn-primary:hover { animation: infinite braws 2s; }
+
+@keyframes braws {
+    0% { background-color: #887667; border-color: #887667; }
+    100% { background-color: #887667; border-color: #887667; }
 }
