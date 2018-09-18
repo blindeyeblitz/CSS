@@ -97,7 +97,7 @@ a:focus, a:hover {
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "강아지 활동중";
+    content: "마리의 강아지가 활동중";
 }
 
 #article-info>h2 {
