@@ -2,8 +2,8 @@ html, body {
     background: #D8CEF6;
 }
 
-header>#header-area>a>h1 { background-image: url(https://upload.tgd.kr/20180916/f778e062cd3c0c63c61e0aa4d24c90dc.png); }
-header>#header-area>a>h1 { background-repeat: no-repeat; height: 32px; }
+header>#header-area>a>h1 { background-image: url(https://upload.tgd.kr/20180915/6d82a538fe9e5470ee28f3338c1c93a9.png); }
+header>#header-area>a>h1 { background-repeat: no-repeat; background-size: contain; }
 header>#header-area>a>h1 img { opacity: 0; }
 
 .badge {
