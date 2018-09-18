@@ -316,9 +316,17 @@ span.a-badge i.fa.fa-info-circle {
     color: #887667;
 }
 
-.btn-primary:hover { animation: infinite braws 2s; }
+.btn-primary:hover { animation: infinite braws 1s; }
 
 @keyframes braws {
     0% { background-color: #887667; border-color: #887667; }
     100% { background-color: #887667; border-color: #887667; }
 }
+
+body > footer > div > span:nth-child(1) { color: #887667; }
+body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #887667; }
+body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #887667; }
+body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #887667; }
+body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #887667; }
+body > footer > div > span:nth-child(4) { color: #887667; }
+#switch-platform-link { color: #887667; }
