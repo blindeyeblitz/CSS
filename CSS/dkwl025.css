@@ -1,9 +1,9 @@
-header .row > div:nth-child(1) > a { background-image: url(https://upload.tgd.kr/20180915/6d82a538fe9e5470ee28f3338c1c93a9.png); }
+header .row > div:nth-child(1) > a { background-image: url(https://upload.tgd.kr/20180918/b8a4aefaa692335ba818ab4232361f7d.png); }
 header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; height: 60px; }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
 html, body {
-    background-color: #D8CEF6;
+    background-color: #a89a8c;
 }
 
 #main .menu-wrapper {
@@ -21,10 +21,23 @@ html, body {
     border-bottom: 0px;
 }
 
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background-color: #887667;
+}
+
 header #header-bar>.row {
-    border-top: 5px solid #6441a5;
+    border-top: 5px solid #887667;
     border-bottom: 0px;
     border-right: 0px;
+}
+
+#main .menu-wrapper>a>em {
+    color: #b3aa99;
+}
+
+#main .menu-wrapper>a>i.fa.fa-square {
+    color: #b3aa99;
 }
 
 #main #main-content>div.frame {
@@ -32,19 +45,19 @@ header #header-bar>.row {
 }
 
 .badge {
-    background-color: #6441a5;
+    background-color: #887667;
 }
 
 #board-info #board-info-bottom a {
-    color: #6441a5;
+    color: #887667;
 }
 
 #board-info #viewers-area {
-    color: #6441a5;
+    color: #887667;
 }
 
 #board-info h1>a {
-    color: #6441a5;
+    color: #887667;
 }
 
 #board-info #board-info-profile-img { display: none; }
@@ -54,12 +67,12 @@ header #header-bar>.row {
 }
 
 .btn-primary {
-    background-color: #6441a5;
+    background-color: #887667;
 }
 
 #board-info #viewers-area #viewers:before {
     content: "현재 ";
-    color: #6441a5;
+    color: #887667;
 }
 
 #board-info #viewers-area #viewers:after {
@@ -83,7 +96,7 @@ header #header-bar>.row {
 }
 
 #article-info {
-    background: #6441a5;
+    background: #887667;
     margin-top: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -98,23 +111,27 @@ header #header-bar>.row {
 }
 
 #article-content-wrapper>.header {
-    color: #6441a5;
+    color: #887667;
+}
+
+header #right-search-form>#right-search-btn {
+    color: #887667;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
-    color: #6441a5;
+    color: #887667;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
-    color: #6441a5;
+    color: #887667;
 }
 
 #article-list #article-list-category {
-    background: #6242ad;
+    background: #887667;
 }
 
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
-    background: #6242ad;
+    background: #887667;
     border-top-left-radius: 15px;
 }
 
@@ -124,7 +141,7 @@ header #header-bar>.row {
 
 #article-list #article-list-category>a {
     color: #D8CEF6;
-    background: #6242ad;
+    background: #887667;
 }
 
 #viewers-area .fa-user {
@@ -153,8 +170,8 @@ header #header-bar>.row {
 }
 
 .btn-primary:hover {
-    background-color: #6242ad;
-    border-color: #6242ad;
+    background-color: #887667;
+    border-color: #887667;
 }
 
 span.a-badge i.fa.fa-star {
@@ -175,7 +192,7 @@ span.a-badge i.fa.fa-star {
 }
 
 header #right-search-form>input[type=text] {
-    border: 3px solid #6441a5;
+    border: 3px solid #887667;
 }
 
 #board-info h1 {
@@ -195,7 +212,7 @@ header #right-search-form>input[type=text] {
     border-radius: 15px;
     margin-bottom: 15px;
     height: 52px;
-    border: 2px solid #6242ad;
+    border: 2px solid #887667;
 }
 
 #main #main-content>div.frame {
@@ -235,11 +252,11 @@ header #right-search-form>input[type=text] {
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
-    background-color: #8164b4;
+    background-color: #887667;
 }
 
 span.a-badge i.fa.fa-info-circle {
-    color: #6441a5;
+    color: #887667;
 }
 
 #article-content-wrapper>.header {
@@ -247,15 +264,15 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
-    color: #6242ad;    
+    color: #887667;    
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: #6441a5;
+    color: #887667;
 }
 
 #main .menu-wrapper>.header {
-    background: #6441a5;
+    background: #887667;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
