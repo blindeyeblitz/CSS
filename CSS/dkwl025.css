@@ -8,18 +8,8 @@ header .row > div:nth-child(1) > a img { opacity: 0; }
     color: #887667;
 }
 
-#lastc {
-    color: #887667;
-}
-
-header .row > div:nth-child(1) > a { background-image: url(https://upload.tgd.kr/20180918/b8a4aefaa692335ba818ab4232361f7d.png); }
-header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; height: 60px; }
-header .row > div:nth-child(1) > a img { opacity: 0; }
-
-.btn-outline-primary { display: none; }
-
-#article-reply-area > .header h5 {
-    color: #887667;
+#board-info h1>a {
+    margin-left: 86px;
 }
 
 #lastc {
@@ -244,7 +234,11 @@ header #right-search-form>input[type=text] {
     position: absolute;
     width: 400px;
     height: 80px;
-    line-height: 72px;
+    background: url(https://upload.tgd.kr/20180918/0be0217606dffcddff736cf7a4f331eb.png);
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    line-height: 80px;
     margin-top: -26px;
     padding: 0;
     border: 0;
@@ -254,7 +248,7 @@ header #right-search-form>input[type=text] {
     display: flex;
     background: #fff;
     border-radius: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     height: 52px;
     border: 2px solid #887667;
 }
@@ -408,13 +402,7 @@ header #header-bar>.row {
     color: #887667;
 }
 
-#board-info #board-info-profile-img {
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    margin: -162px 0 0 498px;
-    border: 4px solid #887667;
-}
+#board-info #board-info-profile-img {display: none;}
 
 header #header-bar>.row {
     border-radius: 15px;
