@@ -179,6 +179,7 @@ header #right-search-form>#right-search-btn {
     background: #887667;
 }
 
+/*
 #viewers-area .fa-user {
     float: left;
     position: absolute;
@@ -191,6 +192,7 @@ header #right-search-form>#right-search-btn {
     margin: -122px 0 0 -76px;
     text-indent: -9999px;
 }
+*/
 
 span.a-badge i.fa.fa-star {
     -webkit-transform-origin: 50% 50%;
