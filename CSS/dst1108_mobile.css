@@ -205,10 +205,10 @@ nav#nav>.nav-header {
     background: #5673a2;
 }
 
-body > footer > div > span:nth-child(1) { color: #5673a2; }
-body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #5673a2; }
-body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #5673a2; }
-body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #5673a2; }
-body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #5673a2; }
-body > footer > div > span:nth-child(4) { color: #5673a2; }
-#switch-platform-link { color: #5673a2; }
+body > footer > div > span:nth-child(1) { color: #8c9da8; }
+body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #8c9da8; }
+body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #8c9da8; }
+body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #8c9da8; }
+body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #8c9da8; }
+body > footer > div > span:nth-child(4) { color: #8c9da8; }
+#switch-platform-link { color: #8c9da8; }
