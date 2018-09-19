@@ -2,7 +2,7 @@ html, body {
     background: #8c9da8;
 }
 
-header>#header-area>a>h1 { background-image: url(https://upload.tgd.kr/20180918/b8a4aefaa692335ba818ab4232361f7d.png); }
+header>#header-area>a>h1 { background-image: url(https://upload.tgd.kr/20180920/d410342e2b6a3937840eec44fafea4fd.png); }
 header>#header-area>a>h1 { background-repeat: no-repeat; background-size: contain; }
 header>#header-area>a>h1 img { opacity: 0; }
 
@@ -11,7 +11,7 @@ header>#header-area>a>h1 img { opacity: 0; }
 }
 
 header {
-    background: #a89a8c;
+    background: #8c9da8;
 }
 
 .btn-outline-primary{
@@ -19,7 +19,7 @@ header {
 }
 
 #header-top-notice {
-    background: #a89a8c;
+    background: #8c9da8;
 }
 
 header>#header-area>#header-bar-link {
@@ -27,7 +27,7 @@ header>#header-area>#header-bar-link {
 }
 
 #board-info {
-    background: #a89a8c;
+    background: #8c9da8;
 }
 
 #board-info>h1>a {
@@ -70,12 +70,12 @@ header>#header-area>#header-bar-link {
 footer {
     background: #5673a2;
     border-top-width: 4px;
-    border-top: 4px solid #a89a8c;
-    color: #a89a8c;
+    border-top: 4px solid #8c9da8;
+    color: #8c9da8;
 }
 
 a:focus, a:hover {
-    color: #a89a8c;
+    color: #8c9da8;
 }
 
 .btn-primary {
@@ -113,7 +113,7 @@ a:focus, a:hover {
 }
 
 nav#nav {
-    background: #a89a8c;
+    background: #8c9da8;
 }
 
 nav#nav>#nav-upper>#header-close-bar-link {
@@ -153,7 +153,7 @@ nav#nav {
 }
 
 header>#header-area>#header-search-link {
-    color: #a89a8c;
+    color: #8c9da8;
 }
 
 header {
