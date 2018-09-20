@@ -10,6 +10,15 @@ header>#header-area>a>h1 img { opacity: 0; }
     background-color: #887667;
 }
 
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #887667;
+    border-color: #887667;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #887667;
+}
+
 header {
     background: #a89a8c;
 }
