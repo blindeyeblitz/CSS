@@ -77,11 +77,11 @@ header #header-bar>.row {
 }
 
 #main .menu-wrapper>a>em {
-    color: #98a7b2;
+    color: #020b28;
 }
 
 #main .menu-wrapper>a>i.fa.fa-square {
-    color: #98a7b2;
+    color: #020b28;
 }
 
 #main #main-content>div.frame {
@@ -117,7 +117,7 @@ header #header-bar>.row {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "딜러 ";
+    content: "A급딜러 ";
     color: #020b28;
 }
 
