@@ -5,15 +5,26 @@ header .row > div:nth-child(1) > a img { opacity: 0; }
 .btn-outline-primary { display: none; }
 
 #article-reply-area > .header h5 {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #board-info h1>a {
     margin-left: 86px;
 }
 
+#article-info>h2 {
+    font-family: "FontAwesome";
+}
+
+body{
+    font-family:'FontAwesome',sans-serif;
+    font-size:15px;
+}
+
+#article-list #article-list-category { font-family: "FontAwesome"; }
+
 #lastc {
-    color: #5673a2;
+    color: #020b28;
 }
 
 html, body {
@@ -39,13 +50,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .h3, h3 {
-    color: #5673a2;
+    color: #020b28;
 }
 
 .btn-default {
     color: #fff;
-    background-color: #5673a2;
-    border-color: #5673a2;
+    background-color: #020b28;
+    border-color: #020b28;
 }
 
 #main #main-content>div.frame {
@@ -56,11 +67,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background-color: #5673a2;
+    background-color: #020b28;
 }
 
 header #header-bar>.row {
-    border-top: 5px solid #5673a2;
+    border-top: 5px solid #020b28;
     border-bottom: 0px;
     border-right: 0px;
 }
@@ -78,19 +89,19 @@ header #header-bar>.row {
 }
 
 .badge {
-    background-color: #5673a2;
+    background-color: #020b28;
 }
 
 #board-info #board-info-bottom a {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #board-info #viewers-area {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #board-info h1>a {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #board-info #board-info-profile-img {display: none;}
@@ -101,13 +112,13 @@ header #header-bar>.row {
 
 .btn-primary {
     color: #fff;
-    background-color: #5673a2;
-    border-color: #5673a2;
+    background-color: #020b28;
+    border-color: #020b28;
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "꾸구단 ";
-    color: #5673a2;
+    content: "딜러 ";
+    color: #020b28;
 }
 
 #board-info #viewers-area #viewers:after {
@@ -131,7 +142,7 @@ header #header-bar>.row {
 }
 
 #article-info {
-    background: #5673a2;
+    background: #020b28;
     margin-top: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -146,27 +157,27 @@ header #header-bar>.row {
 }
 
 #article-content-wrapper>.header {
-    color: #5673a2;
+    color: #020b28;
 }
 
 header #right-search-form>#right-search-btn {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #article-list #article-list-category {
-    background: #5673a2;
+    background: #020b28;
 }
 
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
-    background: #5673a2;
+    background: #020b28;
     border-top-left-radius: 15px;
 }
 
@@ -176,7 +187,7 @@ header #right-search-form>#right-search-btn {
 
 #article-list #article-list-category>a {
     color: #e5ddd0;
-    background: #5673a2;
+    background: #020b28;
 }
 
 /*
@@ -212,7 +223,7 @@ span.a-badge i.fa.fa-star {
 }
 
 header #right-search-form>input[type=text] {
-    border: 3px solid #5673a2;
+    border: 3px solid #020b28;
 }
 
 #board-info h1 {
@@ -236,7 +247,7 @@ header #right-search-form>input[type=text] {
     border-radius: 15px;
     margin-bottom: 25px;
     height: 52px;
-    border: 2px solid #5673a2;
+    border: 2px solid #020b28;
 }
 
 #main #main-content>div.frame {
@@ -276,15 +287,15 @@ header #right-search-form>input[type=text] {
 }
 
 .btn.square {
-    border: 1px solid #5673a2;
+    border: 1px solid #020b28;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
-    background-color: #5673a2;
+    background-color: #020b28;
 }
 
 span.a-badge i.fa.fa-info-circle {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #article-content-wrapper>.header {
@@ -292,15 +303,15 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
-    color: #5673a2;    
+    color: #020b28;    
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #main .menu-wrapper>.header {
-    background: #5673a2;
+    background: #020b28;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -310,25 +321,25 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-    background-color: #5673a2;
-    border-color: #5673a2;
+    background-color: #020b28;
+    border-color: #020b28;
 }
 
 .pagination>li>a, .pagination>li>span {
-    color: #5673a2;
+    color: #020b28;
 }
 
 .btn-primary:hover { animation: infinite braws 1s; }
 
 @keyframes braws {
-    0% { background-color: #5673a2; border-color: #5673a2; }
-    100% { background-color: #5673a2; border-color: #5673a2; }
+    0% { background-color: #020b28; border-color: #020b28; }
+    100% { background-color: #020b28; border-color: #020b28; }
 }
 
-body > footer > div > span:nth-child(1) { color: #5673a2; }
-body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #5673a2; }
-body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #5673a2; }
-body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #5673a2; }
-body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #5673a2; }
-body > footer > div > span:nth-child(4) { color: #5673a2; }
-#switch-platform-link { color: #5673a2; }
+body > footer > div > span:nth-child(1) { color: #020b28; }
+body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #020b28; }
+body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #020b28; }
+body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #020b28; }
+body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #020b28; }
+body > footer > div > span:nth-child(4) { color: #020b28; }
+#switch-platform-link { color: #020b28; }
