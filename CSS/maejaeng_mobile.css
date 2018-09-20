@@ -7,12 +7,23 @@ header>#header-area>a>h1 { background-repeat: no-repeat; background-size: contai
 header>#header-area>a>h1 img { opacity: 0; }
 
 .badge {
-    background-color: #5673a2;
+    background-color: #020b28;
 }
 
 header {
     background: #8EC0E4;
 }
+
+#article-info>h2 {
+    font-family: "FontAwesome";
+}
+
+body{
+    font-family:'FontAwesome',sans-serif;
+    font-size:15px;
+}
+
+#article-list #article-list-category { font-family: "FontAwesome"; }
 
 .btn-outline-primary{
     display: none;
@@ -23,7 +34,7 @@ header {
 }
 
 header>#header-area>#header-bar-link {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #board-info {
@@ -31,44 +42,44 @@ header>#header-area>#header-bar-link {
 }
 
 #board-info>h1>a {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #board-info>a.board-right-menu {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #board-info {
-    border-top: 1px solid #5673a2;
-    border-bottom: 1px solid #5673a2;
+    border-top: 1px solid #020b28;
+    border-bottom: 1px solid #020b28;
 }
 
 #board-info>a.board-right-menu {
-    border-left: 1px solid #5673a2;
+    border-left: 1px solid #020b28;
 }
 
 #article-list #article-list-category>a {
-    background: #5673a2;
+    background: #020b28;
 }
 
 #article-list #article-list-category {
-    background: #5673a2;
+    background: #020b28;
 }
 
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
-    background: #5673a2;
+    background: #020b28;
 }
 
 #article-info {
-    background: #5673a2;
+    background: #020b28;
 }
 
 #article-content-wrapper>.header {
-    color: #5673a2;
+    color: #020b28;
 }
 
 footer {
-    background: #5673a2;
+    background: #020b28;
     border-top-width: 4px;
     border-top: 4px solid #8EC0E4;
     color: #8EC0E4;
@@ -79,21 +90,21 @@ a:focus, a:hover {
 }
 
 .btn-primary {
-    background: #5673a2;
+    background: #020b28;
 }
 
 .btn-primary:hover {
-    background-color: #5673a2;
-    border-color: #5673a2;
+    background-color: #020b28;
+    border-color: #020b28;
 }
 
 #board-info #viewers-area {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "꾸구단 ";
-    color: #5673a2;
+    content: " ";
+    color: #020b28;
 }
 
 #board-info #viewers-area #viewers:after {
@@ -105,11 +116,11 @@ a:focus, a:hover {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
-    color: #5673a2;
+    color: #020b28;
 }
 
 nav#nav {
@@ -117,7 +128,7 @@ nav#nav {
 }
 
 nav#nav>#nav-upper>#header-close-bar-link {
-    color: #5673a2;
+    color: #020b28;
 }
 
 span.a-badge i.fa.fa-star {
@@ -157,23 +168,23 @@ header>#header-area>#header-search-link {
 }
 
 header {
-    border-bottom: 4px solid #5673a2;
+    border-bottom: 4px solid #020b28;
 }
 
 #header-top-notice strong.notice-badge {
-    background: #5673a2;
+    background: #020b28;
 }
 
 span.a-badge i.fa.fa-info-circle {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #article-reply-area > .header h5 {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #lastc {
-    color: #5673a2;
+    color: #020b28;
 }
 
 span.a-badge i.fa.fa-home {
@@ -181,34 +192,34 @@ span.a-badge i.fa.fa-home {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
-    background-color: #5673a2;
+    background-color: #020b28;
 }
 
 #article-list>.article-list-row>.item>a.list-title>small.comment-count {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
-    color: #5673a2;
+    color: #020b28;
 }
 
 #article-list #article-list-category>a {
     color: #98a7b2;
-    background: #5673a2;
+    background: #020b28;
 }
 
 nav#nav>.nav-header {
-    background: #5673a2;
+    background: #020b28;
 }
 
-body > footer > div > span:nth-child(1) { color: #8EC0E4; }
-body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #8EC0E4; }
-body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #8EC0E4; }
-body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #8EC0E4; }
-body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #8EC0E4; }
-body > footer > div > span:nth-child(4) { color: #8EC0E4; }
-#switch-platform-link { color: #8EC0E4; }
+body > footer > div > span:nth-child(1) { color: #e5ddd0; }
+body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #e5ddd0; }
+body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #e5ddd0; }
+body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #e5ddd0; }
+body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #e5ddd0; }
+body > footer > div > span:nth-child(4) { color: #e5ddd0; }
+#switch-platform-link { color: #e5ddd0; }
