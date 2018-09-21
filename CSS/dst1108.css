@@ -117,7 +117,7 @@ header #header-bar>.row {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: " ";
+    content: "꾸구단 ";
     color: #5673a2;
 }
 
