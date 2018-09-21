@@ -12,6 +12,17 @@ header .row > div:nth-child(1) > a img { opacity: 0; }
     margin-left: 86px;
 }
 
+#article-info>h2 {
+    font-family: "FontAwesome";
+}
+
+body{
+    font-family:'FontAwesome',sans-serif;
+    font-size:15px;
+}
+
+#article-list #article-list-category { font-family: "FontAwesome"; }
+
 #lastc {
     color: #5673a2;
 }
@@ -66,11 +77,11 @@ header #header-bar>.row {
 }
 
 #main .menu-wrapper>a>em {
-    color: #98a7b2;
+    color: #5673a2;
 }
 
 #main .menu-wrapper>a>i.fa.fa-square {
-    color: #98a7b2;
+    color: #5673a2;
 }
 
 #main #main-content>div.frame {
@@ -106,7 +117,7 @@ header #header-bar>.row {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "꾸구단 ";
+    content: " ";
     color: #5673a2;
 }
 
@@ -292,7 +303,7 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
-    color: #5673a2;    
+    color: #5673a2;  
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
