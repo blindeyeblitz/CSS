@@ -191,3 +191,7 @@ body > footer > div > span:nth-child(4) { color: #2e0c0b; }
 #article-reply-area > .header h5 {
     color: #2e0c0b;
 }
+
+#article-list #article-option-area>#article-option-area-toggle-btn {
+    margin-right: 16px;
+}
