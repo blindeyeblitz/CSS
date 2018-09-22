@@ -113,7 +113,7 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
-    color: #5673a2; 
+    background: #5673a2; 
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
