@@ -47,6 +47,7 @@ header #header-bar>.row {
 #article-list #article-list-category, #article-content-wrapper>.header {
     background: #887667;
     border-top: 2px solid #887667;
+    color: #fff;
 }
 
 #board-info #board-info-profile-img {
