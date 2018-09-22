@@ -91,6 +91,14 @@ span.a-badge i.fa.fa-info-circle {
     color: #c3b5dc;    
 }
 
+#board-info h1>a {
+    color: #6441a5;
+}
+
+.badge {
+    color: #6441a5;
+}
+
 span.a-badge i.fa.fa-star {
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
