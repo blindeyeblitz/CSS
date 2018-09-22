@@ -246,8 +246,18 @@ header #right-search-form>input[type=text] {
 
 #article-list #article-list-category {
     border: 0;
+}
+
+#article-option-area {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: #887667;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+#article-option-area>#article-option-row>#article-option-area-right>label#hide_notice_area {
+    color: #fff;
 }
 
 #main #main-content {
