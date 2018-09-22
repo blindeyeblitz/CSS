@@ -215,6 +215,10 @@ header #right-search-form>input[type=text] {
     border-top-right-radius: 15px;
 }
 
+#article-option-area>#article-option-row>#article-option-area-right>label#hide_notice_area {
+    color: #fff;
+}
+
 #main #main-content {
     padding-right: 0;
 }
