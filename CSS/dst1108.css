@@ -19,7 +19,7 @@ header #header-bar>.row {
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명의 단 활동중";
+    content: "명의 꾸구단 활동중";
 }
 
 #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover, i.fa.fa-home {
