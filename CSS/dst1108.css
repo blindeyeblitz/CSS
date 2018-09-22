@@ -104,6 +104,10 @@ span.a-badge i.fa.fa-info-circle {
     color: #b5d3dc;    
 }
 
+#main .menu-wrapper>a>i.fa.fa-square{
+    color: #b5d3dc;   
+}
+
 #board-info h1>a {
     color: #5673a2; 
 }
