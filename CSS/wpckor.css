@@ -67,6 +67,30 @@ header #header-bar>.row {
     border: 0px solid;
 }
 
+span.a-badge i.fa.fa-info-circle {
+    color: #6441a5;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #6441a5;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: #6441a5;
+}
+
+#board-info #board-info-bottom a {
+    color: #6441a5;
+}
+
+#board-info #viewers-area {
+    color: #6441a5;
+}
+
+#main .menu-wrapper>a>em {
+    color: #c3b5dc;    
+}
+
 span.a-badge i.fa.fa-star {
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
