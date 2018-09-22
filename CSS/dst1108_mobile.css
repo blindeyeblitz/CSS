@@ -106,7 +106,7 @@ a:focus, a:hover {
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "";
+    content: "개";
 }
 
 #article-info>h2 {
