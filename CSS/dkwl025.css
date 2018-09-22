@@ -104,8 +104,15 @@ span.a-badge i.fa.fa-info-circle {
     color: #a89a8c;    
 }
 
+#main .menu-wrapper>a>i.fa.fa-square{
+    color: #a89a8c;    
+}
 #board-info h1>a {
     color: #887667; 
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background: #887667;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
