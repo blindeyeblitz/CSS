@@ -2,94 +2,94 @@ header .row > div:nth-child(1) > a { background-image: url(https://upload.tgd.kr
 header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; height: 60px; }
 header .row > div:nth-child(1) > a img { opacity: 0; }
 
-.btn-outline-primary { display: none; }
-
-#article-reply-area > .header h5 {
-    color: #5673a2;
-}
-
-#board-info h1>a {
-    margin-left: 86px;
-}
-
-#article-info>h2 {
-    font-family: "FontAwesome";
-}
-
-body{
-    font-family:'FontAwesome',sans-serif;
-    font-size:15px;
-}
-
-#article-list #article-list-category { font-family: "FontAwesome"; }
-
-#lastc {
-    color: #5673a2;
-}
-
 html, body {
     background-color: #8EC0E4;
 }
 
-#article-list #article-list-menu>.btn.del {
-    margin-left: -0.8em;
-}
-
-#main .menu-wrapper {
-    border-right: 0px;
-    border-bottom: 0px;
-}
-
-#article-list #boardSearchForm {
-    margin: 1em auto 20px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    padding: 0px;
-    margin: 0;
-}
-
-.h3, h3 {
-    color: #5673a2;
-}
-
-.btn-default {
-    color: #fff;
-    background-color: #5673a2;
-    border-color: #5673a2;
-}
-
-#main #main-content>div.frame {
-    background: #fff;
-    border-right: 0px;
-    border-bottom: 0px;
-}
-
-
-header #header-bar #header-top-notice strong.notice-badge {
-    background-color: #5673a2;
-}
-
 header #header-bar>.row {
     border-top: 5px solid #5673a2;
-    border-bottom: 0px;
-    border-right: 0px;
-}
-
-#main .menu-wrapper>a>em {
-    color: #5673a2;
-}
-
-#main .menu-wrapper>a>i.fa.fa-square {
-    color: #5673a2;
-}
-
-#main #main-content>div.frame {
     border-radius: 15px;
+    border-bottom: 0px solid;
+    border-right: 0px solid;
 }
 
-.badge {
-    background-color: #5673a2;
+#board-info #viewers-area #viewers:before {
+    content: "현재 ";
+    color: #5673a2;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명의 단 활동중";
+}
+
+#article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover, i.fa.fa-home {
+    background: rgba(255,255,255,0);
+    color: #fff !important;
+}
+
+#article-list #article-list-category, #article-content-wrapper>.header {
+    background: #5673a2;
+    border-top: 2px solid #5673a2;
+}
+
+#board-info #board-info-profile-img {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    margin: -30px 0 0 -25px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+#article-option-area {
+    border-bottom: 0px solid;
+}
+
+#board-info #board-info-bottom {
+    margin: 15px 0 0 490px;
+}
+
+#board-info h1 {
+    position: absolute;
+    margin: 11px 0 0 65px;
+    border-bottom: 0;
+}
+
+#board-info {
+    width: 100%;
+    height: 64px;
+    overflow: hidden;
+    line-height: 1;
+    margin: 0 0 1em;
+    padding: 1em;
+}
+
+#main .menu-wrapper>.header {
+    background: #5673a2;
+}
+
+header #right-search-form>input[type=text] {
+    border: 3px solid #5673a2;
+}
+
+header #right-search-form>#right-search-btn {
+    color: #5673a2;
+}
+
+.btn.square {
+    border: 0px solid;
+}
+
+span.a-badge i.fa.fa-info-circle {
+    color: #5673a2;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #5673a2;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: #5673a2;
 }
 
 #board-info #board-info-bottom a {
@@ -100,110 +100,21 @@ header #header-bar>.row {
     color: #5673a2;
 }
 
+#main .menu-wrapper>a>em {
+    color: #c3b5dc;    
+}
+
 #board-info h1>a {
+    color: #5673a2; 
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
     color: #5673a2;
 }
 
-#board-info #board-info-profile-img {display: none;}
-
-header #header-bar>.row {
-    border-radius: 15px;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #5673a2;
-    border-color: #5673a2;
-}
-
-#board-info #viewers-area #viewers:before {
-    content: "꾸구단 ";
-    color: #5673a2;
-}
-
-#board-info #viewers-area #viewers:after {
-    content: "명 활동중";
-}
-
-#article-content-wrapper {
-    background: #fff;
-    padding: 0;
-}
-
-#article-reply-area {
-    background: #fff;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-#article-content-wrapper>.header {
-    border-top: 0px;
-    padding: 0;
-}
-
-#article-info {
-    background: #5673a2;
-    margin-top: 15px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#article-info>h2 {
-    color: #fff;
-}
-
-#article-info #article-info-writer {
-    color: #fff;
-}
-
-#article-content-wrapper>.header {
-    color: #5673a2;
-}
-
-header #right-search-form>#right-search-btn {
-    color: #5673a2;
-}
-
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu, #article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
-    color: #5673a2;
-}
-
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
-    color: #5673a2;
-}
-
-#article-list #article-list-category {
+.badge {
     background: #5673a2;
 }
-
-#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
-    background: #5673a2;
-    border-top-left-radius: 15px;
-}
-
-#article-info>h2>span.category#article-list #article-list-category>a {
-    color: #e5ddd0;
-}
-
-#article-list #article-list-category>a {
-    color: #e5ddd0;
-    background: #5673a2;
-}
-
-/*
-#viewers-area .fa-user {
-    float: left;
-    position: absolute;
-    background: url(https://upload.tgd.kr/20180918/4f260c3406c36da8880e0b1f7abb227c.png) no-repeat;
-    background-size: cover;
-    width: 75px;
-    height: 75px;
-    left: 0;
-    top: 0;
-    margin: -122px 0 0 -76px;
-    text-indent: -9999px;
-}
-*/
 
 span.a-badge i.fa.fa-star {
     -webkit-transform-origin: 50% 50%;
@@ -222,116 +133,6 @@ span.a-badge i.fa.fa-star {
     100%{transform:rotate(360deg);}
 }
 
-header #right-search-form>input[type=text] {
-    border: 3px solid #5673a2;
-}
-
-#board-info h1 {
-    float: left;
-    position: absolute;
-    width: 400px;
-    height: 80px;
-    background: url(https://upload.tgd.kr/20180920/4aedfc35fc4752347b64a161e878915b.png);
-    background-size: 80px 80px;
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    line-height: 80px;
-    margin-top: -30px;
-    padding: 0;
-    border: 0;
-}
-
-#board-info {
-    display: flex;
-    background: #fff;
-    border-radius: 15px;
-    margin-bottom: 25px;
-    height: 52px;
-    border: 2px solid #5673a2;
-}
-
-#main #main-content>div.frame {
-    background: rgba(255,255,255,0);
-    border: 0;
-}
-
-#article-list #article-list-category {
-    border: 0;
-}
-
-#article-option-area {
-    border-top: 0px solid;
-    border-bottom: 0px solid;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    background: #5673a2;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#article-option-area>#article-option-row>#article-option-area-right>label#hide_notice_area {
-    color: #fff;
-}
-
-#main #main-content {
-    padding-right: 0;
-}
-
-#board-info #board-info-bottom {
-    flex: auto;
-    padding-top: 2px;
-    text-align: right;
-}
-
-#article-list {
-    background: #fff;
-    border-radius: 15px;
-    height: 1920px;
-    padding: 0;
-}
-
-#article-list #article-list-menu>.btn.best {
-    margin-left: 10px;
-}
-
-#article-list #article-list-menu>.btn.write {
-    margin-right: 10px;
-}
-
-.btn.square {
-    border: 1px solid #5673a2;
-}
-
-#article-list>.article-list-row>.item>.list-header>span {
-    background-color: #5673a2;
-}
-
-span.a-badge i.fa.fa-info-circle {
-    color: #5673a2;
-}
-
-#article-content-wrapper>.header {
-    padding: 0.6em 0.8em;
-}
-
-#article-list>.article-list-row>.item>.list-title>small.comment-count {
-    color: #5673a2;  
-}
-
-#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: #5673a2;
-}
-
-#main .menu-wrapper>.header {
-    background: #5673a2;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#comment-write-form-area {
-    height: 246px;
-}
-
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
     background-color: #5673a2;
     border-color: #5673a2;
@@ -341,9 +142,9 @@ span.a-badge i.fa.fa-info-circle {
     color: #5673a2;
 }
 
-.btn-primary:hover { animation: infinite braws 1s; }
+.btn-primary, .btn-primary:hover { animation: infinite page_W 1s; }
 
-@keyframes braws {
+@keyframes page_W {
     0% { background-color: #5673a2; border-color: #5673a2; }
     100% { background-color: #5673a2; border-color: #5673a2; }
 }
