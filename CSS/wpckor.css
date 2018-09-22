@@ -64,6 +64,18 @@ header #header-bar>.row {
     padding: 1em;
 }
 
+#main .menu-wrapper>.header {
+    background: #6441a5;
+}
+
+header #right-search-form>input[type=text] {
+    border: 3px solid #6441a5;
+}
+
+header #right-search-form>#right-search-btn {
+    color: #6441a5;
+}
+
 .btn.square {
     border: 0px solid;
 }
