@@ -31,12 +31,12 @@ header #header-bar>.row {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "현재 ";
+    content: "간장통 ";
     color: #2e0c0b;
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "의 간장통 활동중";
+    content: "개 ";
 }
 
 #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover, i.fa.fa-home {
