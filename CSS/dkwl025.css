@@ -82,6 +82,11 @@ header #header-bar>.row {
     padding: 1em;
 }
 
+#main .menu-wrapper {
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
 #main .menu-wrapper>.header {
     background: #887667;
 }
