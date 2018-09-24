@@ -196,8 +196,21 @@ body > footer > div > span:nth-child(4) { color: #c4597c; }
     margin-right: 16px;
 }
 
------------
+i.fa.fa-user {
+    float: left;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 0;
+    top: 0;
+    margin: -118px 0 0 568px;
+    background: url(https://upload.tgd.kr/20180925/a3f08d7eb6a31e6ecefc98dcd68b9e49.png);
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    text-indent: -9999px;
     animation: swing ease-in-out 1s infinite alternate;
+}
 
 @keyframes swing {
     0% { transform: rotate(3deg); }
