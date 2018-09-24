@@ -107,7 +107,7 @@ a:focus, a:hover {
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "";
+    content: "명";
 }
 
 #article-info>h2 {
