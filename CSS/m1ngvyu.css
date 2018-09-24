@@ -23,11 +23,28 @@ html, body {
     background-color: #e096a0;
 }
 
+header #header-bar #header-menu-right {
+    bottom: 2px;
+}
+
+header #header-bar #header-menu-left {
+    bottom: 2px;
+}
+
+header #header-bar #header-top-notice {
+    padding: 0.3em 0px;
+}
+
 header #header-bar>.row {
-    border-top: 5px solid #c4597c;
-    border-radius: 15px;
-    border-bottom: 0px solid;
-    border-right: 0px solid;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-top: 5px solid  #c4597c;
+    background: #ffe4dd;
+    border-bottom: 5px solid  #c4597c;
+    border-right: 5px solid  #c4597c;
+    border-left: 5px solid  #c4597c;
+    height: 47px;
+    border-radius: 0px;
 }
 
 #board-info #viewers-area #viewers:before {
