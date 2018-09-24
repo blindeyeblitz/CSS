@@ -36,7 +36,7 @@ header #header-bar>.row {
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명 ";
+    content: "명";
 }
 
 #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover, i.fa.fa-home {
