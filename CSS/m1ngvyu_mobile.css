@@ -102,7 +102,7 @@ a:focus, a:hover {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "밍뷰팬 ";
+    content: "밍 ";
     color: #c4597c;
 }
 
