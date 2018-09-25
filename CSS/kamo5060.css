@@ -35,11 +35,15 @@ header #header-bar #header-top-notice {
     padding: 0.3em 0px;
 }
 
+header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, {
+    color: #fff;
+}
+
 header #header-bar>.row {
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     border-top: 5px solid  #0c0b0c;
-    background: #ffe4dd;
+    background: #474342;
     border-bottom: 5px solid  #0c0b0c;
     border-right: 5px solid  #0c0b0c;
     border-left: 5px solid  #0c0b0c;
