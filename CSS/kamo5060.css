@@ -20,7 +20,7 @@ body{
 }
 
 html, body {
-    background-color: #3a3738;
+    background-color: #666362;
 }
 
 header #header-bar #header-menu-right {
@@ -35,7 +35,11 @@ header #header-bar #header-top-notice {
     padding: 0.3em 0px;
 }
 
-header #header-bar a.dropdown-toggle, header #header-bar #header-top-notice a, {
+header #header-bar a.dropdown-toggle {
+    color: #fff;
+}
+
+header #header-bar #header-top-notice a {
     color: #fff;
 }
 
@@ -43,7 +47,7 @@ header #header-bar>.row {
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     border-top: 5px solid  #0c0b0c;
-    background: #474342;
+    background: #3a3738;
     border-bottom: 5px solid  #0c0b0c;
     border-right: 5px solid  #0c0b0c;
     border-left: 5px solid  #0c0b0c;
@@ -52,7 +56,7 @@ header #header-bar>.row {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "밍청이들 ";
+    content: "몽뭉단 ";
     color: #0c0b0c;
 }
 
