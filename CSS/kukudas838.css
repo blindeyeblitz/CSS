@@ -231,6 +231,9 @@ i.fa.fa-user {
     background-repeat: no-repeat;
     background-position: 0px 0px;
     text-indent: -9999px;
-    animation: ROT360 ease-in-out 1s infinite alternate;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation: ROT360 2s ease-in-out infinite;
+    animation: ROT360 2s ease-in-out infinite;
 }
 
