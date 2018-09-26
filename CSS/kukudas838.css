@@ -20,7 +20,7 @@ body{
 }
 
 html, body {
-    background-color: #e096a0;
+    background-color: #adb3db;
 }
 
 header #header-bar #header-menu-right {
@@ -39,7 +39,7 @@ header #header-bar>.row {
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     border-top: 5px solid  #5967c4;
-    background: #ffe4dd;
+    background: #dde9ff;
     border-bottom: 5px solid  #5967c4;
     border-right: 5px solid  #5967c4;
     border-left: 5px solid  #5967c4;
@@ -48,12 +48,12 @@ header #header-bar>.row {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "밍청이들 ";
+    content: "미치지 못한 달팽이들 ";
     color: #5967c4;
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명";
+    content: "마리";
 }
 
 #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover, i.fa.fa-home {
@@ -141,11 +141,11 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 #main .menu-wrapper>a>em {
-    color: #e096a0;    
+    color: #adb3db;    
 }
 
 #main .menu-wrapper>a>i.fa.fa-square{
-    color: #e096a0;   
+    color: #adb3db;   
 }
 
 #board-info h1>a {
@@ -212,7 +212,7 @@ body > footer > div > span:nth-child(4) { color: #5967c4; }
 #article-list #article-option-area>#article-option-area-toggle-btn {
     margin-right: 16px;
 }
-
+/*
 i.fa.fa-user {
     float: left;
     position: absolute;
@@ -233,3 +233,4 @@ i.fa.fa-user {
     0% { transform: rotate(3deg); }
     100% { transform: rotate(-3deg); }
 }
+*/
