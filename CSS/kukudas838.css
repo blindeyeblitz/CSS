@@ -181,6 +181,11 @@ span.a-badge i.fa.fa-star {
     100%{transform:rotate(360deg);}
 }
 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
     background-color: #5967c4;
     border-color: #5967c4;
@@ -212,7 +217,7 @@ body > footer > div > span:nth-child(4) { color: #5967c4; }
 #article-list #article-option-area>#article-option-area-toggle-btn {
     margin-right: 16px;
 }
-/*
+
 i.fa.fa-user {
     float: left;
     position: absolute;
@@ -221,16 +226,11 @@ i.fa.fa-user {
     left: 0;
     top: 0;
     margin: -163px 0 0 -135px;
-    background: url(https://upload.tgd.kr/20180925/988878d0212ef0601ee7e7377feef80e.png);
+    background: url(https://upload.tgd.kr/20180926/f52bf3fc6e68429f5e749a6274946827.png);
     background-size: 65px 65px;
     background-repeat: no-repeat;
     background-position: 0px 0px;
     text-indent: -9999px;
-    animation: swing ease-in-out 1s infinite alternate;
+    animation: ROT360 ease-in-out 1s infinite alternate;
 }
 
-@keyframes swing {
-    0% { transform: rotate(3deg); }
-    100% { transform: rotate(-3deg); }
-}
-*/
