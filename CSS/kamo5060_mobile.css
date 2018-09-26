@@ -2,7 +2,7 @@ html, body {
     background: #666362;
 }
 
-header>#header-area>a>h1 { background-image: url(https://upload.tgd.kr/20180925/999015a1e3b88b8aafeb8a2b41f67930.png); }
+header>#header-area>a>h1 { background-image: url(https://upload.tgd.kr/20180926/7fc7f9b82be83d7ea0b7611f141c394f.png); }
 header>#header-area>a>h1 { background-repeat: no-repeat; background-size: contain; }
 header>#header-area>a>h1 img { opacity: 0; }
 
@@ -20,7 +20,7 @@ header>#header-area>a>h1 img { opacity: 0; }
 }
 
 header {
-    background: #e096a0;
+    background: #666362;
 }
 
 .btn-outline-primary{
@@ -28,7 +28,7 @@ header {
 }
 
 #header-top-notice {
-    background: #e096a0;
+    background: #666362;
 }
 
 header>#header-area>#header-bar-link {
@@ -36,7 +36,7 @@ header>#header-area>#header-bar-link {
 }
 
 #board-info {
-    background: #e096a0;
+    background: #666362;
 }
 
 #board-info>h1>a {
@@ -80,12 +80,12 @@ header>#header-area>#header-bar-link {
 footer {
     background: #0c0b0c;
     border-top-width: 4px;
-    border-top: 4px solid #e096a0;
-    color: #e096a0;
+    border-top: 4px solid #666362;
+    color: #666362;
 }
 
 a:focus, a:hover {
-    color: #e096a0;
+    color: #666362;
 }
 
 .btn-primary {
@@ -123,7 +123,7 @@ a:focus, a:hover {
 }
 
 nav#nav {
-    background: #e096a0;
+    background: #666362;
 }
 
 nav#nav>#nav-upper>#header-close-bar-link {
@@ -163,7 +163,7 @@ nav#nav {
 }
 
 header>#header-area>#header-search-link {
-    color: #e096a0;
+    color: #666362;
 }
 
 header {
@@ -215,10 +215,10 @@ nav#nav>.nav-header {
     background: #0c0b0c;
 }
 
-body > footer > div > span:nth-child(1) { color: #e096a0; }
-body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #e096a0; }
-body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #e096a0; }
-body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #e096a0; }
-body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #e096a0; }
-body > footer > div > span:nth-child(4) { color: #e096a0; }
-#switch-platform-link { color: #e096a0; }
+body > footer > div > span:nth-child(1) { color: #666362; }
+body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #666362; }
+body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #666362; }
+body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #666362; }
+body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #666362; }
+body > footer > div > span:nth-child(4) { color: #666362; }
+#switch-platform-link { color: #666362; }
