@@ -81,7 +81,8 @@ header #header-bar>.row {
     height: 85px;
     margin: -30px 0 0 -25px;
     border-radius: 50%;
-    border: 5px solid #fff;
+    border: 5px solid #0c0b0c;
+    background: #fff;
 }
 
 #article-option-area {
@@ -221,7 +222,6 @@ body > footer > div > span:nth-child(4) { color: #0c0b0c; }
     margin-right: 16px;
 }
 
-/*
 i.fa.fa-user {
     float: left;
     position: absolute;
@@ -230,7 +230,7 @@ i.fa.fa-user {
     left: 0;
     top: 0;
     margin: -163px 0 0 -135px;
-    background: url(https://upload.tgd.kr/20180925/988878d0212ef0601ee7e7377feef80e.png);
+    background: url(https://upload.tgd.kr/20180926/36c8a81ec6280a5bb245a89c4bde86bb.png);
     background-size: 65px 65px;
     background-repeat: no-repeat;
     background-position: 0px 0px;
@@ -242,4 +242,3 @@ i.fa.fa-user {
     0% { transform: rotate(3deg); }
     100% { transform: rotate(-3deg); }
 }
-*/
