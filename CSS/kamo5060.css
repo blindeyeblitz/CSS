@@ -75,16 +75,6 @@ header #header-bar>.row {
     color: #fff;
 }
 
-#board-info #board-info-profile-img {
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    margin: -30px 0 0 -25px;
-    border-radius: 50%;
-    border: 5px solid #0c0b0c;
-    background: #fff;
-}
-
 #article-option-area {
     border-bottom: 0px solid;
 }
@@ -93,9 +83,27 @@ header #header-bar>.row {
     margin: 15px 0 0 490px;
 }
 
+#main #main-content>div.frame {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#main .menu-wrapper>.header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #0c0b0c;
+}
+
+#article-list #article-list-category, #article-content-wrapper>.header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 #board-info h1 {
     position: absolute;
-    margin: 11px 0 0 65px;
+    margin: 11px 0 0 0px;
     border-bottom: 0;
 }
 
@@ -111,10 +119,6 @@ header #header-bar>.row {
 #main .menu-wrapper {
     border-right: 0px solid;
     border-bottom: 0px solid;
-}
-
-#main .menu-wrapper>.header {
-    background: #0c0b0c;
 }
 
 header #right-search-form>input[type=text] {
@@ -222,18 +226,14 @@ body > footer > div > span:nth-child(4) { color: #0c0b0c; }
     margin-right: 16px;
 }
 
-i.fa.fa-user {
+#board-info #board-info-profile-img {
     float: left;
     position: absolute;
     width: 65px;
     height: 65px;
     left: 0;
     top: 0;
-    margin: -169px 0 0 -135px;
-    background: url(https://upload.tgd.kr/20180926/36c8a81ec6280a5bb245a89c4bde86bb.png);
-    background-size: 65px 65px;
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
+    margin: -141px 0 0px -20px;
     text-indent: -9999px;
     animation: swing ease-in-out 1s infinite alternate;
 }
