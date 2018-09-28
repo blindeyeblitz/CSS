@@ -19,8 +19,11 @@ body{
     color: #020b28;
 }
 
-html, body {
-    background-color: #7190ce;
+html {
+    background: linear-gradient(to bottom, #020107 0%, #311B46 50%, #592C67 60%, #803E7E 75%, #CA759C 90%, #EC9D9D 95%, #C35E4D 100%);
+    height: auto !important;
+    position: relative;
+    min-height: 100%;
 }
 
 header #header-bar>.row {
