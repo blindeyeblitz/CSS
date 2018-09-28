@@ -242,3 +242,13 @@ body > footer > div > span:nth-child(4) { color: #0c0b0c; }
     0% { transform: rotate(3deg); }
     100% { transform: rotate(-3deg); }
 }
+
+#main .menu-wrapper {
+    border-right: 0px solid #ebeae8;
+    border-bottom: 0px solid #ebeae8;
+    margin-bottom: 0.8em;
+}
+
+#main .menu-wrapper>a {
+    letter-spacing: -1px;
+}
