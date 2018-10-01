@@ -191,6 +191,18 @@ body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #020b28; }
 body > footer > div > span:nth-child(4) { color: #020b28; }
 #switch-platform-link { color: #020b28; }
 
-#article-list>.article-list-row>.item>.list-title>a, #article-list>.article-list-row>.item>.list-title>a:visited {
-    color: al    
+#article-list-row-10245099>div>div.list-title>a, {
+	animation: color_rainbow_change 1s infinite alternate;  
 }
+
+@keyframes color_rainbow_change {
+    0% { color: #ff0000; }
+    5% { color: #ff8c00; }
+    25% { color: #ffff00; }
+    45% { color: #008000; }
+    65% { color: #0000ff; }
+	85% { color: #4b0082; }
+	100% { color: #800080; }
+}
+
+/* ticle-list>.article-list-row>.item>.list-title>a:visited */
