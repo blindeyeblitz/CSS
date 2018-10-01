@@ -191,18 +191,20 @@ body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #020b28; }
 body > footer > div > span:nth-child(4) { color: #020b28; }
 #switch-platform-link { color: #020b28; }
 
-#article-list-row-10245099>div>div.list-title>a, {
-	animation: color_rainbow_change 1s infinite alternate;  
+#article-list-row-10245099>div>div.list-title>a {
+    animation: color_rainbow_change 1s infinite alternate;  
 }
 
 @keyframes color_rainbow_change {
-    0% { color: #ff0000; }
-    5% { color: #ff8c00; }
-    25% { color: #ffff00; }
-    45% { color: #008000; }
-    65% { color: #0000ff; }
-	85% { color: #4b0082; }
-	100% { color: #800080; }
+    0% { color: #FA5858; }
+    10% { color: #FAAC58; }
+    20% { color: #F4FA58; }
+    30% { color: #ACFA58; }
+    40% { color: #58FA82; }
+    50% { color: #58FAF4; }
+    60% { color: #5882FA; }
+    70% { color: #5858FA; }
+    80% { color: #8258FA; }
+    90% { color: #FA58D0; }
+    100% { color: #FA5882; }	
 }
-
-/* ticle-list>.article-list-row>.item>.list-title>a:visited */
