@@ -190,3 +190,7 @@ body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #020b28; }
 body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #020b28; }
 body > footer > div > span:nth-child(4) { color: #020b28; }
 #switch-platform-link { color: #020b28; }
+
+#article-list>.article-list-row>.item>.list-title>a, #article-list>.article-list-row>.item>.list-title>a:visited {
+    color: al    
+}
