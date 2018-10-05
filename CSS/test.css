@@ -58,7 +58,7 @@ header #header-bar #header-top-notice {
 
 #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover, i.fa.fa-home {
     background: rgba(255,255,255,0);
-    color: #fff !important;
+    color: #fcc433 !important;
 }
 
 #article-list #article-list-category, #article-content-wrapper>.header {
@@ -192,6 +192,10 @@ span.a-badge i.fa.fa-star {
 
 .pagination>li>a, .pagination>li>span {
     color: #4a3a1e;
+}
+
+#article-list #article-option-area>#article-option-area-toggle-btn {
+    margin-right: 16px;
 }
 
 .btn-primary, .btn-primary:hover { animation: infinite page_W 1s; }
