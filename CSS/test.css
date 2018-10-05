@@ -16,7 +16,7 @@ body{
 #article-list #article-list-category { font-family: "FontAwesome"; }
 
 #lastc {
-    color: rgba(0, 0, 0, .7);
+    color: #4a3a1e;
 }
 
 html, body {
@@ -24,7 +24,7 @@ html, body {
 }
 
 header #header-bar>.row {
-    border-top: 5px solid rgba(0, 0, 0, .7);
+    border-top: 5px solid #4a3a1e;
     border-radius: 15px;
     border-bottom: 0px solid;
     border-right: 0px solid;
@@ -32,7 +32,7 @@ header #header-bar>.row {
 
 #board-info #viewers-area #viewers:before {
     content: "현재 ";
-    color: rgba(0, 0, 0, .7);
+    color: #4a3a1e;
 }
 
 #board-info #viewers-area #viewers:after {
@@ -45,8 +45,8 @@ header #header-bar>.row {
 }
 
 #article-list #article-list-category, #article-content-wrapper>.header {
-    background: rgba(0, 0, 0, .7);
-    border-top: 2px solid rgba(0, 0, 0, .7);
+    background: #4a3a1e;
+    border-top: 2px solid #4a3a1e;
     color: #fff;
 }
 
@@ -88,15 +88,15 @@ header #header-bar>.row {
 }
 
 #main .menu-wrapper>.header {
-    background: rgba(0, 0, 0, .7);
+    background: #4a3a1e;
 }
 
 header #right-search-form>input[type=text] {
-    border: 3px solid rgba(0, 0, 0, .7);
+    border: 3px solid #4a3a1e;
 }
 
 header #right-search-form>#right-search-btn {
-    color: rgba(0, 0, 0, .7);
+    color: #4a3a1e;
 }
 
 .btn.square {
@@ -104,23 +104,23 @@ header #right-search-form>#right-search-btn {
 }
 
 span.a-badge i.fa.fa-info-circle {
-    color: rgba(0, 0, 0, .7);
+    color: #4a3a1e;
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
-    color: rgba(0, 0, 0, .7);
+    color: #4a3a1e;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: rgba(0, 0, 0, .7);
+    color: #4a3a1e;
 }
 
 #board-info #board-info-bottom a {
-    color: rgba(0, 0, 0, .7);
+    color: #4a3a1e;
 }
 
 #board-info #viewers-area {
-    color: rgba(0, 0, 0, .7);
+    color: #4a3a1e;
 }
 
 #main .menu-wrapper>a>em {
@@ -132,19 +132,19 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 #board-info h1>a {
-    color: rgba(0, 0, 0, .7);
+    color: #4a3a1e;
 }
 
 header #header-bar #header-top-notice strong.notice-badge {
-    background: rgba(0, 0, 0, .7);
+    background: #4a3a1e;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
-    background: rgba(0, 0, 0, .7);
+    background: #4a3a1e;
 }
 
 .badge {
-    background: rgba(0, 0, 0, .7);
+    background: #4a3a1e;
 }
 
 span.a-badge i.fa.fa-star {
@@ -165,28 +165,28 @@ span.a-badge i.fa.fa-star {
 }
 
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-    background-color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .7);
+    background-color: #4a3a1e;
+    border-color: #4a3a1e;
 }
 
 .pagination>li>a, .pagination>li>span {
-    color: rgba(0, 0, 0, .7);
+    color: #4a3a1e;
 }
 
 .btn-primary, .btn-primary:hover { animation: infinite page_W 1s; }
 
 @keyframes page_W {
-    0% { background-color: rgba(0, 0, 0, .7); border-color: rgba(0, 0, 0, .7); }
-    100% { background-color: rgba(0, 0, 0, .7); border-color: rgba(0, 0, 0, .7); }
+    0% { background-color: #4a3a1e; border-color: #4a3a1e; }
+    100% { background-color: #4a3a1e; border-color: #4a3a1e; }
 }
 
-body > footer > div > span:nth-child(1) { color: rgba(0, 0, 0, .7); }
-body > footer > div > span:nth-child(1) > a:nth-child(2) { color: rgba(0, 0, 0, .7); }
-body > footer > div > span:nth-child(1) > a:nth-child(3) { color: rgba(0, 0, 0, .7); }
-body > footer > div > span:nth-child(1) > a:nth-child(4) { color: rgba(0, 0, 0, .7); }
-body > footer > div > span:nth-child(1) > a:nth-child(5) { color: rgba(0, 0, 0, .7); }
-body > footer > div > span:nth-child(4) { color: rgba(0, 0, 0, .7); }
-#switch-platform-link { color: rgba(0, 0, 0, .7); }
+body > footer > div > span:nth-child(1) { color: #4a3a1e; }
+body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #4a3a1e; }
+body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #4a3a1e; }
+body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #4a3a1e; }
+body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #4a3a1e; }
+body > footer > div > span:nth-child(4) { color: #4a3a1e; }
+#switch-platform-link { color: #4a3a1e; }
 
 #article-list-row-10245099>div>div.list-title>a {
     animation: color_rainbow_change 1s infinite alternate;  
