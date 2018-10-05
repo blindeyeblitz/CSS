@@ -24,19 +24,24 @@ html, body {
 }
 
 header #header-bar>.row {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
     border-top: 5px solid #4a3a1e;
-    border-radius: 15px;
-    border-bottom: 0px solid;
-    border-right: 0px solid;
+    background: #fcc433;
+    border-bottom: 5px solid #4a3a1e;
+    border-right: 5px solid #4a3a1e;
+    border-left: 5px solid #4a3a1e;
+    height: 47px;
+    border-radius: 0px;
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "현재 ";
+    content: "꿀벌 ";
     color: #4a3a1e;
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명의 꾸구단 활동중";
+    content: "마리 꿀 채취중~";
 }
 
 #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover, i.fa.fa-home {
@@ -56,7 +61,7 @@ header #header-bar>.row {
     height: 85px;
     margin: -30px 0 0 -25px;
     border-radius: 50%;
-    border: 5px solid #fff;
+    border: 5px solid #4a3a1e;
 }
 
 #article-option-area {
@@ -124,11 +129,11 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 #main .menu-wrapper>a>em {
-    color: #434954    
+    color: #4a3a1e;
 }
 
 #main .menu-wrapper>a>i.fa.fa-square{
-    color: #434954   
+    color: #4a3a1e;
 }
 
 #board-info h1>a {
