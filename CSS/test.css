@@ -262,6 +262,22 @@ body > footer > div > span:nth-child(4) { color: #4a3a1e; }
     color: #ffffff;
 }
 
+#article-list>.article-list-row>.item>.list-header>strong {
+    color: #eeeeee;
+}
+
+span.a-badge i.fa.fa-info-circle {
+    color: #eeeeee;
+}
+
+#article-list>.notice>.item>.list-title>small.comment-count {
+    color: #cccccc;
+}
+
+#article-list>.notice>.item>.list-checkbox, #article-list>.notice>.item>.list-header, #article-list>.notice>.item>.list-category, #article-list>.notice>.item>.list-title, #article-list>.notice>.item>.list-blocked, #article-list>.notice>.item>.list-time {
+    border-bottom: 0;
+}
+
 @keyframes color_rainbow_change {
     0% { color: #FA5858; }
     10% { color: #FAAC58; }
@@ -276,6 +292,18 @@ body > footer > div > span:nth-child(4) { color: #4a3a1e; }
     100% { color: #FA5882; }	
 }
 
+#article-list-row-9012118, #article-list-row-9012118:hover {
+    background-color: #b34f4f!important;
+}
+
+#article-list>#article-list-row-9012118>.item>.list-title>span.a-badge i.fa.fa-info-circle:after {
+    content: " 오늘의 방송확률 : ";
+}
+
+#article-list>#article-list-row-9012118>.item>.list-title>a:visited {
+    color: #000000!important;
+}
+
 /* 이 아래부터는 공지부분 */
 
 #article-list-row-10245099>div>div.list-title>a {
@@ -284,10 +312,6 @@ body > footer > div > span:nth-child(4) { color: #4a3a1e; }
 
 #article-list>.article-list-row.notice {
     background-color: #4a3a1e;
-}
-
-#article-list-row-9012118, #article-list-row-9012118:hover {
-    background-color: #b34f4f!important;
 }
 
 #article-list-row-7496282, #article-list-row-7496282:hover {
@@ -301,3 +325,4 @@ body > footer > div > span:nth-child(4) { color: #4a3a1e; }
     background-image: url(http://puu.sh/Brm0y/0497a793d4.png)!important;
     background-position: center!important;
 }
+
