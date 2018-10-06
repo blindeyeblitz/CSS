@@ -215,8 +215,8 @@ body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #4a3a1e; }
 body > footer > div > span:nth-child(4) { color: #4a3a1e; }
 #switch-platform-link { color: #4a3a1e; }
 
-#article-list-row-10245099>div>div.list-title>a {
-    animation: color_rainbow_change 1s infinite alternate;  
+#article-list>.article-list-row.notice {
+    text-shadow: #2d4053 0px 0px 5px,#2d4053 0px 0px 5px,#2d4053 0px 0px 5px!important;
 }
 
 @keyframes color_rainbow_change {
@@ -231,4 +231,30 @@ body > footer > div > span:nth-child(4) { color: #4a3a1e; }
     80% { color: #8258FA; }
     90% { color: #FA58D0; }
     100% { color: #FA5882; }	
+}
+
+/* 이 아래부터는 공지부분 */
+
+#article-list-row-10245099>div>div.list-title>a {
+    animation: color_rainbow_change 1s infinite alternate;  
+}
+
+#article-list>.article-list-row.notice {
+    background-color: #2d4053;
+}
+
+#article-list-row-9012118, #article-list-row-9012118:hover {
+    background-color: #b34f4f!important;
+}
+
+#article-list-row-7496282, #article-list-row-7496282:hover {
+    background-image: url(http://puu.sh/Bf33Q/05f5898525.gif)!important;
+    background-repeat: repeat-x!important;
+    background-color: #040204!important;
+}
+
+#article-list-row-10926327, #article-list-row-10926327:hover {
+    height: 80px;
+    background-image: url(http://puu.sh/Brm0y/0497a793d4.png)!important;
+    background-position: center!important;
 }
