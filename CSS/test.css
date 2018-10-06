@@ -120,6 +120,7 @@ header #right-search-form>#right-search-btn {
 
 .btn.square {
     border: 0px solid;
+    margin-left: 1em;
 }
 
 #article-list {
@@ -293,6 +294,15 @@ span.a-badge i.fa.fa-info-circle {
 
 #article-list #article-list-menu>.btn.best {
     margin-left: 1em;
+}
+
+#article-list #article-list-menu>.btn.best {
+    position: absolute;
+    left: 0;
+    color: #efc839;
+    background-image: none;
+    background-color: transparent;
+    border-color: #efc839;
 }
 
 @keyframes color_rainbow_change {
