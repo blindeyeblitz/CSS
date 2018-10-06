@@ -279,6 +279,22 @@ span.a-badge i.fa.fa-info-circle {
     border-left-width: 0px;
 }
 
+#article-list #article-list-menu {
+    width: 100%;
+    margin: 1.5em 0 0;
+    text-align: center;
+    position: relative;
+    height: 40px;
+}
+
+#article-list #article-list-menu>.btn.write {
+    margin-right: 1em;
+}
+
+#article-list #article-list-menu>.btn.best {
+    margin-left: 1em;
+}
+
 @keyframes color_rainbow_change {
     0% { color: #FA5858; }
     10% { color: #FAAC58; }
