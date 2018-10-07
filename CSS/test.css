@@ -167,6 +167,10 @@ span.a-badge i.fa.fa-info-circle {
     border: 0px;
 }
 
+#main .menu-wrapper>a {
+    letter-spacing: -2px !important;
+}
+
 #main .menu-wrapper>a>em {
     color: #4a3a1e;
 }
