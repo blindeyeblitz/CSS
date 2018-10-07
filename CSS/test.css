@@ -232,6 +232,28 @@ span.a-badge i.fa.fa-star {
     z-index: 20;
 }
 
+#article-reply-area #reply-best-area .reply {
+    border: 1px solid #4a3a1e;
+}
+
+#article-reply-area > .header h5, #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    color: #4a3a1e;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count, #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span, #article-reply-area > .header h5, #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged {
+    color: #4a3a1e;
+    font-weight: normal;
+}
+
+.reply-writer>.label-danger {
+    border-radius: 0px;
+    background: #efc839;
+    color: #ffffff;
+    font-size: 0px;
+    padding: 2px 4px 2px 4px;
+    display: inline-block;
+}
+
 #article-option-area-toggle-btn>.fa-eye:before {
     content: "";
     text-shadow: 0px 0px 6px #131d27, 1px 0px 2px #131d27, 0px 1px 2px #131d27, 1px 1px 2px #131d27, -1px 0px 2px #131d27, 0px -1px 2px #131d27, -1px -1px 2px #131d27;
