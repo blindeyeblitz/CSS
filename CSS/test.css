@@ -32,7 +32,7 @@ header #header-bar>.row {
     border-right: 5px solid #4a3a1e;
     border-left: 5px solid #4a3a1e;
     height: 47px;
-    border-radius: 0px;
+    border-radius: 6px 6px 6px 6px;
     margin-top: -12px;
     margin-bottom: -6px;
 }
@@ -50,12 +50,12 @@ header #header-bar #header-top-notice {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "꿀벌 ";
+    content: "맨더 ";
     color: #4a3a1e;
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "마리 꿀 채취중~";
+    content: "멍충이~";
 }
 
 #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover, i.fa.fa-home {
@@ -71,9 +71,9 @@ header #header-bar #header-top-notice {
 
 #board-info #board-info-profile-img {
     position: absolute;
-    width: 85px;
-    height: 85px;
-    margin: -31px 0 0 -30px;
+    width: 50px;
+    height: 50px;
+    margin: -1px 0 0 12px;
     border-radius: 50%;
     border: 5px solid #4a3a1e;
 }
