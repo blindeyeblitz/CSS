@@ -107,11 +107,13 @@ header #header-bar #header-top-notice {
 }
 
 #main .menu-wrapper>.header {
+    border-radius: 6px 6px 0 0;
     background: #4a3a1e;
 }
 
 header #right-search-form>input[type=text] {
     border: 3px solid #4a3a1e;
+    border-radius: 6px 6px 6px 6px;
 }
 
 header #right-search-form>#right-search-btn {
