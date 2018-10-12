@@ -205,3 +205,29 @@ body > footer > div > span:nth-child(4) { color: #020b28; }
     90% { color: #FA58D0; }
     100% { color: #FA5882; }	
 }
+
+#article-list>.article-list-row.notice {
+    text-shadow: #2d4053 0px 0px 5px,#2d4053 0px 0px 5px,#2d4053 0px 0px 5px!important;
+}
+
+#article-list>.notice>.item>.list-time, #article-list>.notice>.item>.list-title>.list-writer.logged>span {
+    color: #ffffff;
+}
+
+#article-list>.article-list-row>.item>.list-header>strong {
+    color: #eeeeee;
+}
+
+span.a-badge i.fa.fa-info-circle {
+    color: #eeeeee;
+}
+
+#article-list>.notice>.item>.list-title>small.comment-count {
+    color: #cccccc;
+}
+
+#article-list-row-10198192, #article-list-row-11231661:hover {
+    height: 80px;
+    background-image: url(https://upload.tgd.kr/20181012/8a1f042b704aa0348ce9d27846b07739.png)!important;
+    background-position: center!important;
+}
