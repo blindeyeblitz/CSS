@@ -337,16 +337,25 @@ span.a-badge i.fa.fa-info-circle {
     100% { color: #FA5882; }	
 }
 
-#article-list-row-9012118, #article-list-row-9012118:hover {
-    background-color: #b34f4f!important;
+#article-list-row-6576683, #article-list-row-9012118:hover {
+    background-color: #4fb27d!important;
 }
 
-#article-list>#article-list-row-9012118>.item>.list-title>span.a-badge i.fa.fa-info-circle:after {
+#article-list>#article-list-row-6576683>.item>.list-title>span.a-badge i.fa.fa-info-circle:after {
     content: " 오늘방송 : ";
 }
 
-#article-list>#article-list-row-9012118>.item>.list-title>a:visited {
-    color: #000000!important;
+#article-list>#article-list-row-6576683>.item>.list-title>span.a-badge i.fa.fa-info-circle {
+    color: #eeeeee;
+    text-shadow: none!important;
+}
+
+#article-list>#article-list-row-6576683>.item>.list-title>a:visited {
+    color: #eeeeee!important;
+}
+
+#article-list>#article-list-row-6576683>.item>.list-title>span.a-badge {
+    width: 80px!important;
 }
 
 /* 이 아래부터는 공지부분 */
