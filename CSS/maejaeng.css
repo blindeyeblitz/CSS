@@ -386,6 +386,27 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 
+#article-list-row-11234062, #article-list-row-9012118:hover {
+    background-color: #493ca8!important;
+}
+
+#article-list>#article-list-row-11263993>.item>.list-title>span.a-badge i.fa.fa-info-circle:after {
+    content: " 매쟁위키 : ";
+}
+
+#article-list>#article-list-row-11263993>.item>.list-title>span.a-badge i.fa.fa-info-circle {
+    color: #eeeeee;
+    text-shadow: none!important;
+}
+
+#article-list>#article-list-row-11263993>.item>.list-title>a:visited {
+    color: #eeeeee!important;
+}
+
+#article-list>#article-list-row-11263993>.item>.list-title>span.a-badge {
+    width: 80px!important;
+}
+
 /* 이 아래부터는 공지부분 */
 
 #article-list-row-10245099>div>div.list-title>a {
