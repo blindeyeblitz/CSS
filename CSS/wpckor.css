@@ -60,9 +60,14 @@ header #header-bar>.row {
     background: #fff;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-    -webkit-animation: ROT360 2s ease-in-out infinite;
-    animation: ROT360 2s ease-in-out infinite;
+    -webkit-animation: bounce 2s ease-in-out infinite;
+    animation: bounce 2s ease-in-out infinite;
 }
+
+@keyframes bounce { 
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-5px);}
+} 
 
 #article-option-area {
     border-bottom: 0px solid;
@@ -185,3 +190,15 @@ body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #6441a5; }
 body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #6441a5; }
 body > footer > div > span:nth-child(4) { color: #6441a5; }
 #switch-platform-link { color: #6441a5; }
+
+#article-reply-area #reply-best-area .reply {
+    border: 1px solid #6441a5;
+}
+
+#article-reply-area #reply-best-area div.reply-content {
+    background: #f0eaff;
+}
+
+.label-danger {
+    background-color: #6441a5;
+}
