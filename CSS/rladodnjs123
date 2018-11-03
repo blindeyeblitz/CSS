@@ -282,10 +282,6 @@ body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #4a3a1e; }
 body > footer > div > span:nth-child(4) { color: #4a3a1e; }
 #switch-platform-link { color: #4a3a1e; }
 
-#article-list>.article-list-row.notice {
-    text-shadow: #2d4053 0px 0px 5px,#2d4053 0px 0px 5px,#2d4053 0px 0px 5px!important;
-}
-
 #article-list>.notice>.item>.list-time, #article-list>.notice>.item>.list-title>.list-writer.logged>span {
     color: #ffffff;
 }
@@ -305,6 +301,7 @@ span.a-badge i.fa.fa-info-circle {
 #article-list>.notice>.item>.list-checkbox, #article-list>.notice>.item>.list-header, #article-list>.notice>.item>.list-category, #article-list>.notice>.item>.list-title, #article-list>.notice>.item>.list-blocked, #article-list>.notice>.item>.list-time {
     border-bottom: 0;
     border-left-width: 0px;
+    color: #ffffff;
 }
 
 #article-list #article-list-menu {
@@ -335,4 +332,9 @@ span.a-badge i.fa.fa-info-circle {
     80% { color: #8258FA; }
     90% { color: #FA58D0; }
     100% { color: #FA5882; }	
+}
+
+#article-list>.article-list-row.notice {
+    border-right-width: 0px;
+    background-color: #4a3a1e;
 }
