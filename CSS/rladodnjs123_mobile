@@ -164,3 +164,8 @@ nav#nav {
 @-webkit-keyframes slide-in {
     100% { -webkit-transform: translateX(0%); }
 }
+
+body > footer > div > span > a:nth-child(2) { color: #ffc62c; }
+body > footer > div > span > a:nth-child(3) { color: #ffc62c; }
+body > footer > div > span > a:nth-child(4) { color: #ffc62c; }
+body > footer > div > span > a:nth-child(5) { color: #ffc62c; }
