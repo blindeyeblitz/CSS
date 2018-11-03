@@ -50,12 +50,12 @@ header #header-bar #header-top-notice {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "맨더 ";
+    content: "빵빵이 ";
     color: #4a3a1e;
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "멍충이~";
+    content: "명";
 }
 
 #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover, i.fa.fa-home {
