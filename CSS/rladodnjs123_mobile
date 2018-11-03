@@ -18,10 +18,6 @@ header>#header-area>#header-search-link {
     color: #4a3a1e;
 }
 
-#article-list>.article-list-row>.item>.list-title>small.comment-count {
-    color: #4a3a1e;
-}
-
 .badge {
     background-color: #4a3a1e;
 }
@@ -53,8 +49,8 @@ span.a-badge i.fa.fa-info-circle {
 
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
     background: #ffc62c;
+    color: #ffc62c !important;
 }
-
 
 #header-top-notice {
     background: #ffc62c;
@@ -62,6 +58,10 @@ span.a-badge i.fa.fa-info-circle {
 
 header>#header-area>#header-bar-link {
     color: #4a3a1e;
+}
+
+nav#nav>.nav-header {
+    background: #4a3a1e;
 }
 
 #board-info {
