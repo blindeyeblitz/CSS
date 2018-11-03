@@ -14,6 +14,10 @@ header>#header-area>#header-search-link {
     color: #4a3a1e;
 }
 
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+    color: #4a3a1e;
+}
+
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
     color: #4a3a1e;
 }
