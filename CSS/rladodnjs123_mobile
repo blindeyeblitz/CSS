@@ -139,12 +139,12 @@ a:focus, a:hover {
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "현재 ";
+    content: "빵빵이 ";
     color: #4a3a1e;
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명의 빵빵이들 활동중";
+    content: "명";
 }
 
 #article-info>h2 {
