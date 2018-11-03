@@ -11,7 +11,7 @@ header>#header-area>a>h1 img { opacity: 0; }
 }
 
 header>#header-area>#header-search-link {
-    color: #6c4aa9;
+    color: #4a3a1e;
 }
 
 .badge {
@@ -25,6 +25,14 @@ header>#header-area>#header-search-link {
 header {
     background: #ffc62c;
     border-bottom: 4px solid #4a3a1e;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background: #4a3a1e;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    color: #4a3a1e;
 }
 
 .btn-outline-primary{
@@ -169,3 +177,4 @@ body > footer > div > span > a:nth-child(2) { color: #ffc62c; }
 body > footer > div > span > a:nth-child(3) { color: #ffc62c; }
 body > footer > div > span > a:nth-child(4) { color: #ffc62c; }
 body > footer > div > span > a:nth-child(5) { color: #ffc62c; }
+#switch-platform-link { color: #ffc62c; }
