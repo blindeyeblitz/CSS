@@ -144,7 +144,7 @@ a:focus, a:hover {
 }
 
 #board-info #viewers-area #viewers:after {
-    content: "명의 티끌단 활동중";
+    content: "명의 빵빵이들 활동중";
 }
 
 #article-info>h2 {
