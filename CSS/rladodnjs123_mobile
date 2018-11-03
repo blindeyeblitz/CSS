@@ -14,6 +14,10 @@ header>#header-area>#header-search-link {
     color: #4a3a1e;
 }
 
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #4a3a1e;
+}
+
 .badge {
     background-color: #4a3a1e;
 }
@@ -31,6 +35,10 @@ header {
     background: #4a3a1e;
 }
 
+span.a-badge i.fa.fa-info-circle {
+    color: #4a3a1e;
+}
+
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
     color: #4a3a1e;
 }
@@ -38,6 +46,11 @@ header {
 .btn-outline-primary{
     display: none;
 }
+
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
+    background: #ffc62c;
+}
+
 
 #header-top-notice {
     background: #ffc62c;
