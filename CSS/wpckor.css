@@ -1,6 +1,12 @@
-header .row > div:nth-child(1) > a { background-image: url(https://upload.tgd.kr/20181119/2b551323b5ab5b5139f6a6a319b9a352.png); }
-header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; height: 60px; }
-header .row > div:nth-child(1) > a img { opacity: 0; }
+header .row>div:nth-child(1)>a {
+    float: left;
+    position: absolute;
+    background: url(https://upload.tgd.kr/20181120/cda10c987aee44f93f6aead61dafcafb.png) no-repeat;
+    background-size: cover;
+    display: block;
+    width: 150px;
+    height: 55px;
+}
 
 .btn-outline-primary { display: none; }
 
@@ -20,9 +26,9 @@ body{
 }
 
 html, body {
-    background: url(https://upload.tgd.kr/20181119/7e978e19ca10ef22271240fd3367153b.png) no-repeat;
-    background-position: center top;
-    background-size: cover;
+    background-image: url(https://upload.tgd.kr/20181120/6431e185c9e8544f94f2aba4573f4948.png);
+    background-repeat: no-repeat;
+    background-position: center -20px;
     background-color: #D8CEF6;
 }
 
