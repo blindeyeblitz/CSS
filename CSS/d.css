@@ -1,9 +1,9 @@
 html,body {
-background: #e3d6e9; /*배경색*/
+background: #e3d6e9;
 }
 
 body {
-background-image: url('https://i.imgur.com/c4OfFnf.png'); /*배경이미지*/
+background-image: url('https://i.imgur.com/c4OfFnf.png');
 background-repeat: no-repeat;
 background-position: center -5px;
 }
@@ -11,7 +11,7 @@ background-position: center -5px;
 header .row>div:nth-child(1)>a {
 float: left;
 position: absolute;
-background:url('https://upload.tgd.kr/20181120/f9e35836e2de6890727e74f8565d9173.png') no-repeat; /*로고*/
+background:url('https://upload.tgd.kr/20181120/f9e35836e2de6890727e74f8565d9173.png') no-repeat;
 background-size: cover;
 display: block;
 width: 150px;
@@ -19,10 +19,10 @@ height: 55px;
 }
 
 header .row>div:nth-child(1)>a img {
-display: none; /*기본 로고 숨김*/
+display: none;
 }
 
-header #right-search-form>input[type=text] { /*검색창 위치*/
+header #right-search-form>input[type=text] {
 border: 3px solid #fff;
 }
 
@@ -111,12 +111,12 @@ font-weight: 700;
 }
 
 #board-info #viewers-area #viewers:before {
-content: "티끌 "; /*오른쪽 상단 사이트 이용자 수 앞부분*/
+content: "티끌 ";
 cursor: text;
 }
 
 #board-info #viewers-area #viewers:after {
-content: "개"; /*오른쪽 상단 사이트 이용자 수 뒷부분*/
+content: "개";
 cursor: text;
 }
 
@@ -197,4 +197,10 @@ animation: ROT360 2s ease-in-out infinite;
 
 .badge {
 background: #6441a5;
+}
+
+#article-list #article-option-area>#article-option-area-toggle-btn {
+background: rgba(255,255,255,0);
+color: rgba(255,255,255,.85);
+opacity: 1;
 }
