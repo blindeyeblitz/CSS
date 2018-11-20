@@ -1,17 +1,17 @@
 html,body {
-background: #e1e9d6; /*배경색*/
+background: #e3d6e9; /*배경색*/
 }
 
 body {
-background-image: url('http://www.fromout.com/tgd/green/green_back_small.png'); /*배경이미지*/
+background-image: url('https://i.imgur.com/c4OfFnf.png'); /*배경이미지*/
 background-repeat: no-repeat;
-background-position: center -20px;
+background-position: center -5px;
 }
 
 header .row>div:nth-child(1)>a {
 float: left;
 position: absolute;
-background:url('http://www.fromout.com/tgd/green/green_logo.png') no-repeat; /*로고*/
+background:url('https://upload.tgd.kr/20181120/f9e35836e2de6890727e74f8565d9173.png') no-repeat; /*로고*/
 background-size: cover;
 display: block;
 width: 150px;
@@ -30,8 +30,7 @@ border: 3px solid #fff;
 position: relative;
 left: -4px;
 background: #fff !important;
-color: #6bbb00;
-
+color: #6441a5;
 border-top: 4px solid #fff !important;
 border-right: 3px solid #fff !important;
 border-bottom: 3px solid #fff !important;
@@ -39,7 +38,7 @@ border-left: 3px solid #fff !important;
 }
 
 header #header-bar>.row{
-border-top: 5px solid #6bbb00;
+border-top: 5px solid #6441a5;
 }
 
 header #right-search-form>#right-search-btn,
@@ -49,32 +48,32 @@ header #right-search-form>#right-search-btn,
 .pagination>li>a, .pagination>li>span,
 #main .menu-wrapper>a>em,
 #main .menu-wrapper>a>i.fa.fa-square{
-color: #61882c;
+color: #5b2b88;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
-color: #61882c;
+color: #5b2b88;
 }
 
 header #header-bar #header-top-notice strong.notice-badge,
 #main .menu-wrapper>.header,
 #article-list>.article-list-row>.item>.list-header>span{
-background: #6bbb00;
+background: #6441a5;
 }
 
 #article-list #article-list-category,
 #article-content-wrapper>.header{
-border-top: 2px solid #6bbb00;
-background: #f3ffe2;
+border-top: 2px solid #6441a5;
+background: #ede2ff;
 }
 
 #article-list #article-list-category>a{
-background: #f3ffe2;
+background: #ede2ff;
 }
 
 .pagination>li>a,
 .pagination>li>span{
-border: 1px solid #6bbb00;
+border: 1px solid #6441a5;
 }
 
 .pagination>.active>a,
@@ -83,18 +82,18 @@ border: 1px solid #6bbb00;
 .pagination>.active>span, 
 .pagination>.active>span:focus,
 .pagination>.active>span:hover{
-background: #6bbb00;
+background: #6441a5;
 }
 
 .pagination>.active>a,
 .pagination>.active>a:focus,
 .pagination>.active>a:hover{
-border: 1px solid #6bbb00;
+border: 1px solid #6441a5;
 }
 
 .btn-primary{
-background: #6bbb00;
-border: 1px solid #6bbb00;
+background: #6441a5;
+border: 1px solid #6441a5;
 }
 
 #main .menu-wrapper .spacer{
@@ -102,16 +101,16 @@ background: rgba(255,255,255,0);
 }
 
 #article-list>.article-list-row.notice{
-background: #f9fef3;
+background: #ede2ff;
 }
 
 #board-info #viewers-area {
-color: #6bbb00;
+color: #6441a5;
 font-weight: 700;
 }
 
 #board-info #viewers-area #viewers:before {
-content: "토템 "; /*오른쪽 상단 사이트 이용자 수 앞부분*/
+content: "티끌 "; /*오른쪽 상단 사이트 이용자 수 앞부분*/
 cursor: text;
 }
 
@@ -126,5 +125,22 @@ display: none;
 
 #article-reply-area #reply-real-area .reply > .reply-header,
 #article-reply-area #reply-best-area .reply>.reply-header{
-background: #f3ffe2;
+background: #ede2ff;
+}
+
+.btn-outline-primary { display: none; }
+
+#article-info>h2 {
+    font-family: "FontAwesome";
+}
+
+body{
+    font-family:'FontAwesome',sans-serif;
+    font-size:15px;
+}
+
+#article-list #article-list-category { font-family: "FontAwesome"; }
+
+#lastc {
+    color: #6441a5;
 }
