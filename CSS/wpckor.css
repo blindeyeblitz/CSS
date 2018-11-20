@@ -161,10 +161,6 @@ span.a-badge i.fa.fa-info-circle {
     background: #6441a5;
 }
 
-.badge {
-    background: #6441a5;
-}
-
 span.a-badge i.fa.fa-star {
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
@@ -239,6 +235,51 @@ body > footer > div > span:nth-child(4) { color: #6441a5; }
 #board-info h1>a.badge.badge-live{font-size:0px;padding:2px 20px;}
 #board-info h1>a.badge.badge-live:after{font-size:12px;content:'오린이야 생방송 중';}
 
-
-#board-info h1>.badge-success{display:none;}
+.col-xs-10>.frame>#board-info>h1>.badge{display: none;}
+#board-info > h1 > .badge-success{display:none;}
 #article-reply-area #reply-best-area div.reply-content{background:#f1eaff;}
+
+#article-info>#article-info-writer{font-size:0;}
+#article-info>#article-info-writer>strong{font-size:12px;}
+#article-info>#article-info-writer>small{font-size:11px;padding:0 .5em;}
+
+header #header-bar #header-menu-left, header #header-bar #header-menu-right{border: 0px;}
+
+header #header-bar #header-top-notice strong.notice-badge{display:none;}
+
+#board-info h1,#board-info h1>a{
+float: left;
+font-size: 25px;
+border: 0;
+color: #6441a5;
+padding-right: 5px;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span>img,
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged>img,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged>img,
+#article-info #article-info-writer>img{display:none;}
+
+#article-list>.article-list-row.hot{background-color:#f4eaff;}
+#article-list>.article-list-row.hot>.item>.list-header>strong,
+#article-list>.article-list-row.hot>.item>.list-header>b{color:#8a3acb;}
+
+#article-list {
+padding: 0em;
+margin-top: 19px;
+}
+
+#article-list>.article-list-row.notice {
+background-color: #f4eaff;
+}
+
+#article-list #article-option-area>#article-option-area-toggle-btn {
+background: rgba(255,255,255,0);
+color: rgba(255,255,255,.85);
+opacity: 1;
+}
+
+#article-option-area-toggle-btn>.fa-eye:before {
+content: "";
+text-shadow: 0px 0px 6px #131d27, 1px 0px 2px #131d27, 0px 1px 2px #131d27, 1px 1px 2px #131d27, -1px 0px 2px #131d27, 0px -1px 2px #131d27, -1px -1px 2px #131d27;
+}
