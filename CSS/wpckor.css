@@ -235,3 +235,10 @@ body > footer > div > span:nth-child(4) { color: #6441a5; }
     margin: -160px 0 0 92px;
     text-indent: -9999px;
 }
+
+#board-info h1>a.badge.badge-live{font-size:0px;padding:2px 20px;}
+#board-info h1>a.badge.badge-live:after{font-size:12px;content:'오린이야 생방송 중';}
+
+
+#board-info h1>.badge-success{display:none;}
+#article-reply-area #reply-best-area div.reply-content{background:#f1eaff;}
