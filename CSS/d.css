@@ -67,7 +67,8 @@ border-top: 2px solid #6441a5;
 background: #ede2ff;
 }
 
-#article-list #article-list-category>a{
+#article-list #article-list-category>a,
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover{
 background: #ede2ff;
 }
 
