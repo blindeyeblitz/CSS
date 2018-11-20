@@ -1,0 +1,130 @@
+html,body {
+background: #e1e9d6; /*배경색*/
+}
+
+body {
+background-image: url('http://www.fromout.com/tgd/green/green_back_small.png'); /*배경이미지*/
+background-repeat: no-repeat;
+background-position: center -20px;
+}
+
+header .row>div:nth-child(1)>a {
+float: left;
+position: absolute;
+background:url('http://www.fromout.com/tgd/green/green_logo.png') no-repeat; /*로고*/
+background-size: cover;
+display: block;
+width: 150px;
+height: 55px;
+}
+
+header .row>div:nth-child(1)>a img {
+display: none; /*기본 로고 숨김*/
+}
+
+header #right-search-form>input[type=text] { /*검색창 위치*/
+border: 3px solid #fff;
+}
+
+#right-search-btn{
+position: relative;
+left: -4px;
+background: #fff !important;
+color: #6bbb00;
+
+border-top: 4px solid #fff !important;
+border-right: 3px solid #fff !important;
+border-bottom: 3px solid #fff !important;
+border-left: 3px solid #fff !important;
+}
+
+header #header-bar>.row{
+border-top: 5px solid #6bbb00;
+}
+
+header #right-search-form>#right-search-btn,
+#article-list>.article-list-row>.item>.list-title>small.comment-count,
+#board-info #board-info-bottom a,
+.fa-home,
+.pagination>li>a, .pagination>li>span,
+#main .menu-wrapper>a>em,
+#main .menu-wrapper>a>i.fa.fa-square{
+color: #61882c;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
+color: #61882c;
+}
+
+header #header-bar #header-top-notice strong.notice-badge,
+#main .menu-wrapper>.header,
+#article-list>.article-list-row>.item>.list-header>span{
+background: #6bbb00;
+}
+
+#article-list #article-list-category,
+#article-content-wrapper>.header{
+border-top: 2px solid #6bbb00;
+background: #f3ffe2;
+}
+
+#article-list #article-list-category>a{
+background: #f3ffe2;
+}
+
+.pagination>li>a,
+.pagination>li>span{
+border: 1px solid #6bbb00;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span, 
+.pagination>.active>span:focus,
+.pagination>.active>span:hover{
+background: #6bbb00;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover{
+border: 1px solid #6bbb00;
+}
+
+.btn-primary{
+background: #6bbb00;
+border: 1px solid #6bbb00;
+}
+
+#main .menu-wrapper .spacer{
+background: rgba(255,255,255,0);
+}
+
+#article-list>.article-list-row.notice{
+background: #f9fef3;
+}
+
+#board-info #viewers-area {
+color: #6bbb00;
+font-weight: 700;
+}
+
+#board-info #viewers-area #viewers:before {
+content: "토템 "; /*오른쪽 상단 사이트 이용자 수 앞부분*/
+cursor: text;
+}
+
+#board-info #viewers-area #viewers:after {
+content: "개"; /*오른쪽 상단 사이트 이용자 수 뒷부분*/
+cursor: text;
+}
+
+.fa-user{
+display: none;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header,
+#article-reply-area #reply-best-area .reply>.reply-header{
+background: #f3ffe2;
+}
