@@ -51,6 +51,10 @@ header #header-bar>.row {
     content: "명의 티끌단 활동중";
 }
 
+#article-list #article-list-category > a {
+    border-bottom: 3px solid;
+}
+
 #article-list #article-list-category>a, #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover, i.fa.fa-home {
     background: rgba(255,255,255,0);
     color: #fff !important;
