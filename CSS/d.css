@@ -132,18 +132,18 @@ background: #ede2ff;
 .btn-outline-primary { display: none; }
 
 #article-info>h2 {
-    font-family: "FontAwesome";
+font-family: "FontAwesome";
 }
 
 body{
-    font-family:'FontAwesome',sans-serif;
-    font-size:15px;
+font-family:'FontAwesome',sans-serif;
+font-size:15px;
 }
 
 #article-list #article-list-category { font-family: "FontAwesome"; }
 
 #lastc {
-    color: #6441a5;
+color: #6441a5;
 }
 
 body > footer > div > span:nth-child(1) { color: #6441a5; }
@@ -160,13 +160,41 @@ body > footer > div > span:nth-child(4) { color: #6441a5; }
 #switch-platform-link { color: #6441a5; }
 
 #article-reply-area #reply-best-area .reply {
-    border: 1px solid #6441a5;
+border: 1px solid #6441a5;
 }
 
 #article-reply-area #reply-best-area div.reply-content {
-    background: #f0eaff;
+background: #f0eaff;
 }
 
 .label-danger {
-    background-color: #6441a5;
+background-color: #6441a5;
+}
+
+.btn-primary, .btn-primary:hover { animation: infinite page_W 1s; }
+
+@keyframes page_W {
+0% { background-color: #6441a5; border-color: #6441a5; }
+100% { background-color: #6441a5; border-color: #6441a5; }
+}
+
+span.a-badge i.fa.fa-star {
+-webkit-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+-webkit-animation: ROT360 2s ease-in-out infinite;
+animation: ROT360 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes ROT360{
+0%{-webkit-transform:rotate(0deg);}
+100%{-webkit-transform:rotate(360deg);}
+}
+
+@keyframes ROT360{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+.badge {
+background: #6441a5;
 }
