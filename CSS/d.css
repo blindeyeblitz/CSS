@@ -144,3 +144,28 @@ body{
 #lastc {
     color: #6441a5;
 }
+
+body > footer > div > span:nth-child(1) { color: #6441a5; }
+body > footer > div > span:nth-child(1) > a:nth-child(2) { color: #6441a5; }
+body > footer > div > span:nth-child(1) > a:nth-child(3) { color: #6441a5; }
+body > footer > div > span:nth-child(1) > a:nth-child(4) { color: #6441a5; }
+body > footer > div > span:nth-child(1) > a:nth-child(5) { color: #6441a5; }
+body > footer > div > span:nth-child(1) > a:nth-child(6) { color: #6441a5; }
+body > footer > div > span:nth-child(1) > a:nth-child(7) { color: #6441a5; }
+body > footer > div > span:nth-child(1) > a:nth-child(8) { color: #6441a5; }
+body > footer > div > span:nth-child(1) > a:nth-child(9) { color: #6441a5; }
+body > footer > div > span:nth-child(1) > a:nth-child(10) { color: #6441a5; }
+body > footer > div > span:nth-child(4) { color: #6441a5; }
+#switch-platform-link { color: #6441a5; }
+
+#article-reply-area #reply-best-area .reply {
+    border: 1px solid #6441a5;
+}
+
+#article-reply-area #reply-best-area div.reply-content {
+    background: #f0eaff;
+}
+
+.label-danger {
+    background-color: #6441a5;
+}
