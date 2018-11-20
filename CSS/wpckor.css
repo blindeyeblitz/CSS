@@ -94,7 +94,7 @@ header #header-bar>.row {
 
 #board-info h1 {
     position: absolute;
-    margin: 11px 0 0 65px;
+    margin: 11px 0 0 0px;
     border-bottom: 0;
 }
 
@@ -227,6 +227,6 @@ body > footer > div > span:nth-child(4) { color: #6441a5; }
     height: 50px;
     left: 0;
     top: 0;
-    margin: -160px 0 0 22px;
+    margin: -160px 0 0 92px;
     text-indent: -9999px;
 }
