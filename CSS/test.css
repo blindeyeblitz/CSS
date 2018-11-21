@@ -409,13 +409,13 @@ span.a-badge i.fa.fa-info-circle {
 }
 @keyframes ProfileImageRotate {
 	0% {
-									transform:rotate(15deg)
+										transform:rotate(15deg)
 	}
 	70% {
-									transform:rotate(-5deg)
+										transform:rotate(-5deg)
 	}
 	100% {
-									transform:rotate(0)
+										transform:rotate(0)
 	}
 }
 #article-reply-area #reply-best-area div.reply-content {
@@ -483,18 +483,18 @@ span.a-badge i.fa.fa-star {
 }
 @-webkit-keyframes ROT360 {
 	0% {
-								-webkit-transform:rotate(0deg);
+									-webkit-transform:rotate(0deg);
 	}
 	100% {
-								-webkit-transform:rotate(360deg);
+									-webkit-transform:rotate(360deg);
 	}
 }
 @keyframes ROT360 {
 	0% {
-								transform:rotate(0deg);
+									transform:rotate(0deg);
 	}
 	100% {
-								transform:rotate(360deg);
+									transform:rotate(360deg);
 	}
 }
 footer .container {
@@ -540,6 +540,9 @@ footer .container {
 }
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-menu,#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
 	letter-spacing:-.2px;
+}
+#board-info #viewers-area {
+	color:#6441a5 !important;
 }
 #board-info #viewers-area #viewers:before {
 	content:"티끌 ";
