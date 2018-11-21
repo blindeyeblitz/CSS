@@ -4,6 +4,13 @@ html {
 	transition:.3s ease 1s;
 	height:auto!important
 }
+
+body {
+    background-image: url(https://i.imgur.com/c4OfFnf.png);
+    background-repeat: no-repeat;
+    background-position: center -5px;
+}
+
 body {
 	letter-spacing:-.05em!important;
 	background:transparent;
@@ -15,10 +22,10 @@ button,a.btn {
 header #right-search-form>input[type="text"] {
 	color:#6441a5;
 	border:1px solid #6441a5;
-	border-top-left-radius:10px;
-	border-top-right-radius:10px;
-	border-bottom-left-radius:10px;
-	border-bottom-right-radius:10px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
 	padding-left:15px
 }
 #main .menu-wrapper {
@@ -450,3 +457,20 @@ content: ""
 
 .col-xs-10>.frame>#board-info>h1>.badge{display: none;}
 #board-info > h1 > .badge-success{display:none;}
+
+span.a-badge i.fa.fa-star {
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-animation: ROT360 2s ease-in-out infinite;
+            animation: ROT360 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes ROT360{
+    0%{-webkit-transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(360deg);}
+}
+
+@keyframes ROT360{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
