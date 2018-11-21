@@ -499,3 +499,47 @@ span.a-badge i.fa.fa-star {
 footer .container {
 	color: #999999;
 }
+
+#article-list>.article-list-row>.item>.list-checkbox {
+	border-bottom-width: 0px;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu>.comment-vote-btn,#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu>.comment-vote-btn,#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu>.comment-vote-btn>.like>.fa-thumbs-up,#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu>.comment-vote-btn>.like>.fa-thumbs-up {
+	font-size:0;
+}
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu>.comment-vote-btn>.like,#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu>.comment-vote-btn>.like {
+	font-size:13px;
+}
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu>.comment-vote-btn:before,#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu>.comment-vote-btn:before {
+	content:"";
+	font:normal normal normal 13px/1 FontAwesome;
+	text-rendering:auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+#article-reply-area #reply-real-area .reply>.rereply-btn,#article-reply-area #reply-best-area .reply>.rereply-btn {
+	transform:rotateX(180deg) scale(.8);
+	left:-1.2em;
+	color:#f4eaff;
+}
+#article-reply-area #reply-real-area .reply.d-1,#article-reply-area #reply-best-area .reply.d-1 {
+	margin-left:1.3em;
+}
+#article-reply-area #reply-real-area .reply.d-2,#article-reply-area #reply-best-area .reply.d-2 {
+	margin-left:2.6em;
+}
+#article-reply-area #reply-real-area .reply.d-3,#article-reply-area #reply-best-area .reply.d-3 {
+	margin-left:3.9em;
+}
+#article-reply-area #reply-real-area .reply.d-4,#article-reply-area #reply-best-area .reply.d-4 {
+	margin-left:4.2em;
+}
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer-image,#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image {
+	border-radius:100%;
+}
+#article-reply-area #reply-real-area .reply>.reply-header,#article-reply-area #reply-best-area .reply>.reply-header {
+	padding:0.3em 0.4em 0.3em 0.3em;
+}
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu,#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
+	letter-spacing: -.2px;
+}
