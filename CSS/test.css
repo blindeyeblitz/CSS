@@ -101,7 +101,6 @@ header #right-search-form>input[type="text"] {
 #main #main-content>div.frame div#article-reply-area #reply-real-area .reply {
 	background:#fff;
 	border:1px solid #e5e5e5;
-	border-radius:25px;
 	border-bottom-left-radius:0
 }
 #main #main-content>div.frame div#article-reply-area #reply-real-area .reply div.reply-header {
