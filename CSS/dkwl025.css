@@ -144,7 +144,6 @@ div#board-info>img#board-info-profile-img {
 	width:90px;
 	margin-right:20px;
 	border-radius:50%;
-	border:2px dashed rgba(209,178,255,.7)
 }
 div#board-info>h1 {
 	margin-top:12px;
@@ -401,13 +400,13 @@ span.a-badge i.fa.fa-info-circle {
 }
 @keyframes ProfileImageRotate {
 	0% {
-											transform:rotate(15deg)
+												transform:rotate(15deg)
 	}
 	70% {
-											transform:rotate(-5deg)
+												transform:rotate(-5deg)
 	}
 	100% {
-											transform:rotate(0)
+												transform:rotate(0)
 	}
 }
 #article-reply-area #reply-best-area div.reply-content {
@@ -472,18 +471,18 @@ span.a-badge i.fa.fa-star {
 }
 @-webkit-keyframes ROT360 {
 	0% {
-										-webkit-transform:rotate(0deg);
+											-webkit-transform:rotate(0deg);
 	}
 	100% {
-										-webkit-transform:rotate(360deg);
+											-webkit-transform:rotate(360deg);
 	}
 }
 @keyframes ROT360 {
 	0% {
-										transform:rotate(0deg);
+											transform:rotate(0deg);
 	}
 	100% {
-										transform:rotate(360deg);
+											transform:rotate(360deg);
 	}
 }
 footer .container {
