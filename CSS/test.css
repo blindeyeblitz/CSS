@@ -1,12 +1,14 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 body {
-	background-image:url(https://cdn.discordapp.com/attachments/507196730312491009/514795048634679296/orini_back.png);
+	background-image:url(https://cdn.discordapp.com/attachments/507196730312491009/514797301039104021/orini_space.png);
 	background-repeat:no-repeat;
-	background-position:center -23px;
-	font-family:"Nanum Gothic",sans-serif
+	background-position:center top;
 }
 html,body {
-	background:#D8CEF6;
+	background:#111;
+}
+body {
+	font-family:"Nanum Gothic",sans-serif
 }
 button,a.btn {
 	transition:.2s ease 0s
@@ -407,13 +409,13 @@ span.a-badge i.fa.fa-info-circle {
 }
 @keyframes ProfileImageRotate {
 	0% {
-			transform:rotate(15deg)
+				transform:rotate(15deg)
 	}
 	70% {
-			transform:rotate(-5deg)
+				transform:rotate(-5deg)
 	}
 	100% {
-			transform:rotate(0)
+				transform:rotate(0)
 	}
 }
 #article-reply-area #reply-best-area div.reply-content {
@@ -481,17 +483,17 @@ span.a-badge i.fa.fa-star {
 }
 @-webkit-keyframes ROT360 {
 	0% {
-		-webkit-transform:rotate(0deg);
+			-webkit-transform:rotate(0deg);
 	}
 	100% {
-		-webkit-transform:rotate(360deg);
+			-webkit-transform:rotate(360deg);
 	}
 }
 @keyframes ROT360 {
 	0% {
-		transform:rotate(0deg);
+			transform:rotate(0deg);
 	}
 	100% {
-		transform: rotate(360deg);
+			transform: rotate(360deg);
 	}
 }
