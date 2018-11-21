@@ -1,19 +1,19 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 body {
-	background-image:url(https://cdn.discordapp.com/attachments/338286375965032459/514834011030421517/winter_dkwl.png);
+	background-image:url(https://cdn.discordapp.com/attachments/338286375965032459/514835499551162379/dkwl_s.png);
 	background-repeat:no-repeat;
 	background-position:center top;
 	font-family:"Nanum Gothic",sans-serif
 }
 html {
-	background:#ffffff;
+	background:#212d2d;
 }
 button,a.btn {
 	transition:.2s ease 0s
 }
 header #right-search-form>input[type="text"] {
-	color:#6441a5;
-	border:1px solid #6441a5;
+	color:#8c8075;
+	border:1px solid #8c8075;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
 	border-bottom-left-radius:20px;
@@ -26,7 +26,7 @@ header #right-search-form>input[type="text"] {
 #main .menu-wrapper>.header {
 	border-top-left-radius:15px;
 	border-top-right-radius:15px;
-	background:#6441a5
+	background:#8c8075
 }
 #article-list #article-list-category>a {
 	border-bottom:3px solid;
@@ -37,7 +37,7 @@ header #right-search-form>input[type="text"] {
 }
 #main .menu-wrapper div.spacer {
 	background:#fff;
-	border-top:2px dashed #EDD9FF;
+	border-top:2px dashed #d3ceb8;
 	height:0
 }
 #main .menu-wrapper a.shortcut-link,#main .menu-wrapper a.useful-links,#main .menu-wrapper a.game {
@@ -109,7 +109,7 @@ header #right-search-form>input[type="text"] {
 	border-bottom:2px dashed #f5f5f5
 }
 #main #main-content>div.frame div#article-reply-area #reply-real-area .reply div.reply-header .reply-writer.logged {
-	color:#6441a5
+	color:#8c8075
 }
 #main #main-content>div.frame div#article-reply-area #reply-real-area .reply div.reply-content {
 	background:none;
@@ -154,15 +154,15 @@ div#board-info>h1>a {
 	font-size:15px;
 	transition:.2s ease 0s;
 	vertical-align:middle;
-	color:#6441a5;
+	color:#8c8075;
 }
 div#board-info>h1>a:hover {
-	color:#6441a5
+	color:#8c8075
 }
 div#board-info>#board-info-bottom {
 	margin-top:10px;
 	width:calc(100% - 110px);
-	color:#6441a5
+	color:#8c8075
 }
 div#article-list {
 	background:#fff;
@@ -218,11 +218,11 @@ div#article-list #article-list-menu>.btn.best {
 }
 div#article-list #article-list-menu>.btn.write {
 	border-radius:15px;
-	background:#6441a5;
+	background:#8c8075;
 	color:#fff
 }
 div#article-list #article-list-menu .pagination>li>a {
-	color:#6441a5;
+	color:#8c8075;
 	border-radius:50%;
 	margin-left:5px
 }
@@ -268,7 +268,7 @@ div#article-list form.input-group .input-group-btn button.btn.square.btn-default
 	color:#ffffff
 }
 .fa-square:before {
-	color:#6441a5
+	color:#8c8075
 }
 header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame {
 	border-right:none;
@@ -290,7 +290,7 @@ header #header-bar>.row {
 	padding:6px
 }
 header #header-bar>.row button {
-	color:#EDD9FF
+	color:#d3ceb8
 }
 header .row>div:nth-child(1)>a {
 	display:block;
@@ -308,30 +308,23 @@ header .row>div:nth-child(1)>a>img {
 	font-size:0px;
 	padding:2px 20px;
 }
-#board-info h1>a.badge.badge-live:after {
-	font-size:12px;
-	content:'오린이야 생방송 중';
-}
 .col-xs-10>.frame>#board-info>h1>.badge {
-	display:none;
-}
-#board-info>h1>.badge-success {
 	display:none;
 }
 header #right-search-form>#right-search-btn {
 	color:#ffffff
 }
 header #header-bar #header-top-notice strong.notice-badge {
-	background:#6441a5
+	background:#8c8075
 }
 header #header-bar .fa {
-	color:#6441a5
+	color:#8c8075
 }
 #board-info #board-info-bottom a {
-	color:#6441a5
+	color:#8c8075
 }
 #main .menu-wrapper>a>em {
-	color:#6441a5
+	color:#8c8075
 }
 #main .menu-wrapper .spacer {
 	background:#d1b6e1;
@@ -341,55 +334,55 @@ header #header-bar .fa {
 	width:120px!important
 }
 #article-list #article-list-category {
-	border-top:2px solid #6441a5;
+	border-top:2px solid #8c8075;
 	background:white
 }
 #article-list #article-list-category>a {
 	background:white;
-	color:#6441a5 !important;
+	color:#8c8075 !important;
 }
 #article-list>.article-list-row>.item>.list-header>span {
-	background-color:#6441a5
+	background-color:#8c8075
 }
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
-	color:#6441a5
+	color:#8c8075
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-	color:#6441a5
+	color:#8c8075
 }
 .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
-	background-color:#6441a5;
-	border-color:#D1B2FF
+	background-color:#8c8075;
+	border-color:#ffeab2
 }
 .pagination>li>a:focus,.pagination>li>a:hover,.pagination>li>span:focus,.pagination>li>span:hover {
-	color:#D1B2FF
+	color:#ffeab2
 }
 .pagination>li>a,.pagination>li>span {
-	color:#D1B2FF
+	color:#ffeab2
 }
 #article-content-wrapper>.header {
-	border-top:2px solid #D1B2FF
+	border-top:2px solid #ffeab2
 }
 #article-reply-area#reply-real-area.reply>.reply-header>.reply-writer.logged,#article-reply-area#reply-best-area.reply>.reply-header>.reply-writer.logged {
-	color:#D1B2FF
+	color:#ffeab2
 }
 #article-info>h2 {
 	font-weight:bold
 }
 #article-info>h2>span.category {
-	color:#6441a5!important
+	color:#8c8075!important
 }
 #article-reply-area>.header h5 {
-	color:#6441a5
+	color:#8c8075
 }
 #main .menu-wrapper>a {
 	padding:.5em 1.4em .5em .7em!important
 }
 a {
-	color:#6441a5
+	color:#8c8075
 }
 span.a-badge i.fa.fa-info-circle {
-	color:#6441a5
+	color:#8c8075
 }
 #article-list>.article-list-row {
 	border-right:none
@@ -404,17 +397,17 @@ span.a-badge i.fa.fa-info-circle {
 	height:unset
 }
 .btn-primary {
-	background:#6441a5!important
+	background:#8c8075!important
 }
 @keyframes ProfileImageRotate {
 	0% {
-										transform:rotate(15deg)
+											transform:rotate(15deg)
 	}
 	70% {
-										transform:rotate(-5deg)
+											transform:rotate(-5deg)
 	}
 	100% {
-										transform:rotate(0)
+											transform:rotate(0)
 	}
 }
 #article-reply-area #reply-best-area div.reply-content {
@@ -440,7 +433,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	display:none;
 }
 #article-list>.article-list-row.hot {
-	background-color:#f4eaff;
+	background-color:#fffdea;
 }
 #article-list>.article-list-row.hot>.item>.list-header>strong,#article-list>.article-list-row.hot>.item>.list-header>b {
 	color:#8a3acb;
@@ -450,7 +443,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	margin-top:19px;
 }
 #article-list>.article-list-row.notice {
-	background-color:#f4eaff;
+	background-color:#fffdea;
 }
 #article-list #article-option-area>#article-option-area-toggle-btn {
 	background:rgba(255,255,255,0);
@@ -466,10 +459,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 #board-info h1>a.badge.badge-live:after {
 	font-size:12px;
-	content:'오린이야 생방송 중';
-}
-.col-xs-10>.frame>#board-info>h1>.badge {
-	display:none;
+	content:'양아지 생방송 중';
 }
 #board-info>h1>.badge-success {
 	display:none;
@@ -482,18 +472,18 @@ span.a-badge i.fa.fa-star {
 }
 @-webkit-keyframes ROT360 {
 	0% {
-									-webkit-transform:rotate(0deg);
+										-webkit-transform:rotate(0deg);
 	}
 	100% {
-									-webkit-transform:rotate(360deg);
+										-webkit-transform:rotate(360deg);
 	}
 }
 @keyframes ROT360 {
 	0% {
-									transform:rotate(0deg);
+										transform:rotate(0deg);
 	}
 	100% {
-									transform:rotate(360deg);
+										transform:rotate(360deg);
 	}
 }
 footer .container {
@@ -517,7 +507,7 @@ footer .container {
 #article-reply-area #reply-real-area .reply>.rereply-btn,#article-reply-area #reply-best-area .reply>.rereply-btn {
 	transform:rotateX(180deg) scale(.8);
 	left:-1.2em;
-	color:#f4eaff;
+	color:#fffdea;
 }
 #article-reply-area #reply-real-area .reply.d-1,#article-reply-area #reply-best-area .reply.d-1 {
 	margin-left:1.3em;
@@ -541,15 +531,15 @@ footer .container {
 	letter-spacing:-.2px;
 }
 #board-info #viewers-area {
-	color:#6441a5 !important;
+	color:#8c8075 !important;
 }
 #board-info #viewers-area #viewers:before {
 	content:"검은봉투 ";
-	color:#6441a5;
+	color:#8c8075;
 }
 #board-info #viewers-area #viewers:after {
 	content:"개";
-	color:#6441a5;
+	color:#8c8075;
 }
 .fa-user:before {
 	display: none;
