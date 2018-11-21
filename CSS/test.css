@@ -51,6 +51,7 @@ header #right-search-form>input[type="text"] {
 	background:none
 }
 #main #main-content>div.frame div#article-info {
+	border-top-left-radius:20px;
 	border-top-right-radius:20px;
 	background:#fafafa;
 	padding:20px 10px 10px 10px;
@@ -83,10 +84,8 @@ header #right-search-form>input[type="text"] {
 	background:#fafafa;
 	padding:10px 15px;
 	border-top:2px dashed #eee;
-	border-bottom-left-radius:20px
 }
 #main #main-content>div.frame div#article-reply-area {
-	border-top-right-radius:20px;
 	margin-top:10px;
 	padding-bottom:10px;
 	background:#fff
@@ -121,6 +120,7 @@ header #right-search-form>input[type="text"] {
 #main #main-content>div.frame div#article-reply-area~div {
 	background:#fff;
 	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
 	margin-bottom:20px
 }
 #main #main-content>div.frame div#article-reply-area~div div div {
@@ -153,8 +153,9 @@ div#board-info>h1 {
 	width:calc(100% - 110px)
 }
 div#board-info>h1>a {
-	font-size:15px;
-	transition:.2s ease 0s
+	font-size:23px;
+	transition:.2s ease 0s;
+	vertical-align: middle
 }
 div#board-info>h1>a:hover {
 	color:#6441a5
@@ -416,14 +417,6 @@ span.a-badge i.fa.fa-info-circle {
 header #header-bar #header-menu-left, header #header-bar #header-menu-right{border: 0px;}
 
 header #header-bar #header-top-notice strong.notice-badge{display:none;}
-
-#board-info h1,#board-info h1>a{
-float: left;
-font-size: 25px;
-border: 0;
-color: #6441a5;
-padding-right: 5px;
-}
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span>img,
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged>img,
