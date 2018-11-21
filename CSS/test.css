@@ -1,20 +1,12 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-html {
-	background:linear-gradient(to bottom,#D1B2FF,#D8CEF6);
-	transition:.3s ease 1s;
-	height:auto!important
-}
-
 body {
-    background-image: url(https://i.imgur.com/c4OfFnf.png);
-    background-repeat: no-repeat;
-    background-position: center -5px;
-}
-
-body {
-	letter-spacing:-.05em!important;
-	background:transparent;
+	background-image:url(https://cdn.discordapp.com/attachments/507196730312491009/514795048634679296/orini_back.png);
+	background-repeat:no-repeat;
+	background-position:center -23px;
 	font-family:"Nanum Gothic",sans-serif
+}
+html,body {
+	background:#D8CEF6;
 }
 button,a.btn {
 	transition:.2s ease 0s
@@ -36,8 +28,8 @@ header #right-search-form>input[type="text"] {
 	border-top-right-radius:15px;
 	background:#6441a5
 }
-#article-list #article-list-category > a {
-        border-bottom: 3px solid;
+#article-list #article-list-category>a {
+	border-bottom:3px solid;
 }
 #main .menu-wrapper a:nth-last-child(1) {
 	border-bottom-left-radius:15px;
@@ -139,7 +131,7 @@ div#board-info {
 	margin-bottom:10px;
 	background:#fff;
 	border-top-left-radius:20px;
-        border-top-right-radius:20px;
+	border-top-right-radius:20px;
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px
 }
@@ -162,7 +154,7 @@ div#board-info>h1 {
 div#board-info>h1>a {
 	font-size:23px;
 	transition:.2s ease 0s;
-	vertical-align: middle
+	vertical-align:middle
 }
 div#board-info>h1>a:hover {
 	color:#6441a5
@@ -312,11 +304,20 @@ header .row>div:nth-child(1)>a>img {
 	filter:grayscale(100%);
 	opacity:0.8
 }
-#board-info h1>a.badge.badge-live{font-size:0px;padding:2px 20px;}
-#board-info h1>a.badge.badge-live:after{font-size:12px;content:'오린이야 생방송 중';}
-
-.col-xs-10>.frame>#board-info>h1>.badge{display: none;}
-#board-info > h1 > .badge-success{display:none;}
+#board-info h1>a.badge.badge-live {
+	font-size:0px;
+	padding:2px 20px;
+}
+#board-info h1>a.badge.badge-live:after {
+	font-size:12px;
+	content:'오린이야 생방송 중';
+}
+.col-xs-10>.frame>#board-info>h1>.badge {
+	display:none;
+}
+#board-info>h1>.badge-success {
+	display:none;
+}
 header #right-search-form>#right-search-btn {
 	color:#D1B2FF
 }
@@ -406,71 +407,91 @@ span.a-badge i.fa.fa-info-circle {
 }
 @keyframes ProfileImageRotate {
 	0% {
-		transform:rotate(15deg)
+			transform:rotate(15deg)
 	}
 	70% {
-		transform:rotate(-5deg)
+			transform:rotate(-5deg)
 	}
 	100% {
-		transform: rotate(0)
+			transform:rotate(0)
 	}
 }
-#article-reply-area #reply-best-area div.reply-content{background:#f1eaff;}
-
-#article-info>#article-info-writer{font-size:0;}
-#article-info>#article-info-writer>strong{font-size:12px;}
-#article-info>#article-info-writer>small{font-size:11px;padding:0 .5em;}
-
-header #header-bar #header-menu-left, header #header-bar #header-menu-right{border: 0px;}
-
-header #header-bar #header-top-notice strong.notice-badge{display:none;}
-
-#article-list>.article-list-row>.item>.list-title>.list-writer>span>img,
-#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged>img,
-#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged>img,
-#article-info #article-info-writer>img{display:none;}
-
-#article-list>.article-list-row.hot{background-color:#f4eaff;}
-#article-list>.article-list-row.hot>.item>.list-header>strong,
-#article-list>.article-list-row.hot>.item>.list-header>b{color:#8a3acb;}
-
+#article-reply-area #reply-best-area div.reply-content {
+	background:#f1eaff;
+}
+#article-info>#article-info-writer {
+	font-size:0;
+}
+#article-info>#article-info-writer>strong {
+	font-size:12px;
+}
+#article-info>#article-info-writer>small {
+	font-size:11px;
+	padding:0 .5em;
+}
+header #header-bar #header-menu-left,header #header-bar #header-menu-right {
+	border:0px;
+}
+header #header-bar #header-top-notice strong.notice-badge {
+	display:none;
+}
+#article-list>.article-list-row>.item>.list-title>.list-writer>span>img,#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged>img,#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged>img,#article-info #article-info-writer>img {
+	display:none;
+}
+#article-list>.article-list-row.hot {
+	background-color:#f4eaff;
+}
+#article-list>.article-list-row.hot>.item>.list-header>strong,#article-list>.article-list-row.hot>.item>.list-header>b {
+	color:#8a3acb;
+}
 #article-list {
-padding: 0em;
-margin-top: 19px;
+	padding:0em;
+	margin-top:19px;
 }
-
 #article-list>.article-list-row.notice {
-background-color: #f4eaff;
+	background-color:#f4eaff;
 }
-
 #article-list #article-option-area>#article-option-area-toggle-btn {
-background: rgba(255,255,255,0);
-color: rgba(255,255,255,.85);
-opacity: 1;
+	background:rgba(255,255,255,0);
+	color:rgba(255,255,255,.85);
+	opacity:1;
 }
 #article-option-area-toggle-btn>.fa-eye:before {
-content: ""
+	content:""
 }
-
-#board-info h1>a.badge.badge-live{font-size:0px;padding:2px 20px;}
-#board-info h1>a.badge.badge-live:after{font-size:12px;content:'오린이야 생방송 중';}
-
-.col-xs-10>.frame>#board-info>h1>.badge{display: none;}
-#board-info > h1 > .badge-success{display:none;}
-
+#board-info h1>a.badge.badge-live {
+	font-size:0px;
+	padding:2px 20px;
+}
+#board-info h1>a.badge.badge-live:after {
+	font-size:12px;
+	content:'오린이야 생방송 중';
+}
+.col-xs-10>.frame>#board-info>h1>.badge {
+	display:none;
+}
+#board-info>h1>.badge-success {
+	display:none;
+}
 span.a-badge i.fa.fa-star {
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-animation: ROT360 2s ease-in-out infinite;
-            animation: ROT360 2s ease-in-out infinite;
+	-webkit-transform-origin:50% 50%;
+	transform-origin:50% 50%;
+	-webkit-animation:ROT360 2s ease-in-out infinite;
+	animation:ROT360 2s ease-in-out infinite;
 }
-
-@-webkit-keyframes ROT360{
-    0%{-webkit-transform:rotate(0deg);}
-    100%{-webkit-transform:rotate(360deg);}
+@-webkit-keyframes ROT360 {
+	0% {
+		-webkit-transform:rotate(0deg);
+	}
+	100% {
+		-webkit-transform:rotate(360deg);
+	}
 }
-
-@keyframes ROT360{
-    0%{transform:rotate(0deg);}
-    100%{transform:rotate(360deg);}
+@keyframes ROT360 {
+	0% {
+		transform:rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
