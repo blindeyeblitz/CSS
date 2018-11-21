@@ -152,9 +152,9 @@ div#board-info>h1 {
 	width:calc(100% - 110px)
 }
 div#board-info>h1>a {
-	font-size:23px;
+	font-size:15px;
 	transition:.2s ease 0s;
-	vertical-align:middle
+	vertical-align:middle	color:#6441a5;
 }
 div#board-info>h1>a:hover {
 	color:#6441a5
@@ -408,13 +408,13 @@ span.a-badge i.fa.fa-info-circle {
 }
 @keyframes ProfileImageRotate {
 	0% {
-							transform:rotate(15deg)
+								transform:rotate(15deg)
 	}
 	70% {
-							transform:rotate(-5deg)
+								transform:rotate(-5deg)
 	}
 	100% {
-							transform:rotate(0)
+								transform:rotate(0)
 	}
 }
 #article-reply-area #reply-best-area div.reply-content {
@@ -482,28 +482,26 @@ span.a-badge i.fa.fa-star {
 }
 @-webkit-keyframes ROT360 {
 	0% {
-						-webkit-transform:rotate(0deg);
+							-webkit-transform:rotate(0deg);
 	}
 	100% {
-						-webkit-transform:rotate(360deg);
+							-webkit-transform:rotate(360deg);
 	}
 }
 @keyframes ROT360 {
 	0% {
-						transform:rotate(0deg);
+							transform:rotate(0deg);
 	}
 	100% {
-						transform:rotate(360deg);
+							transform:rotate(360deg);
 	}
 }
 footer .container {
-	color: #999999;
+	color:#999999;
 }
-
 #article-list>.article-list-row>.item>.list-checkbox {
-	border-bottom-width: 0px;
+	border-bottom-width:0px;
 }
-
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-menu>.comment-vote-btn,#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu>.comment-vote-btn,#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu>.comment-vote-btn>.like>.fa-thumbs-up,#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu>.comment-vote-btn>.like>.fa-thumbs-up {
 	font-size:0;
 }
@@ -514,9 +512,8 @@ footer .container {
 	content:"";
 	font:normal normal normal 13px/1 FontAwesome;
 	text-rendering:auto;
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing:antialiased;
 }
-
 #article-reply-area #reply-real-area .reply>.rereply-btn,#article-reply-area #reply-best-area .reply>.rereply-btn {
 	transform:rotateX(180deg) scale(.8);
 	left:-1.2em;
@@ -541,5 +538,12 @@ footer .container {
 	padding:0.3em 0.4em 0.3em 0.3em;
 }
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-menu,#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu {
-	letter-spacing: -.2px;
+	letter-spacing:-.2px;
+}
+#board-info #viewers-area #viewers:before {
+	content:"티끌 ";
+	color:#6441a5;
+}
+#board-info #viewers-area #viewers:after {
+	content: "개";
 }
