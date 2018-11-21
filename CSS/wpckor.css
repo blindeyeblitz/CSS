@@ -312,9 +312,6 @@ header .row>div:nth-child(1)>a>img {
 	font-size:12px;
 	content:'오린이야 생방송 중';
 }
-.col-xs-10>.frame>#board-info>h1>.badge {
-	display:none;
-}
 #board-info>h1>.badge-success {
 	display:none;
 }
@@ -464,14 +461,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	font-size:0px;
 	padding:2px 20px;
 }
-#board-info h1>a.badge.badge-live:after {
-	font-size:12px;
-	content:'오린이야 생방송 중';
-}
 .col-xs-10>.frame>#board-info>h1>.badge {
-	display:none;
-}
-#board-info>h1>.badge-success {
 	display:none;
 }
 span.a-badge i.fa.fa-star {
