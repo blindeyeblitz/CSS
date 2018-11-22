@@ -533,11 +533,11 @@ footer .container {
 	color:#8c8075 !important;
 }
 #board-info #viewers-area #viewers:before {
-	content:"검은봉투 ";
+	content:"트래쉬 ";
 	color:#8c8075;
 }
 #board-info #viewers-area #viewers:after {
-	content:"개";
+	content:"명";
 	color:#8c8075;
 }
 .fa-user:before {
