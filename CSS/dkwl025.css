@@ -138,9 +138,6 @@ div#board-info>img,div#board-info>h1,div#board-info>#board-info-bottom {
 	float:left!important
 }
 div#board-info>img#board-info-profile-img {
-	animation:ProfileImageRotate 1s ease 1s;
-	animation-fill-mode:both;
-	transform:rotate(15deg);
 	width:90px;
 	margin-right:20px;
 	border-radius:50%;
