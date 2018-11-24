@@ -1,12 +1,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-body {
-	background-image:url(https://cdn.discordapp.com/attachments/507196730312491009/514799933144956930/orini_space.png);
-	background-repeat:no-repeat;
-	background-position:center top;
-	font-family:"Nanum Gothic",sans-serif
-}
 html {
-	background:#111;
+	linear-gradient(to bottom, #020107 0%, #311B46 50%, #592C67 60%, #803E7E 100%);
+	height: auto !important;
 }
 button,a.btn {
 	transition:.2s ease 0s
