@@ -1,16 +1,3 @@
-#article-list>.article-list-row>.item>.list-title>.list-category>span {
-	font:normal normal normal 18px/1 FontAwesome;
-}
-#article-list #article-list-category {
-	clear:both;
-	font:normal normal normal 18px/1 FontAwesome;
-}
-.form-control {
-	font:normal normal normal 18px/1 FontAwesome;
-}
-#article-info>h2>span.category {
-	font:normal normal normal 18px/1 FontAwesome;
-}
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 button,a.btn {
 	transition:.2s ease 0s
@@ -459,7 +446,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 #board-info h1>a.badge.badge-live:after {
 	font-size:12px;
-	content:'양아지 생방송 중';
+	content:'매쟁 생방송 중';
 }
 #board-info>h1>.badge-success {
 	display:none;
