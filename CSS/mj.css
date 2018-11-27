@@ -11,6 +11,9 @@ header #right-search-form>input[type="text"] {
 	border-bottom-right-radius:20px;
 	padding-left:15px
 }
+#article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
+        background: rgba(255,255,255,0);
+}
 #main .menu-wrapper {
 	border-bottom-left-radius:15px
 }
