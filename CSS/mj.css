@@ -74,11 +74,17 @@ header #right-search-form>input[type="text"] {
 	background:#fafafa;
 	padding:10px 15px;
 	border-top:2px dashed #eee;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 #main #main-content>div.frame div#article-reply-area {
 	margin-top:10px;
 	padding-bottom:10px;
-	background:#fff
+	background:#fff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 #main #main-content>div.frame div#article-reply-area .btn-primary {
 	border:0;
