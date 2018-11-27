@@ -550,6 +550,7 @@ html {
 body {
 	background:none;
 	height:auto !important;
+	color: #ffffff important;
 }
 .menu-wrapper div.spacer {
 	pointer-events:none;
