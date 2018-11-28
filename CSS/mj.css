@@ -11,6 +11,9 @@ header #right-search-form>input[type="text"] {
 	border-bottom-right-radius:20px;
 	padding-left:15px
 }
+hr {
+        border-top-width: 0px;
+}
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
         background: rgba(255,255,255,0);
 }
@@ -546,9 +549,9 @@ html {
 	background:linear-gradient(to bottom,#212d2d 0%,#272330 50%,#372d3d 80%,#3d3044 100%);
 	height:auto !important;
 }
-#article-list>.article-list-row.hot>.item>.list-header>strong, #article-list>.article-list-row.hot>.item>.list-header>b {
-	color:#4176a5;
-}
+#article-list>.article-list-row.hot{background-color:##eaedff;}
+#article-list>.article-list-row.hot>.item>.list-header>strong,
+#article-list>.article-list-row.hot>.item>.list-header>b{color:#4176a5;}
 body {
 	background:none;
 	height:auto !important;
