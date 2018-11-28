@@ -544,11 +544,11 @@ footer .container {
 	color:#f76565 !important;
 }
 #board-info #viewers-area #viewers:before {
-	content:"냥바라기 ";
+	content:"";
 	color:#f76565;
 }
 #board-info #viewers-area #viewers:after {
-	content:"명 접속중";
+	content:" 냥이들";
 	color:#f76565;
 }
 .fa-user:before {
