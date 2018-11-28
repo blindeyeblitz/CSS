@@ -555,7 +555,7 @@ footer .container {
 	display:none;
 }
 html {
-	background:linear-gradient(to bottom,#683e80 0%,#522c67 50%,#281b46 80%,#010107 100%);
+	background:linear-gradient(to bottom,#7fe9f4 0%,#54b2bc 25%,#527389 50%,#281b46 80%,#010107 100%);
 	height:auto !important;
 }
 #article-list>.article-list-row.hot{background-color:##eaedff;}
