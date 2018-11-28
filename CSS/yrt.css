@@ -2,6 +2,9 @@
 button,a.btn {
 	transition:.2s ease 0s
 }
+#main #main-content>div.frame div#article-info h2, #main #main-content>div.frame div#article-info #article-info-writer {
+        color: #000000;
+}
 header #right-search-form>input[type="text"] {
 	color:#f76565;
 	border:5px solid #f76565;
@@ -83,6 +86,7 @@ hr {
 }
 #main #main-content>div.frame div#article-content-wrapper div#article-content {
 	padding:20px 10px
+        color: #000000;
 }
 #main #main-content>div.frame div#article-content-wrapper div.footer {
 	background:#fafafa;
@@ -304,7 +308,7 @@ header .row>div:nth-child(1)>a {
 	display:block;
 	width:145px;
 	height:50px;
-	background:url(https://upload.tgd.kr/20181128/6485ff05dc3826c1c6851589ce17867a.png)no-repeat;
+	background:url(https://upload.tgd.kr/20181128/0a58b5e3d1367809b800616ed05c6b35.png)no-repeat;
 	background-size:auto 50px
 }
 header .row>div:nth-child(1)>a>img {
@@ -343,7 +347,7 @@ header #header-bar .fa {
 }
 #article-list #article-list-category {
 	border-top:2px solid #f76565;
-	background:white
+	background-color: #131d27;
 }
 #article-list #article-list-category>a {
 	background:white;
