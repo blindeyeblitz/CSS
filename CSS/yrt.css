@@ -24,6 +24,7 @@ header #right-search-form>input[type="text"] {
 }
 #article-list #article-list-category>a {
 	border-bottom:3px solid;
+	background:white;
 }
 #main .menu-wrapper a:nth-last-child(1) {
 	border-bottom-left-radius:15px;
@@ -333,10 +334,6 @@ header #header-bar .fa {
 	border-top:2px solid #4176a5;
 	background:white
 }
-#article-list #article-list-category>a {
-	background:white;
-	color:#4176a5 !important;
-}
 #article-list>.article-list-row>.item>.list-header>span {
 	background-color:#4176a5
 }
@@ -550,9 +547,6 @@ html {
 body {
 	background:none;
 	height:auto !important;
-}
-div.frame {
-	color: #ffffff
 }
 .menu-wrapper div.spacer {
 	pointer-events:none;
