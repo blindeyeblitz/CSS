@@ -4,7 +4,7 @@ button,a.btn {
 }
 header #right-search-form>input[type="text"] {
 	color:#f76565;
-	border:1px solid #f76565;
+	border:5px solid #f76565;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
 	border-bottom-left-radius:20px;
@@ -22,6 +22,7 @@ hr {
 }
 #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
         background: rgba(255,255,255,0);
+        color: #f76565;
 }
 #main .menu-wrapper {
 	border-bottom-left-radius:15px
