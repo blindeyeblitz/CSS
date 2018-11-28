@@ -17,6 +17,9 @@ header #right-search-form>input[type="text"] {
 #main .menu-wrapper {
 	border-bottom-left-radius:15px
 }
+hr {
+        border-top-width: 0px;
+}
 #main .menu-wrapper>.header {
 	border-top-left-radius:15px;
 	border-top-right-radius:15px;
