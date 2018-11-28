@@ -41,7 +41,8 @@ header #right-search-form>input[type="text"] {
 	background:#f5f5f5
 }
 #main #main-content>div.frame {
-	background:none
+	background:none;
+	color: #ffffff;
 }
 #main #main-content>div.frame div#article-info {
 	border-top-left-radius:20px;
@@ -88,6 +89,7 @@ header #right-search-form>input[type="text"] {
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+	color: #000000
 }
 #main #main-content>div.frame div#article-reply-area .btn-primary {
 	border:0;
