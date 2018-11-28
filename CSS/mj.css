@@ -551,9 +551,6 @@ body {
 	background:none;
 	height:auto !important;
 }
-div.frame {
-	color: #ffffff
-}
 .menu-wrapper div.spacer {
 	pointer-events:none;
 }
