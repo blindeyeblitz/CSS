@@ -221,11 +221,10 @@ div#article-list div.article-list-row:hover {
 	background:rgba(253,237,179,.33)
 }
 div#article-list div.article-list-row.notice {
-	border:1px solid rgba(92,29,181,.1);
-	background:rgba(92,29,181,.05)
+	border:1px solid rgba(180, 29, 110, 0.2);
 }
 div#article-list div.article-list-row.notice:hover {
-	background:rgba(92,29,181,.1)
+	background:rgba(180, 29, 67, 0.1)
 }
 #article-list #article-list-menu>.btn.cog {
 	border-radius:15px;
