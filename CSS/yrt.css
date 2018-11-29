@@ -85,7 +85,7 @@ hr {
 	border-top:2px dashed #eee
 }
 #main #main-content>div.frame div#article-content-wrapper div#article-content {
-	padding:20px 10px
+	padding:20px 10px;
         color: #000000;
 }
 #main #main-content>div.frame div#article-content-wrapper div.footer {
