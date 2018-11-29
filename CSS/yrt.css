@@ -187,7 +187,13 @@ div#article-list {
 div#article-list div#article-list-category {
 	border:0;
 	padding:5px;
-	background:none
+        background: #131d27;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+}
+#article-list>.article-list-row>.item>.list-title>.list-category {
+    background: #131d27;
+    border-radius: 30px;
 }
 div#article-list div.article-list-row {
 	width:calc(100% - 10px);
@@ -349,7 +355,7 @@ header #header-bar .fa {
 	border-top:2px solid #f76565;
 }
 #article-list #article-list-category>a {
-	background:white;
+	background: #131d27;
 }
 #article-list>.article-list-row>.item>.list-header>span {
 	background-color:#f76565
