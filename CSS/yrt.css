@@ -229,6 +229,12 @@ div#article-list div.article-list-row.notice {
 div#article-list div.article-list-row.notice:hover {
 	background:rgba(92,29,181,.1)
 }
+#article-list #article-list-menu>.btn.cog {
+	border-radius:15px;
+}
+#article-list #article-list-menu>.btn.del {
+	border-radius:15px;
+}
 div#article-list #article-list-menu>.btn.best {
 	border-radius:15px;
 	background:#efc839;
