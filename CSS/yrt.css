@@ -509,7 +509,7 @@ footer .container {
 	font-size:13px;
 }
 #board-info #board-info-bottom #goClipBtn i:before {
-    content: "\f008 윤루트 하이라이트 ";
+    content: "\f008  윤루트 하이라이트 ";
     font-family: 'FontAwesome', sans-serif;
 }
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-menu>.comment-vote-btn:before,#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu>.comment-vote-btn:before {
