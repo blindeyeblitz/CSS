@@ -466,6 +466,10 @@ header #header-bar #header-top-notice strong.notice-badge {
 	color:rgba(255,255,255,.85);
 	opacity:1;
 }
+#article-list #article-option-area {
+	right: 3px;
+        top: 6px;
+}
 #article-option-area-toggle-btn>.fa-eye:before {
 	content:""
 }
