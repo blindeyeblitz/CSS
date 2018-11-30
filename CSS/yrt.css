@@ -530,7 +530,6 @@ footer .container {
 #article-reply-area #reply-real-area .reply>.rereply-btn,#article-reply-area #reply-best-area .reply>.rereply-btn {
 	transform:rotateX(180deg) scale(.8);
 	left:-1.2em;
-	color:#ffecea;
 }
 #article-reply-area #reply-real-area .reply.d-1,#article-reply-area #reply-best-area .reply.d-1 {
 	margin-left:1.3em;
