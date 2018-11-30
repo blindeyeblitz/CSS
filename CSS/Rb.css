@@ -484,7 +484,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 #board-info h1>a.badge.badge-live:after {
 	font-size:12px;
-	content:'윤루트 생방송 중';
+	content:'렌바 생방송 중';
 }
 #board-info>h1>.badge-success {
 	display:none;
@@ -562,7 +562,7 @@ footer .container {
 	color:#131d27;
 }
 #board-info #viewers-area #viewers:after {
-	content:" 렌타이 접속중";
+	content:" 렌타이 접속중♥";
 	color:#131d27;
 }
 .fa-user:before {
@@ -641,6 +641,6 @@ header:before {
 	border-color: #d9534f;
 }
 */
-#article-list>.article-list-row.hot{background-color:#ffeaea;}
+#article-list>.article-list-row.hot{background-color:#eaf9ff; border: 1px solid #c4d7ff;}
 #article-list>.article-list-row.hot>.item>.list-header>strong,
-#article-list>.article-list-row.hot>.item>.list-header>b{color:#ff9a91;}
+#article-list>.article-list-row.hot>.item>.list-header>b{color:#010000;}
