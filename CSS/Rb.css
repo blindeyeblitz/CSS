@@ -468,7 +468,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 #article-list #article-option-area>#article-option-area-toggle-btn {
 	background:rgba(255,255,255,0);
-	color:rgba(255,255,255,.85);
+	color:#ffcc00;
 	opacity:1;
 }
 #article-list #article-option-area {
