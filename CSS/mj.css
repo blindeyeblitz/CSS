@@ -292,12 +292,13 @@ header #header-bar>.row {
 header #header-bar>.row button {
 	color:#b7c1d2
 }
+
 header .row>div:nth-child(1)>a {
-	display:block;
-	width:145px;
-	height:50px;
-	background:url(https://upload.tgd.kr/20181127/25a6a536488d5ed56784e9d7055e110c.png)no-repeat;
-	background-size:auto 50px
+    display: block;
+    width: 157px;
+    height: 54px;
+    margin-top: 7px;
+    background: url(../images/lugether.svg) no-repeat;
 }
 header .row>div:nth-child(1)>a>img {
 	display:none;
