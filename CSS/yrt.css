@@ -561,7 +561,7 @@ footer .container {
 	color:#f76565;
 }
 #board-info #viewers-area #viewers:after {
-	content:" 냥이들";
+	content:" 냥이들 접속중";
 	color:#f76565;
 }
 .fa-user:before {
