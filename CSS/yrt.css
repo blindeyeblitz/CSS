@@ -2,15 +2,6 @@
 button,a.btn {
 	transition:.2s ease 0s
 }
-/*
-header .row>div:nth-child(1)>a {
-    display: block;
-    width: 157px;
-    height: 54px;
-    margin-top: 7px;
-    background: url(../images/lugether.svg) no-repeat;
-}
-*/
 header .row>div:nth-child(1)>a {
     display: block;
     width: 157px;
