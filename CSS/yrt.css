@@ -2,15 +2,15 @@
 button,a.btn {
 	transition:.2s ease 0s
 }
-header .row>div:nth-child(1)>a {
-    display: block;
-    width: 157px;
-    height: 54px;
-    margin-top: 7px;
-    background: url(../images/lugether.svg) no-repeat;
-}
 #main #main-content>div.frame div#article-info h2,#main #main-content>div.frame div#article-info #article-info-writer {
 	color:#000000;
+}
+header .row>div:nth-child(1)>a {
+    display: block;
+    width: 145px;
+    height: 50px;
+    background: url(https://upload.tgd.kr/20181128/0a58b5e3d1367809b800616ed05c6b35.png)no-repeat;
+    background-size: auto 50px;
 }
 header #right-search-form>input[type="text"] {
 	color:#f76565;
@@ -80,6 +80,10 @@ hr {
 }
 #main #main-content>div.frame div#article-info h2,#main #main-content>div.frame div#article-info #article-info-writer {
 	padding-left:80px
+}
+#article-reply-area #reply-real-area .reply>.rereply-btn, #article-reply-area #reply-best-area .reply>.rereply-btn {
+        transform: rotateX(180deg) scale(.8);
+        left: -1.2em;
 }
 #main #main-content>div.frame div#article-content-wrapper {
 	padding:0;
