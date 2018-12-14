@@ -9,7 +9,7 @@ header .row>div:nth-child(1)>a {
     display: block;
     width: 145px;
     height: 50px;
-    background: url(https://upload.tgd.kr/20181128/0a58b5e3d1367809b800616ed05c6b35.png)no-repeat;
+    background: url(https://upload.tgd.kr/20181215/68cecc6868b74f794f33876a93963168.png)no-repeat;
     background-size: auto 50px;
 }
 header #right-search-form>input[type="text"] {
@@ -38,14 +38,16 @@ hr {
 	border-bottom-left-radius:15px
 }
 #main .menu-wrapper>.header>a {
-	color: 8da024
+	color: #faf7a3
 }
-
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+	color: #faf7a3 !important
+}
 #main .menu-wrapper>.header {
 	border-top-left-radius:15px;
 	border-top-right-radius:15px;
-	background:#faf7a3;
-	color: 8da024
+	background:#8da024;
+	color: #faf7a3
 }
 #article-list #article-list-category>a {
 	border-bottom:3px solid;
@@ -81,7 +83,7 @@ hr {
 	left:20px;
 	width:50px;
 	height:50px;
-	border-radius:50%
+	border-radius:30%
 }
 #main #main-content>div.frame div#article-info h2,#main #main-content>div.frame div#article-info #article-info-writer {
 	padding-left:80px
@@ -233,14 +235,11 @@ div#article-list div.article-list-row>div.item>.list-title>a:visited {
 div#article-list div.article-list-row>div.item>.list-time {
 	border-bottom:0
 }
-div#article-list div.article-list-row:hover {
-	background:rgba(253,237,179,.33)
-}
 div#article-list div.article-list-row.notice {
-	border:1px solid #ffc4c4;
+	border:1px solid #8da024;
 }
 div#article-list div.article-list-row.notice:hover {
-	background:#ffd6d6
+	background:#faf7a3
 }
 #article-list #article-list-menu>.btn.cog {
 	border-radius:15px;
@@ -468,7 +467,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	margin-top:19px;
 }
 #article-list>.article-list-row.notice {
-	background-color:#ffeaea;
+	background-color:#feffea;
 }
 #article-list #article-option-area>#article-option-area-toggle-btn {
 	background:rgba(255,255,255,0);
@@ -573,7 +572,7 @@ footer .container {
 	display:none;
 }
 html {
-	background:linear-gradient(to bottom,#281b46 0%,#527389 25%,#28bfba 50%,#527389 75%,#281b46 100%);
+	background:linear-gradient(62deg,#3c2152,#5d339f 53%,#6741ca),linear-gradient(62deg,#3c2152,#5d339f 53%,#6741ca));
 	height:auto !important;
 }
 body {
