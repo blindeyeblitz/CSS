@@ -585,7 +585,6 @@ body {
 .btn-outline-primary {
 	display:none;
 }
-/*
 header:after {
 	position:absolute;
 	top:0;
@@ -643,7 +642,6 @@ header:before {
 	background-color:#d9534f;
 	border-color: #d9534f;
 }
-*/
-#article-list>.article-list-row.hot{background-color:#ffeaea;}
+#article-list>.article-list-row.hot{background-color:#feffea;}
 #article-list>.article-list-row.hot>.item>.list-header>strong,
-#article-list>.article-list-row.hot>.item>.list-header>b{color:#ff9a91;}
+#article-list>.article-list-row.hot>.item>.list-header>b{color:#8da024;}
