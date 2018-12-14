@@ -572,7 +572,7 @@ footer .container {
 	display:none;
 }
 html {
-	background:linear-gradient(62deg,#3c2152,#5d339f 53%,#6741ca),linear-gradient(62deg,#3c2152,#5d339f 53%,#6741ca));
+	background:linear-gradient(62deg,#3c2152,#5d339f 53%,#6741ca),linear-gradient(62deg,#3c2152,#5d339f 53%,#6741ca);
 	height:auto !important;
 }
 body {
