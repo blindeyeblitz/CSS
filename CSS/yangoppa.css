@@ -565,7 +565,7 @@ footer .container {
 	display:none;
 }
 html {
-	background:linear-gradient(to bottom,#281b46 0%,#527389 25%,#28bfba 50%,#527389 75%,#281b46 100%);
+	background:linear-gradient(to bottom,#ffdd7a 0%,#f0fca1 25%,#28bfba 50%,#527389 75%,#281b46 100%);
 	height:auto !important;
 }
 body {
