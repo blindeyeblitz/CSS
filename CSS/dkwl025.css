@@ -588,3 +588,21 @@ header:before {
 	opacity:.1;
 	z-index: -1;
 }
+#viewers-area .fa-user {
+    float: left;
+    position: absolute;
+    background: url(https://upload.tgd.kr/20181216/8fae93d58c20ad50039837e1cb06fffc.png) no-repeat;
+    background-size: cover;
+    width: 124px;
+    height: 124px;
+    left: 0;
+    top: 0;
+    margin: -1px 0 0 760px;
+    text-indent: -9999px;
+    -webkit-animation: 300daynot 3s;
+    animation: 300daynot 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
