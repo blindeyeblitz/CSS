@@ -558,7 +558,7 @@ footer .container {
 	color:#f4d142;
 }
 #board-info #viewers-area #viewers:after {
-	content:" 냥이들 접속중";
+	content:" 모아이 접속중";
 	color:#f4d142;
 }
 .fa-user:before {
@@ -637,6 +637,6 @@ header:before {
 	border-color: #d9534f;
 }
 */
-#article-list>.article-list-row.hot{background-color:#ffeaea;}
+#article-list>.article-list-row.hot{background-color:#feffea;}
 #article-list>.article-list-row.hot>.item>.list-header>strong,
-#article-list>.article-list-row.hot>.item>.list-header>b{color:#ff9a91;}
+#article-list>.article-list-row.hot>.item>.list-header>b{color:#f4d142;}
