@@ -3,8 +3,8 @@ button,a.btn {
 	transition:.2s ease 0s
 }
 header #right-search-form>input[type="text"] {
-	color:#8c8075;
-	border:1px solid #8c8075;
+	color:#28302f;
+	border:1px solid #28302f;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
 	border-bottom-left-radius:20px;
@@ -17,7 +17,7 @@ header #right-search-form>input[type="text"] {
 #main .menu-wrapper>.header {
 	border-top-left-radius:15px;
 	border-top-right-radius:15px;
-	background:#8c8075
+	background:#28302f
 }
 #article-list #article-list-category>a {
 	border-bottom:3px solid;
@@ -28,7 +28,7 @@ header #right-search-form>input[type="text"] {
 }
 #main .menu-wrapper div.spacer {
 	background:#fff;
-	border-top:2px dashed #d3ceb8;
+	border-top:2px dashed #c3ccc7;
 	height:0
 }
 #main .menu-wrapper a.shortcut-link,#main .menu-wrapper a.useful-links,#main .menu-wrapper a.game {
@@ -100,7 +100,7 @@ header #right-search-form>input[type="text"] {
 	border-bottom:2px dashed #f5f5f5
 }
 #main #main-content>div.frame div#article-reply-area #reply-real-area .reply div.reply-header .reply-writer.logged {
-	color:#8c8075
+	color:#28302f
 }
 #main #main-content>div.frame div#article-reply-area #reply-real-area .reply div.reply-content {
 	background:none;
@@ -141,15 +141,15 @@ div#board-info>h1>a {
 	font-size:15px;
 	transition:.2s ease 0s;
 	vertical-align:middle;
-	color:#8c8075;
+	color:#28302f;
 }
 div#board-info>h1>a:hover {
-	color:#8c8075
+	color:#28302f
 }
 div#board-info>#board-info-bottom {
 	margin-top:10px;
 	width:calc(100% - 110px);
-	color:#8c8075
+	color:#28302f
 }
 div#article-list {
 	background:#fff;
@@ -205,11 +205,11 @@ div#article-list #article-list-menu>.btn.best {
 }
 div#article-list #article-list-menu>.btn.write {
 	border-radius:15px;
-	background:#8c8075;
+	background:#28302f;
 	color:#fff
 }
 div#article-list #article-list-menu .pagination>li>a {
-	color:#8c8075;
+	color:#28302f;
 	border-radius:50%;
 	margin-left:5px
 }
@@ -255,7 +255,7 @@ div#article-list form.input-group .input-group-btn button.btn.square.btn-default
 	color:#ffffff
 }
 .fa-square:before {
-	color:#8c8075
+	color:#28302f
 }
 header #header-bar>.row,#main .menu-wrapper,#main #main-content>div.frame {
 	border-right:none;
@@ -277,13 +277,13 @@ header #header-bar>.row {
 	padding:6px
 }
 header #header-bar>.row button {
-	color:#d3ceb8
+	color:#c3ccc7
 }
 header .row>div:nth-child(1)>a {
 	display:block;
 	width:145px;
 	height:50px;
-	background:url(https://cdn.discordapp.com/attachments/338286375965032459/514834293865054208/logo_dkwl.png)no-repeat;
+	background:url(https://upload.tgd.kr/20190108/75c0325f78677cd8b178464ff5c2d878.png)no-repeat;
 	background-size:auto 50px
 }
 header .row>div:nth-child(1)>a>img {
@@ -302,16 +302,16 @@ header #right-search-form>#right-search-btn {
 	color:#ffffff
 }
 header #header-bar #header-top-notice strong.notice-badge {
-	background:#8c8075
+	background:#28302f
 }
 header #header-bar .fa {
-	color:#8c8075
+	color:#28302f
 }
 #board-info #board-info-bottom a {
-	color:#8c8075
+	color:#28302f
 }
 #main .menu-wrapper>a>em {
-	color:#8c8075
+	color:#28302f
 }
 #main .menu-wrapper .spacer {
 	background:#d1b6e1;
@@ -321,55 +321,55 @@ header #header-bar .fa {
 	width:120px!important
 }
 #article-list #article-list-category {
-	border-top:2px solid #8c8075;
+	border-top:2px solid #28302f;
 	background:white
 }
 #article-list #article-list-category>a {
 	background:white;
-	color:#8c8075 !important;
+	color:#28302f !important;
 }
 #article-list>.article-list-row>.item>.list-header>span {
-	background-color:#8c8075
+	background-color:#28302f
 }
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
-	color:#8c8075
+	color:#28302f
 }
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-	color:#8c8075
+	color:#28302f
 }
 .pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
-	background-color:#8c8075;
-	border-color:#ffeab2
+	background-color:#28302f;
+	border-color:#b2c9ff
 }
 .pagination>li>a:focus,.pagination>li>a:hover,.pagination>li>span:focus,.pagination>li>span:hover {
-	color:#ffeab2
+	color:#b2c9ff
 }
 .pagination>li>a,.pagination>li>span {
-	color:#ffeab2
+	color:#b2c9ff
 }
 #article-content-wrapper>.header {
-	border-top:2px solid #ffeab2
+	border-top:2px solid #b2c9ff
 }
 #article-reply-area#reply-real-area.reply>.reply-header>.reply-writer.logged,#article-reply-area#reply-best-area.reply>.reply-header>.reply-writer.logged {
-	color:#ffeab2
+	color:#b2c9ff
 }
 #article-info>h2 {
 	font-weight:bold
 }
 #article-info>h2>span.category {
-	color:#8c8075!important
+	color:#28302f!important
 }
 #article-reply-area>.header h5 {
-	color:#8c8075
+	color:#28302f
 }
 #main .menu-wrapper>a {
 	padding:.5em 1.4em .5em .7em!important
 }
 a {
-	color:#8c8075
+	color:#28302f
 }
 span.a-badge i.fa.fa-info-circle {
-	color:#8c8075
+	color:#28302f
 }
 #article-list>.article-list-row {
 	border-right:none
@@ -384,7 +384,7 @@ span.a-badge i.fa.fa-info-circle {
 	height:unset
 }
 .btn-primary {
-	background:#8c8075!important
+	background:#28302f!important
 }
 @keyframes ProfileImageRotate {
 	0% {
@@ -446,11 +446,9 @@ header #header-bar #header-top-notice strong.notice-badge {
 }
 #board-info h1>a.badge.badge-live:after {
 	font-size:12px;
-	content:'양아지 생방송 중';
+	content:'코젝킹 방송 중';
 }
-#board-info>h1>.badge-success {
-	display:none;
-}
+
 span.a-badge i.fa.fa-star {
 	-webkit-transform-origin:50% 50%;
 	transform-origin:50% 50%;
@@ -518,15 +516,15 @@ footer .container {
 	letter-spacing:-.2px;
 }
 #board-info #viewers-area {
-	color:#8c8075 !important;
+	color:#28302f !important;
 }
 #board-info #viewers-area #viewers:before {
-	content:"트래쉬 ";
-	color:#8c8075;
+	content:"코끼리 관객 ";
+	color:#28302f
 }
 #board-info #viewers-area #viewers:after {
 	content:"명 접속중";
-	color:#8c8075;
+	color:#28302f;
 }
 .fa-user:before {
 	display:none;
@@ -591,7 +589,7 @@ header:before {
 #viewers-area .fa-user {
     float: left;
     position: absolute;
-    background: url(https://upload.tgd.kr/20181216/8fae93d58c20ad50039837e1cb06fffc.png) no-repeat;
+    background: url(https://upload.tgd.kr/20190108/23de4e881078740a5f0dcc6244423f89.png) no-repeat;
     background-size: cover;
     width: 124px;
     height: 124px;
